@@ -1,0 +1,185 @@
+{
+  "schema": "noether-english-source-build-receipt.v1",
+  "deterministic": true,
+  "builder_coordinate": "source-candidate/build_english_source.py",
+  "inputs": {
+    "baseline_english_r35": {
+      "coordinate": "evidence/baselines/r35/20-en.tex",
+      "bytes": 2847962,
+      "sha256": "DFF216193F70A5FA833DF742CE56B390EF4E9A45359A7F54E5856DB644A4E253"
+    },
+    "workflow": {
+      "coordinate": "provenance/WORKFLOW.md",
+      "bytes": 2660,
+      "sha256": "2974956DA527E85308C86A01ACF59B896EF64E770CC5C82D6BFA16E48C823CB7"
+    },
+    "raw_architecture_directive": {
+      "coordinate": "provenance/raw-user-messages/20260813-language-doi-architecture-directive.txt",
+      "bytes": 2943,
+      "sha256": "424B4B98FC9A5BB51D4F707B61A0C6C6DF30A2E022C4616306EE21D0B63197EA"
+    },
+    "raw_goal_transition_directive": {
+      "coordinate": "provenance/raw-user-messages/20260813-goal-transition-directive.txt",
+      "bytes": 136,
+      "sha256": "D56C4C03C8B1E7B20DFAB90DD358F2669ED477E10563A73EA7FF56222FBBE15C"
+    },
+    "active_goal": {
+      "coordinate": "provenance/active-goal/ROOTGOAL-20260813-0001.json",
+      "bytes": 10903,
+      "sha256": "A4593EC097FAD85B911FECB96F7E3BFC611A166653E8690AC485360D9DB97C43"
+    },
+    "german_pointer_v051": {
+      "coordinate": "authority/CURRENT_GERMAN_AUTHORITY_POINTER.json",
+      "bytes": 152755,
+      "sha256": "2B36556DCF123F19281AB6BF36CE6E46BEE8ADDBF37DA682032372306564D0DE"
+    },
+    "german_source_ED0014": {
+      "coordinate": "authority/ED0014/noether.tex",
+      "bytes": 2154011,
+      "sha256": "EE226847656BC4D65EDDA9E9BF9BB1D25797C0C6D672D267D94A97FD88C7AD58"
+    },
+    "german_rosette_asset": {
+      "coordinate": "authority/ED0014/authority_rosette_native_supported_mask.png",
+      "bytes": 797,
+      "sha256": "B2AF3955A8255B4A6D925E174B7B81311C64C669CE21B07E75002494E55F2FF5"
+    }
+  },
+  "outputs": {
+    "Noether_English_ED0014.tex": {
+      "bytes": 2855590,
+      "sha256": "9C0A496687F3E92611D922FAE1528AA1F9A0550F0E2AB93DF6F973813C9A7B3C"
+    },
+    "authority_rosette_native_supported_mask.png": {
+      "bytes": 797,
+      "sha256": "B2AF3955A8255B4A6D925E174B7B81311C64C669CE21B07E75002494E55F2FF5"
+    },
+    "ED0014_REBASE_LEDGER.json": {
+      "bytes": 148395,
+      "sha256": "0720FC2B9BB1128A963FF246E2DD8562D9C2B7E082ED3296F69C3177BEE23D12"
+    }
+  },
+  "postconditions": {
+    "authority_rows": 25,
+    "changed_defect_ids": 20,
+    "already_conformant_defect_ids": 5,
+    "inactive_duplicate_blocks_byte_identical": true,
+    "inline_source_markers_matching": "51/51",
+    "release_coordinate_external_href_targets": 4,
+    "bare_nonlinked_release_coordinate_rows": 0,
+    "source_line_endings": "UTF-8 LF",
+    "private_absolute_paths": 0,
+    "credential_like_findings": 0,
+    "compilation_performed": false,
+    "network_performed": false,
+    "producer_files_written": false,
+    "german_authority_files_written": false,
+    "lean_performed": false,
+    "git_performed": false
+  },
+  "baseline_marker_parser_self_test": {
+    "parseable_balanced_tree": true,
+    "markers": 51,
+    "legacy_declarations_matching_actual_body": 43,
+    "legacy_declarations_not_matching_actual_body": 8,
+    "exact_legacy_mismatch_names": [
+      "fragments/Noether_R823_Paper30_Lines14316_15576_English.texfrag",
+      "fragments/Noether_R823_Paper31_Lines15577_16068_English.texfrag",
+      "fragments/Noether_R823_Paper34_Lines16312_18335_English.texfrag",
+      "fragments/Noether_R823_Papers35_36_Lines18336_18613_English.texfrag",
+      "fragments/Noether_R823_Papers37_38_Lines18614_19026_English.texfrag",
+      "fragments/Noether_R823_Paper40_Lines19122_19769_English.texfrag",
+      "fragments/Noether_R823_Papers41_42_Lines19770_20156_English.texfrag",
+      "fragments/Noether_R823_Paper43_Lines20157_20967_English.texfrag"
+    ],
+    "explanation": "Eight legacy aggregate-wrapper declarations bind the pre-expansion input wrapper rather than the expanded inlined body. The candidate reseals every declaration bottom-up against its actual expanded body; all 51 then match."
+  },
+  "presentation_source_checks": {
+    "paper_20_footnote_6": {
+      "check_id": "presentation-p20-footnote-6-custom-named-link-anchor",
+      "visible_source_label": "6)",
+      "ordinary_footnote_active_occurrences": 0,
+      "prior_srcfn_mark_text_active_occurrences": 0,
+      "custom_named_link_pair_active_occurrences": 1,
+      "named_link_active_occurrences": 1,
+      "named_destination_active_occurrences": 1,
+      "named_destination": "noeth-p20-fn6",
+      "footnotemark_tokens_in_custom_construction": 0,
+      "srcfnmark_tokens_in_custom_construction": 0,
+      "counter_advancement_active_occurrences": 1,
+      "wording_identity": {
+        "bytes": 202,
+        "sha256": "B242EF6DAD36196927E2A0717E0AE2F04E867DE5D41D0FA13D72DA00F903F735"
+      },
+      "wording_preserved_exactly": true
+    },
+    "paper_20_footnote_8": {
+      "check_id": "presentation-p20-footnote-8-custom-named-link",
+      "visible_source_label": "8)",
+      "ordinary_or_srcfn_note_8_active_occurrences": 0,
+      "custom_marker_active_occurrences": 1,
+      "custom_text_active_occurrences": 1,
+      "named_link_active_occurrences": 1,
+      "named_destination_active_occurrences": 1,
+      "named_destination": "noeth-p20-fn8",
+      "footnotemark_tokens_in_custom_construction": 0,
+      "srcfnmark_tokens_in_custom_construction": 0,
+      "counter_advancement_active_occurrences": 1,
+      "wording_identity": {
+        "bytes": 26,
+        "sha256": "E097E8AF93F2067F725487B0F31F884E59E0EBBF96D0B405AC6153E7A9B66D67"
+      },
+      "wording_preserved_exactly": true,
+      "paper_20_note_7_exact_identity": {
+        "bytes": 517,
+        "sha256": "03676A5BBF79051191C0D9EAB31402E95F6AD85EF9612FFFF4B6FECD6C5B6F25"
+      },
+      "paper_20_note_7_preserved_exactly": true
+    }
+  },
+  "release_coordinate_link_audit": {
+    "expected_external_href_targets": 4,
+    "matched_external_href_targets": 4,
+    "bare_nonlinked_release_coordinate_rows": 0,
+    "rows": [
+      {
+        "label": "English concept DOI",
+        "target": "https://doi.org/10.5281/zenodo.21923145",
+        "display": "10.5281/zenodo.21923145"
+      },
+      {
+        "label": "This version DOI",
+        "target": "https://doi.org/10.5281/zenodo.21923146",
+        "display": "10.5281/zenodo.21923146"
+      },
+      {
+        "label": "Zenodo record",
+        "target": "https://zenodo.org/records/21923146",
+        "display": "21923146"
+      },
+      {
+        "label": "Living repository",
+        "target": "https://github.com/KokunoYumeto/emmy-noether-en",
+        "display": "https://github.com/KokunoYumeto/emmy-noether-en"
+      }
+    ]
+  },
+  "privacy_scans": [
+    {
+      "label": "Noether_English_ED0014.tex",
+      "private_path_matches": 0,
+      "credential_like_matches": 0
+    },
+    {
+      "label": "ED0014_REBASE_LEDGER.json",
+      "private_path_matches": 0,
+      "credential_like_matches": 0
+    }
+  ],
+  "release_coordinates": {
+    "english_concept_doi": "10.5281/zenodo.21923145",
+    "version_doi": "10.5281/zenodo.21923146",
+    "record_id": "21923146",
+    "repository_url": "https://github.com/KokunoYumeto/emmy-noether-en",
+    "release_date": "2026-08-13"
+  }
+}

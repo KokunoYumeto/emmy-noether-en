@@ -1,0 +1,46 @@
+{
+  "access_right": "open",
+  "contributors": [
+    {
+      "name": "Manuscript Typesetting Project",
+      "type": "Editor"
+    },
+    {
+      "name": "OpenAI Codex",
+      "type": "Other"
+    }
+  ],
+  "creators": [
+    {
+      "name": "Noether, Emmy"
+    }
+  ],
+  "description": "<p><strong><a href=\"https://zenodo.org/records/21923146/files/00_EMMY_NOETHER_EN_COMPLETE_LINKED_READER.pdf\">Preview the complete linked English reader</a></strong> / <a href=\"https://zenodo.org/records/21923146/files/00_EMMY_NOETHER_EN_COMPLETE_LINKED_READER.pdf?download=1\">download the PDF</a>.</p><p>Complete maintained English corpus coverage, rebased through all 25 accepted German ED0014 authority deltas. This is a machine-assisted working edition, not an independently peer-reviewed critical edition. Source, translation decisions, lineage, build evidence, QA receipts, unresolved status, and exact hashes accompany the release.</p><p>DataCite intent: this English edition <em>IsTranslationOf</em> the source corpus represented by 10.5281/zenodo.20412587 and <em>IsPartOf</em> that multilingual hub. Repository tag: v2026.08.13-r1. English concept DOI: 10.5281/zenodo.21923145; exact version DOI: 10.5281/zenodo.21923146. Lifecycle release key: 9F600AE9A722EFF017D6601141B9A250E710F77EECB5B4E2A28F846FBD46B816.</p><p>CC0 applies only To the extent that rights exist in the project-created English translation, typesetting, metadata, manifests, and evidence. Emmy Noether's original works are not relicensed; German editorial materials, institutional facsimiles, and other third-party materials retain their own legal status.</p>",
+  "keywords": [
+    "Emmy Noether",
+    "English",
+    "translation",
+    "mathematics",
+    "algebra",
+    "complete corpus edition"
+  ],
+  "language": "eng",
+  "license": "cc-zero",
+  "publication_date": "2026-08-13",
+  "publication_type": "book",
+  "related_identifiers": [
+    {
+      "identifier": "10.5281/zenodo.20412587",
+      "relation": "isPartOf",
+      "resource_type": "publication-other"
+    },
+    {
+      "identifier": "https://github.com/KokunoYumeto/emmy-noether-en",
+      "relation": "isSupplementedBy",
+      "resource_type": "software"
+    }
+  ],
+  "title": "Emmy Noether: Complete English Corpus Edition",
+  "upload_type": "publication",
+  "version": "2026.08.13-r1"
+}

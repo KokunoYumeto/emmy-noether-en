@@ -1,0 +1,3309 @@
+{
+  "schema": "noether-english-ed0014-rebase-ledger.v1",
+  "deterministic": true,
+  "authority_pointer_id": "NOETH-DE-AUTH-v051-20260811",
+  "authority_id": "NOETH-DE-ED-0014",
+  "authority_candidate_status_preserved": "exact_ED0014_static_v051_candidate_only_with_P02_rosette_P24_primary_content_corrections_and_printed_equation_geometry_pending_future_qualifying_same_concept_publication_and_all_file_anonymous_readback",
+  "english_baseline": {
+    "coordinate": "evidence/baselines/r35/20-en.tex",
+    "bytes": 2847962,
+    "sha256": "DFF216193F70A5FA833DF742CE56B390EF4E9A45359A7F54E5856DB644A4E253"
+  },
+  "corrected_source": {
+    "coordinate": "source/Noether_English_ED0014.tex",
+    "bytes": 2855590,
+    "sha256": "9C0A496687F3E92611D922FAE1528AA1F9A0550F0E2AB93DF6F973813C9A7B3C"
+  },
+  "accepted_authority_rows": 25,
+  "changed_defect_ids": 20,
+  "already_conformant_defect_ids": 5,
+  "changed_ids": [
+    "NOETH-DEF-BACK-0001",
+    "NOETH-DEF-P02-0002",
+    "NOETH-DEF-P06-0001",
+    "NOETH-DEF-P06-0004",
+    "NOETH-DEF-P09-0001",
+    "NOETH-DEF-P12-0001",
+    "NOETH-DEF-P22-0001",
+    "NOETH-DEF-P24-0001",
+    "NOETH-DEF-P24-0002",
+    "NOETH-DEF-P24-0003",
+    "NOETH-DEF-P24-0004",
+    "NOETH-DEF-P30-0001",
+    "NOETH-DEF-P30-0002",
+    "NOETH-DEF-P30-0003",
+    "NOETH-DEF-P30-0004",
+    "NOETH-DEF-P30-0005",
+    "NOETH-DEF-P44-0001",
+    "NOETH-DEF-P44-0002",
+    "NOETH-DEF-P44-0003",
+    "NOETH-DEF-P45-0001"
+  ],
+  "already_conformant_ids": [
+    "NOETH-DEF-P02-0001",
+    "NOETH-DEF-P04-0030",
+    "NOETH-DEF-P06-0002",
+    "NOETH-DEF-P06-0003",
+    "NOETH-DEF-P08-0001"
+  ],
+  "rows": [
+    {
+      "sequence": 1,
+      "defect_id": "NOETH-DEF-P22-0001",
+      "paper": "P22",
+      "authority_delta": {
+        "defect_id": "NOETH-DEF-P22-0001",
+        "paper": "P22",
+        "inherited_from": "NOETH-DE-ED-0001",
+        "diplomatic_print_reading": "B_lambda",
+        "published_transcription_reading": "B_i",
+        "accepted_editorial_reading": "B_lambda",
+        "classification": "later_transcription",
+        "exact_tex_change": "\\Bmod_i -> \\Bmod_\\lambda",
+        "source_witness_path": "evidence/NOETH-DEF-P22-0001/GDZ_P22_printed_p57_PPN235181684_0088_leaf61.jpg",
+        "source_witness_bytes": 1277724,
+        "source_witness_sha256": "32C0D0626784C504CD3AC0602720E2F4502A42A7A7ABF4DCB860FEF0AA024150",
+        "validation_state": "inherited accepted repair; primary page, two-pass build, and focused render retained",
+        "human_or_external_validation": "no independent human validation receipt"
+      },
+      "english_disposition": "applied_to_active_english_source",
+      "counts_as_changed_defect_id": true,
+      "operations": [
+        {
+          "operation_id": "P22-0001-module-index",
+          "active_replacements": 1,
+          "inactive_occurrences_preserved": 0,
+          "before": "Then $\\Bmod_i$ also has highest elementary divisor",
+          "before_identity": {
+            "bytes": 50,
+            "sha256": "ADF1CA5870D32F592881BA1299BCD0A96E5957276236A4C3828FACA5F1D94280"
+          },
+          "after": "Then $\\Bmod_\\lambda$ also has highest elementary divisor",
+          "after_identity": {
+            "bytes": 56,
+            "sha256": "3F99F6BD11661589ED69C365FFA769311F412C9D1DE9652B2BC73ACC9D051353"
+          }
+        }
+      ],
+      "conformance_checks": [],
+      "coupled_implementation": null
+    },
+    {
+      "sequence": 2,
+      "defect_id": "NOETH-DEF-P08-0001",
+      "paper": "P08",
+      "authority_delta": {
+        "defect_id": "NOETH-DEF-P08-0001",
+        "paper": "P08",
+        "source_line_in_parent": 6042,
+        "diplomatic_print_reading": "c_1,c_2",
+        "later_transcription_reading": "\\theta_1,\\theta_2",
+        "accepted_editorial_reading": "c_1,c_2",
+        "classification": "later_transcription",
+        "exact_tex_change": "\\theta_1,\\theta_2 -> c_1,c_2",
+        "checker_packet_path": "evidence/P08_c1c2/packet.json",
+        "checker_packet_bytes": 4180,
+        "checker_packet_sha256": "C8393D19D72295E884072ABBB2F7F8B60DE8742886E3A66E31F45CED52C80FD1",
+        "source_witness_path": "evidence/P08_c1c2/page.jpg",
+        "source_witness_bytes": 2121926,
+        "source_witness_sha256": "ABAEBA56F68D62865CACAB8EAC706028AAF0A73D8F78245AC4F4E01A574C94E6",
+        "independent_evidence_state": "schema-valid checker confirmation plus independent owner reopening of the primary printed page; c_1,c_2 visibly confirmed",
+        "human_or_external_validation": "no human validation receipt"
+      },
+      "english_disposition": "already_conformant",
+      "counts_as_changed_defect_id": false,
+      "operations": [],
+      "conformance_checks": [
+        {
+          "check_id": "P08-c1-c2-coefficients",
+          "accepted_pattern": "c_1P_1+c_2P_2",
+          "pattern_identity": {
+            "bytes": 13,
+            "sha256": "DB0ED23E029E3F7237086759B15B52660F547F4892F2553D40A6135C39D63CC3"
+          },
+          "active_occurrences": 1,
+          "inactive_occurrences": 0
+        }
+      ],
+      "coupled_implementation": null
+    },
+    {
+      "sequence": 3,
+      "defect_id": "NOETH-DEF-P02-0001",
+      "paper": "P02",
+      "authority_delta": {
+        "defect_id": "NOETH-DEF-P02-0001",
+        "paper": "P02",
+        "source_line_in_parent": 646,
+        "observed_tex": "\\bigstar\\srcfn{*)}{unchanged German note text} inside display math",
+        "accepted_tex": "\\bigstar\\srcfnmark{*)} inside the display and \\srcfntext{*)}{the identical German note text} after the display group",
+        "classification": "tooling",
+        "german_wording_delta": "none",
+        "checker_packet_path": "evidence/P02_fn/packet.json",
+        "checker_packet_bytes": 3169,
+        "checker_packet_sha256": "ED0D42F2ABC5BBCE05E2D832BAED69D67CA6E367EA0CF386231E2ADCBD35B55D",
+        "normalized_finding_path": "evidence/P02_fn/finding.json",
+        "normalized_finding_bytes": 4331,
+        "normalized_finding_sha256": "A47DCD6A3E349E42C10267861036EBF36712F135FC19D74A859D412D9AC3529D",
+        "independent_evidence_state": "Checker packet plus owner reproduction: ED0002 page-6 extraction contains zero complete notes; ED0003 contains one, and the marker and restored note are legible on the same rendered page.",
+        "human_or_external_validation": "no human validation receipt"
+      },
+      "english_disposition": "already_conformant_semantics_coupled_mechanical_recode",
+      "counts_as_changed_defect_id": false,
+      "operations": [],
+      "conformance_checks": [
+        {
+          "check_id": "P02-footnote-wording-preserved-before-coupled-recode",
+          "accepted_pattern": "Here, and similarly in what follows, the lower part marked with an asterisk is to be set at the correspondingly marked place at the upper right of the scheme.",
+          "pattern_identity": {
+            "bytes": 158,
+            "sha256": "242BBB89DE4D8160F112436380E0D30EF7D2E679C4069DD73B686B9BBAF6C06C"
+          },
+          "active_occurrences": 1,
+          "inactive_occurrences": 0
+        }
+      ],
+      "coupled_implementation": {
+        "implemented_under": "NOETH-DEF-P02-0002",
+        "reason": "The already-visible English footnote wording was re-encoded with split marker/text while restoring the two authority rosettes and continuation geometry."
+      }
+    },
+    {
+      "sequence": 4,
+      "defect_id": "NOETH-DEF-P06-0001",
+      "paper": "P06",
+      "authority_delta": {
+        "defect_id": "NOETH-DEF-P06-0001",
+        "paper": "P06",
+        "source_lines_in_parent": [
+          5101,
+          5105
+        ],
+        "diplomatic_print_reading": "H(\\xi)\\ne0 in both immediate restatements of equation (7)",
+        "accepted_editorial_reading": "H^*(\\xi)\\ne0 in both immediate restatements of equation (7)",
+        "classification": "original_print",
+        "exact_tex_change": "H(\\xi)\\ne0 -> H^*(\\xi)\\ne0 at both loci",
+        "checker_packet_path": "evidence/P06_Hstar/packet.json",
+        "checker_packet_bytes": 3006,
+        "checker_packet_sha256": "3FD3FC2916599CD19D0EEE83DBB8AA9B23BFC80BD0F6852F57A180C4378E7145",
+        "normalized_finding_path": "evidence/P06_Hstar/finding.json",
+        "normalized_finding_bytes": 4241,
+        "normalized_finding_sha256": "BA56366C2A10B26D57E546C216C5E1B0DF9E9E004BC485D80A124AFEC44565B2",
+        "source_witness_path": "evidence/P06_Hstar/print.pdf",
+        "source_witness_bytes": 2976723,
+        "source_witness_sha256": "0819E798B9EDE46DD7FB480FB9F2B7BD41BD304CB3478CDECBC6410BCBE8A4F5",
+        "independent_evidence_state": "Checker packet plus owner and independent read-only adjudicator replay: printed p174 has H in the two defective restatements while equation (7) and printed p175 state H^*; two-pass build and focused output p77 QA pass.",
+        "human_or_external_validation": "primary publication is external evidence; no separate human validation receipt"
+      },
+      "english_disposition": "applied_to_active_english_source",
+      "counts_as_changed_defect_id": true,
+      "operations": [
+        {
+          "operation_id": "P06-0001-H-star",
+          "active_replacements": 2,
+          "inactive_occurrences_preserved": 0,
+          "before": "\\qquad H(\\xi)\\ne0",
+          "before_identity": {
+            "bytes": 17,
+            "sha256": "7057149852201E163EC6E3811A79E23E1E5F3C1199A564C8DF9EA1208480E86B"
+          },
+          "after": "\\qquad H^*(\\xi)\\ne0",
+          "after_identity": {
+            "bytes": 19,
+            "sha256": "D07B29F1C27BA9C3B702D9526C2FFF5633EBF42196D9C4452E4239E06362C062"
+          }
+        }
+      ],
+      "conformance_checks": [],
+      "coupled_implementation": null
+    },
+    {
+      "sequence": 5,
+      "defect_id": "NOETH-DEF-P06-0002",
+      "paper": "P06",
+      "authority_delta": {
+        "defect_id": "NOETH-DEF-P06-0002",
+        "paper": "P06",
+        "source_line_in_parent": 5383,
+        "later_transcription_reading": "x_1^2u_1^2 and 2x_1^2x_2u_1u_2",
+        "diplomatic_print_reading": "x_1^4u_1^2 and 2x_1^3x_2u_1u_2",
+        "accepted_editorial_reading": "exact original-print exponents 4 and 3",
+        "classification": "later_transcription",
+        "checker_packet_path": "evidence/P06_exp/packet.json",
+        "checker_packet_bytes": 3406,
+        "checker_packet_sha256": "DA386DF284D75FAB8763C3421A57DB305B008F6794018E6B5FD0E2B819D6EB5D",
+        "normalized_finding_path": "evidence/P06_exp/finding.json",
+        "normalized_finding_bytes": 4366,
+        "normalized_finding_sha256": "EAD1A44E2C9B71BE86CDBC803EE5F95666F34E34539BCAEE62680DDE373B3D1B",
+        "source_witness_path": "evidence/P06_Hstar/print.pdf; PDF page 24 / printed page 183",
+        "source_witness_sha256": "0819E798B9EDE46DD7FB480FB9F2B7BD41BD304CB3478CDECBC6410BCBE8A4F5",
+        "independent_evidence_state": "checker packet plus owner and independent read-only replay of the primary print and exact factorization; two-pass build and focused output p82 QA pass",
+        "human_or_external_validation": "primary publication is external evidence; no separate human validation receipt"
+      },
+      "english_disposition": "already_conformant",
+      "counts_as_changed_defect_id": false,
+      "operations": [],
+      "conformance_checks": [
+        {
+          "check_id": "P06-original-print-exponents",
+          "accepted_pattern": "x_1^2z^2-x_1^4u_1^2-2x_1^3x_2u_1u_2-x_1^2x_2^2u_2^2",
+          "pattern_identity": {
+            "bytes": 51,
+            "sha256": "60DB5C4BBA77675B3BBD6FC42EA74DDFD77C0892689ADC51AFDCCEF2B4852450"
+          },
+          "active_occurrences": 1,
+          "inactive_occurrences": 0
+        }
+      ],
+      "coupled_implementation": null
+    },
+    {
+      "sequence": 6,
+      "defect_id": "NOETH-DEF-P30-0001",
+      "paper": "P30",
+      "authority_delta": {
+        "defect_id": "NOETH-DEF-P30-0001",
+        "paper": "P30",
+        "source_line_in_parent": 15345,
+        "diplomatic_print_reading": "TBM=TAM; TB=TA",
+        "accepted_editorial_reading": "TBM=AM; TB=A",
+        "classification": "original_print",
+        "exact_tex_change": "remove the repeated right-hand Fraktur T from both cancellation equations",
+        "checker_packet_path": "evidence/P30/f1.json",
+        "checker_packet_bytes": 3621,
+        "checker_packet_sha256": "643566F9BD3778F689A342040EDD312E91C1249ED5688CF5B1113644AA5FCF5C",
+        "source_witness_path": "evidence/P30/print.pdf",
+        "source_witness_bytes": 3218412,
+        "source_witness_sha256": "4259EF9054DE32AE81BA1A6A66481BF951F4C33B306AA15817F841BB75FABCE2",
+        "independent_evidence_state": "schema-valid checker packet plus owner byte-match and direct primary-page replay; quotient definition independently derives the correction",
+        "human_or_external_validation": "primary publication is external evidence; no separate human validation receipt"
+      },
+      "english_disposition": "applied_to_active_english_source",
+      "counts_as_changed_defect_id": true,
+      "operations": [
+        {
+          "operation_id": "P30-0001-cancellation",
+          "active_replacements": 1,
+          "inactive_occurrences_preserved": 0,
+          "before": "For from $\\mathfrak T\\mathfrak B\\mathfrak M=\\mathfrak T\\mathfrak A\\mathfrak M$ comes $\\mathfrak T\\mathfrak B=\\mathfrak T\\mathfrak A$, and conversely.",
+          "before_identity": {
+            "bytes": 149,
+            "sha256": "D0800061B455993416194B72E38483EDCD48520D7DA6D3173D98C5EE4C7594B5"
+          },
+          "after": "For from $\\mathfrak T\\mathfrak B\\mathfrak M=\\mathfrak A\\mathfrak M$ comes $\\mathfrak T\\mathfrak B=\\mathfrak A$, and conversely.",
+          "after_identity": {
+            "bytes": 127,
+            "sha256": "DF589EB144A57A7FB4344D6EC91DF510D7F59D6351606AD248E40A82E5E9811E"
+          }
+        }
+      ],
+      "conformance_checks": [],
+      "coupled_implementation": null
+    },
+    {
+      "sequence": 7,
+      "defect_id": "NOETH-DEF-P30-0002",
+      "paper": "P30",
+      "authority_delta": {
+        "defect_id": "NOETH-DEF-P30-0002",
+        "paper": "P30",
+        "source_line_in_parent": 15357,
+        "later_transcription_reading": "roman ab, c, and (b,c)",
+        "diplomatic_print_reading": "Fraktur ideals a, b, and c",
+        "accepted_editorial_reading": "exact original-print Fraktur ideal notation",
+        "classification": "later_transcription",
+        "exact_tex_change": "ab/c/(b,c) -> \\ma\\mb/\\mc/(\\mb,\\mc)",
+        "checker_packet_path": "evidence/P30/f2.json",
+        "checker_packet_bytes": 3330,
+        "checker_packet_sha256": "31265D3FCFDCF034D455B9960440C1CAFBC17C5C3CF879CD8CA25C813DCF2150",
+        "source_witness_path": "evidence/P30/print.pdf",
+        "source_witness_bytes": 3218412,
+        "source_witness_sha256": "4259EF9054DE32AE81BA1A6A66481BF951F4C33B306AA15817F841BB75FABCE2",
+        "independent_evidence_state": "schema-valid checker packet plus owner byte-match and direct primary-page replay",
+        "human_or_external_validation": "primary publication is external evidence; no separate human validation receipt"
+      },
+      "english_disposition": "applied_to_active_english_source",
+      "counts_as_changed_defect_id": true,
+      "operations": [
+        {
+          "operation_id": "P30-0002-fraktur-ideals",
+          "active_replacements": 1,
+          "inactive_occurrences_preserved": 0,
+          "before": "No power of $ab$ is divisible by $c$, because $(\\ma,\\mc)=\\mo$ and $(b,c)=\\mo$.",
+          "before_identity": {
+            "bytes": 78,
+            "sha256": "2E234602DA2214EE861E6CD1BD8FDBD0FC1FE26A5531EFC9375D7EE4520AE2E0"
+          },
+          "after": "No power of $\\ma\\mb$ is divisible by $\\mc$, because $(\\ma,\\mc)=\\mo$ and $(\\mb,\\mc)=\\mo$.",
+          "after_identity": {
+            "bytes": 88,
+            "sha256": "6368996ADEF99AC8A19AEE9F60EEC6339DE89EC17A889DDFF185A777E0955273"
+          }
+        }
+      ],
+      "conformance_checks": [],
+      "coupled_implementation": null
+    },
+    {
+      "sequence": 8,
+      "defect_id": "NOETH-DEF-P09-0001",
+      "paper": "P09",
+      "authority_delta": {
+        "defect_id": "NOETH-DEF-P09-0001",
+        "paper": "P09",
+        "source_line_in_parent": 6368,
+        "diplomatic_print_reading": "Math. Ann. 75, S. 484 (1914).",
+        "accepted_editorial_reading": "Math. Ann. 75, S. 434 (1914).",
+        "classification": "original_print",
+        "subclassification": "bibliographic_first_page_error",
+        "exact_tex_change": "S. 484 -> S. 434",
+        "checker_packet_path": "evidence/P09/f.json",
+        "checker_packet_bytes": 5435,
+        "checker_packet_sha256": "C438A3DED9B51E472021C2933FD4935C9D5B82E792B7F46D1EDA2C8F1E8C46FD",
+        "source_witnesses": [
+          {
+            "path": "evidence/P09/n103.jpg",
+            "bytes": 1223084,
+            "sha256": "1415068308A2BEF1B3E20E6BEC9316FDB22114CE1FF7F1A28847661791D0BB29",
+            "reading": "484"
+          },
+          {
+            "path": "evidence/P09/z434.jpg",
+            "bytes": 1217120,
+            "sha256": "1627A2983DBE4663A16330E16C24A31C80C9E1996778570C5EF165BA97AEF85B",
+            "reading": "434"
+          }
+        ],
+        "independent_evidence_state": "schema-valid checker confirmation plus German-owner direct visual replay of both primary printed pages, exact one-byte parent/successor audit, two-pass build, strict extraction, and focused render QA",
+        "human_or_external_validation": "primary institutional print images and EuDML metadata; no separate human validation receipt"
+      },
+      "english_disposition": "applied_to_active_english_source",
+      "counts_as_changed_defect_id": true,
+      "operations": [
+        {
+          "operation_id": "P09-0001-first-page",
+          "active_replacements": 1,
+          "inactive_occurrences_preserved": 0,
+          "before": "Math. Ann. 75, p. 484 (1914).",
+          "before_identity": {
+            "bytes": 29,
+            "sha256": "DC12D8B6E9BA7A9AF9BC957014DEA8286671EF4ADC4C76682487D8CE34270F63"
+          },
+          "after": "Math. Ann. 75, p. 434 (1914).",
+          "after_identity": {
+            "bytes": 29,
+            "sha256": "E3E293482FFC7BE977097EF26D88ADF838DA753AB987E9332EEE95ADFDF0A971"
+          }
+        }
+      ],
+      "conformance_checks": [],
+      "coupled_implementation": null
+    },
+    {
+      "sequence": 9,
+      "defect_id": "NOETH-DEF-P44-0001",
+      "paper": "Post44",
+      "authority_delta": {
+        "defect_id": "NOETH-DEF-P44-0001",
+        "checker_packet_id": "ZHCHK-DE-P44-001",
+        "paper": "Post44",
+        "source_line_in_parent": 21425,
+        "diplomatic_print_reading": "Fraktur-Z with sans-serif Z subscript",
+        "later_transcription_reading": "Fraktur-Z without subscript",
+        "accepted_editorial_reading": "\\mathfrak Z_{\\mathsf Z}",
+        "classification": "later_transcription",
+        "checker_packet_path": "evidence/P44/f1.json",
+        "checker_packet_sha256": "582D59E98AAB3209F542B8493BDB113C246D6E051792B4A19057BE22D0ABE36F",
+        "source_witness_path": "evidence/P44/q11.png",
+        "source_witness_sha256": "F0B27EB9C16428E041207DA81BBEB54DF12C08567DE7FD5553E33303A1E7A596",
+        "independent_evidence_state": "schema-valid checker packet plus owner direct replay of the institutional primary facsimile",
+        "human_or_external_validation": "institutional primary facsimile; no separate human validation receipt"
+      },
+      "english_disposition": "applied_to_active_english_source",
+      "counts_as_changed_defect_id": true,
+      "operations": [
+        {
+          "operation_id": "P44-0001-Z-subscript",
+          "active_replacements": 1,
+          "inactive_occurrences_preserved": 0,
+          "before": "automorphisms of \\(\\mathfrak Z\\) by stipulating",
+          "before_identity": {
+            "bytes": 47,
+            "sha256": "4F7A56A544F1A563E9112010B2E53B2EB6DEB88E05C160E4B31E7521EB809BE9"
+          },
+          "after": "automorphisms of \\(\\mathfrak Z_{\\mathsf Z}\\) by stipulating",
+          "after_identity": {
+            "bytes": 59,
+            "sha256": "44AAF1FBE71B69832991468291BD06CBBAF6BBEFBD955B11D89D302551126E83"
+          }
+        }
+      ],
+      "conformance_checks": [],
+      "coupled_implementation": null
+    },
+    {
+      "sequence": 10,
+      "defect_id": "NOETH-DEF-P44-0002",
+      "paper": "Post44",
+      "authority_delta": {
+        "defect_id": "NOETH-DEF-P44-0002",
+        "checker_packet_id": "ZHCHK-DE-P44-002",
+        "paper": "Post44",
+        "source_line_in_parent": 21454,
+        "diplomatic_print_reading": "S_i e_1=e_i+\\cdots",
+        "accepted_editorial_reading": "S_i E_1=e_i+\\cdots",
+        "classification": "original_print",
+        "checker_packet_path": "evidence/P44/f2.json",
+        "checker_packet_sha256": "251081A2A0F1CD9189A3C60BADCEB9D679D5DB8FACFA306FB126474DD998E82C",
+        "source_witness_path": "evidence/P44/q11.png",
+        "source_witness_sha256": "F0B27EB9C16428E041207DA81BBEB54DF12C08567DE7FD5553E33303A1E7A596",
+        "independent_evidence_state": "owner replay of the primary print plus immediate definition and proof context; diplomatic e_1 retained",
+        "human_or_external_validation": "institutional primary facsimile; no separate human validation receipt"
+      },
+      "english_disposition": "applied_to_active_english_source",
+      "counts_as_changed_defect_id": true,
+      "operations": [
+        {
+          "operation_id": "P44-0002-E-one",
+          "active_replacements": 1,
+          "inactive_occurrences_preserved": 0,
+          "before": "S_i e_1=e_i+\\cdots",
+          "before_identity": {
+            "bytes": 18,
+            "sha256": "07C27537F554416183B2E55DB42815D6BFD810F96121FBFEEDBC0AE1BB7826C6"
+          },
+          "after": "S_i E_1=e_i+\\cdots",
+          "after_identity": {
+            "bytes": 18,
+            "sha256": "B7F521BF769701898FDAD5B27B3885BE1111C5E452283E3272DF1E1C8E0B0B92"
+          }
+        }
+      ],
+      "conformance_checks": [],
+      "coupled_implementation": null
+    },
+    {
+      "sequence": 11,
+      "defect_id": "NOETH-DEF-P44-0003",
+      "paper": "Post44",
+      "authority_delta": {
+        "defect_id": "NOETH-DEF-P44-0003",
+        "checker_packet_id": "ZHCHK-DE-P44-003",
+        "paper": "Post44",
+        "source_lines_in_parent": [
+          21639,
+          21640
+        ],
+        "diplomatic_print_reading": "four terminal n indices",
+        "accepted_editorial_reading": "four terminal h indices",
+        "classification": "original_print",
+        "checker_packet_path": "evidence/P44/f3.json",
+        "checker_packet_sha256": "D48D56A6F36B5EF44AB974A40A72A41349EBED9C2FA3A17D0E7B906CB99B3225",
+        "source_witness_path": "evidence/P44/q14.png",
+        "source_witness_sha256": "374073E4887D04929333D49976F7B2467CA28EABDCCA3EF9960E02C8E0A9A4E7",
+        "independent_evidence_state": "owner replay of the primary print plus same-page A={a_1,...,a_h}, order h, and h-character definitions; diplomatic n endpoints retained",
+        "human_or_external_validation": "institutional primary facsimile; no separate human validation receipt"
+      },
+      "english_disposition": "applied_to_active_english_source",
+      "counts_as_changed_defect_id": true,
+      "operations": [
+        {
+          "operation_id": "P44-0003-terminal-indices-row-one",
+          "active_replacements": 1,
+          "inactive_occurrences_preserved": 0,
+          "before": "x_1a_ja_i^{-1}a_1+\\cdots+x_i a_j+\\cdots+x_na_ja_i^{-1}a_n",
+          "before_identity": {
+            "bytes": 57,
+            "sha256": "75AF312122427314FAB789935539203FA608E9B242431B60E4551D30F41FA352"
+          },
+          "after": "x_1a_ja_i^{-1}a_1+\\cdots+x_i a_j+\\cdots+x_ha_ja_i^{-1}a_h",
+          "after_identity": {
+            "bytes": 57,
+            "sha256": "9429D6E5EFC38B103C4DF549881CF9E54591D8C22FC7D6351B34DF1B08FC4CFD"
+          }
+        },
+        {
+          "operation_id": "P44-0003-terminal-indices-row-two",
+          "active_replacements": 1,
+          "inactive_occurrences_preserved": 0,
+          "before": "=x_1a_1+\\cdots+x_na_n,",
+          "before_identity": {
+            "bytes": 22,
+            "sha256": "647B35CF9D270AE0D145F261310A4D3A11BDA91717B9BF07677933E2FA469280"
+          },
+          "after": "=x_1a_1+\\cdots+x_ha_h,",
+          "after_identity": {
+            "bytes": 22,
+            "sha256": "722EB48D8C965B939FB999C4B592CA2F421D94045C9A2C88B18F2CE0431DF8BA"
+          }
+        }
+      ],
+      "conformance_checks": [],
+      "coupled_implementation": null
+    },
+    {
+      "sequence": 12,
+      "defect_id": "NOETH-DEF-P45-0001",
+      "paper": "Post45",
+      "authority_delta": {
+        "defect_id": "NOETH-DEF-P45-0001",
+        "adjudication_id": "NOETH-DE-ADJ-P45-EQ3-001",
+        "checker_packet_id": "ZHCHK-DE-P45-001",
+        "paper": "Post45",
+        "source_lines_in_parent": [
+          23820,
+          23821
+        ],
+        "diplomatic_print_reading": "the first two equation-(3) right-hand sides are xK_1 and xK_2",
+        "accepted_editorial_reading": "the successive right-hand sides are xK_2 and xK_3",
+        "classification": "probable_original_print_defect",
+        "uncertainty": "No author manuscript or explicit erratum was located; the printed general row and immediately following recurrence supply the internal evidence.",
+        "line_changes": [
+          {
+            "line": 23820,
+            "before_bytes": 74,
+            "before_sha256": "356141E10C7553A736802A83055599276DF0A137F11A9846F963620962D0148F",
+            "after_bytes": 74,
+            "after_sha256": "DE3928EB3313CF5163639EF6A11E831279DBCAE42AD49E1EF9FEFA2705C5558F",
+            "before": "K_1\\cdot g_1(0,y):y^{(g_1)} - g_1\\cdot K_1(0,y):y^{(g_1)} &= x\\cdot K_1,\\\\",
+            "after": "K_1\\cdot g_1(0,y):y^{(g_1)} - g_1\\cdot K_1(0,y):y^{(g_1)} &= x\\cdot K_2,\\\\"
+          },
+          {
+            "line": 23821,
+            "before_bytes": 74,
+            "before_sha256": "99FDB441410531DDC96002CAC6D0618A9EE7B110027C2ABC525498AB9842A450",
+            "after_bytes": 74,
+            "after_sha256": "144644B98CD0F8C62E8DF00ED516F084C3ACF1800324A7F89B4F060F3029003B",
+            "before": "K_2\\cdot g_2(0,y):y^{(g_2)} - g_2\\cdot K_2(0,y):y^{(g_2)} &= x\\cdot K_2,\\\\",
+            "after": "K_2\\cdot g_2(0,y):y^{(g_2)} - g_2\\cdot K_2(0,y):y^{(g_2)} &= x\\cdot K_3,\\\\"
+          }
+        ],
+        "evidence": {
+          "checker_packet": {
+            "path": "evidence/P45_eq3/p45.json",
+            "bytes": 4245,
+            "sha256": "94B217D67882318DB121ED380DE468D1ECFEC553C867630ACDA5DAB21457DDF2"
+          },
+          "schema_validation": {
+            "path": "evidence/P45_eq3/p45v.json",
+            "bytes": 781,
+            "sha256": "9C80FB8A7BA1B45C555C25407A143E7759481BF5985E3C0078C2FB2D15BD39EC"
+          },
+          "primary_print": {
+            "kind": "primary_print_reference",
+            "path": "evidence/P45_alt/ma562.png",
+            "printed_page": 562,
+            "bytes": 516327,
+            "sha256": "E4D03EA5907945BC7543BECD35BB7D6F4801E805E9F1EF6FECB80F41816FDEBB",
+            "scope": "equation (3) and immediately following recurrence paragraph"
+          },
+          "patch": {
+            "path": "evidence/P45_eq3/delta.patch",
+            "bytes": 526,
+            "sha256": "D2B9E699F9FDC20BA2285F8637B1BA0439A4B3847E679E9A17288A3EB7BED80E"
+          }
+        },
+        "adjudication": {
+          "path": "evidence/P45_eq3/adjudication.json",
+          "bytes": 3254,
+          "sha256": "7E65E5F5E9F3199AED905A16FDF42AC6ADB462AFC38885E1AEFB73BDF0AEC001"
+        },
+        "validation_state": "schema-valid checker finding; owner primary-print replay, recurrence adjudication, deterministic build, extraction, and focused visual QA passed",
+        "human_or_external_validation": "institutional primary facsimile; no separate human validation receipt"
+      },
+      "english_disposition": "applied_to_active_english_source",
+      "counts_as_changed_defect_id": true,
+      "operations": [
+        {
+          "operation_id": "P45-0001-first-recurrence",
+          "active_replacements": 1,
+          "inactive_occurrences_preserved": 0,
+          "before": "K_1\\cdot g_1(0,y):y^{(g_1)} - g_1\\cdot K_1(0,y):y^{(g_1)} &= x\\cdot K_1,\\\\",
+          "before_identity": {
+            "bytes": 74,
+            "sha256": "356141E10C7553A736802A83055599276DF0A137F11A9846F963620962D0148F"
+          },
+          "after": "K_1\\cdot g_1(0,y):y^{(g_1)} - g_1\\cdot K_1(0,y):y^{(g_1)} &= x\\cdot K_2,\\\\",
+          "after_identity": {
+            "bytes": 74,
+            "sha256": "DE3928EB3313CF5163639EF6A11E831279DBCAE42AD49E1EF9FEFA2705C5558F"
+          }
+        },
+        {
+          "operation_id": "P45-0001-second-recurrence",
+          "active_replacements": 1,
+          "inactive_occurrences_preserved": 0,
+          "before": "K_2\\cdot g_2(0,y):y^{(g_2)} - g_2\\cdot K_2(0,y):y^{(g_2)} &= x\\cdot K_2,\\\\",
+          "before_identity": {
+            "bytes": 74,
+            "sha256": "99FDB441410531DDC96002CAC6D0618A9EE7B110027C2ABC525498AB9842A450"
+          },
+          "after": "K_2\\cdot g_2(0,y):y^{(g_2)} - g_2\\cdot K_2(0,y):y^{(g_2)} &= x\\cdot K_3,\\\\",
+          "after_identity": {
+            "bytes": 74,
+            "sha256": "144644B98CD0F8C62E8DF00ED516F084C3ACF1800324A7F89B4F060F3029003B"
+          }
+        }
+      ],
+      "conformance_checks": [],
+      "coupled_implementation": null
+    },
+    {
+      "sequence": 13,
+      "defect_id": "NOETH-DEF-BACK-0001",
+      "paper": "BACK",
+      "authority_delta": {
+        "defect_id": "NOETH-DEF-BACK-0001",
+        "adjudication_id": "NOETH-DE-ADJ-BIB-001",
+        "checker_packet_id": "JA-R04-SRC-BIB-001",
+        "paper": "BACK",
+        "source_line_in_parent": 24140,
+        "later_transcription_reading": "Gesammelte Werke; R. Fricke, E. N. Öystein Orne; Brauschweig",
+        "accepted_editorial_reading": "Gesammelte mathematische Werke; R. Fricke, Emmy Noether und Øystein Ore; Braunschweig",
+        "classification": "later_transcription_bibliography_defect",
+        "line_changes": [
+          {
+            "line": 24140,
+            "before_bytes": 120,
+            "before_sha256": "94621659F7754EE7F98F861756521FCA04A9FA6361F8462403EEC4E2594AF535",
+            "after_bytes": 145,
+            "after_sha256": "74FFE8EA38E054D241B0D937D53DBD85AC3B5D9D72F154407FBC2312E5563C73",
+            "before": "R. Dedekind, Gesammelte Werke I--III. Herausgegeben von R. Fricke, E. N. Öystein Orne. Vieweg, Brauschweig 1930--1932\\\\",
+            "after": "R. Dedekind, Gesammelte mathematische Werke I--III. Herausgegeben von R. Fricke, Emmy Noether und Øystein Ore. Vieweg, Braunschweig 1930--1932\\\\"
+          }
+        ],
+        "evidence": {
+          "checker_csv": {
+            "path": "evidence/BIB/ja.csv",
+            "bytes": 5677,
+            "sha256": "98A7BF0CD9DA2E8AD9F30BD25B7AA2489AAABBA888900D969D40AC39EEF28EEF",
+            "row_id": "JA-R04-SRC-BIB-001"
+          },
+          "gdz_work_bibtex": {
+            "path": "evidence/BIB/meta.bib",
+            "bytes": 258,
+            "sha256": "ABD80230D0E6608EED36DAF510342432423251D31C3CFE499C648A134E917BC4",
+            "url": "https://gdz.sub.uni-goettingen.de/download/PPN235685380.bib"
+          },
+          "gdz_work_mets": {
+            "path": "evidence/BIB/meta.xml",
+            "bytes": 4496,
+            "sha256": "C04A03729692B24BE106C29616EA12B57AE66726AFFC080E0FCD291098C6281E",
+            "url": "https://gdz.sub.uni-goettingen.de/mets/PPN235685380.mets.xml"
+          },
+          "gdz_volume_bibtex": {
+            "path": "evidence/BIB/vol.bib",
+            "bytes": 103,
+            "sha256": "3A77E668DC1D154D1F7DC35B26441B9786D76DE1BD7F9312116B967FD1CD1005",
+            "url": "https://gdz.sub.uni-goettingen.de/download/PPN23569441X.bib"
+          },
+          "gdz_volume_mets": {
+            "path": "evidence/BIB/vol.xml",
+            "bytes": 824519,
+            "sha256": "54B2A0B124B9F6EDE33D5948AE14F67348E765C1CBDF48435863A4999313E391",
+            "url": "https://gdz.sub.uni-goettingen.de/mets/PPN23569441X.mets.xml"
+          },
+          "source_receipt": {
+            "path": "evidence/BIB/sources.json",
+            "bytes": 1853,
+            "sha256": "0BF8C89C409557B61087DE1B7541005879B233271830B62F55C387410F92CA5E"
+          },
+          "patch": {
+            "path": "evidence/BIB/delta.patch",
+            "bytes": 588,
+            "sha256": "FBC19A7B5AC8F6173AE18F65D9997DDE42564143FEAF107B043A7F1A113EE4A9"
+          }
+        },
+        "adjudication": {
+          "path": "evidence/BIB/adjudication.json",
+          "bytes": 3721,
+          "sha256": "ECC48EDBC908D0D7518DE4F7B6BEF2CC5942B94EDD1D8E63F8167D5A0582BDEA"
+        },
+        "validation_state": "checker finding; owner replay of official GDZ BibTeX/METS records; deterministic build, extraction, and focused visual QA passed",
+        "human_or_external_validation": "official institutional catalogue metadata; no separate human validation receipt"
+      },
+      "english_disposition": "applied_to_active_english_source",
+      "counts_as_changed_defect_id": true,
+      "operations": [
+        {
+          "operation_id": "BACK-0001-Dedekind-bibliography",
+          "active_replacements": 1,
+          "inactive_occurrences_preserved": 0,
+          "before": "R. Dedekind, \\emph{Gesammelte Werke}, vols. I--III. Edited by R. Fricke, E. N. Öystein Orne. Vieweg, Braunschweig, 1930--1932\\\\",
+          "before_identity": {
+            "bytes": 128,
+            "sha256": "148726CAB2B9155FA92BB2C372F8047375BC45B3B8C7804FAE9BD1C74642F988"
+          },
+          "after": "R. Dedekind, \\emph{Gesammelte mathematische Werke}, vols. I--III. Edited by R. Fricke, Emmy Noether, and Øystein Ore. Vieweg, Braunschweig, 1930--1932\\\\",
+          "after_identity": {
+            "bytes": 153,
+            "sha256": "FDC3432EB80A26B5BEB4CF8F2C43683496A2B4778BD0EAB7CF714699834DB282"
+          }
+        }
+      ],
+      "conformance_checks": [],
+      "coupled_implementation": null
+    },
+    {
+      "sequence": 14,
+      "defect_id": "NOETH-DEF-P30-0003",
+      "paper": "P30",
+      "authority_delta": {
+        "defect_id": "NOETH-DEF-P30-0003",
+        "adjudication_id": "NOETH-DE-P30-ADJ-002",
+        "checker_packet_id": "ZHCHK-DE-P30-003",
+        "paper": "P30",
+        "source_line_in_parent": 14549,
+        "diplomatic_print_reading": "mu_i alpha",
+        "accepted_editorial_reading": "mu_i nu",
+        "classification": "original_print_editorial_emendation",
+        "uncertainty": "No explicit erratum or author manuscript was located; the immediately preceding product definition supplies the internal evidence.",
+        "line_changes": [
+          {
+            "line": 14549,
+            "before": "Elementen $\\mu_i\\alpha$ abgeleiteten Modul handelt.",
+            "before_bytes": 51,
+            "before_sha256": "911C2CF29A59BD4B8FC77E38AC817EE8EB4148432781A0074AAD68B97C8ABCDA",
+            "before_raw_span": {
+              "start_byte_zero_based": 1278046,
+              "end_byte_exclusive": 1278099,
+              "bytes_including_eol": 53,
+              "sha256_including_eol": "B355414F2FC90488ECB57D0DBC6134DB8E1EB0D9AC8120B3E9C01626DFED3857"
+            },
+            "after": "Elementen $\\mu_i\\nu$ abgeleiteten Modul handelt.",
+            "after_bytes": 48,
+            "after_sha256": "18C3FE9FB3EB8AB0812E0B0EC17E021E0FF7326F795F73BA1220314BD148CECE",
+            "after_raw_span": {
+              "start_byte_zero_based": 1278046,
+              "end_byte_exclusive": 1278096,
+              "bytes_including_eol": 50,
+              "sha256_including_eol": "EC0D790431803148AA33E206D4B05FCB61F3EBCF3C24016BD4540AABEAA4BE39"
+            },
+            "eol": "CRLF"
+          }
+        ],
+        "evidence": {
+          "adjudication": {
+            "path": "evidence/P30b/adjudication.json",
+            "bytes": 9518,
+            "sha256": "AE39BE98EE303CB03B67CCAEC5304EB2871CC285FBFA40D34B700944244DC5DF"
+          },
+          "patch": {
+            "path": "evidence/P30b/delta.patch",
+            "bytes": 1656,
+            "sha256": "53334B320F37DF9283FF746ED5DAFF3FCEC847D4258AFF7A5267405FB70A2C66"
+          },
+          "primary_print_receipt": {
+            "path": "evidence/P30b/primary.json",
+            "bytes": 938,
+            "sha256": "DA3BE4E7ABD8B4A32780A194B7B11BBB8EA0D8A7E770D72AE2BCBCF88A9CF455"
+          },
+          "final_manifest": {
+            "path": "evidence/P30b/manifest.json",
+            "bytes": 2295,
+            "sha256": "7EC4723BE69BC684BC70E1CE56A5E7CD6727D216FD1F0A638A3458E427702071"
+          },
+          "final_files_manifest": {
+            "path": "evidence/P30b/files.csv",
+            "bytes": 1685,
+            "sha256": "2AB3FF2C48B7A1C43882DA9519402C41A1C9A605E92267BF97B008A1FECB5A97"
+          },
+          "final_checker_packet": {
+            "path": "evidence/P30b/f3.json",
+            "bytes": 3962,
+            "sha256": "42B7F86BD9234EEFDE60E398611339AD29ECC89FF013EBB36BCBE9E2715609A9"
+          },
+          "preserved_adverse_pre1_packet": {
+            "path": "evidence/P30b/pre_f3.json",
+            "bytes": 3373,
+            "sha256": "3D86AEDD8562C65CCA6C498C40EBF3C76621E7B30BDF81DD062FAD1CB8081E79"
+          },
+          "preserved_adverse_pre1_manifest": {
+            "path": "evidence/P30b/pre_manifest.json",
+            "bytes": 2169,
+            "sha256": "4AED5436C2B9B1414D28A8EAFAD14E10409338B2AB854378267A4C195221CB91"
+          }
+        },
+        "validation_state": "corrected final checker packet; owner primary-print replay, contextual adjudication, deterministic four-run build, strict extraction, and focused visual QA passed",
+        "human_or_external_validation": "institutional primary facsimile; no separate human validation receipt"
+      },
+      "english_disposition": "applied_to_active_english_source",
+      "counts_as_changed_defect_id": true,
+      "operations": [
+        {
+          "operation_id": "P30-0003-mu-nu",
+          "active_replacements": 1,
+          "inactive_occurrences_preserved": 0,
+          "before": "$\\mu_i\\alpha$.",
+          "before_identity": {
+            "bytes": 14,
+            "sha256": "D9634262744CF7688C37198405CAA9A9E826113EC8903463B06AAD522C36106D"
+          },
+          "after": "$\\mu_i\\nu$.",
+          "after_identity": {
+            "bytes": 11,
+            "sha256": "15BDC64A980792FE26138DA59AB46AF30997B13B9F922D1C1818CA5B4E560CC2"
+          }
+        }
+      ],
+      "conformance_checks": [],
+      "coupled_implementation": null
+    },
+    {
+      "sequence": 15,
+      "defect_id": "NOETH-DEF-P30-0004",
+      "paper": "P30",
+      "authority_delta": {
+        "defect_id": "NOETH-DEF-P30-0004",
+        "adjudication_id": "NOETH-DE-P30-ADJ-002",
+        "checker_packet_id": "ZHCHK-DE-P30-004",
+        "paper": "P30",
+        "source_line_in_parent": 14621,
+        "diplomatic_print_reading": "alpha^n+r_1 alpha^(n+1)+...+r_n=0",
+        "accepted_editorial_reading": "alpha^n+r_1 alpha^(n-1)+...+r_n=0",
+        "classification": "original_print_editorial_emendation",
+        "uncertainty": "No explicit erratum or author manuscript was located; the immediately preceding basis and monic degree-n dependence supply the internal evidence.",
+        "line_changes": [
+          {
+            "line": 14621,
+            "before": "        \\alpha^n+r_1\\alpha^{n+1}+\\cdots+r_n=0.",
+            "before_bytes": 46,
+            "before_sha256": "9677F358CA1989A6CBADE58702C2C57AAEB33022583478F87E0406764D86332E",
+            "before_raw_span": {
+              "start_byte_zero_based": 1282445,
+              "end_byte_exclusive": 1282493,
+              "bytes_including_eol": 48,
+              "sha256_including_eol": "584B9751EEEC94B71B8D127413AFAF71B9E54640F586200BDC40C0B1089FA1F6"
+            },
+            "after": "        \\alpha^n+r_1\\alpha^{n-1}+\\cdots+r_n=0.",
+            "after_bytes": 46,
+            "after_sha256": "807E64D4B09525ECBE03568AC26C5BF5FC6B5868439F1970C1B7D36D1DF7B634",
+            "after_raw_span": {
+              "start_byte_zero_based": 1282442,
+              "end_byte_exclusive": 1282490,
+              "bytes_including_eol": 48,
+              "sha256_including_eol": "245E29408EBF4E8817189EF0A8CC29ED600C518A0A4BD467A4F3CA2CA318585C"
+            },
+            "eol": "CRLF"
+          }
+        ],
+        "evidence": {
+          "adjudication": {
+            "path": "evidence/P30b/adjudication.json",
+            "bytes": 9518,
+            "sha256": "AE39BE98EE303CB03B67CCAEC5304EB2871CC285FBFA40D34B700944244DC5DF"
+          },
+          "patch": {
+            "path": "evidence/P30b/delta.patch",
+            "bytes": 1656,
+            "sha256": "53334B320F37DF9283FF746ED5DAFF3FCEC847D4258AFF7A5267405FB70A2C66"
+          },
+          "primary_print_receipt": {
+            "path": "evidence/P30b/primary.json",
+            "bytes": 938,
+            "sha256": "DA3BE4E7ABD8B4A32780A194B7B11BBB8EA0D8A7E770D72AE2BCBCF88A9CF455"
+          },
+          "final_manifest": {
+            "path": "evidence/P30b/manifest.json",
+            "bytes": 2295,
+            "sha256": "7EC4723BE69BC684BC70E1CE56A5E7CD6727D216FD1F0A638A3458E427702071"
+          },
+          "final_files_manifest": {
+            "path": "evidence/P30b/files.csv",
+            "bytes": 1685,
+            "sha256": "2AB3FF2C48B7A1C43882DA9519402C41A1C9A605E92267BF97B008A1FECB5A97"
+          },
+          "final_checker_packet": {
+            "path": "evidence/P30b/f4.json",
+            "bytes": 3857,
+            "sha256": "5EC688BF0494229CEB4AEB1417AE2CE2D412BF9CDF63E9E174B868F42D7609E6"
+          },
+          "preserved_adverse_pre1_packet": {
+            "path": "evidence/P30b/pre_f4.json",
+            "bytes": 3171,
+            "sha256": "3BFF8A8B42E9A42DAD9CFA43F1549D110583B145A98FD2A62092C0228E9E19F9"
+          },
+          "preserved_adverse_pre1_manifest": {
+            "path": "evidence/P30b/pre_manifest.json",
+            "bytes": 2169,
+            "sha256": "4AED5436C2B9B1414D28A8EAFAD14E10409338B2AB854378267A4C195221CB91"
+          }
+        },
+        "validation_state": "corrected final checker packet; owner primary-print replay, contextual adjudication, deterministic four-run build, strict extraction, and focused visual QA passed",
+        "human_or_external_validation": "institutional primary facsimile; no separate human validation receipt"
+      },
+      "english_disposition": "applied_to_active_english_source",
+      "counts_as_changed_defect_id": true,
+      "operations": [
+        {
+          "operation_id": "P30-0004-monic-degree",
+          "active_replacements": 1,
+          "inactive_occurrences_preserved": 0,
+          "before": "\\alpha^n+r_1\\alpha^{n+1}+\\cdots+r_n=0.",
+          "before_identity": {
+            "bytes": 38,
+            "sha256": "8E8FDACAC5691BB8B44C346931978DAE197A440FBAFD5B8ED30CE15EFC07F6C7"
+          },
+          "after": "\\alpha^n+r_1\\alpha^{n-1}+\\cdots+r_n=0.",
+          "after_identity": {
+            "bytes": 38,
+            "sha256": "934DFE6110794F27097E8A4865B3C1AED635EE82300308D4BEEA44C85D93C446"
+          }
+        }
+      ],
+      "conformance_checks": [],
+      "coupled_implementation": null
+    },
+    {
+      "sequence": 16,
+      "defect_id": "NOETH-DEF-P30-0005",
+      "paper": "P30",
+      "authority_delta": {
+        "defect_id": "NOETH-DEF-P30-0005",
+        "adjudication_id": "NOETH-DE-P30-ADJ-002",
+        "checker_packet_id": "ZHCHK-DE-P30-005",
+        "paper": "P30",
+        "source_lines_in_parent": [
+          14797,
+          14802
+        ],
+        "later_transcription_reading": "Fraktur b_i at both left-hand coefficient loci",
+        "diplomatic_print_reading": "ordinary italic b_i at both left-hand coefficient loci; parenthesized ideals remain Fraktur",
+        "accepted_editorial_reading": "exact primary-print coefficient/ideal distinction",
+        "classification": "later_transcription_repair",
+        "line_changes": [
+          {
+            "line": 14797,
+            "before": "$\\mathfrak b_i\\equiv0(\\mathfrak b_i)$, $\\not\\equiv0(\\mathfrak a_i)$, wenn",
+            "before_bytes": 73,
+            "before_sha256": "91EBCC8DBFBE68DB4FFC44AE319E5488EBF16C381FEED7BF84694F32AF1717EC",
+            "before_raw_span": {
+              "start_byte_zero_based": 1292931,
+              "end_byte_exclusive": 1293006,
+              "bytes_including_eol": 75,
+              "sha256_including_eol": "3EB9EC998EBDFF4E7F432596201A3E5FE84E45C64948E6E3AA071B3E7D2A7577"
+            },
+            "after": "$b_i\\equiv0(\\mathfrak b_i)$, $\\not\\equiv0(\\mathfrak a_i)$, wenn",
+            "after_bytes": 63,
+            "after_sha256": "17B79CD64631293E44BC1AFE4594F37F9EA804FC4935C4827FF85E25D19F1DE5",
+            "after_raw_span": {
+              "start_byte_zero_based": 1292928,
+              "end_byte_exclusive": 1292993,
+              "bytes_including_eol": 65,
+              "sha256_including_eol": "EE7AA0DD0204AC77690F722A20692C96F68B1D406F685ECF8FA1512266CB6792"
+            },
+            "eol": "CRLF"
+          },
+          {
+            "line": 14802,
+            "before": "$\\mathfrak b_i\\equiv0(\\mathfrak a_i)$ folgt nämlich die Existenz eines Elementes",
+            "before_bytes": 81,
+            "before_sha256": "F4B06B0E581DE7AF414229AB9848462D56F479DA86EC2C7DE3CC0919F377E677",
+            "before_raw_span": {
+              "start_byte_zero_based": 1293111,
+              "end_byte_exclusive": 1293194,
+              "bytes_including_eol": 83,
+              "sha256_including_eol": "779D92910BD6552F94048C7C0AEA60283DAF84C9E3734F1F41FAFF781CBCE338"
+            },
+            "after": "$b_i\\equiv0(\\mathfrak a_i)$ folgt nämlich die Existenz eines Elementes",
+            "after_bytes": 71,
+            "after_sha256": "461E60F1A3BCB07FBEC453B498067F0E9393B9D90491761BF3BD23A4A879BEF9",
+            "after_raw_span": {
+              "start_byte_zero_based": 1293098,
+              "end_byte_exclusive": 1293171,
+              "bytes_including_eol": 73,
+              "sha256_including_eol": "51E0FA775426F71D5284714264013E35C5EF1593DC6B84D29586BB1D383E56F0"
+            },
+            "eol": "CRLF"
+          }
+        ],
+        "evidence": {
+          "adjudication": {
+            "path": "evidence/P30b/adjudication.json",
+            "bytes": 9518,
+            "sha256": "AE39BE98EE303CB03B67CCAEC5304EB2871CC285FBFA40D34B700944244DC5DF"
+          },
+          "patch": {
+            "path": "evidence/P30b/delta.patch",
+            "bytes": 1656,
+            "sha256": "53334B320F37DF9283FF746ED5DAFF3FCEC847D4258AFF7A5267405FB70A2C66"
+          },
+          "primary_print_receipt": {
+            "path": "evidence/P30b/primary.json",
+            "bytes": 938,
+            "sha256": "DA3BE4E7ABD8B4A32780A194B7B11BBB8EA0D8A7E770D72AE2BCBCF88A9CF455"
+          },
+          "final_manifest": {
+            "path": "evidence/P30b/manifest.json",
+            "bytes": 2295,
+            "sha256": "7EC4723BE69BC684BC70E1CE56A5E7CD6727D216FD1F0A638A3458E427702071"
+          },
+          "final_files_manifest": {
+            "path": "evidence/P30b/files.csv",
+            "bytes": 1685,
+            "sha256": "2AB3FF2C48B7A1C43882DA9519402C41A1C9A605E92267BF97B008A1FECB5A97"
+          },
+          "final_checker_packet": {
+            "path": "evidence/P30b/f5.json",
+            "bytes": 4318,
+            "sha256": "9C1DA0B6BA85EBA730557AD8A943A95412F8B019FD093A0F9B68CF4F97A463B1"
+          }
+        },
+        "validation_state": "final checker packet; owner direct primary-print replay, deterministic four-run build, strict extraction, and focused visual QA passed",
+        "human_or_external_validation": "institutional primary facsimile; no separate human validation receipt"
+      },
+      "english_disposition": "applied_to_active_english_source",
+      "counts_as_changed_defect_id": true,
+      "operations": [
+        {
+          "operation_id": "P30-0005-first-coefficient",
+          "active_replacements": 1,
+          "inactive_occurrences_preserved": 0,
+          "before": "$\\mathfrak b_i\\equiv0\\pmod{\\mathfrak b_i}$",
+          "before_identity": {
+            "bytes": 42,
+            "sha256": "217B7F99D68F24F23106B5B618C8E87A53A6FCA1DB072EFF08DAA84968E9D91E"
+          },
+          "after": "$b_i\\equiv0\\pmod{\\mathfrak b_i}$",
+          "after_identity": {
+            "bytes": 32,
+            "sha256": "67784AE4CEC87F1E41935B598DFEFF5AB55D6D6B6DCEDDCAB5084C9628BECC08"
+          }
+        },
+        {
+          "operation_id": "P30-0005-second-coefficient",
+          "active_replacements": 1,
+          "inactive_occurrences_preserved": 1,
+          "before": "$\\mathfrak b_i\\equiv0\\pmod{\\mathfrak a_i}$",
+          "before_identity": {
+            "bytes": 42,
+            "sha256": "0AD9AD1F7DEEED23C98F7345341C519D076789C19116C6B0357A518F332062CB"
+          },
+          "after": "$b_i\\equiv0\\pmod{\\mathfrak a_i}$",
+          "after_identity": {
+            "bytes": 32,
+            "sha256": "22EA998A761149E2AE65ED63A8D44B7AA4608716ECCDA1EF7D1E7EF13DDE95A7"
+          }
+        }
+      ],
+      "conformance_checks": [],
+      "coupled_implementation": null
+    },
+    {
+      "sequence": 17,
+      "defect_id": "NOETH-DEF-P04-0030",
+      "paper": "P04",
+      "authority_delta": {
+        "defect_id": "NOETH-DEF-P04-0030",
+        "intake_record_id": "NOETH-DEFREC-0062",
+        "evidence_id": "NOETH-DEFEV-024",
+        "paper": "P04",
+        "source_line_in_parent": 4156,
+        "classification": "original_print_editorial_emendation",
+        "diplomatic_print_reading": "lambda=1,2,...,sigma,n-tau",
+        "accepted_editorial_reading": "lambda=1,2,...,tau,n-sigma",
+        "exact_tex_change": "swap the two terminal bounds sigma,n-tau -> tau,n-sigma",
+        "adjudication": {
+          "root": "canon",
+          "path": "evidence/ED0010_zh_r7/adjudication.json",
+          "bytes": 7113,
+          "sha256": "5D24CD4CC000EE5EEFCAB6E64FB2353531E23A7FDD053871F85096702DC8A540",
+          "archive_member": "r32/canon/ED0011-adjudication.json"
+        }
+      },
+      "english_disposition": "already_conformant",
+      "counts_as_changed_defect_id": false,
+      "operations": [],
+      "conformance_checks": [
+        {
+          "check_id": "P04-correct-terminal-bounds",
+          "accepted_pattern": "\\min(\\tau,n-\\sigma)",
+          "pattern_identity": {
+            "bytes": 19,
+            "sha256": "9A2BB43FE9A9B59D4F853C9C62354B7E35E096002007F837F0CB2B1BFF51DF83"
+          },
+          "active_occurrences": 4,
+          "inactive_occurrences": 0
+        }
+      ],
+      "coupled_implementation": null
+    },
+    {
+      "sequence": 18,
+      "defect_id": "NOETH-DEF-P06-0003",
+      "paper": "P06",
+      "authority_delta": {
+        "defect_id": "NOETH-DEF-P06-0003",
+        "intake_record_id": "NOETH-DEFREC-0063",
+        "evidence_id": "NOETH-DEFEV-025",
+        "paper": "P06",
+        "source_line_in_parent": 5485,
+        "classification": "later_transcription_repair",
+        "later_transcription_reading": "a_{lambda_2}^{p_{lambda_2}} a_mu^{p_mu} ... a_sigma^{p_sigma}",
+        "diplomatic_print_reading": "a_{lambda lambda}^{p_lambda} a_{mu mu}^{p_mu} ... a_{sigma sigma}^{p_sigma}",
+        "accepted_editorial_reading": "restore all three printed diagonal coefficient subscripts and matching exponents",
+        "adjudication": {
+          "root": "canon",
+          "path": "evidence/ED0010_zh_r7/adjudication.json",
+          "bytes": 7113,
+          "sha256": "5D24CD4CC000EE5EEFCAB6E64FB2353531E23A7FDD053871F85096702DC8A540",
+          "archive_member": "r32/canon/ED0011-adjudication.json"
+        }
+      },
+      "english_disposition": "already_conformant",
+      "counts_as_changed_defect_id": false,
+      "operations": [],
+      "conformance_checks": [
+        {
+          "check_id": "P06-diagonal-subscripts",
+          "accepted_pattern": "a_{\\lambda\\lambda}^{p_\\lambda}a_{\\mu\\mu}^{p_\\mu}\\cdots a_{\\sigma\\sigma}^{p_\\sigma}",
+          "pattern_identity": {
+            "bytes": 82,
+            "sha256": "8001F590AA23159432AD08B60937A5985E092AE4BFF32E671B43DC4E38B140D4"
+          },
+          "active_occurrences": 1,
+          "inactive_occurrences": 0
+        }
+      ],
+      "coupled_implementation": null
+    },
+    {
+      "sequence": 19,
+      "defect_id": "NOETH-DEF-P12-0001",
+      "paper": "P12",
+      "authority_delta": {
+        "defect_id": "NOETH-DEF-P12-0001",
+        "intake_record_id": "NOETH-DEFREC-0064",
+        "evidence_id": "NOETH-DEFEV-026",
+        "paper": "P12",
+        "source_line_in_parent": 8359,
+        "classification": "original_print_editorial_emendation",
+        "diplomatic_print_reading": "kappa phi_rho^(i)(dx/dt)",
+        "accepted_editorial_reading": "kappa^rho phi_rho^(i)(dx/dt)",
+        "exact_tex_change": "varkappa -> varkappa^rho",
+        "uncertainty": "The print certainly omits rho; the immediately stated homogeneity of order rho supplies the internal mathematical evidence.",
+        "adjudication": {
+          "root": "canon",
+          "path": "evidence/ED0010_zh_r7/adjudication.json",
+          "bytes": 7113,
+          "sha256": "5D24CD4CC000EE5EEFCAB6E64FB2353531E23A7FDD053871F85096702DC8A540",
+          "archive_member": "r32/canon/ED0011-adjudication.json"
+        }
+      },
+      "english_disposition": "applied_to_active_english_source",
+      "counts_as_changed_defect_id": true,
+      "operations": [
+        {
+          "operation_id": "P12-0001-homogeneity-exponent",
+          "active_replacements": 1,
+          "inactive_occurrences_preserved": 0,
+          "before": "=\\varkappa\\varphi_\\rho^{(i)}\\!\\left(\\frac{dx}{dt}\\right).",
+          "before_identity": {
+            "bytes": 57,
+            "sha256": "CE975213DC049614CCD9E2348FBC4398F61561B08D23F2CD2162BE41C87FCD17"
+          },
+          "after": "=\\varkappa^\\rho\\varphi_\\rho^{(i)}\\!\\left(\\frac{dx}{dt}\\right).",
+          "after_identity": {
+            "bytes": 62,
+            "sha256": "4F553407CFAB46A4DC2F3510DA85E7CF26B7BD9E4984105AF94717B9132537DE"
+          }
+        }
+      ],
+      "conformance_checks": [],
+      "coupled_implementation": null
+    },
+    {
+      "sequence": 20,
+      "defect_id": "NOETH-DEF-P06-0004",
+      "paper": "P06",
+      "authority_delta": {
+        "defect_id": "NOETH-DEF-P06-0004",
+        "intake_record_id": "NOETH-DEFREC-0066",
+        "evidence_id": "NOETH-DEFEV-028",
+        "paper": "P06",
+        "source_line_in_parent": 5485,
+        "classification": "later_transcription_repair",
+        "later_transcription_reading": "p_rho=tau",
+        "diplomatic_print_reading": "p_sigma=tau",
+        "accepted_editorial_reading": "restore exact printed p_sigma=tau",
+        "adjudication": {
+          "root": "canon",
+          "path": "evidence/ED0010_zh_r7/adjudication.json",
+          "bytes": 7113,
+          "sha256": "5D24CD4CC000EE5EEFCAB6E64FB2353531E23A7FDD053871F85096702DC8A540",
+          "archive_member": "r32/canon/ED0011-adjudication.json"
+        }
+      },
+      "english_disposition": "applied_to_active_english_source",
+      "counts_as_changed_defect_id": true,
+      "operations": [
+        {
+          "operation_id": "P06-0004-p-sigma",
+          "active_replacements": 1,
+          "inactive_occurrences_preserved": 0,
+          "before": "p_\\mu=0,\\ldots,p_\\rho=\\tau",
+          "before_identity": {
+            "bytes": 26,
+            "sha256": "4AEF5408CB40FFC8002BB8C707090D08B574154EBBDC6C07F7395C966BBE8A2A"
+          },
+          "after": "p_\\mu=0,\\ldots,p_\\sigma=\\tau",
+          "after_identity": {
+            "bytes": 28,
+            "sha256": "62DEE01A70CB618BBC008B1C0D66FEA5152D83817095AED71427C05A22F29FA8"
+          }
+        }
+      ],
+      "conformance_checks": [],
+      "coupled_implementation": null
+    },
+    {
+      "sequence": 21,
+      "defect_id": "NOETH-DEF-P02-0002",
+      "paper": "P02",
+      "authority_delta": {
+        "defect_id": "NOETH-DEF-P02-0002",
+        "intake_record_id": "NOETH-DEFREC-0067",
+        "evidence_id": "NOETH-DEFEV-029",
+        "paper": "P02",
+        "source_lines_in_parent": [
+          613,
+          646
+        ],
+        "macro_definition_line": 71,
+        "classification": "later_transcription_glyph_fidelity_failure",
+        "diplomatic_print_reading": "the same distinctive multi-lobed open-ray rosette at both P02 continuation positions",
+        "later_transcription_reading": "solid five-point bigstar at both positions",
+        "accepted_editorial_reading": "one hash-bound authority-derived 108x108 supported-pixel rosette asset at both positions",
+        "exact_tex_change": "define noethpIIrosette and replace exactly two P02 bigstar tokens; preserve the lower source-footnote marker association",
+        "asset": {
+          "path": "candidates/ED0012/authority_rosette_native_supported_mask.png",
+          "bytes": 797,
+          "sha256": "B2AF3955A8255B4A6D925E174B7B81311C64C669CE21B07E75002494E55F2FF5",
+          "interpolate": false
+        },
+        "adjudication": {
+          "path": "evidence/P02_rosette/adjudication.json",
+          "bytes": 6767,
+          "sha256": "38DD6AAD69A52F33A631B75C0EAC18439A1837A0F715DF0EEA5A32AA16B908BC"
+        },
+        "validation_state": "sealed source proposal, separately logged placement variants, strict parse, exact text/geometry invariance, and individual exact-5000 authority/output review pass; deterministic PDF identity newly supported by the append-only three-workspace replay correction and current runtime seal; candidate not active",
+        "human_or_external_validation": "official GDZ authority impressions; no separate human certification receipt"
+      },
+      "english_disposition": "applied_to_active_english_source",
+      "counts_as_changed_defect_id": true,
+      "operations": [
+        {
+          "operation_id": "P02-0002-package-graphicx",
+          "active_replacements": 1,
+          "inactive_occurrences_preserved": 0,
+          "before": "\\usepackage{amsmath,amssymb,mathtools,mathrsfs,array,booktabs,pdflscape,adjustbox,diagbox}",
+          "before_identity": {
+            "bytes": 90,
+            "sha256": "E06C48503A9A72A147D93DEEDF8B881975E979A3A34A004C28AC6A3FD1030D3B"
+          },
+          "after": "\\usepackage{amsmath,amssymb,mathtools,mathrsfs,array,booktabs,pdflscape,adjustbox,diagbox,graphicx}",
+          "after_identity": {
+            "bytes": 99,
+            "sha256": "DDC50394A2C27E10E3C0FC57207E1E5F31359554826C2CBC9DCCB4ECB1F340F4"
+          }
+        },
+        {
+          "operation_id": "P02-0002-rosette-macro",
+          "active_replacements": 1,
+          "inactive_occurrences_preserved": 0,
+          "before": "\\providecommand{\\srcnumdisplay}[3][3.4em]{%",
+          "before_identity": {
+            "bytes": 43,
+            "sha256": "A771639A56FFBF521F5EF30D37356ECF0C39C8E60ED24A32905B54B32D96D0C8"
+          },
+          "after": "\\providecommand{\\noethpIIrosette}{\\makebox[9.44444pt][c]{\\raisebox{-3.85pt}[0pt][0pt]{\\includegraphics[width=14.726716981132075pt]{authority_rosette_native_supported_mask.png}}}}\n\\providecommand{\\srcnumdisplay}[3][3.4em]{%",
+          "after_identity": {
+            "bytes": 222,
+            "sha256": "C05EE6B2663B2FF3B9B1F1FC261B888AC62701E23CAC52123A325213F5FA893D"
+          }
+        },
+        {
+          "operation_id": "P02-0002-geometry-and-coupled-footnote-encoding",
+          "active_replacements": 1,
+          "inactive_occurrences_preserved": 0,
+          "before": "\\begingroup\\small\n\\[\n\\begin{array}{c|c|c|c}\ns_x^m t_x^n u_\\sigma^\\mu u_\\tau^\\nu\n& (stu)\n& (stu)^2\n& \\cdots\\\\[0.3em]\n(\\sigma\\tau x)\n& t_\\sigma,\\ s_\\tau\n& t_\\sigma(stu),\\ s_\\tau(stu)\n& \\cdots\\\\[0.3em]\n(\\sigma\\tau x)^2\n& t_\\sigma(\\sigma\\tau x),\\ s_\\tau(\\sigma\\tau x)\n& t_\\sigma^2,\\ t_\\sigma s_\\tau,\\ s_\\tau^2\n& \\cdots\\\\[0.3em]\n\\vdots&\\vdots&\\vdots&\\ddots\\\\[0.3em]\n(\\sigma\\tau x)^\\nu\n& t_\\sigma(\\sigma\\tau x)^{\\nu-1},\\ s_\\tau(\\sigma\\tau x)^{\\nu-1}\n& t_\\sigma^2(\\sigma\\tau x)^{\\nu-2},\\ t_\\sigma s_\\tau(\\sigma\\tau x)^{\\nu-2},\\ s_\\tau^2(\\sigma\\tau x)^{\\nu-2}\n& \\cdots\\\\[0.3em]\n\\vdots\n& t_\\sigma(\\sigma\\tau x)^\\nu\n& t_\\sigma^2(\\sigma\\tau x)^{\\nu-1},\\ t_\\sigma s_\\tau(\\sigma\\tau x)^{\\nu-1}\n& \\cdots\n\\end{array}\n\\]\n\\endgroup\nand the correspondingly continued lower part\\footnote{Here, and similarly in what follows, the lower part marked with an asterisk is to be set at the correspondingly marked place at the upper right of the scheme.}\n\\begingroup\\small\n\\[\n\\begin{array}{c|c|c}\n(stu)^n & \\cdots & \\cdots\\\\[0.3em]\nt_\\sigma(stu)^{n-1},\\ s_\\tau(stu)^{n-1}\n& s_\\tau(stu)^n & \\cdots\\\\[0.3em]\nt_\\sigma^2(stu)^{n-2},\\ t_\\sigma s_\\tau(stu)^{n-2},\\ s_\\tau^2(stu)^{n-2}\n& t_\\sigma s_\\tau(stu)^{n-1},\\ s_\\tau^2(stu)^{n-1}\n& s_\\tau^2(stu)^n .\n\\end{array}\n\\]\n\\endgroup",
+          "before_identity": {
+            "bytes": 1248,
+            "sha256": "818B7DCFD07A502219A02BE3223AD355CDD51D76BFB71ECCEA1093DB7C89FB01"
+          },
+          "after": "\\begingroup\\small\n\\[\n\\begin{array}{c|c|c|c|c}\ns_x^m t_x^n u_\\sigma^\\mu u_\\tau^\\nu\n& (stu)\n& (stu)^2\n& \\cdots\n& \\noethpIIrosette\\\\[0.3em]\n(\\sigma\\tau x)\n& t_\\sigma,\\ s_\\tau\n& t_\\sigma(stu),\\ s_\\tau(stu)\n& \\cdots\n& \\vdots\\\\[0.3em]\n(\\sigma\\tau x)^2\n& t_\\sigma(\\sigma\\tau x),\\ s_\\tau(\\sigma\\tau x)\n& t_\\sigma^2,\\ t_\\sigma s_\\tau,\\ s_\\tau^2\n& \\cdots\n& \\vdots\\\\[0.3em]\n\\vdots&\\vdots&\\vdots&\\ddots&\\vdots\\\\[0.3em]\n(\\sigma\\tau x)^\\nu\n& t_\\sigma(\\sigma\\tau x)^{\\nu-1},\\ s_\\tau(\\sigma\\tau x)^{\\nu-1}\n& t_\\sigma^2(\\sigma\\tau x)^{\\nu-2},\\ t_\\sigma s_\\tau(\\sigma\\tau x)^{\\nu-2},\\ s_\\tau^2(\\sigma\\tau x)^{\\nu-2}\n& \\cdots\n& \\vdots\\\\[0.3em]\n\\vdots\n& t_\\sigma(\\sigma\\tau x)^\\nu\n& t_\\sigma^2(\\sigma\\tau x)^{\\nu-1},\\ t_\\sigma s_\\tau(\\sigma\\tau x)^{\\nu-1}\n& \\cdots\n& \\vdots\\\\[0.3em]\n\\vdots\n& \\vdots\n& t_\\sigma^2(\\sigma\\tau x)^\\nu\n& \\cdots\n& \\vdots\n\\end{array}\n\\]\n\\endgroup\nand the correspondingly continued lower part\n\\begingroup\\small\n\\[\n\\begin{array}{r@{\\quad}c}\n\\noethpIIrosette\\srcfnmark{*)}\n&\n\\begin{array}{c|c|c}\n(stu)^n & \\cdots & \\cdots\\\\[0.3em]\nt_\\sigma(stu)^{n-1},\\ s_\\tau(stu)^{n-1}\n& s_\\tau(stu)^n & \\cdots\\\\[0.3em]\nt_\\sigma^2(stu)^{n-2},\\ t_\\sigma s_\\tau(stu)^{n-2},\\ s_\\tau^2(stu)^{n-2}\n& t_\\sigma s_\\tau(stu)^{n-1},\\ s_\\tau^2(stu)^{n-1}\n& s_\\tau^2(stu)^n .\n\\end{array}\n\\end{array}\n\\]\n\\endgroup\n\\srcfntext{*)}{Here, and similarly in what follows, the lower part marked with an asterisk is to be set at the correspondingly marked place at the upper right of the scheme.}",
+          "after_identity": {
+            "bytes": 1463,
+            "sha256": "CD8C47CDDFE0DE1A5D9CAD513EDB59A3348AF2EF3F1816714BC6C8F9480DEAF3"
+          }
+        }
+      ],
+      "conformance_checks": [],
+      "coupled_implementation": null
+    },
+    {
+      "sequence": 22,
+      "defect_id": "NOETH-DEF-P24-0001",
+      "paper": "P24",
+      "authority_delta": {
+        "defect_id": "NOETH-DEF-P24-0001",
+        "intake_record_id": "NOETH-DEFREC-0069",
+        "evidence_id": "NOETH-DEFEV-031",
+        "paper": "P24",
+        "source_line_in_parent": 13727,
+        "classification": "later_transcription_omission",
+        "diplomatic_print_reading": "formula (4) row 1 ends with 'und folglich'",
+        "later_transcription_reading": "phrase omitted",
+        "accepted_editorial_reading": "restore exact phrase using \\quad\\text{und folglich}",
+        "adjudication": {
+          "path": "evidence/P24_primary_20260811/adjudication.json",
+          "bytes": 5785,
+          "sha256": "A29336573793ADE48688F391E14DA5132C29FB9995130B4D945C0075DCA685EB"
+        },
+        "human_or_external_validation": "official GDZ primary witness; no separate human certification receipt"
+      },
+      "english_disposition": "applied_to_active_english_source",
+      "counts_as_changed_defect_id": true,
+      "operations": [
+        {
+          "operation_id": "P24-0001-and-consequently",
+          "active_replacements": 1,
+          "inactive_occurrences_preserved": 0,
+          "before": "& E^{(n)}\\cdots E^{(i)}\\frakg_{i-1}&=0(\\frakm),\\notag\\\\",
+          "before_identity": {
+            "bytes": 55,
+            "sha256": "786E85268B5131A85919691C1402E5C01F68EFB09DAE2352F58A57A8FAA49750"
+          },
+          "after": "& E^{(n)}\\cdots E^{(i)}\\frakg_{i-1}&=0(\\frakm),\\quad\\text{and consequently}\\notag\\\\",
+          "after_identity": {
+            "bytes": 83,
+            "sha256": "F345926F8E5F7DAEDD29CC9B95D9D43C126B0A2703F64B71A46131F1549D15EE"
+          }
+        }
+      ],
+      "conformance_checks": [],
+      "coupled_implementation": null
+    },
+    {
+      "sequence": 23,
+      "defect_id": "NOETH-DEF-P24-0002",
+      "paper": "P24",
+      "authority_delta": {
+        "defect_id": "NOETH-DEF-P24-0002",
+        "intake_record_id": "NOETH-DEFREC-0070",
+        "evidence_id": "NOETH-DEFEV-032",
+        "paper": "P24",
+        "source_line_in_parent": 13743,
+        "classification": "later_transcription_premature_equation_tag",
+        "diplomatic_print_reading": "printed p236 product decomposition is unnumbered; genuine equation (5) occurs at printed p252",
+        "later_transcription_reading": "premature tag (5) on p236 product",
+        "accepted_editorial_reading": "replace premature tag with notag so the product remains unnumbered; preserve line 13972 genuine tag byte-exact",
+        "adjudication": {
+          "path": "evidence/P24_primary_20260811/adjudication.json",
+          "bytes": 5785,
+          "sha256": "A29336573793ADE48688F391E14DA5132C29FB9995130B4D945C0075DCA685EB"
+        },
+        "human_or_external_validation": "official GDZ primary witness; no separate human certification receipt"
+      },
+      "english_disposition": "applied_to_active_english_source",
+      "counts_as_changed_defect_id": true,
+      "operations": [
+        {
+          "operation_id": "P24-0002-remove-premature-tag-5",
+          "active_replacements": 1,
+          "inactive_occurrences_preserved": 0,
+          "before": "\\}^{\\lambda_\\nu}, \\tag{5}\n\\end{equation}",
+          "before_identity": {
+            "bytes": 40,
+            "sha256": "B5EC4DD9C21AE509D7F1577D5DAB6B93870422BE5CC21742EC5E5CEB91C9630B"
+          },
+          "after": "\\}^{\\lambda_\\nu}, \\notag\n\\end{equation}",
+          "after_identity": {
+            "bytes": 39,
+            "sha256": "9F061D14328C358711E5F686692893FE078C9C22F4E1C81E32CDFCB7B91E6DC9"
+          }
+        }
+      ],
+      "conformance_checks": [],
+      "coupled_implementation": null
+    },
+    {
+      "sequence": 24,
+      "defect_id": "NOETH-DEF-P24-0003",
+      "paper": "P24",
+      "authority_delta": {
+        "defect_id": "NOETH-DEF-P24-0003",
+        "intake_record_id": "NOETH-DEFREC-0071",
+        "evidence_id": "NOETH-DEFEV-033",
+        "paper": "P24",
+        "source_lines_in_parent": [
+          13702,
+          13704,
+          13708,
+          13711,
+          13712,
+          13725,
+          13729,
+          13730,
+          13971,
+          13974
+        ],
+        "classification": "later_transcription_equation_label_geometry",
+        "diplomatic_print_reading": "formulas (2)-(5) use left labels; multirow (3)/(4) labels are vertically centered",
+        "accepted_editorial_reading": "local left-label wrappers with bounded raised tags for multirow displays",
+        "adjudication": {
+          "path": "evidence/P24_geometry_20260811/adjudication.json",
+          "bytes": 12873,
+          "sha256": "7A4B69C63FC12B28D9532E2841CD2547659D0E57C8D0CC293FF2E0AA57374B81"
+        }
+      },
+      "english_disposition": "applied_to_active_english_source",
+      "counts_as_changed_defect_id": true,
+      "operations": [
+        {
+          "operation_id": "P24-0003-left-tag-2-open",
+          "active_replacements": 1,
+          "inactive_occurrences_preserved": 1,
+          "before": "\\begin{equation}\n B^{(i)}\\frakg_{i-1}",
+          "before_identity": {
+            "bytes": 37,
+            "sha256": "D6AC5661F9AC519812DA500FE164ACE26AD97A2B49ABAB8BA79FCB2615182022"
+          },
+          "after": "{\\let\\veqno\\leqno\\begin{equation}\n B^{(i)}\\frakg_{i-1}",
+          "after_identity": {
+            "bytes": 54,
+            "sha256": "94D40B00453A2E4E5D0E2475D2865B0025ADA95F558A293DCA2815A5A02D7A7C"
+          }
+        },
+        {
+          "operation_id": "P24-0003-left-tag-2-close",
+          "active_replacements": 1,
+          "inactive_occurrences_preserved": 1,
+          "before": "B^{(i)}\\ne0 . \\tag{2}\n\\end{equation}",
+          "before_identity": {
+            "bytes": 36,
+            "sha256": "3F2C86B0C1296F2F5BE9EF3CF460F5B8F34D7FE90654A6FD0524D2ACBB26EF6C"
+          },
+          "after": "B^{(i)}\\ne0 . \\tag{2}\n\\end{equation}}",
+          "after_identity": {
+            "bytes": 37,
+            "sha256": "E9BB62852DC1F5843DADF3A93B55E046F433B9BFEEC75B91D0F7D2296893935A"
+          }
+        },
+        {
+          "operation_id": "P24-0003-left-tag-3-open",
+          "active_replacements": 1,
+          "inactive_occurrences_preserved": 1,
+          "before": "\\begin{align}\n\\frakG_{i-1}&=(\\zeta_0",
+          "before_identity": {
+            "bytes": 36,
+            "sha256": "22C18D147185EDB4608C5418CDAC3DDA358BE2F296E45510FBFA1C771123E304"
+          },
+          "after": "{\\csname tagsleft@true\\endcsname\\begin{align}\n\\frakG_{i-1}&=(\\zeta_0",
+          "after_identity": {
+            "bytes": 68,
+            "sha256": "2DDEED630B542C343CCACF6F87B3A154022EC442455418F0C5501662F5C34B16"
+          }
+        },
+        {
+          "operation_id": "P24-0003-raised-tag-3",
+          "active_replacements": 1,
+          "inactive_occurrences_preserved": 1,
+          "before": "\\zeta_{\\sigma+1},\\ldots,\\zeta_{\\sigma+\\nu},\\ldots), \\tag{3}\n\\end{align}",
+          "before_identity": {
+            "bytes": 71,
+            "sha256": "6DCF7294B84E0BE32AA9E6C55DC0D10A62591A329579EFF0DCCB8D641E3194FC"
+          },
+          "after": "\\zeta_{\\sigma+1},\\ldots,\\zeta_{\\sigma+\\nu},\\ldots), \\tag*{\\raisebox{9.5pt}[0pt][0pt]{(3)}}\n\\end{align}}",
+          "after_identity": {
+            "bytes": 103,
+            "sha256": "EC31EE2E52FE2E40F88A08B462089736106DD026D58120CDB429C80554084656"
+          }
+        },
+        {
+          "operation_id": "P24-0003-left-tag-4-open",
+          "active_replacements": 1,
+          "inactive_occurrences_preserved": 1,
+          "before": "\\begin{align}\n E^{(i)}\\frakg_{i-1}",
+          "before_identity": {
+            "bytes": 34,
+            "sha256": "05AB32CD0FE41A314B40A5D7EF7C8809B5B9EF485E06396FEE7D2C40D296BDAF"
+          },
+          "after": "{\\csname tagsleft@true\\endcsname\\begin{align}\n E^{(i)}\\frakg_{i-1}",
+          "after_identity": {
+            "bytes": 66,
+            "sha256": "DCB53E52A9DCEFA7CE4E6B3EAFB722B31AD1BD94AB269C20041282B301FD0EB6"
+          }
+        },
+        {
+          "operation_id": "P24-0003-raised-tag-4",
+          "active_replacements": 1,
+          "inactive_occurrences_preserved": 0,
+          "before": "& R^{(n)}\\cdots R^{(i)}\\frakg_{i-1}&=0(\\frakm), \\tag{4}\n\\end{align}",
+          "before_identity": {
+            "bytes": 67,
+            "sha256": "CC6B8FCFF6A83340F508A911A8A5B8985955710E69AF03A7F9ED1D454B57373F"
+          },
+          "after": "& R^{(n)}\\cdots R^{(i)}\\frakg_{i-1}&=0(\\frakm),\\quad\\text{(H.-N., Theorem VIII),} \\tag*{\\raisebox{8.5pt}[0pt][0pt]{(4)}}\n\\end{align}}",
+          "after_identity": {
+            "bytes": 133,
+            "sha256": "E9F7FE2AACCBA3071180B201AA4DF36BEEC3AD46EA8D9019A90A654B7CF9E1E1"
+          }
+        },
+        {
+          "operation_id": "P24-0003-left-tag-5-open",
+          "active_replacements": 1,
+          "inactive_occurrences_preserved": 1,
+          "before": "\\[\n \\tag{5}\n \\frakg_i=[\\frakq_{1,1}",
+          "before_identity": {
+            "bytes": 35,
+            "sha256": "2B4BA66EBAFF630A1F5237974F812DED6BFC29CB641A7A3ECC7A01EB21C0BCA1"
+          },
+          "after": "{\\let\\veqno\\leqno\\begin{equation}\n \\tag{5}\n \\frakg_i=[\\frakq_{1,1}",
+          "after_identity": {
+            "bytes": 66,
+            "sha256": "F70A97AB6597C681DE2CFE1CB6E2C4637DA91BA5ABC52422E8E54B4B30AB626B"
+          }
+        },
+        {
+          "operation_id": "P24-0003-left-tag-5-close",
+          "active_replacements": 1,
+          "inactive_occurrences_preserved": 1,
+          "before": "\\frakq_{i,1},\\ldots,\\frakq_{i,j_i}],\n\\]",
+          "before_identity": {
+            "bytes": 39,
+            "sha256": "A7F80FD4A71C0A9EDCDD612D261152A538B665EB1B02FAF865742C81A729A3F9"
+          },
+          "after": "\\frakq_{i,1},\\ldots,\\frakq_{i,j_i}],\n\\end{equation}}",
+          "after_identity": {
+            "bytes": 52,
+            "sha256": "B15C2AFEE9B685599F1258EA8F79A5F1DC0F335C444DC3F4F2F1A882734E2112"
+          }
+        }
+      ],
+      "conformance_checks": [],
+      "coupled_implementation": null
+    },
+    {
+      "sequence": 25,
+      "defect_id": "NOETH-DEF-P24-0004",
+      "paper": "P24",
+      "authority_delta": {
+        "defect_id": "NOETH-DEF-P24-0004",
+        "intake_record_id": "NOETH-DEFREC-0072",
+        "evidence_id": "NOETH-DEFEV-033",
+        "paper": "P24",
+        "source_lines_in_parent": [
+          13729,
+          13731
+        ],
+        "classification": "later_transcription_citation_placement",
+        "diplomatic_print_reading": "(H.-N. Satz VIII), remains on formula-(4) row 2",
+        "accepted_editorial_reading": "move the unchanged citation text from following prose to row 2",
+        "adjudication": {
+          "path": "evidence/P24_geometry_20260811/adjudication.json",
+          "bytes": 12873,
+          "sha256": "7A4B69C63FC12B28D9532E2841CD2547659D0E57C8D0CC293FF2E0AA57374B81"
+        }
+      },
+      "english_disposition": "applied_to_active_english_source",
+      "counts_as_changed_defect_id": true,
+      "operations": [
+        {
+          "operation_id": "P24-0004-citation-placement",
+          "active_replacements": 1,
+          "inactive_occurrences_preserved": 1,
+          "before": "(H.-N., Theorem VIII), and further:",
+          "before_identity": {
+            "bytes": 35,
+            "sha256": "AF765BEE333E434F1C9EEAEFA29729D9859A0BFCDF45AEDCE40250EFD0DBEB8D"
+          },
+          "after": "and further:",
+          "after_identity": {
+            "bytes": 12,
+            "sha256": "589995871022A6977D59B896446E02A89972F9D9D95BBE1E94147E8139963B6B"
+          }
+        }
+      ],
+      "conformance_checks": [],
+      "coupled_implementation": null
+    }
+  ],
+  "inactive_duplicate_blocks": {
+    "count": 18,
+    "byte_identical": true,
+    "identities": [
+      {
+        "bytes": 20938,
+        "sha256": "0639EC6832C5922835FA3C2BA26ECF6E12E626DD49F656907A26F2798F855739"
+      },
+      {
+        "bytes": 95502,
+        "sha256": "7D18D9A66C0D5D863BAAE5A1350E32DD4D98FE7F283166BB19F33B809B5E912F"
+      },
+      {
+        "bytes": 12626,
+        "sha256": "6E69D1FD0EF4AFF1E83747BDB95227541482C56C02391D589A7E45EC49761E68"
+      },
+      {
+        "bytes": 1014,
+        "sha256": "1DAD8FC057B3FB6344DD3667FF38F33E8229E297CF891CD0FA8F9AE1C2177BB9"
+      },
+      {
+        "bytes": 1676,
+        "sha256": "DADD33CAA454FB283502A34514512F8616AD1B3344739F2ACC2808A839F0AE09"
+      },
+      {
+        "bytes": 1407,
+        "sha256": "110C76FA92EECDC35289748D9A74CD8074FCECBBC666DED52F7DE30F4C52A663"
+      },
+      {
+        "bytes": 20210,
+        "sha256": "B2FEA435059E30C2AFA1674C0152006FD331F899D88527CD5D064DF183016494"
+      },
+      {
+        "bytes": 99852,
+        "sha256": "3F3DABC20ACD8B289BD461CE29ABF54E09CCB5DB72E13B31244B34A12800968C"
+      },
+      {
+        "bytes": 64223,
+        "sha256": "8C6625E59331D60640CE82BF341153D7958E620B05EBC6D16D44CA2AFB70E8ED"
+      },
+      {
+        "bytes": 21091,
+        "sha256": "DF7C1DD5344A01A5FFF2C58B140DF2EF2AF342D4EA7969E2C0846C6F36CE7184"
+      },
+      {
+        "bytes": 7544,
+        "sha256": "B80A1A846CC26F6AC3F01F17586ECF9DD01780A142A530A07083EA7B5CA687A5"
+      },
+      {
+        "bytes": 112344,
+        "sha256": "0CD0C0D7DCC2DE540BAD31C5B0CD538F65AAB54CCB2267849C584904FBE51AD0"
+      },
+      {
+        "bytes": 30149,
+        "sha256": "AAE092ECA51885FFCF5735FE4F337AA9020BBEDDF8788C77CADCAEDE1C685B42"
+      },
+      {
+        "bytes": 41840,
+        "sha256": "2AC1A5D0A6C89041C9F1268B98DD1FCB410FCE92E13D8181B9ABD80F96F59CC2"
+      },
+      {
+        "bytes": 139020,
+        "sha256": "02D33DAC76A04CC60ABD96B14B4E27E628910C72135554C6D41BF586D4BBDAA3"
+      },
+      {
+        "bytes": 60500,
+        "sha256": "F3ECD373F967486C3B3655B1EF3CAFED616F0D9F1181AD8EBDAD4B911C78A1AD"
+      },
+      {
+        "bytes": 34636,
+        "sha256": "67695BFA0CB4A500BA2C6057B8BCF074C927B78E6EBA853F050D515942E0D766"
+      },
+      {
+        "bytes": 27445,
+        "sha256": "26E42AA6B83B88035B0E1E31515245BF7E765070239E57923B20B359C330A158"
+      }
+    ]
+  },
+  "inline_source_markers": {
+    "policy": "All inline-source declarations are resealed bottom-up against the actual expanded UTF-8/LF body. Legacy aggregate-wrapper declarations that recorded pre-expansion wrapper files are normalized as marker metadata only.",
+    "before": {
+      "markers": 51,
+      "matching_actual_body": 43,
+      "mismatching_actual_body": 8,
+      "mismatching_names": [
+        "fragments/Noether_R823_Paper30_Lines14316_15576_English.texfrag",
+        "fragments/Noether_R823_Paper31_Lines15577_16068_English.texfrag",
+        "fragments/Noether_R823_Paper34_Lines16312_18335_English.texfrag",
+        "fragments/Noether_R823_Papers35_36_Lines18336_18613_English.texfrag",
+        "fragments/Noether_R823_Papers37_38_Lines18614_19026_English.texfrag",
+        "fragments/Noether_R823_Paper40_Lines19122_19769_English.texfrag",
+        "fragments/Noether_R823_Papers41_42_Lines19770_20156_English.texfrag",
+        "fragments/Noether_R823_Paper43_Lines20157_20967_English.texfrag"
+      ]
+    },
+    "after": {
+      "markers": 51,
+      "matching_actual_body": 51,
+      "mismatching_actual_body": 0,
+      "mismatching_names": []
+    },
+    "marker_audit": [
+      {
+        "name": "fragments/Noether_R823_Paper23_Lines13507_13630_English.texfrag",
+        "before_declared": {
+          "bytes": 21549,
+          "sha256": "7EE6227EEE2CF53F641314FB7C5E80E25A160244BEA2E1E52B190D683D6A6EF0"
+        },
+        "after_expanded_body": {
+          "bytes": 21615,
+          "sha256": "290C0587EC6290A6F1C8DA78EC55053AD69CF7D0F4E6E7E7D4B6D16C94E64C80"
+        },
+        "legacy_declaration_changed": true
+      },
+      {
+        "name": "fragments/Noether_R823_Paper24_Lines13631_14119_English.texfrag",
+        "before_declared": {
+          "bytes": 95778,
+          "sha256": "6E65E9027312CF6A107B6F8FC5FDB2D3F816C40A7305E7C4E7FAF1C5B787B456"
+        },
+        "after_expanded_body": {
+          "bytes": 96078,
+          "sha256": "06AAC3FDCE1A480CBE75D71F8428AC04318BCF8EBAC21D0B020CF1C35C7A9D42"
+        },
+        "legacy_declaration_changed": true
+      },
+      {
+        "name": "fragments/Noether_R823_Paper25_Lines14120_14178_English.texfrag",
+        "before_declared": {
+          "bytes": 12879,
+          "sha256": "A073121381261DD798252FF6D5F1814177EE3B791A8AB29A8D1EB63C4DE66A72"
+        },
+        "after_expanded_body": {
+          "bytes": 12943,
+          "sha256": "CE4606EE8C8DA0D4283301084963D132ED1A1AA8926C0EDA3157B7FDABA974CA"
+        },
+        "legacy_declaration_changed": true
+      },
+      {
+        "name": "fragments/Noether_R823_Paper26_Lines14179_14191_English.texfrag",
+        "before_declared": {
+          "bytes": 1083,
+          "sha256": "8BEAAE8524CE958A8EC16CC7BEB2CB1091DB488D032E464D69EE08117D615FDC"
+        },
+        "after_expanded_body": {
+          "bytes": 1179,
+          "sha256": "A684204B92BB2D8C5306CA54BB5F6875074FA829D117B93460363D2794D451AE"
+        },
+        "legacy_declaration_changed": true
+      },
+      {
+        "name": "fragments/Noether_R823_Paper27_Lines14192_14200_English.texfrag",
+        "before_declared": {
+          "bytes": 1727,
+          "sha256": "725F4B94A29722EAE07060AC38120C61CF96F5D14A595DB1B9DEA1579F46FA03"
+        },
+        "after_expanded_body": {
+          "bytes": 1787,
+          "sha256": "F81ECB810939B840ABA0F595E15CA938E0AE4F41E54522C6B55635E6C74A6A91"
+        },
+        "legacy_declaration_changed": true
+      },
+      {
+        "name": "fragments/Noether_R823_Paper28_Lines14201_14215_English.texfrag",
+        "before_declared": {
+          "bytes": 1449,
+          "sha256": "F581D7A65A2BFB4A124EE81E069B6231B3CB205FBE93701ED204E131975C1752"
+        },
+        "after_expanded_body": {
+          "bytes": 1511,
+          "sha256": "F3C9DB9BBCFF9893F27C022A86DE7FBEA03665CD7C6B30759D156F913DC3186C"
+        },
+        "legacy_declaration_changed": true
+      },
+      {
+        "name": "fragments/Noether_R823_Paper29_Lines14216_14315_English.texfrag",
+        "before_declared": {
+          "bytes": 20438,
+          "sha256": "6308EDFAC28799D4783B4A5107BD791029626C2EC15CC86C2E1B743EA52934BF"
+        },
+        "after_expanded_body": {
+          "bytes": 20544,
+          "sha256": "0458339C79F3EB184E739710CC9D5ECA4715FC5B270932378980613834F24DE7"
+        },
+        "legacy_declaration_changed": true
+      },
+      {
+        "name": "fragments/Noether_R823_Paper30_A_Lines14316_14719_English.texfrag",
+        "before_declared": {
+          "bytes": 24369,
+          "sha256": "30BAAFF5D58C637934BF23A8125394F4F5D8F1D7485606FA22644CAC64386891"
+        },
+        "after_expanded_body": {
+          "bytes": 24462,
+          "sha256": "CEFAC92B766771F74F05D4FC4F2A06A86341DCF98AE2A486A451C9824505692B"
+        },
+        "legacy_declaration_changed": true
+      },
+      {
+        "name": "fragments/Noether_R823_Paper30_B_S2_Lines14720_14844_English.texfrag",
+        "before_declared": {
+          "bytes": 6489,
+          "sha256": "4F151ACC6F94851BFB29A25210C50E6E6ABF3C9A7B8032B7DD69D64F068B54AE"
+        },
+        "after_expanded_body": {
+          "bytes": 6469,
+          "sha256": "3237A2259A445B1646D8761B6A6D677290BBF51733ABF72167417F9EAA77FAE4"
+        },
+        "legacy_declaration_changed": true
+      },
+      {
+        "name": "fragments/Noether_R823_Paper30_C_S3_Lines14845_14870_English.texfrag",
+        "before_declared": {
+          "bytes": 9088,
+          "sha256": "0DC6B9273F304B015F156F1C01823ADD41351BC622063FF5A5F9334A35C994EF"
+        },
+        "after_expanded_body": {
+          "bytes": 9088,
+          "sha256": "0DC6B9273F304B015F156F1C01823ADD41351BC622063FF5A5F9334A35C994EF"
+        },
+        "legacy_declaration_changed": false
+      },
+      {
+        "name": "fragments/Noether_R823_Paper30_D_S4_Lines14871_14927_English.texfrag",
+        "before_declared": {
+          "bytes": 10624,
+          "sha256": "F9490CB64895C963B21285AF539DE37E527DDE0A84334AA899DEF87E037EC316"
+        },
+        "after_expanded_body": {
+          "bytes": 10624,
+          "sha256": "F9490CB64895C963B21285AF539DE37E527DDE0A84334AA899DEF87E037EC316"
+        },
+        "legacy_declaration_changed": false
+      },
+      {
+        "name": "fragments/Noether_R823_Paper30_E_S5_Lines14928_14966_English.texfrag",
+        "before_declared": {
+          "bytes": 9279,
+          "sha256": "D942A7A9E4D8C48AE7340B3D789B471FF1CE42531C8804A4A5E23C44C9173BD8"
+        },
+        "after_expanded_body": {
+          "bytes": 9279,
+          "sha256": "D942A7A9E4D8C48AE7340B3D789B471FF1CE42531C8804A4A5E23C44C9173BD8"
+        },
+        "legacy_declaration_changed": false
+      },
+      {
+        "name": "fragments/Noether_R823_Paper30_F_S6_Lines14967_15010_English.texfrag",
+        "before_declared": {
+          "bytes": 7504,
+          "sha256": "358E03C5A59856781D596652DAD7B606A04BDD7B5E3ECDB33BD0165839EDCD92"
+        },
+        "after_expanded_body": {
+          "bytes": 7504,
+          "sha256": "358E03C5A59856781D596652DAD7B606A04BDD7B5E3ECDB33BD0165839EDCD92"
+        },
+        "legacy_declaration_changed": false
+      },
+      {
+        "name": "fragments/Noether_R823_Paper30_G_S7_Lines15011_15072_English.texfrag",
+        "before_declared": {
+          "bytes": 6970,
+          "sha256": "A78ADFF1529585936397F84CC55A11FF2D9E2DEAC0C7F3578285404F7085B585"
+        },
+        "after_expanded_body": {
+          "bytes": 6970,
+          "sha256": "A78ADFF1529585936397F84CC55A11FF2D9E2DEAC0C7F3578285404F7085B585"
+        },
+        "legacy_declaration_changed": false
+      },
+      {
+        "name": "fragments/Noether_R823_Paper30_H_S8_Lines15073_15207_English.texfrag",
+        "before_declared": {
+          "bytes": 7124,
+          "sha256": "A3065A6D234AB4675410FE515B3900873601DDD875188A67CB34DC195D608963"
+        },
+        "after_expanded_body": {
+          "bytes": 7124,
+          "sha256": "A3065A6D234AB4675410FE515B3900873601DDD875188A67CB34DC195D608963"
+        },
+        "legacy_declaration_changed": false
+      },
+      {
+        "name": "fragments/Noether_R823_Paper30_I_S9_Lines15208_15368_English.texfrag",
+        "before_declared": {
+          "bytes": 13065,
+          "sha256": "87E8400615FA907CC308214EDD663AED78D7FDBD3740E64348D649DEA5EBA420"
+        },
+        "after_expanded_body": {
+          "bytes": 13053,
+          "sha256": "212D6E71D660A032E5EE6A79C52428E80398D3B02A916C63F3E7CC884EA08AB1"
+        },
+        "legacy_declaration_changed": true
+      },
+      {
+        "name": "fragments/Noether_R823_Paper30_J_S10_Lines15369_15576_English.texfrag",
+        "before_declared": {
+          "bytes": 10609,
+          "sha256": "52C3C604C85CE47501200B96902498150696961BC3D832AE223D57CF342D31C9"
+        },
+        "after_expanded_body": {
+          "bytes": 10609,
+          "sha256": "52C3C604C85CE47501200B96902498150696961BC3D832AE223D57CF342D31C9"
+        },
+        "legacy_declaration_changed": false
+      },
+      {
+        "name": "fragments/Noether_R823_Paper30_Lines14316_15576_English.texfrag",
+        "before_declared": {
+          "bytes": 841,
+          "sha256": "8597C275AFF7EC2112C9519D07009A664F90A2C46F1B571047A3694F5535BF8B"
+        },
+        "after_expanded_body": {
+          "bytes": 107915,
+          "sha256": "25481AD1508BF5C151FE730718AB3BFB0679E44F1FC9632AC53DE01449960357"
+        },
+        "legacy_declaration_changed": true
+      },
+      {
+        "name": "fragments/Noether_R823_Paper31_A_Lines15577_15760_English.texfrag",
+        "before_declared": {
+          "bytes": 28931,
+          "sha256": "7FBF20CAA7F111C0CE397B4488E7C2F1BBE28D597DF3EE13670D8A2771850A3D"
+        },
+        "after_expanded_body": {
+          "bytes": 28995,
+          "sha256": "D6175CC44EAB64D25E95C5B31A7CAC92B80CCF057517236B7639C2E4BE5CCB5D"
+        },
+        "legacy_declaration_changed": true
+      },
+      {
+        "name": "fragments/Noether_R823_Paper31_B_Lines15761_15952_English.texfrag",
+        "before_declared": {
+          "bytes": 22317,
+          "sha256": "8D31FD63DDABC7B872A2049C2BF8B2DF63D3272BB9013A75DCF387DCA2D084E3"
+        },
+        "after_expanded_body": {
+          "bytes": 22317,
+          "sha256": "8D31FD63DDABC7B872A2049C2BF8B2DF63D3272BB9013A75DCF387DCA2D084E3"
+        },
+        "legacy_declaration_changed": false
+      },
+      {
+        "name": "fragments/Noether_R823_Paper31_C_Lines15953_16068_English.texfrag",
+        "before_declared": {
+          "bytes": 26613,
+          "sha256": "0E98F95C5AD5F13723F5F8FB1F599493AA94FDFF4D5DC56C1E3A4CEB968F6991"
+        },
+        "after_expanded_body": {
+          "bytes": 26613,
+          "sha256": "0E98F95C5AD5F13723F5F8FB1F599493AA94FDFF4D5DC56C1E3A4CEB968F6991"
+        },
+        "legacy_declaration_changed": false
+      },
+      {
+        "name": "fragments/Noether_R823_Paper31_Lines15577_16068_English.texfrag",
+        "before_declared": {
+          "bytes": 295,
+          "sha256": "2AF0F43FD5A2B91F768DCBA85BB40CF5ABF79304E4DB2F4F357C8B2025041276"
+        },
+        "after_expanded_body": {
+          "bytes": 78781,
+          "sha256": "ED570C46403092AF1517404D5E61E934045B7307CE4D3B144FCD81F54A759095"
+        },
+        "legacy_declaration_changed": true
+      },
+      {
+        "name": "fragments/Noether_R823_Paper32_Lines16069_16237_English.texfrag",
+        "before_declared": {
+          "bytes": 21406,
+          "sha256": "E0B51D33A84FD5746A62001454119AC0C3BBCD19914C2585EF43F3F40C28DBFB"
+        },
+        "after_expanded_body": {
+          "bytes": 21484,
+          "sha256": "EE0B34B959E64209619994B739B0D1CEDE3214C0422DFEE837E9BF1513E3BCE7"
+        },
+        "legacy_declaration_changed": true
+      },
+      {
+        "name": "fragments/Noether_R823_Paper33_Lines16238_16311_English.texfrag",
+        "before_declared": {
+          "bytes": 9239,
+          "sha256": "787797D812C811A8F02752C7385B252361527CEB25F48D6505C6612FDB88A6B1"
+        },
+        "after_expanded_body": {
+          "bytes": 9342,
+          "sha256": "8DFA5A2291FA82DA9DBC721E167913694DA36C4723A03DE652EEF2C5D4625CDB"
+        },
+        "legacy_declaration_changed": true
+      },
+      {
+        "name": "fragments/Noether_R823_Paper34_A_Lines16312_16741_English.texfrag",
+        "before_declared": {
+          "bytes": 39044,
+          "sha256": "C2225D237A3DA33F7BE500A280F005577EC1536E8FA44C2135DC43950C492DEA"
+        },
+        "after_expanded_body": {
+          "bytes": 39122,
+          "sha256": "1EBA843917A623258056FE0CF07C3BB35A54FBDFC99FDC8CCB34A123E20D7A15"
+        },
+        "legacy_declaration_changed": true
+      },
+      {
+        "name": "fragments/Noether_R823_Paper34_B_Lines16742_17415_English.texfrag",
+        "before_declared": {
+          "bytes": 28787,
+          "sha256": "848FFD6AF0A865660181E86C84C3A66B3E75E2B60FEAE2FEE7E7F13D0666BFBA"
+        },
+        "after_expanded_body": {
+          "bytes": 28787,
+          "sha256": "848FFD6AF0A865660181E86C84C3A66B3E75E2B60FEAE2FEE7E7F13D0666BFBA"
+        },
+        "legacy_declaration_changed": false
+      },
+      {
+        "name": "fragments/Noether_R823_Paper34_C_Lines17416_17809_English.texfrag",
+        "before_declared": {
+          "bytes": 23442,
+          "sha256": "3CE2E860ECF8B32734199E0DE5FABA0FAC111C7CB07F28227B9C98BF070CA3B8"
+        },
+        "after_expanded_body": {
+          "bytes": 23442,
+          "sha256": "3CE2E860ECF8B32734199E0DE5FABA0FAC111C7CB07F28227B9C98BF070CA3B8"
+        },
+        "legacy_declaration_changed": false
+      },
+      {
+        "name": "fragments/Noether_R823_Paper34_D_Lines17810_18335_English.texfrag",
+        "before_declared": {
+          "bytes": 32905,
+          "sha256": "4E97C39DCA87B9D437382567CE8C74E140C6D32D9FAE5361136B91641508BC46"
+        },
+        "after_expanded_body": {
+          "bytes": 32905,
+          "sha256": "4E97C39DCA87B9D437382567CE8C74E140C6D32D9FAE5361136B91641508BC46"
+        },
+        "legacy_declaration_changed": false
+      },
+      {
+        "name": "fragments/Noether_R823_Paper34_Lines16312_18335_English.texfrag",
+        "before_declared": {
+          "bytes": 384,
+          "sha256": "F8496B07890F58B39614F6F87C5B58E2327329BF04A0967F6A877D04F6E22CB9"
+        },
+        "after_expanded_body": {
+          "bytes": 125388,
+          "sha256": "9BE8A317C5C4413A4EE55393552A97961999DEDBDA18D8C24D8AF994A9C10DEB"
+        },
+        "legacy_declaration_changed": true
+      },
+      {
+        "name": "fragments/Noether_R823_Paper35_Lines18336_18599_English.texfrag",
+        "before_declared": {
+          "bytes": 31045,
+          "sha256": "B9CE4630E44A834451B52CAC74D85CF29502FE0FF35E404B18D69CC6DFF79F3D"
+        },
+        "after_expanded_body": {
+          "bytes": 31114,
+          "sha256": "1C874317C096C9EAD0E17FA468A0D032CC9828CA1523499D6F89F558178340E6"
+        },
+        "legacy_declaration_changed": true
+      },
+      {
+        "name": "fragments/Noether_R823_Paper36_Lines18600_18613_English.texfrag",
+        "before_declared": {
+          "bytes": 717,
+          "sha256": "8F25CADF2DF99623372D57C03524CCA1BF26D95D84EF62DBCB5581B28FAB6F52"
+        },
+        "after_expanded_body": {
+          "bytes": 785,
+          "sha256": "4487D4AE02CF8CFEC22A8AABBB1AD98F4837976EC103D3887C7EF3F4A539AB24"
+        },
+        "legacy_declaration_changed": true
+      },
+      {
+        "name": "fragments/Noether_R823_Paper37_Lines18614_18805_English.texfrag",
+        "before_declared": {
+          "bytes": 21231,
+          "sha256": "48A89B1A475361EDAD33B4D03A301D86AA805D88EB83BE02953D63AD636FF2AA"
+        },
+        "after_expanded_body": {
+          "bytes": 21310,
+          "sha256": "EB5344E6DBA08B6542416447E010684247B6CCF153AFB146B081C543DA7C7AF1"
+        },
+        "legacy_declaration_changed": true
+      },
+      {
+        "name": "fragments/Noether_R823_Paper38_Lines18806_19026_English.texfrag",
+        "before_declared": {
+          "bytes": 24395,
+          "sha256": "EC6A65CF3F5A776EE4AD5C10C594FE8A9F5046C31B95612053EBABF7338D5239"
+        },
+        "after_expanded_body": {
+          "bytes": 24487,
+          "sha256": "C79B138477975A17BE036EBB9BE495E58579BE4C28FD9F41CFF92F6A4E05FC0F"
+        },
+        "legacy_declaration_changed": true
+      },
+      {
+        "name": "fragments/Noether_R823_Paper39_Lines19027_19121_English.texfrag",
+        "before_declared": {
+          "bytes": 17249,
+          "sha256": "118D098F16AF9C87CAE6ABDF0B1A5AFE038FFD96BB29897D4C533B965FD1CF78"
+        },
+        "after_expanded_body": {
+          "bytes": 17338,
+          "sha256": "F7BC820B433C77C4AF5BE586566BA09299A5138BE190105CE22F5E0276D5F59A"
+        },
+        "legacy_declaration_changed": true
+      },
+      {
+        "name": "fragments/Noether_R823_Paper40_A_Lines19122_19387_English.texfrag",
+        "before_declared": {
+          "bytes": 32833,
+          "sha256": "7E65B318E015A007A709DDC4DF1E456DC103DAD91A205EE85055A659FB6A56A8"
+        },
+        "after_expanded_body": {
+          "bytes": 32885,
+          "sha256": "2ECBB1E242BF39FDCB11F840A3287B39B8F8A0DD73EA9FB9B789A8C6A12E046A"
+        },
+        "legacy_declaration_changed": true
+      },
+      {
+        "name": "fragments/Noether_R823_Paper40_B_Lines19388_19620_English.texfrag",
+        "before_declared": {
+          "bytes": 27059,
+          "sha256": "41F4BAB633B551FF94FFE3FB5193D76E743A4F2856364EFC84ACFD7499895C24"
+        },
+        "after_expanded_body": {
+          "bytes": 27059,
+          "sha256": "41F4BAB633B551FF94FFE3FB5193D76E743A4F2856364EFC84ACFD7499895C24"
+        },
+        "legacy_declaration_changed": false
+      },
+      {
+        "name": "fragments/Noether_R823_Paper40_C_Lines19621_19769_English.texfrag",
+        "before_declared": {
+          "bytes": 17055,
+          "sha256": "805269AC55F80F24CC557689F231F7AAF0687D63704D74CC60FA9983DE05C069"
+        },
+        "after_expanded_body": {
+          "bytes": 17055,
+          "sha256": "805269AC55F80F24CC557689F231F7AAF0687D63704D74CC60FA9983DE05C069"
+        },
+        "legacy_declaration_changed": false
+      },
+      {
+        "name": "fragments/Noether_R823_Paper40_Lines19122_19769_English.texfrag",
+        "before_declared": {
+          "bytes": 310,
+          "sha256": "38D9604D37C06A44FE5059C98C1042041496B06357AD25F1FA827BBB438D81EE"
+        },
+        "after_expanded_body": {
+          "bytes": 77870,
+          "sha256": "7A26F5DB656B75765EFB5071D114B8E50D43329371826B175C07A29EF86D01DD"
+        },
+        "legacy_declaration_changed": true
+      },
+      {
+        "name": "fragments/Noether_R823_Paper41_Lines19770_19923_English.texfrag",
+        "before_declared": {
+          "bytes": 25161,
+          "sha256": "16BCE1260F81C6AD45E3898A9EF78E0EBC2D4B74A85BCE0E629D072AD2282203"
+        },
+        "after_expanded_body": {
+          "bytes": 25251,
+          "sha256": "00CDE3A2208893516658430203DC4C71874CF1879162033C8AF58DC469D9A9E8"
+        },
+        "legacy_declaration_changed": true
+      },
+      {
+        "name": "fragments/Noether_R823_Paper42_Lines19924_20156_English.texfrag",
+        "before_declared": {
+          "bytes": 23089,
+          "sha256": "C3CB84B31D37244440E9C742784B5046FA6E9A29A7ED28959D0A2EE6D8A26B32"
+        },
+        "after_expanded_body": {
+          "bytes": 23165,
+          "sha256": "6B33317C546F3006FB3492121EFC740F76C2C83B012677718CBAA9225C6766E2"
+        },
+        "legacy_declaration_changed": true
+      },
+      {
+        "name": "fragments/Noether_R823_Paper43_Lines20157_20967_English.texfrag",
+        "before_declared": {
+          "bytes": 57678,
+          "sha256": "C861BA814A2F987F84E834D74342831C5AE45F5F3AB9F995853E25743F69784C"
+        },
+        "after_expanded_body": {
+          "bytes": 87552,
+          "sha256": "82C05B771EE714D7BB78424867D30BF32F98F17F6D962603211FAFF341351DB7"
+        },
+        "legacy_declaration_changed": true
+      },
+      {
+        "name": "fragments/Noether_R823_Paper43_S5_A_Lines20633_20668_English.texfrag",
+        "before_declared": {
+          "bytes": 2884,
+          "sha256": "3CEF039748DDA1E24D00596BD1DEB2032A748F2765225FD5F1BE6683E129F906"
+        },
+        "after_expanded_body": {
+          "bytes": 2884,
+          "sha256": "3CEF039748DDA1E24D00596BD1DEB2032A748F2765225FD5F1BE6683E129F906"
+        },
+        "legacy_declaration_changed": false
+      },
+      {
+        "name": "fragments/Noether_R823_Paper43_S5_B_Lines20669_20767_English.texfrag",
+        "before_declared": {
+          "bytes": 7951,
+          "sha256": "40656E34CFA0F7EC0ACBB2A0E44B4905AD85CEF60352AC71D00F8145C61459E4"
+        },
+        "after_expanded_body": {
+          "bytes": 7951,
+          "sha256": "40656E34CFA0F7EC0ACBB2A0E44B4905AD85CEF60352AC71D00F8145C61459E4"
+        },
+        "legacy_declaration_changed": false
+      },
+      {
+        "name": "fragments/Noether_R823_Paper43_S6_Lines20768_20901_English.texfrag",
+        "before_declared": {
+          "bytes": 13747,
+          "sha256": "ECDFAD76E66E3E5679D1A06584A80D961C14C3852621E81CEADDF965ABEC385C"
+        },
+        "after_expanded_body": {
+          "bytes": 13747,
+          "sha256": "ECDFAD76E66E3E5679D1A06584A80D961C14C3852621E81CEADDF965ABEC385C"
+        },
+        "legacy_declaration_changed": false
+      },
+      {
+        "name": "fragments/Noether_R823_Paper43_S7_Lines20902_20967_English.texfrag",
+        "before_declared": {
+          "bytes": 4471,
+          "sha256": "B7AAE10421C243D061DB515B8B25EB4E17596C8EE51C64BAD4AFF98FEEDC5F9A"
+        },
+        "after_expanded_body": {
+          "bytes": 4471,
+          "sha256": "B7AAE10421C243D061DB515B8B25EB4E17596C8EE51C64BAD4AFF98FEEDC5F9A"
+        },
+        "legacy_declaration_changed": false
+      },
+      {
+        "name": "fragments/Noether_R823_Papers35_36_Lines18336_18613_English.texfrag",
+        "before_declared": {
+          "bytes": 237,
+          "sha256": "83199CF0B5781862D6D670E00FEF493F629298733E5775D336491D2D5AB81DFB"
+        },
+        "after_expanded_body": {
+          "bytes": 32504,
+          "sha256": "EC55BE4677C7C41B98AB02BFA42D131404ED86D94B5445406F4B80EAC4B356DE"
+        },
+        "legacy_declaration_changed": true
+      },
+      {
+        "name": "fragments/Noether_R823_Papers37_38_Lines18614_19026_English.texfrag",
+        "before_declared": {
+          "bytes": 237,
+          "sha256": "2A6C916718F09B85BE38AD7B44BAC49F2BBA2EB9E4707BEA7FAF2A41CFD5FEC5"
+        },
+        "after_expanded_body": {
+          "bytes": 46404,
+          "sha256": "F8BFF31FCBF95B841117E7C6B940231FF33BCEC553FCA733D06A5499D6C0039A"
+        },
+        "legacy_declaration_changed": true
+      },
+      {
+        "name": "fragments/Noether_R823_Papers41_42_Lines19770_20156_English.texfrag",
+        "before_declared": {
+          "bytes": 237,
+          "sha256": "9EB41872698EBAC838F8CE0DA185B5490C36F9ADD9DCB2080093DE52CF09CF01"
+        },
+        "after_expanded_body": {
+          "bytes": 49023,
+          "sha256": "210B226E9649141D797590EB917606F49EF3EF8883386C8649A5F90B3B1FC39B"
+        },
+        "legacy_declaration_changed": true
+      },
+      {
+        "name": "fragments/Noether_R823_Tail_Lecture_Chapter_VI_Kapferer_Bibliography_English.texfrag",
+        "before_declared": {
+          "bytes": 62143,
+          "sha256": "0E941E8832156C834BD80BE68F5D7D60473AF24ABA228547CDDE6B2059D8E643"
+        },
+        "after_expanded_body": {
+          "bytes": 62471,
+          "sha256": "8847D99EF5F701C83BC99854B77B4CDFB13806CDEE43621C65B5687C0193EE48"
+        },
+        "legacy_declaration_changed": true
+      },
+      {
+        "name": "fragments/Noether_R823_Tail_Lecture_Chapters_IV_V_English.texfrag",
+        "before_declared": {
+          "bytes": 87667,
+          "sha256": "485B6789590B035889C5CF73A447010DB892EC32B0A407459FAF65A888606F9C"
+        },
+        "after_expanded_body": {
+          "bytes": 87821,
+          "sha256": "8C7C939A2AB6071642D506002B9D98F1A33E01B87E0FE05FD3C44C685D56E6EE"
+        },
+        "legacy_declaration_changed": true
+      },
+      {
+        "name": "fragments/Noether_R823_Tail_Lecture_Intro_Chapters_I_III_English.texfrag",
+        "before_declared": {
+          "bytes": 48669,
+          "sha256": "1A778EEFA1ACD4F6CF59AB4D45E63706FB839C08A32A3591907659EE1C720D5B"
+        },
+        "after_expanded_body": {
+          "bytes": 49069,
+          "sha256": "75B55D1529662BC80EB0764BF61479F0127C6988FCC62098DC98C605331A2C93"
+        },
+        "legacy_declaration_changed": true
+      }
+    ]
+  },
+  "presentation_changes": [
+    {
+      "operation_id": "privacy-relative-producer-coordinate",
+      "active_replacements": 1,
+      "inactive_occurrences_preserved": 0,
+      "before": "[private absolute producer path withheld; see pinned baseline evidence]",
+      "before_identity": {
+        "bytes": 232,
+        "sha256": "38B6E625B000858C5D0A761B677A10AB332A37A436F4162C3CF3CC23D05E416D"
+      },
+      "after": "evidence/baselines/producer/Noether_R823_Full_Cumulative_English_Workpass.tex",
+      "after_identity": {
+        "bytes": 118,
+        "sha256": "95CD12751524BAE0F753548309981FDC25D7C97D1C262DC95C54DD5D5AEDC374"
+      }
+    },
+    {
+      "operation_id": "presentation-p20-footnote-6-custom-named-link-anchor",
+      "active_replacements": 1,
+      "inactive_occurrences_preserved": 0,
+      "before": "\\footnote{Polynomials and forms obtained by replacing the indeterminates in $F,G,\\ldots,f,g,\\ldots$ by particular systems of values will throughout be denoted by bars: $\\bar F,\\bar G,\\ldots,\\bar f,\\bar g,\\ldots$.}",
+      "before_identity": {
+        "bytes": 213,
+        "sha256": "07C6CE48C4C4B8F5FEA34C07AD41C008C740B15C4B24BB50E07A4706BADBCDEF"
+      },
+      "after": "\\hyperlink{noeth-p20-fn6}{\\textsuperscript{6)}}%\n\\begingroup%\n\\renewcommand{\\thefootnote}{6)}%\n\\footnotetext{\\hypertarget{noeth-p20-fn6}{}Polynomials and forms obtained by replacing the indeterminates in $F,G,\\ldots,f,g,\\ldots$ by particular systems of values will throughout be denoted by bars: $\\bar F,\\bar G,\\ldots,\\bar f,\\bar g,\\ldots$.}%\n\\endgroup%\n\\addtocounter{footnote}{1}",
+      "after_identity": {
+        "bytes": 380,
+        "sha256": "D9809F5E6B1AAFEC6F5B450EBCF4C0F1E2E2402817B91B64508EBEAF347BD3AD"
+      }
+    },
+    {
+      "operation_id": "presentation-p20-footnote-8-custom-named-link-marker",
+      "active_replacements": 1,
+      "inactive_occurrences_preserved": 0,
+      "before": "\\text{\\srcfnmark{8)}}",
+      "before_identity": {
+        "bytes": 21,
+        "sha256": "D0C734D73AC93DA817958EAAC0FE1C3CC2B3854DE75F8BA20B21222F502A067E"
+      },
+      "after": "\\text{\\hyperlink{noeth-p20-fn8}{\\textsuperscript{8)}}}",
+      "after_identity": {
+        "bytes": 54,
+        "sha256": "40C71026E4A9C547B853C0025846AD588C4A3D6BEAD3789F935980C0F1CCB906"
+      }
+    },
+    {
+      "operation_id": "presentation-p20-footnote-8-custom-named-target-text",
+      "active_replacements": 1,
+      "inactive_occurrences_preserved": 0,
+      "before": "\\srcfntext{8)}{\\emph{Festschrift}, p.~11.}\n\\addtocounter{footnote}{1}",
+      "before_identity": {
+        "bytes": 69,
+        "sha256": "9CE11F16BF1472373A0C2256B7216DB02A57F8AA58C44A9B5FE32E466F37E1E2"
+      },
+      "after": "\\begingroup%\n\\renewcommand{\\thefootnote}{8)}%\n\\footnotetext{\\hypertarget{noeth-p20-fn8}{}\\emph{Festschrift}, p.~11.}%\n\\endgroup%\n\\addtocounter{footnote}{1}",
+      "after_identity": {
+        "bytes": 155,
+        "sha256": "149E964E84D1537F04F873081FA9C1CDE9295F856A70D59AD6FFB78E17E2F9D9"
+      }
+    },
+    {
+      "operation_id": "presentation-hyperref-package",
+      "active_replacements": 1,
+      "inactive_occurrences_preserved": 0,
+      "before": "\\usepackage{microtype}",
+      "before_identity": {
+        "bytes": 22,
+        "sha256": "611311AF6FD9A88C64D7B3FA73EDDFBB94AF2989AD93B79E95FBC2CDCD4BE7A1"
+      },
+      "after": "\\usepackage{microtype}\n\\usepackage{newunicodechar}\n\\usepackage[hidelinks,unicode=true,pdfencoding=auto,bookmarksopen=true,bookmarksnumbered=false]{hyperref}",
+      "after_identity": {
+        "bytes": 156,
+        "sha256": "DBA7CBF9F16548C59324D283E63A8D40A0612923C48672E2EFAC00CE07FE1A53"
+      }
+    },
+    {
+      "operation_id": "presentation-xelatex-t1-unicode-punctuation-mappings",
+      "active_replacements": 1,
+      "inactive_occurrences_preserved": 0,
+      "before": "\\usepackage{newunicodechar}\n\\usepackage[hidelinks,unicode=true,pdfencoding=auto,bookmarksopen=true,bookmarksnumbered=false]{hyperref}",
+      "before_identity": {
+        "bytes": 133,
+        "sha256": "EBD18CF620B385302AD02C4018B7DB945D3DB33DCDFA6F46FD66D40AAEDD1756"
+      },
+      "after": "\\usepackage{newunicodechar}\n\\newunicodechar{—}{---}\n\\newunicodechar{“}{``}\n\\newunicodechar{”}{''}\n\\usepackage[hidelinks,unicode=true,pdfencoding=auto,bookmarksopen=true,bookmarksnumbered=false]{hyperref}",
+      "after_identity": {
+        "bytes": 209,
+        "sha256": "C71BC98CE4C61FEBD9052838261921AC074D5BBDC7BEB1291B3167C43AD72AA9"
+      }
+    },
+    {
+      "operation_id": "presentation-pdf-metadata-and-link-macros",
+      "active_replacements": 1,
+      "inactive_occurrences_preserved": 0,
+      "before": "\\providecommand{\\Gg}{\\mathfrak G}\n\\begin{document}",
+      "before_identity": {
+        "bytes": 50,
+        "sha256": "B5DC7D235A79CAA94ED1BCDBBE10D5F3C2C318056F08AC9405FD3C0B9682D12A"
+      },
+      "after": "\\providecommand{\\Gg}{\\mathfrak G}\n\\hypersetup{%\n  pdftitle={Emmy Noether: Collected Mathematical Works in English},%\n  pdfauthor={Emmy Noether},%\n  pdfsubject={Complete maintained English corpus edition; source authority NOETH-DE-ED-0014},%\n  pdfkeywords={Emmy Noether, English translation, collected works, algebra, invariant theory}%\n}\n\\setcounter{tocdepth}{1}\n\\providecommand{\\editionentry}[2]{%\n  \\phantomsection\\addcontentsline{toc}{section}{#1}\\label{#2}}\n\\providecommand{\\editionpartentry}[2]{%\n  \\phantomsection\\addcontentsline{toc}{subsection}{#1}\\label{#2}}\n\\begin{document}",
+      "after_identity": {
+        "bytes": 584,
+        "sha256": "3551B141B8203BC1D76C76EA24115FDDAFE6982064B379F8308E38CA79D2F1DD"
+      }
+    },
+    {
+      "operation_id": "presentation-title-status-and-global-toc",
+      "active_replacements": 1,
+      "inactive_occurrences_preserved": 0,
+      "before": "\\begin{document}\n\\providecommand{\\mat}[1]{\\begin{pmatrix}#1\\end{pmatrix}}\n",
+      "before_identity": {
+        "bytes": 74,
+        "sha256": "D6212E0744EE14D6B98D5EDAA9D4085F880AF1538F3F7E0DBB5263419126BC6A"
+      },
+      "after": "\\begin{document}\n\\providecommand{\\mat}[1]{\\begin{pmatrix}#1\\end{pmatrix}}\n\n\\pagenumbering{roman}\n\\begin{titlepage}\n\\centering\n\\vspace*{2.5cm}\n{\\Huge\\bfseries Emmy Noether\\par}\n\\vspace{0.8cm}\n{\\LARGE Collected Mathematical Works in English\\par}\n\\vspace{0.5cm}\n{\\Large Complete Maintained English Corpus Edition\\par}\n\\vspace{1.8cm}\n\\begin{minipage}{0.86\\textwidth}\n\\small\nThis linked reader brings together the complete substantive English corpus currently maintained by the project: numbered papers 1--43, retained scholarly apparatus, the 1929/30 lectures on hypercomplex quantities, the Kapferer paper and Noether supplement, bibliography, and short communications and reviews.\n\n\\medskip\n\\textbf{Editorial status.} This is a machine-assisted working translation and typeset edition. It is complete in project coverage but is not a peer-reviewed translation or a critical edition. Source-language and target-language decisions, exact lineage, correction dispositions, and validation evidence are preserved separately in the accompanying editable-source and provenance archives.\n\n\\medskip\n\\textbf{German authority.} NOETH-DE-AUTH-v051-20260811 / NOETH-DE-ED-0014. All 25 accepted authority deltas have an explicit English disposition; 20 required source or layout changes and 5 were already conformant.\n\n\\medskip\n\\textbf{English concept DOI:} \\href{https://doi.org/10.5281/zenodo.21923145}{\\nolinkurl{10.5281/zenodo.21923145}}\\\\\n\\textbf{This version DOI:} \\href{https://doi.org/10.5281/zenodo.21923146}{\\nolinkurl{10.5281/zenodo.21923146}}\\\\\n\\textbf{Zenodo record:} \\href{https://zenodo.org/records/21923146}{\\nolinkurl{21923146}}\\\\\n\\textbf{Living repository:} \\href{https://github.com/KokunoYumeto/emmy-noether-en}{\\nolinkurl{https://github.com/KokunoYumeto/emmy-noether-en}}\n\\end{minipage}\n\\vfill\n{\\large Release date: 2026-08-13\\par}\n\\end{titlepage}\n\n\\clearpage\n\\pdfbookmark[0]{Contents}{english-corpus-contents}\n\\tableofcontents\n\\clearpage\n\\pagenumbering{arabic}\n\\setcounter{page}{1}\n",
+      "after_identity": {
+        "bytes": 1987,
+        "sha256": "1E236862312F8B3BB74F08CEE9BBFD6649C43C8C20628AF51B832614237E72F2"
+      }
+    },
+    {
+      "operation_id": "presentation-linked-work-01",
+      "active_replacements": 1,
+      "inactive_occurrences_preserved": 0,
+      "before": "{\\Large\\bfseries 1. On the Formation of the form System",
+      "before_identity": {
+        "bytes": 55,
+        "sha256": "5278AA444C9813EED69B1190A7B3E92AA1CA9C0333BF3192B425CE63085623A2"
+      },
+      "after": "\\editionentry{1. On the Formation of the Form System (1907)}{work-01}\n{\\Large\\bfseries 1. On the Formation of the form System",
+      "after_identity": {
+        "bytes": 125,
+        "sha256": "EFF97D40352952A6DFB224A78AF95767B48D022499157879B55D51FB842BB92D"
+      }
+    },
+    {
+      "operation_id": "presentation-linked-work-02",
+      "active_replacements": 1,
+      "inactive_occurrences_preserved": 0,
+      "before": "{\\Large\\bfseries 2. On the Formation of the form System",
+      "before_identity": {
+        "bytes": 55,
+        "sha256": "F1C2E3C940671E39EEA3AA215C7A2FBF14E041A9045F21991C0272352D4820A6"
+      },
+      "after": "\\editionentry{2. On the Formation of the Form System (1908)}{work-02}\n{\\Large\\bfseries 2. On the Formation of the form System",
+      "after_identity": {
+        "bytes": 125,
+        "sha256": "E87BDA54C78A80F1DB486685211AFF3A0112B3AE4A79BABE774A719E548F724A"
+      }
+    },
+    {
+      "operation_id": "presentation-linked-work-03",
+      "active_replacements": 1,
+      "inactive_occurrences_preserved": 0,
+      "before": "{\\Large\\bfseries 3. On the Invariant Theory",
+      "before_identity": {
+        "bytes": 43,
+        "sha256": "90DF9D35BB3EB62C6F32D23D2228D3ABF2F7407B87EB40F7022DF3F028FF2D62"
+      },
+      "after": "\\editionentry{3. On the Invariant Theory of Forms in n Variables (1909)}{work-03}\n{\\Large\\bfseries 3. On the Invariant Theory",
+      "after_identity": {
+        "bytes": 125,
+        "sha256": "192A36101FD4BACD0F9C08011CF5E02EEBA235BD24F8BC80BA46BF6B1712E1ED"
+      }
+    },
+    {
+      "operation_id": "presentation-linked-work-04",
+      "active_replacements": 1,
+      "inactive_occurrences_preserved": 0,
+      "before": "{\\Large\\bfseries 4. On the Invariant Theory",
+      "before_identity": {
+        "bytes": 43,
+        "sha256": "9C9A48195ABCBC5D8E4476CD1D417A1E87C7B7B21E34664C7A28A0E6462EA8C4"
+      },
+      "after": "\\editionentry{4. On the Invariant Theory of Forms in n Variables (1911)}{work-04}\n{\\Large\\bfseries 4. On the Invariant Theory",
+      "after_identity": {
+        "bytes": 125,
+        "sha256": "BBB5015E25A26D2157C15FC9F5D6FABF0E62D7B708A68D917F8EB0E40E65D003"
+      }
+    },
+    {
+      "operation_id": "presentation-linked-work-05",
+      "active_replacements": 1,
+      "inactive_occurrences_preserved": 0,
+      "before": "{\\Large\\bfseries 5. Rational Function Fields}",
+      "before_identity": {
+        "bytes": 45,
+        "sha256": "7F738689C8D0147D222DFBBEE5FF4B7AFA448879D65504C80B81812B5F7BCCBB"
+      },
+      "after": "\\editionentry{5. Rational Function Fields}{work-05}\n{\\Large\\bfseries 5. Rational Function Fields}",
+      "after_identity": {
+        "bytes": 97,
+        "sha256": "09766E10EB7D173ECCFE6BA111A6C7F581E862621AE1DEB9EA4B6EEF4A540197"
+      }
+    },
+    {
+      "operation_id": "presentation-linked-work-06",
+      "active_replacements": 1,
+      "inactive_occurrences_preserved": 0,
+      "before": "{\\Large\\bfseries 6. Fields and Systems of Rational Functions}",
+      "before_identity": {
+        "bytes": 61,
+        "sha256": "99C45DA74FF4064AC06507027034DC9DB9F4176AB568A28922F143EBA1E6FA9A"
+      },
+      "after": "\\editionentry{6. Fields and Systems of Rational Functions}{work-06}\n{\\Large\\bfseries 6. Fields and Systems of Rational Functions}",
+      "after_identity": {
+        "bytes": 129,
+        "sha256": "738CAAE5CACC54B10F6E4E4F1093D71EAA1EE3AB5C23CEA02187D76CE07ADDF6"
+      }
+    },
+    {
+      "operation_id": "presentation-linked-work-07",
+      "active_replacements": 1,
+      "inactive_occurrences_preserved": 0,
+      "before": "\\section*{7. The finiteness theorem for the invariants of finite groups}",
+      "before_identity": {
+        "bytes": 72,
+        "sha256": "926C4CDBA96063298510D803F33E243FF7F76B12D4FAE2AEDAD2B099BEF7A665"
+      },
+      "after": "\\editionentry{7. The Finiteness Theorem for the Invariants of Finite Groups}{work-07}\n\\section*{7. The finiteness theorem for the invariants of finite groups}",
+      "after_identity": {
+        "bytes": 158,
+        "sha256": "01B9388F8DE814BB0B6B0B95CCECCE1FEDB15341FB26808EAEE6A519645842C6"
+      }
+    },
+    {
+      "operation_id": "presentation-linked-work-08",
+      "active_replacements": 1,
+      "inactive_occurrences_preserved": 0,
+      "before": "\\section*{8. On the polynomial representation of the invariants of a system of arbitrarily many ground forms}",
+      "before_identity": {
+        "bytes": 109,
+        "sha256": "8BFB142DD686EFC166D0514406A0406D5D9D5E1835BDC81F4DB9479287B1C2FF"
+      },
+      "after": "\\editionentry{8. Polynomial Representation of Invariants}{work-08}\n\\section*{8. On the polynomial representation of the invariants of a system of arbitrarily many ground forms}",
+      "after_identity": {
+        "bytes": 176,
+        "sha256": "A18DB5AAC587BCF28E636B15BA9EADADADE4BCDDC391FE9C0C94B3EDA34FAEC5"
+      }
+    },
+    {
+      "operation_id": "presentation-linked-work-09",
+      "active_replacements": 1,
+      "inactive_occurrences_preserved": 0,
+      "before": "{\\Large\\bfseries 9. The Most General Domains from Integral Transcendental Numbers}",
+      "before_identity": {
+        "bytes": 82,
+        "sha256": "727760D77577392BCAE53B3A939399DE57ABCD3F2DA18779BFEA9201E16AF7DB"
+      },
+      "after": "\\editionentry{9. The Most General Domains from Integral Transcendental Numbers}{work-09}\n{\\Large\\bfseries 9. The Most General Domains from Integral Transcendental Numbers}",
+      "after_identity": {
+        "bytes": 171,
+        "sha256": "B440DBEA94AE6D8B410DA2076D47417751124F9E84CE1859D26F3BBD12287CD6"
+      }
+    },
+    {
+      "operation_id": "presentation-linked-work-10",
+      "active_replacements": 1,
+      "inactive_occurrences_preserved": 0,
+      "before": "\\section*{10. The Functional Equations of the Isomorphic Mapping.}",
+      "before_identity": {
+        "bytes": 66,
+        "sha256": "7D7FBB3772AA60781AC57E5932EF9464220367CBE8DF529F3E54BD59AB8EF86D"
+      },
+      "after": "\\editionentry{10. The Functional Equations of the Isomorphic Mapping}{work-10}\n\\section*{10. The Functional Equations of the Isomorphic Mapping.}",
+      "after_identity": {
+        "bytes": 145,
+        "sha256": "7B5CEE82FD57E85F33ADA12A194F852F6ECB47E5390C03B9034ADDB0F03E4D8F"
+      }
+    },
+    {
+      "operation_id": "presentation-linked-work-11",
+      "active_replacements": 1,
+      "inactive_occurrences_preserved": 0,
+      "before": "\\section*{11. Equations with Prescribed Group.}",
+      "before_identity": {
+        "bytes": 47,
+        "sha256": "698D00602A8256513371D30DE6850E9C02C9FFCE4EF61E25BD20DFAC04424606"
+      },
+      "after": "\\editionentry{11. Equations with Prescribed Group}{work-11}\n\\section*{11. Equations with Prescribed Group.}",
+      "after_identity": {
+        "bytes": 107,
+        "sha256": "5C8492FF78E2580A06CBABFEA111FB1EB7C71270024EFAC26FAABEC2EA17528F"
+      }
+    },
+    {
+      "operation_id": "presentation-linked-work-12",
+      "active_replacements": 1,
+      "inactive_occurrences_preserved": 0,
+      "before": "\\section*{12. Invariants of Arbitrary Differential Expressions.}",
+      "before_identity": {
+        "bytes": 64,
+        "sha256": "34E2C2CC511705D95EA0FEDD9160D47789C8C279BFD1B70BACECEC52105695CB"
+      },
+      "after": "\\editionentry{12. Invariants of Arbitrary Differential Expressions}{work-12}\n\\section*{12. Invariants of Arbitrary Differential Expressions.}",
+      "after_identity": {
+        "bytes": 141,
+        "sha256": "53A9A6002845EFDE76A621C627CA6DC368E9BE20CAB58E4A7C89C01E2726AA34"
+      }
+    },
+    {
+      "operation_id": "presentation-linked-work-13",
+      "active_replacements": 1,
+      "inactive_occurrences_preserved": 0,
+      "before": "\\section*{13. Invariant Variational Problems.}",
+      "before_identity": {
+        "bytes": 46,
+        "sha256": "B66C66AF82B5D3CE944F4BF2BCDA43955FCAB5905256B09598550A8F46DC59CA"
+      },
+      "after": "\\editionentry{13. Invariant Variational Problems}{work-13}\n\\section*{13. Invariant Variational Problems.}",
+      "after_identity": {
+        "bytes": 105,
+        "sha256": "601CFB20BB1032CBCA6361163A7AE42DCB849BEA10C89CEE2C4A4C5BDDE8861B"
+      }
+    },
+    {
+      "operation_id": "presentation-linked-work-14",
+      "active_replacements": 1,
+      "inactive_occurrences_preserved": 0,
+      "before": "{\\Large\\bfseries 14. The Arithmetic Theory of Algebraic Functions",
+      "before_identity": {
+        "bytes": 65,
+        "sha256": "760B25479505FBDA9A457E81D20DAC61656978C844ADF4C5D664580E9604BA6A"
+      },
+      "after": "\\editionentry{14. The Arithmetic Theory of Algebraic Functions of One Variable}{work-14}\n{\\Large\\bfseries 14. The Arithmetic Theory of Algebraic Functions",
+      "after_identity": {
+        "bytes": 154,
+        "sha256": "C645AEC639733E537D70FD831D20BEF3A6CD1BA5ED56ACCCB2FFFBA48A48F25E"
+      }
+    },
+    {
+      "operation_id": "presentation-linked-work-15",
+      "active_replacements": 1,
+      "inactive_occurrences_preserved": 0,
+      "before": "\\section*{15. The Finiteness of the System of Integral Invariants of Binary Forms}",
+      "before_identity": {
+        "bytes": 82,
+        "sha256": "D908C7C4B118118BCADF4D07910BFFDDBB2C4C0D826CFD11392BB4EAADBF642D"
+      },
+      "after": "\\editionentry{15. Finiteness of Integral Invariants of Binary Forms}{work-15}\n\\section*{15. The Finiteness of the System of Integral Invariants of Binary Forms}",
+      "after_identity": {
+        "bytes": 160,
+        "sha256": "CCAB4BB732D7378396606940692BE41BA2257689932EA47ECC17E16016BDED01"
+      }
+    },
+    {
+      "operation_id": "presentation-linked-work-16",
+      "active_replacements": 1,
+      "inactive_occurrences_preserved": 0,
+      "before": "\\section*{16. On Series Expansion in Form Theory.}",
+      "before_identity": {
+        "bytes": 50,
+        "sha256": "5D4FF56754BF0DCFE176D596D881DE02E4066CA971163773934755D919B6C000"
+      },
+      "after": "\\editionentry{16. On Series Expansion in Form Theory}{work-16}\n\\section*{16. On Series Expansion in Form Theory.}",
+      "after_identity": {
+        "bytes": 113,
+        "sha256": "79CFC2CCBA740BEAC0019055E3BF599C77AABE50D6BFF31450173AB8040E3537"
+      }
+    },
+    {
+      "operation_id": "presentation-linked-work-17",
+      "active_replacements": 1,
+      "inactive_occurrences_preserved": 0,
+      "before": "{\\Large\\bfseries Modules in Noncommutative Domains, Especially",
+      "before_identity": {
+        "bytes": 62,
+        "sha256": "DB5D125639DA7AC4B20A0FC839E889CA56D2515A360B760435076CF168E7D2CC"
+      },
+      "after": "\\editionentry{17. Joint with Werner Schmeidler: Modules in Noncommutative Domains}{work-17}\n{\\Large\\bfseries Modules in Noncommutative Domains, Especially",
+      "after_identity": {
+        "bytes": 154,
+        "sha256": "6BAE5B96075AB079C40A4C6F57480D5469ECD4C6F45CFCF0726CB878FBCF9E71"
+      }
+    },
+    {
+      "operation_id": "presentation-linked-work-18",
+      "active_replacements": 1,
+      "inactive_occurrences_preserved": 0,
+      "before": "\\textbf{1. E. Noether: On a Work in Elimination Theory by K. Hentzelt, Who Fell in the War.}",
+      "before_identity": {
+        "bytes": 92,
+        "sha256": "26AD183501DFF3253F6BE396F129BD7ACBC37D97F718F7B2948F194940B83227"
+      },
+      "after": "\\editionentry{18. On a Work in Elimination Theory by K. Hentzelt}{work-18}\n\\textbf{1. E. Noether: On a Work in Elimination Theory by K. Hentzelt, Who Fell in the War.}",
+      "after_identity": {
+        "bytes": 167,
+        "sha256": "B3A8802A41396A8DD59A9370FDA8C58765F6E00E633B19C706331D3039666BD3"
+      }
+    },
+    {
+      "operation_id": "presentation-linked-work-19",
+      "active_replacements": 1,
+      "inactive_occurrences_preserved": 0,
+      "before": "{\\Large\\bfseries Ideal Theory in Ring Domains.}",
+      "before_identity": {
+        "bytes": 47,
+        "sha256": "7930A960552254DFF2D70C5A9765E0C3EC60FFC9E78BB55B90C22420C22E2BCA"
+      },
+      "after": "\\editionentry{19. Ideal Theory in Ring Domains}{work-19}\n{\\Large\\bfseries Ideal Theory in Ring Domains.}",
+      "after_identity": {
+        "bytes": 104,
+        "sha256": "B02186EE2BB5B518CB3A057AAD6105F37B2CB84657A13305CB9D001952816F68"
+      }
+    },
+    {
+      "operation_id": "presentation-linked-work-20",
+      "active_replacements": 1,
+      "inactive_occurrences_preserved": 0,
+      "before": "\\section*{20. An Algebraic Criterion for Absolute Irreducibility.}",
+      "before_identity": {
+        "bytes": 66,
+        "sha256": "D313E49F749C8D3B6CA848F0C6BF1DBB8D537EE9459C41AA39F0BC56A1B16CD0"
+      },
+      "after": "\\editionentry{20. An Algebraic Criterion for Absolute Irreducibility}{work-20}\n\\section*{20. An Algebraic Criterion for Absolute Irreducibility.}",
+      "after_identity": {
+        "bytes": 145,
+        "sha256": "9622636FE1453F8072FD882EF2622C1713880E8CACE1CA4E58B8DEB1A2DBD17F"
+      }
+    },
+    {
+      "operation_id": "presentation-linked-work-21",
+      "active_replacements": 1,
+      "inactive_occurrences_preserved": 0,
+      "before": "\\section*{21. Formal Calculus of Variations and Differential Invariants}",
+      "before_identity": {
+        "bytes": 72,
+        "sha256": "7B8CF2BECBFE0E2D75F7F8EE3997A45D7317C69A17BFF0E27D5EE427DC41154A"
+      },
+      "after": "\\editionentry{21. Formal Calculus of Variations and Differential Invariants}{work-21}\n\\section*{21. Formal Calculus of Variations and Differential Invariants}",
+      "after_identity": {
+        "bytes": 158,
+        "sha256": "042B1829B6435033BD035BE7FF9DAA7F9C6F04EAA427D8498AB5FEFF3A0406E6"
+      }
+    },
+    {
+      "operation_id": "presentation-linked-work-22",
+      "active_replacements": 1,
+      "inactive_occurrences_preserved": 0,
+      "before": "\\section*{22. On the Theory of Polynomial Ideals and Resultants}",
+      "before_identity": {
+        "bytes": 64,
+        "sha256": "6DFC0BE9DFF12550EB88CD053BE5C959FE5257CEB1B81483E00A8BDF166AE94D"
+      },
+      "after": "\\editionentry{22. On the Theory of Polynomial Ideals and Resultants}{work-22}\n\\section*{22. On the Theory of Polynomial Ideals and Resultants}",
+      "after_identity": {
+        "bytes": 142,
+        "sha256": "DCA15C5600A136ACFBC54867C074A7147D0E1BEF66C56EAA45349E885445724C"
+      }
+    },
+    {
+      "operation_id": "presentation-linked-work-23",
+      "active_replacements": 1,
+      "inactive_occurrences_preserved": 1,
+      "before": "\\section*{23. Algebraic and Differential Invariants}",
+      "before_identity": {
+        "bytes": 52,
+        "sha256": "62632B3FC632E9FF2F3AE122875E151F709796945CD6CABF2F5A6716A3A2C020"
+      },
+      "after": "\\editionentry{23. Algebraic and Differential Invariants}{work-23}\n\\section*{23. Algebraic and Differential Invariants}",
+      "after_identity": {
+        "bytes": 118,
+        "sha256": "82E283D83C5976D165285A9AF2FAFB637CF7385DA4958AF2310EF7C82706ED6E"
+      }
+    },
+    {
+      "operation_id": "presentation-linked-work-24",
+      "active_replacements": 1,
+      "inactive_occurrences_preserved": 1,
+      "before": "\\section*{24. Elimination Theory and General Ideal Theory}",
+      "before_identity": {
+        "bytes": 58,
+        "sha256": "4B269241065586C9916BF4CCA138F73FE1A3E97A99F492966183ED5C2758F0CE"
+      },
+      "after": "\\editionentry{24. Elimination Theory and General Ideal Theory}{work-24}\n\\section*{24. Elimination Theory and General Ideal Theory}",
+      "after_identity": {
+        "bytes": 130,
+        "sha256": "A76FB8AC9CC2D2B6B3B9D966BB4A4A351F768B841A186BE3A778BD1B73176488"
+      }
+    },
+    {
+      "operation_id": "presentation-linked-work-25",
+      "active_replacements": 1,
+      "inactive_occurrences_preserved": 0,
+      "before": "\\section*{25. Elimination Theory and Ideal Theory.}",
+      "before_identity": {
+        "bytes": 51,
+        "sha256": "CA41698806CAEEA54C1748354F2A3BFFF565E6A7486C6B1E539EE19A84F3F005"
+      },
+      "after": "\\editionentry{25. Elimination Theory and Ideal Theory}{work-25}\n\\section*{25. Elimination Theory and Ideal Theory.}",
+      "after_identity": {
+        "bytes": 115,
+        "sha256": "98D6603839F44499B774A5554602B7897CBFD117D30514D0A5FCA117A68165E8"
+      }
+    },
+    {
+      "operation_id": "presentation-linked-work-26",
+      "active_replacements": 1,
+      "inactive_occurrences_preserved": 1,
+      "before": "\\section*{26. Abstract Construction of Ideal Theory in the Algebraic Number Field}",
+      "before_identity": {
+        "bytes": 82,
+        "sha256": "2955047B07B23B2798AAA29CECFDC446D1C33BD8979BA44FC23C8AAA88075D53"
+      },
+      "after": "\\editionentry{26. Abstract Construction of Ideal Theory in the Algebraic Number Field}{work-26}\n\\section*{26. Abstract Construction of Ideal Theory in the Algebraic Number Field}",
+      "after_identity": {
+        "bytes": 178,
+        "sha256": "74540A580061462FB9DFDCA8C4814CE13358FD6CA9B9DDDBBF55CB797716EDF3"
+      }
+    },
+    {
+      "operation_id": "presentation-linked-work-27",
+      "active_replacements": 1,
+      "inactive_occurrences_preserved": 1,
+      "before": "\\section*{27. Hilbert Numbers in Ideal Theory}",
+      "before_identity": {
+        "bytes": 46,
+        "sha256": "6024511A5CDF675337E70C5E0BB983EBA10C2EA31351C3010C0E7C05E94C610A"
+      },
+      "after": "\\editionentry{27. Hilbert Numbers in Ideal Theory}{work-27}\n\\section*{27. Hilbert Numbers in Ideal Theory}",
+      "after_identity": {
+        "bytes": 106,
+        "sha256": "D03D9ACA925ABBD33F6929B068C35E0A25F18D6AD82643249C2D7F7D1DFAD62C"
+      }
+    },
+    {
+      "operation_id": "presentation-linked-work-28",
+      "active_replacements": 1,
+      "inactive_occurrences_preserved": 1,
+      "before": "\\section*{28. Group Characters and Ideal Theory}",
+      "before_identity": {
+        "bytes": 48,
+        "sha256": "4974963CB37413582AB10F97B92433F70BBE4A45B491EADAC1235EF3E621EC29"
+      },
+      "after": "\\editionentry{28. Group Characters and Ideal Theory}{work-28}\n\\section*{28. Group Characters and Ideal Theory}",
+      "after_identity": {
+        "bytes": 110,
+        "sha256": "B8CDEA41C30CA1FF87A2DBB343FEDB81B28D9C3C853C01AC08B6E6DC3857E03D"
+      }
+    },
+    {
+      "operation_id": "presentation-linked-work-29",
+      "active_replacements": 1,
+      "inactive_occurrences_preserved": 0,
+      "before": "\\section*{29. The Finiteness Theorem for the Invariants of Finite Linear Groups of Characteristic $p$.}",
+      "before_identity": {
+        "bytes": 103,
+        "sha256": "D8C9E67576983069E5C12AB1EF8B082AE1A5AD21402AEB02D98E23B825674D31"
+      },
+      "after": "\\editionentry{29. Finiteness for Finite Linear Groups of Characteristic \\texorpdfstring{$p$}{p}}{work-29}\n\\section*{29. The Finiteness Theorem for the Invariants of Finite Linear Groups of Characteristic $p$.}",
+      "after_identity": {
+        "bytes": 209,
+        "sha256": "946B01E7FEB89E421170509014BF2B7FC79557143BD3E80E98CA67375C019D16"
+      }
+    },
+    {
+      "operation_id": "presentation-linked-work-30",
+      "active_replacements": 1,
+      "inactive_occurrences_preserved": 0,
+      "before": "\\section*{30. Abstract Construction of Ideal Theory in Algebraic Number and Function Fields.}",
+      "before_identity": {
+        "bytes": 93,
+        "sha256": "37DFD1133D9A96B6DF60C442D3DBBE765EAC139859F5733D27349896599597C8"
+      },
+      "after": "\\editionentry{30. Abstract Construction of Ideal Theory in Number and Function Fields}{work-30}\n\\section*{30. Abstract Construction of Ideal Theory in Algebraic Number and Function Fields.}",
+      "after_identity": {
+        "bytes": 189,
+        "sha256": "4D02082591F4E22869DE1BD192BC86F45F81B4DF9D230B7E20660D982DE99ABE"
+      }
+    },
+    {
+      "operation_id": "presentation-linked-work-31",
+      "active_replacements": 1,
+      "inactive_occurrences_preserved": 0,
+      "before": "\\section*{31. The Discriminant Theorem for Orders of an Algebraic Number Field or Function Field.}",
+      "before_identity": {
+        "bytes": 98,
+        "sha256": "22E7AA64CDF2CF20834CC69AF2B5AFD048949C1C5AFFCD340F48AED75C0FAA96"
+      },
+      "after": "\\editionentry{31. The Discriminant Theorem for Orders}{work-31}\n\\section*{31. The Discriminant Theorem for Orders of an Algebraic Number Field or Function Field.}",
+      "after_identity": {
+        "bytes": 162,
+        "sha256": "252013B68B8D200769504925D568C1DC7853B2CD28F2E719C7C9563B8F98E8CA"
+      }
+    },
+    {
+      "operation_id": "presentation-linked-work-32",
+      "active_replacements": 1,
+      "inactive_occurrences_preserved": 0,
+      "before": "\\section*{32. Joint with R. Brauer: On Minimal Splitting Fields of Irreducible Representations}",
+      "before_identity": {
+        "bytes": 95,
+        "sha256": "95C3F068E364B4C4D998C3B3FA1ECDF1AFE4A469A333D70A5CEE788E516C825C"
+      },
+      "after": "\\editionentry{32. Joint with R. Brauer: On Minimal Splitting Fields}{work-32}\n\\section*{32. Joint with R. Brauer: On Minimal Splitting Fields of Irreducible Representations}",
+      "after_identity": {
+        "bytes": 173,
+        "sha256": "541C235D514D5C7BC22FEB6D23F64DDEAD38E9C7F1F224E1190CAE7666953BEF"
+      }
+    },
+    {
+      "operation_id": "presentation-linked-work-33",
+      "active_replacements": 1,
+      "inactive_occurrences_preserved": 1,
+      "before": "\\section*{33. Hypercomplex quantities and representation theory in arithmetic conception}",
+      "before_identity": {
+        "bytes": 89,
+        "sha256": "478246998030421129CE7E7124C22D076931C3A7515A02D3EF3F9E92DF6E4672"
+      },
+      "after": "\\editionentry{33. Hypercomplex Quantities and Representation Theory in Arithmetic Conception}{work-33}\n\\section*{33. Hypercomplex quantities and representation theory in arithmetic conception}",
+      "after_identity": {
+        "bytes": 192,
+        "sha256": "934EBDB3ECF45CC9630F2C9F685D9FE1840BF43C20BBB39CD41BE318FE59C098"
+      }
+    },
+    {
+      "operation_id": "presentation-linked-work-34",
+      "active_replacements": 1,
+      "inactive_occurrences_preserved": 3,
+      "before": "\\section*{34. Hypercomplex Quantities and Representation Theory}",
+      "before_identity": {
+        "bytes": 64,
+        "sha256": "205FA9F9E180275CCF06C27984406042ADEEE74F4ABC7935904A454FBD7953CF"
+      },
+      "after": "\\editionentry{34. Hypercomplex Quantities and Representation Theory}{work-34}\n\\section*{34. Hypercomplex Quantities and Representation Theory}",
+      "after_identity": {
+        "bytes": 142,
+        "sha256": "24BF490DD1DEB5ECA9B04716CCAEAE84BAC8D4D33360935C572D23A4E1B28451"
+      }
+    },
+    {
+      "operation_id": "presentation-linked-work-35",
+      "active_replacements": 1,
+      "inactive_occurrences_preserved": 1,
+      "before": "\\section*{35. On Maximal Domains of Integral Functions}",
+      "before_identity": {
+        "bytes": 55,
+        "sha256": "49174B95D3A4EC1711B2FE89307763709AC9B93032F30AE152D7648EEE35E036"
+      },
+      "after": "\\editionentry{35. On Maximal Domains of Integral Functions}{work-35}\n\\section*{35. On Maximal Domains of Integral Functions}",
+      "after_identity": {
+        "bytes": 124,
+        "sha256": "D144DC6FD0615A0AAEE40506EC9A527ED68B18F1FE2CA67B7904951B04218C3E"
+      }
+    },
+    {
+      "operation_id": "presentation-linked-work-36",
+      "active_replacements": 1,
+      "inactive_occurrences_preserved": 1,
+      "before": "\\section*{36. Ideal Differentiation and the Different}",
+      "before_identity": {
+        "bytes": 54,
+        "sha256": "D6B8275E50C2D01B532FCB4CDA6B622234D1EB41DD0D4193F33B9A637EAA3AA9"
+      },
+      "after": "\\editionentry{36. Ideal Differentiation and the Different}{work-36}\n\\section*{36. Ideal Differentiation and the Different}",
+      "after_identity": {
+        "bytes": 122,
+        "sha256": "2F99775A1554E7ECB7BC47181ECF57657D4A59E0E4CA64B45C23536F19DC6D47"
+      }
+    },
+    {
+      "operation_id": "presentation-linked-work-37",
+      "active_replacements": 1,
+      "inactive_occurrences_preserved": 0,
+      "before": "\\section*{37. Normal Basis in Fields without Higher Ramification}",
+      "before_identity": {
+        "bytes": 65,
+        "sha256": "A6BFC3144622424752F9816CC3B8A7AFA97B0A3B7DD5D0A650D1D3EEE182D475"
+      },
+      "after": "\\editionentry{37. Normal Basis in Fields without Higher Ramification}{work-37}\n\\section*{37. Normal Basis in Fields without Higher Ramification}",
+      "after_identity": {
+        "bytes": 144,
+        "sha256": "AD3F40301AC7FE0AE6D8B11C2A74036D871A64E1F01C721B4EA70E6D2AA90F2C"
+      }
+    },
+    {
+      "operation_id": "presentation-linked-work-38",
+      "active_replacements": 1,
+      "inactive_occurrences_preserved": 1,
+      "before": "\\section*{38. Jointly with R. Brauer and H. Hasse: Proof of a Main Theorem in the Theory of Algebras}",
+      "before_identity": {
+        "bytes": 101,
+        "sha256": "DAFF0738AA623473D85AD4805B70EBE22FA7898ED7C039058924590C87289E16"
+      },
+      "after": "\\editionentry{38. Jointly with R. Brauer and H. Hasse: A Main Theorem on Algebras}{work-38}\n\\section*{38. Jointly with R. Brauer and H. Hasse: Proof of a Main Theorem in the Theory of Algebras}",
+      "after_identity": {
+        "bytes": 193,
+        "sha256": "EB422D7403059E348537BEBAA9BC7F4ED1DEBF20E707EA2F836627C0E5F391ED"
+      }
+    },
+    {
+      "operation_id": "presentation-linked-work-39",
+      "active_replacements": 1,
+      "inactive_occurrences_preserved": 1,
+      "before": "\\section*{39. Hypercomplex Systems in Their Relations to Commutative Algebra and Number Theory}",
+      "before_identity": {
+        "bytes": 95,
+        "sha256": "BCC01E237BDF2D65373DA9723A1C6FF3DB2FB1F2B52783883B7E02736C72B772"
+      },
+      "after": "\\editionentry{39. Hypercomplex Systems, Commutative Algebra, and Number Theory}{work-39}\n\\section*{39. Hypercomplex Systems in Their Relations to Commutative Algebra and Number Theory}",
+      "after_identity": {
+        "bytes": 184,
+        "sha256": "36A630FFF39C23E5EF0CF1457C3FA68969B4910DF70D0BDA2B1838C3244A2034"
+      }
+    },
+    {
+      "operation_id": "presentation-linked-work-40",
+      "active_replacements": 1,
+      "inactive_occurrences_preserved": 2,
+      "before": "\\section*{40. Noncommutative Algebras}",
+      "before_identity": {
+        "bytes": 38,
+        "sha256": "3E1803405C8E970B588F537FC28E3C208AA4AA178091F01C09F95434BEBACA60"
+      },
+      "after": "\\editionentry{40. Noncommutative Algebras}{work-40}\n\\section*{40. Noncommutative Algebras}",
+      "after_identity": {
+        "bytes": 90,
+        "sha256": "814282AB5E470DB86A89AB251CAD378EF95ABE719F1807D67D1A7790992C0F1D"
+      }
+    },
+    {
+      "operation_id": "presentation-linked-work-41",
+      "active_replacements": 1,
+      "inactive_occurrences_preserved": 2,
+      "before": "\\section*{41. The Principal Genus Theorem for Relative Galois Number Fields}",
+      "before_identity": {
+        "bytes": 76,
+        "sha256": "AEB90E988AB5B2673B31707199D83A310D73325DFC405DA0A20851A79763BB8B"
+      },
+      "after": "\\editionentry{41. The Principal Genus Theorem for Relative Galois Number Fields}{work-41}\n\\section*{41. The Principal Genus Theorem for Relative Galois Number Fields}",
+      "after_identity": {
+        "bytes": 166,
+        "sha256": "8483448A4B5DCB0838D2ACAD63D2692B73C01AF4D445C94203762F7A20BDA6C6"
+      }
+    },
+    {
+      "operation_id": "presentation-linked-work-42",
+      "active_replacements": 1,
+      "inactive_occurrences_preserved": 2,
+      "before": "\\section*{42. Split Crossed Products and Their Maximal Orders}",
+      "before_identity": {
+        "bytes": 62,
+        "sha256": "82CE059850D0B38E018D9405B5BF63CF4BD00C4E222FEACF9D065911D3F6EEF9"
+      },
+      "after": "\\editionentry{42. Split Crossed Products and Their Maximal Orders}{work-42}\n\\section*{42. Split Crossed Products and Their Maximal Orders}",
+      "after_identity": {
+        "bytes": 138,
+        "sha256": "3362F65ED07BEDBC0152FA30A4650A40137569873BE2E01415DE4AA3CD425B28"
+      }
+    },
+    {
+      "operation_id": "presentation-linked-work-43",
+      "active_replacements": 1,
+      "inactive_occurrences_preserved": 0,
+      "before": "\\section*{43. Ideal Differentiation and the Different.}",
+      "before_identity": {
+        "bytes": 55,
+        "sha256": "03C68F8E23D887BC2538DCE0236B70CA1DFDF66F5F205EE5258A90AF33C5A944"
+      },
+      "after": "\\editionentry{43. Ideal Differentiation and the Different}{work-43}\n\\section*{43. Ideal Differentiation and the Different.}",
+      "after_identity": {
+        "bytes": 123,
+        "sha256": "C214F222E4E48D096621DD902FEFC11828B49E144F7DB2F2530BF826B75B6D33"
+      }
+    },
+    {
+      "operation_id": "presentation-link-ra10-apparatus",
+      "active_replacements": 1,
+      "inactive_occurrences_preserved": 0,
+      "before": "\\section*{RA10: scan-visible apparatus for Papers 40--43}\n\\addcontentsline{toc}{section}{RA10: scan-visible apparatus for 40--43}",
+      "before_identity": {
+        "bytes": 129,
+        "sha256": "21135B0D82352D7907657C536A2789BCF23622FC84E2E0232DB912C087A1EAA0"
+      },
+      "after": "\\section*{RA10: scan-visible apparatus for Papers 40--43}\n\\phantomsection\\addcontentsline{toc}{section}{RA10: scan-visible apparatus for Papers 40--43}",
+      "after_identity": {
+        "bytes": 151,
+        "sha256": "4D32B425ECF2C438079DFDEF458DE692629581F730D3E4FF39179E7195A99134"
+      }
+    },
+    {
+      "operation_id": "presentation-linked-appendix-01",
+      "active_replacements": 1,
+      "inactive_occurrences_preserved": 0,
+      "before": "{\\LARGE\\bfseries Algebra of Hypercomplex Quantities\\par}",
+      "before_identity": {
+        "bytes": 56,
+        "sha256": "FE2C12F7893D40C22C93F4799064BB169B4A715DE2E6043851E2C25A24DEF135"
+      },
+      "after": "\\editionentry{Algebra of Hypercomplex Quantities: 1929/30 Lectures}{lecture-main}\n{\\LARGE\\bfseries Algebra of Hypercomplex Quantities\\par}",
+      "after_identity": {
+        "bytes": 138,
+        "sha256": "ACB7A1E3651DA12053CF3F333E21C0B664AC72E73545432E04E6F665371EC8BB"
+      }
+    },
+    {
+      "operation_id": "presentation-linked-appendix-02",
+      "active_replacements": 1,
+      "inactive_occurrences_preserved": 0,
+      "before": "\\section*{Introduction}\\label{einleitung}",
+      "before_identity": {
+        "bytes": 41,
+        "sha256": "20464B7B26B1175D9DABB6AECB1DB987181E944108711559683D8132A5A653B5"
+      },
+      "after": "\\editionpartentry{Lecture Introduction}{lecture-introduction}\n\\section*{Introduction}\\label{einleitung}",
+      "after_identity": {
+        "bytes": 103,
+        "sha256": "4AC71D4A760BB97C91F6DC4EC1C46477B3DDEF1A40D07B3D1D2DF289902AC10C"
+      }
+    },
+    {
+      "operation_id": "presentation-linked-appendix-03",
+      "active_replacements": 1,
+      "inactive_occurrences_preserved": 0,
+      "before": "\\section*{Chapter I. Representations}\\label{kapitel-i.-darstellungen}",
+      "before_identity": {
+        "bytes": 69,
+        "sha256": "AB996531326ADC73414F1333EB20FE012EDCB297B3A04657C41E4C3FE43431D8"
+      },
+      "after": "\\editionpartentry{Lecture Chapter I: Representations}{lecture-chapter-i}\n\\section*{Chapter I. Representations}\\label{kapitel-i.-darstellungen}",
+      "after_identity": {
+        "bytes": 142,
+        "sha256": "9A5ED065BD593EE6349B50F4CC85815857D9B6B91F7F75128F552B2750626056"
+      }
+    },
+    {
+      "operation_id": "presentation-linked-appendix-04",
+      "active_replacements": 1,
+      "inactive_occurrences_preserved": 0,
+      "before": "\\section*{Chapter II. Galois Theory of Commutative Fields}\\label{kapitel-ii.-galoissche-theorie-kommutativer-koerper}",
+      "before_identity": {
+        "bytes": 117,
+        "sha256": "1856F0C31F3DC30226F7778BA4E3D1A1674E76F6F860479FDC780BD0F25EA68B"
+      },
+      "after": "\\editionpartentry{Lecture Chapter II: Galois Theory of Commutative Fields}{lecture-chapter-ii}\n\\section*{Chapter II. Galois Theory of Commutative Fields}\\label{kapitel-ii.-galoissche-theorie-kommutativer-koerper}",
+      "after_identity": {
+        "bytes": 212,
+        "sha256": "B1E34E48E0C2B9E4755C82FD84529883B9D5E10019BA78E7247D434EFB7C2441"
+      }
+    },
+    {
+      "operation_id": "presentation-linked-appendix-05",
+      "active_replacements": 1,
+      "inactive_occurrences_preserved": 0,
+      "before": "\\section*{Chapter III. Abelian Groups}\\label{kapitel-iii.-abelsche-gruppen}",
+      "before_identity": {
+        "bytes": 75,
+        "sha256": "5FC5B694FE8C844C008143B1F9612CBDADF38625C2F2CC1E30B7D2570D0B472C"
+      },
+      "after": "\\editionpartentry{Lecture Chapter III: Abelian Groups}{lecture-chapter-iii}\n\\section*{Chapter III. Abelian Groups}\\label{kapitel-iii.-abelsche-gruppen}",
+      "after_identity": {
+        "bytes": 151,
+        "sha256": "D32B639E31DB067EE150F675388ADFE5EA1F93EEBFF9F4D9660648793461165A"
+      }
+    },
+    {
+      "operation_id": "presentation-linked-appendix-06",
+      "active_replacements": 1,
+      "inactive_occurrences_preserved": 0,
+      "before": "\\section*{Chapter IV. Two-Sided Simple Rings}\\label{kapitel-iv.-zweiseitig-einfache-ringe}",
+      "before_identity": {
+        "bytes": 90,
+        "sha256": "A7A5FF920BC68E16EB27E5C9268A65B82C603485F128DB1136A0DC60A542941C"
+      },
+      "after": "\\editionpartentry{Lecture Chapter IV: Two-Sided Simple Rings}{lecture-chapter-iv}\n\\section*{Chapter IV. Two-Sided Simple Rings}\\label{kapitel-iv.-zweiseitig-einfache-ringe}",
+      "after_identity": {
+        "bytes": 172,
+        "sha256": "81C5DD462A014FB61EB1C56E92F8AAB0D2003D89F3E5A55008DD8E7231E8212A"
+      }
+    },
+    {
+      "operation_id": "presentation-linked-appendix-07",
+      "active_replacements": 1,
+      "inactive_occurrences_preserved": 0,
+      "before": "\\section*{Chapter V. Factor Systems}\\label{kapitel-v.-faktorensysteme}",
+      "before_identity": {
+        "bytes": 70,
+        "sha256": "B8506174DA0D4CB4029C715A0CA3E5967BF318673A2B4B0F66F8DB73620A6ADA"
+      },
+      "after": "\\editionpartentry{Lecture Chapter V: Factor Systems}{lecture-chapter-v}\n\\section*{Chapter V. Factor Systems}\\label{kapitel-v.-faktorensysteme}",
+      "after_identity": {
+        "bytes": 142,
+        "sha256": "07485E515690F8CBF267FA1744D5614809ECE46C1439A27B08A2B03C4121F38C"
+      }
+    },
+    {
+      "operation_id": "presentation-linked-appendix-08",
+      "active_replacements": 1,
+      "inactive_occurrences_preserved": 0,
+      "before": "\\section*{Chapter VI. Theory of Crossed Products}\\label{kapitel-vi.-theorie-der-verschraenkten-produkte}",
+      "before_identity": {
+        "bytes": 104,
+        "sha256": "00DDAF78F7B9DD84A73D237A5234EE6964D724D8CA4A5F8A2904013641485B84"
+      },
+      "after": "\\editionpartentry{Lecture Chapter VI: Theory of Crossed Products}{lecture-chapter-vi}\n\\section*{Chapter VI. Theory of Crossed Products}\\label{kapitel-vi.-theorie-der-verschraenkten-produkte}",
+      "after_identity": {
+        "bytes": 190,
+        "sha256": "DDD7E87BD85B88EB503B02F1503AB4C199514AF7D3FD0D54B0FBDAE4FCF3DCA8"
+      }
+    },
+    {
+      "operation_id": "presentation-linked-appendix-09",
+      "active_replacements": 1,
+      "inactive_occurrences_preserved": 0,
+      "before": "\\subsection*{Necessary and Sufficient Multiplicity Conditions for Noether's Fundamental Theorem of Algebraic Functions}",
+      "before_identity": {
+        "bytes": 119,
+        "sha256": "798538D630DB16D9675666C8E5C2F41FA1DF344988AF61E387CBD2CCF6BF688C"
+      },
+      "after": "\\editionentry{Kapferer: Multiplicity Conditions and Noether Supplement}{kapferer-supplement}\n\\subsection*{Necessary and Sufficient Multiplicity Conditions for Noether's Fundamental Theorem of Algebraic Functions}",
+      "after_identity": {
+        "bytes": 212,
+        "sha256": "C0729587E4E42F6AA1895E336C1D59FDDCFC28CF42EA5855A57CE53ADA41F2D2"
+      }
+    },
+    {
+      "operation_id": "presentation-linked-appendix-10",
+      "active_replacements": 1,
+      "inactive_occurrences_preserved": 0,
+      "before": "{\\Large\\bfseries Bibliography}",
+      "before_identity": {
+        "bytes": 30,
+        "sha256": "2FE0B3C1CD29D7658C1608A473839767A868AEC40D6B6640D59B10345ADFA6FC"
+      },
+      "after": "\\editionentry{Bibliography}{corpus-bibliography}\n{\\Large\\bfseries Bibliography}",
+      "after_identity": {
+        "bytes": 79,
+        "sha256": "1549189C25469A0EA2A09F7512DD3BADC566533741B10F3BE492A4232269916E"
+      }
+    },
+    {
+      "operation_id": "presentation-linked-appendix-11",
+      "active_replacements": 1,
+      "inactive_occurrences_preserved": 0,
+      "before": "{\\Large\\bfseries List of Short Communications and Book Reviews",
+      "before_identity": {
+        "bytes": 62,
+        "sha256": "E055FAF19D57CA33870979C6BC9D0D7200CD83FE972216FDB7CDE591A54CBD33"
+      },
+      "after": "\\editionentry{Short Communications and Book Reviews}{short-communications}\n{\\Large\\bfseries List of Short Communications and Book Reviews",
+      "after_identity": {
+        "bytes": 137,
+        "sha256": "AD7D66289B79DB5C45DA0C00CDAF017A310D38DF4B103016960332B0B682047C"
+      }
+    }
+  ],
+  "status": {
+    "coverage": "complete_project_coverage",
+    "translation_method": "machine_assisted_working_translation",
+    "peer_reviewed": false,
+    "critical_edition": false,
+    "target_language_certification": false
+  },
+  "release_coordinates": {
+    "english_concept_doi": "10.5281/zenodo.21923145",
+    "version_doi": "10.5281/zenodo.21923146",
+    "record_id": "21923146",
+    "repository_url": "https://github.com/KokunoYumeto/emmy-noether-en",
+    "release_date": "2026-08-13"
+  }
+}

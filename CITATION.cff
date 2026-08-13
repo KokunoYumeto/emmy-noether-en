@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "Please cite the preferred-citation for this English edition."
+title: "Emmy Noether: Complete English Corpus Edition — source and evidence"
+type: software
+authors:
+  - name: "Manuscript Typesetting Project"
+repository-code: "https://github.com/KokunoYumeto/emmy-noether-en"
+version: "2026.08.13-r1"
+preferred-citation:
+  type: book
+  title: "Emmy Noether: Complete English Corpus Edition"
+  authors:
+    - family-names: "Noether"
+      given-names: "Emmy"
+  translators:
+    - name: "Manuscript Typesetting Project / OpenAI Codex"
+  languages:
+    - eng
+  doi: "10.5281/zenodo.21923146"
+  version: "2026.08.13-r1"
+  year: "2026"
+  url: "https://doi.org/10.5281/zenodo.21923146"

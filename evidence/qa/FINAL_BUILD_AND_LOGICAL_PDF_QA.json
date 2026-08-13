@@ -1,0 +1,238 @@
+{
+  "schema": "noether-english-build-and-logical-pdf-qa.v1",
+  "status": "PASS_TWO_ISOLATED_THREE_PASS_XELATEX_BUILDS_BYTE_IDENTICAL",
+  "source": {
+    "bytes": 2855590,
+    "sha256": "9C0A496687F3E92611D922FAE1528AA1F9A0550F0E2AB93DF6F973813C9A7B3C"
+  },
+  "asset": {
+    "bytes": 797,
+    "sha256": "B2AF3955A8255B4A6D925E174B7B81311C64C669CE21B07E75002494E55F2FF5"
+  },
+  "source_date_epoch": "1786579200",
+  "initial_resource_guard": {
+    "schema": "noether-english-resource-guard.v1",
+    "safe_for_one_serial_heavy_job": true,
+    "minimum_free_physical_gib": 16,
+    "state": {
+      "observed_utc": "2026-08-13T17:47:09.7233585Z",
+      "free_physical_gib": 34.244,
+      "total_physical_gib": 63.691,
+      "free_virtual_gib": 77.463,
+      "git_processes": [],
+      "heavy_processes": []
+    },
+    "policy": {
+      "git_executable_prohibited": true,
+      "whole_workspace_git_status_prohibited": true,
+      "one_heavy_job_at_a_time": true,
+      "guard_is_read_only": true
+    }
+  },
+  "runs": [
+    {
+      "label": "a",
+      "pdf": {
+        "bytes": 2433148,
+        "sha256": "A53561CB32C2AA38C29453DA9F33B60C0BB418ADF2E41869C78066A589C4D6A8"
+      },
+      "log": {
+        "bytes": 36366,
+        "sha256": "7ADB39D69B9BE0BD6357B0F786AF87D8838574EB956D0F70EAC6DDF5B21BC6D4"
+      },
+      "invocations": [
+        {
+          "pass": 1,
+          "returncode": 0,
+          "resource_guard": {
+            "schema": "noether-english-resource-guard.v1",
+            "safe_for_one_serial_heavy_job": true,
+            "minimum_free_physical_gib": 16,
+            "state": {
+              "observed_utc": "2026-08-13T17:47:10.2920679Z",
+              "free_physical_gib": 34.301,
+              "total_physical_gib": 63.691,
+              "free_virtual_gib": 77.543,
+              "git_processes": [],
+              "heavy_processes": []
+            },
+            "policy": {
+              "git_executable_prohibited": true,
+              "whole_workspace_git_status_prohibited": true,
+              "one_heavy_job_at_a_time": true,
+              "guard_is_read_only": true
+            }
+          },
+          "stdout_sha256": "F004A6D6F215D4F735BC40E51795D5E631DC4E292F5BD7E8F800ED2ED7039758",
+          "stderr_sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+        },
+        {
+          "pass": 2,
+          "returncode": 0,
+          "resource_guard": {
+            "schema": "noether-english-resource-guard.v1",
+            "safe_for_one_serial_heavy_job": true,
+            "minimum_free_physical_gib": 16,
+            "state": {
+              "observed_utc": "2026-08-13T17:47:13.8666056Z",
+              "free_physical_gib": 34.334,
+              "total_physical_gib": 63.691,
+              "free_virtual_gib": 77.554,
+              "git_processes": [],
+              "heavy_processes": []
+            },
+            "policy": {
+              "git_executable_prohibited": true,
+              "whole_workspace_git_status_prohibited": true,
+              "one_heavy_job_at_a_time": true,
+              "guard_is_read_only": true
+            }
+          },
+          "stdout_sha256": "8847E2255F793CDEB2063FB2A48F601CCF47C827F8EDE9885E7DDB8B91D02383",
+          "stderr_sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+        },
+        {
+          "pass": 3,
+          "returncode": 0,
+          "resource_guard": {
+            "schema": "noether-english-resource-guard.v1",
+            "safe_for_one_serial_heavy_job": true,
+            "minimum_free_physical_gib": 16,
+            "state": {
+              "observed_utc": "2026-08-13T17:47:17.3402182Z",
+              "free_physical_gib": 34.185,
+              "total_physical_gib": 63.691,
+              "free_virtual_gib": 77.427,
+              "git_processes": [],
+              "heavy_processes": []
+            },
+            "policy": {
+              "git_executable_prohibited": true,
+              "whole_workspace_git_status_prohibited": true,
+              "one_heavy_job_at_a_time": true,
+              "guard_is_read_only": true
+            }
+          },
+          "stdout_sha256": "8847E2255F793CDEB2063FB2A48F601CCF47C827F8EDE9885E7DDB8B91D02383",
+          "stderr_sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+        }
+      ]
+    },
+    {
+      "label": "b",
+      "pdf": {
+        "bytes": 2433148,
+        "sha256": "A53561CB32C2AA38C29453DA9F33B60C0BB418ADF2E41869C78066A589C4D6A8"
+      },
+      "log": {
+        "bytes": 36366,
+        "sha256": "7ADB39D69B9BE0BD6357B0F786AF87D8838574EB956D0F70EAC6DDF5B21BC6D4"
+      },
+      "invocations": [
+        {
+          "pass": 1,
+          "returncode": 0,
+          "resource_guard": {
+            "schema": "noether-english-resource-guard.v1",
+            "safe_for_one_serial_heavy_job": true,
+            "minimum_free_physical_gib": 16,
+            "state": {
+              "observed_utc": "2026-08-13T17:47:20.8113324Z",
+              "free_physical_gib": 34.193,
+              "total_physical_gib": 63.691,
+              "free_virtual_gib": 77.421,
+              "git_processes": [],
+              "heavy_processes": []
+            },
+            "policy": {
+              "git_executable_prohibited": true,
+              "whole_workspace_git_status_prohibited": true,
+              "one_heavy_job_at_a_time": true,
+              "guard_is_read_only": true
+            }
+          },
+          "stdout_sha256": "F004A6D6F215D4F735BC40E51795D5E631DC4E292F5BD7E8F800ED2ED7039758",
+          "stderr_sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+        },
+        {
+          "pass": 2,
+          "returncode": 0,
+          "resource_guard": {
+            "schema": "noether-english-resource-guard.v1",
+            "safe_for_one_serial_heavy_job": true,
+            "minimum_free_physical_gib": 16,
+            "state": {
+              "observed_utc": "2026-08-13T17:47:24.3074469Z",
+              "free_physical_gib": 34.055,
+              "total_physical_gib": 63.691,
+              "free_virtual_gib": 77.243,
+              "git_processes": [],
+              "heavy_processes": []
+            },
+            "policy": {
+              "git_executable_prohibited": true,
+              "whole_workspace_git_status_prohibited": true,
+              "one_heavy_job_at_a_time": true,
+              "guard_is_read_only": true
+            }
+          },
+          "stdout_sha256": "8847E2255F793CDEB2063FB2A48F601CCF47C827F8EDE9885E7DDB8B91D02383",
+          "stderr_sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+        },
+        {
+          "pass": 3,
+          "returncode": 0,
+          "resource_guard": {
+            "schema": "noether-english-resource-guard.v1",
+            "safe_for_one_serial_heavy_job": true,
+            "minimum_free_physical_gib": 16,
+            "state": {
+              "observed_utc": "2026-08-13T17:47:27.7438839Z",
+              "free_physical_gib": 34.129,
+              "total_physical_gib": 63.691,
+              "free_virtual_gib": 77.311,
+              "git_processes": [],
+              "heavy_processes": []
+            },
+            "policy": {
+              "git_executable_prohibited": true,
+              "whole_workspace_git_status_prohibited": true,
+              "one_heavy_job_at_a_time": true,
+              "guard_is_read_only": true
+            }
+          },
+          "stdout_sha256": "8847E2255F793CDEB2063FB2A48F601CCF47C827F8EDE9885E7DDB8B91D02383",
+          "stderr_sha256": "E3B0C44298FC1C149AFBF4C8996FB92427AE41E4649B934CA495991B7852B855"
+        }
+      ]
+    }
+  ],
+  "final_pdf": {
+    "bytes": 2433148,
+    "sha256": "A53561CB32C2AA38C29453DA9F33B60C0BB418ADF2E41869C78066A589C4D6A8"
+  },
+  "logical_pdf_qa": {
+    "pages": 463,
+    "outline_top_level_items": 2,
+    "outline_total_items": 49,
+    "link_annotations": 782,
+    "media_box_widths": [
+      595.28
+    ],
+    "media_box_heights": [
+      841.89
+    ],
+    "metadata": {
+      "/Creator": "LaTeX with hyperref",
+      "/Title": "Emmy Noether: Collected Mathematical Works in English",
+      "/Subject": "Complete maintained English corpus edition; source authority NOETH-DE-ED-0014",
+      "/Author": "Emmy Noether",
+      "/Keywords": "Emmy Noether, English translation, collected works, algebra, invariant theory",
+      "/Producer": "MiKTeX-dvipdfmx (20260404)",
+      "/CreationDate": "D:20260813000000Z"
+    }
+  },
+  "git_invocations": 0,
+  "network_calls": 0,
+  "lean_formalization_performed": false
+}

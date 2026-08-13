@@ -1,0 +1,957 @@
+--- r35/20-en.tex
++++ Noether_English_ED0014.tex
+@@ -1,7 +1,7 @@
+ % Archive-normalized self-contained cumulative TeX.
+ % The archive owner changed no translated wording; each former input was inlined byte-for-byte
+ % after UTF-8/EOL normalization and is delimited by a path/size/SHA-256 marker.
+-% Producer master: [private local workspace coordinate omitted; exact identity retained in lineage]
++% Producer master provenance coordinate: evidence/baselines/producer/Noether_R823_Full_Cumulative_English_Workpass.tex
+ % Producer master identity: 1837531 B / SHA-256 A7AE400B093829B30C83E8C95553F4E92D53D872A502C4F45D1131E39A45D44E
+ % Inlined dependency count: 51
+ \documentclass[11pt]{article}
+@@ -9,9 +9,14 @@
+ \usepackage[utf8]{inputenc}
+ \usepackage{lmodern}
+ \usepackage[english]{babel}
+-\usepackage{amsmath,amssymb,mathtools,mathrsfs,array,booktabs,pdflscape,adjustbox,diagbox}
++\usepackage{amsmath,amssymb,mathtools,mathrsfs,array,booktabs,pdflscape,adjustbox,diagbox,graphicx}
+ \usepackage{geometry}
+ \usepackage{microtype}
++\usepackage{newunicodechar}
++\newunicodechar{—}{---}
++\newunicodechar{“}{``}
++\newunicodechar{”}{''}
++\usepackage[hidelinks,unicode=true,pdfencoding=auto,bookmarksopen=true,bookmarksnumbered=false]{hyperref}
+ \geometry{a4paper,margin=1.45cm}
+ \setlength{\parindent}{1.25em}
+ \setlength{\parskip}{0pt}
+@@ -35,6 +40,7 @@
+   \renewcommand{\thefootnote}{#1}%
+   \footnotetext{#2}%
+   \endgroup}
++\providecommand{\noethpIIrosette}{\makebox[9.44444pt][c]{\raisebox{-3.85pt}[0pt][0pt]{\includegraphics[width=14.726716981132075pt]{authority_rosette_native_supported_mask.png}}}}
+ \providecommand{\srcnumdisplay}[3][3.4em]{%
+   \par\smallskip\noindent
+   \begin{minipage}[t]{#1}\vspace*{0pt}#2\end{minipage}%
+@@ -335,13 +341,62 @@
+ \providecommand{\ee}{\mathfrak e}
+ 
+ \providecommand{\Gg}{\mathfrak G}
++\hypersetup{%
++  pdftitle={Emmy Noether: Collected Mathematical Works in English},%
++  pdfauthor={Emmy Noether},%
++  pdfsubject={Complete maintained English corpus edition; source authority NOETH-DE-ED-0014},%
++  pdfkeywords={Emmy Noether, English translation, collected works, algebra, invariant theory}%
++}
++\setcounter{tocdepth}{1}
++\providecommand{\editionentry}[2]{%
++  \phantomsection\addcontentsline{toc}{section}{#1}\label{#2}}
++\providecommand{\editionpartentry}[2]{%
++  \phantomsection\addcontentsline{toc}{subsection}{#1}\label{#2}}
+ \begin{document}
+ \providecommand{\mat}[1]{\begin{pmatrix}#1\end{pmatrix}}
+ 
++\pagenumbering{roman}
++\begin{titlepage}
++\centering
++\vspace*{2.5cm}
++{\Huge\bfseries Emmy Noether\par}
++\vspace{0.8cm}
++{\LARGE Collected Mathematical Works in English\par}
++\vspace{0.5cm}
++{\Large Complete Maintained English Corpus Edition\par}
++\vspace{1.8cm}
++\begin{minipage}{0.86\textwidth}
++\small
++This linked reader brings together the complete substantive English corpus currently maintained by the project: numbered papers 1--43, retained scholarly apparatus, the 1929/30 lectures on hypercomplex quantities, the Kapferer paper and Noether supplement, bibliography, and short communications and reviews.
++
++\medskip
++\textbf{Editorial status.} This is a machine-assisted working translation and typeset edition. It is complete in project coverage but is not a peer-reviewed translation or a critical edition. Source-language and target-language decisions, exact lineage, correction dispositions, and validation evidence are preserved separately in the accompanying editable-source and provenance archives.
++
++\medskip
++\textbf{German authority.} NOETH-DE-AUTH-v051-20260811 / NOETH-DE-ED-0014. All 25 accepted authority deltas have an explicit English disposition; 20 required source or layout changes and 5 were already conformant.
++
++\medskip
++\textbf{English concept DOI:} \href{https://doi.org/10.5281/zenodo.21923145}{\nolinkurl{10.5281/zenodo.21923145}}\\
++\textbf{This version DOI:} \href{https://doi.org/10.5281/zenodo.21923146}{\nolinkurl{10.5281/zenodo.21923146}}\\
++\textbf{Zenodo record:} \href{https://zenodo.org/records/21923146}{\nolinkurl{21923146}}\\
++\textbf{Living repository:} \href{https://github.com/KokunoYumeto/emmy-noether-en}{\nolinkurl{https://github.com/KokunoYumeto/emmy-noether-en}}
++\end{minipage}
++\vfill
++{\large Release date: 2026-08-13\par}
++\end{titlepage}
++
++\clearpage
++\pdfbookmark[0]{Contents}{english-corpus-contents}
++\tableofcontents
++\clearpage
++\pagenumbering{arabic}
++\setcounter{page}{1}
++
+ 
+ 
+ 
+ \begin{center}
++\editionentry{1. On the Formation of the Form System (1907)}{work-01}
+ {\Large\bfseries 1. On the Formation of the form System of the Ternary\\ Biquadratic form}\par
+ \vspace{1.5em}
+ Reports of the Physical-Medical Society in Erlangen 39 (1907), pp. 176--179
+@@ -438,6 +493,7 @@
+ \providecommand{\Yreal}{\mathfrak Y}
+ 
+ \begin{center}
++\editionentry{2. On the Formation of the Form System (1908)}{work-02}
+ {\Large\bfseries 2. On the Formation of the form System of the Ternary\\ Biquadratic form}\par
+ \vspace{1.5em}
+ Journal for the reine and angewandte Mathematik 134 (1908), pp. 23--90 and two tables
+@@ -574,34 +630,47 @@
+ By Theorem I, a form sequence $s_x^m t_x^n u_\sigma^\mu u_\tau^\nu$ ($m>n;\ \mu>\nu$) can be arranged according to the following rectangular scheme:
+ \begingroup\small
+ \[
+-\begin{array}{c|c|c|c}
++\begin{array}{c|c|c|c|c}
+ s_x^m t_x^n u_\sigma^\mu u_\tau^\nu
+ & (stu)
+ & (stu)^2
+-& \cdots\\[0.3em]
++& \cdots
++& \noethpIIrosette\\[0.3em]
+ (\sigma\tau x)
+ & t_\sigma,\ s_\tau
+ & t_\sigma(stu),\ s_\tau(stu)
+-& \cdots\\[0.3em]
++& \cdots
++& \vdots\\[0.3em]
+ (\sigma\tau x)^2
+ & t_\sigma(\sigma\tau x),\ s_\tau(\sigma\tau x)
+ & t_\sigma^2,\ t_\sigma s_\tau,\ s_\tau^2
+-& \cdots\\[0.3em]
+-\vdots&\vdots&\vdots&\ddots\\[0.3em]
++& \cdots
++& \vdots\\[0.3em]
++\vdots&\vdots&\vdots&\ddots&\vdots\\[0.3em]
+ (\sigma\tau x)^\nu
+ & t_\sigma(\sigma\tau x)^{\nu-1},\ s_\tau(\sigma\tau x)^{\nu-1}
+ & t_\sigma^2(\sigma\tau x)^{\nu-2},\ t_\sigma s_\tau(\sigma\tau x)^{\nu-2},\ s_\tau^2(\sigma\tau x)^{\nu-2}
+-& \cdots\\[0.3em]
++& \cdots
++& \vdots\\[0.3em]
+ \vdots
+ & t_\sigma(\sigma\tau x)^\nu
+ & t_\sigma^2(\sigma\tau x)^{\nu-1},\ t_\sigma s_\tau(\sigma\tau x)^{\nu-1}
+ & \cdots
++& \vdots\\[0.3em]
++\vdots
++& \vdots
++& t_\sigma^2(\sigma\tau x)^\nu
++& \cdots
++& \vdots
+ \end{array}
+ \]
+ \endgroup
+-and the correspondingly continued lower part\footnote{Here, and similarly in what follows, the lower part marked with an asterisk is to be set at the correspondingly marked place at the upper right of the scheme.}
++and the correspondingly continued lower part
+ \begingroup\small
+ \[
++\begin{array}{r@{\quad}c}
++\noethpIIrosette\srcfnmark{*)}
++&
+ \begin{array}{c|c|c}
+ (stu)^n & \cdots & \cdots\\[0.3em]
+ t_\sigma(stu)^{n-1},\ s_\tau(stu)^{n-1}
+@@ -610,8 +679,10 @@
+ & t_\sigma s_\tau(stu)^{n-1},\ s_\tau^2(stu)^{n-1}
+ & s_\tau^2(stu)^n .
+ \end{array}
++\end{array}
+ \]
+ \endgroup
++\srcfntext{*)}{Here, and similarly in what follows, the lower part marked with an asterisk is to be set at the correspondingly marked place at the upper right of the scheme.}
+ 
+ Here one obtains, when one moves
+ 
+@@ -3343,6 +3414,7 @@
+ 
+ 
+ \begin{center}
++\editionentry{3. On the Invariant Theory of Forms in n Variables (1909)}{work-03}
+ {\Large\bfseries 3. On the Invariant Theory of Forms in $n$ Variables\footnote{Lecture delivered at the Salzburg meeting of natural scientists, 1909.}}\par
+ \vspace{1.2em}
+ Jahresbericht der DMV 19 (1910), pp. 101--104
+@@ -3380,6 +3452,7 @@
+ 
+ \clearpage
+ \begin{center}
++\editionentry{4. On the Invariant Theory of Forms in n Variables (1911)}{work-04}
+ {\Large\bfseries 4. On the Invariant Theory of Forms in $n$ Variables}\par
+ \vspace{1.2em}
+ Journal für die reine und angewandte Mathematik 139 (1911), pp. 118--154
+@@ -4297,6 +4370,7 @@
+ \providecommand{\ds}{\displaystyle}
+ 
+ \begin{center}
++\editionentry{5. Rational Function Fields}{work-05}
+ {\Large\bfseries 5. Rational Function Fields}\par
+ \vspace{1.2em}
+ Jahresbericht der DMV 22 (1913), pp. 316--319
+@@ -4336,6 +4410,7 @@
+ \clearpage
+ 
+ \begin{center}
++\editionentry{6. Fields and Systems of Rational Functions}{work-06}
+ {\Large\bfseries 6. Fields and Systems of Rational Functions}\par
+ \vspace{1.2em}
+ Math. Ann. 76 (1915), pp. 161--196
+@@ -4894,12 +4969,12 @@
+ By (7), $\Phi^*(z,u;x)$ therefore also has the root $z=u(\xi)$; thus $\xi$ belongs to the rows of quantities (5). By (6), the corresponding assertion holds if $\xi$ satisfies a system of equations with respect to a conjugate row of quantities:
+ \[
+   F^*(x^{(k)})H^*(\xi)-H^*(x^{(k)})F^*(\xi)=0;
+-  \qquad H(\xi)\ne0.
++  \qquad H^*(\xi)\ne0.
+ \]
+ Thus the rows of quantities (5) are characterized as the solutions $\xi$ of the system of equations
+ \[
+   F^*(x)H^*(\xi)-H^*(x)F^*(\xi)=0;
+-  \qquad H(\xi)\ne0,
++  \qquad H^*(\xi)\ne0,
+ \]
+ where $\frac{F^*(x)}{H^*(x)}$ ranges over all functions of $\Kfield^*_{\rho\rho}$; here the row $x$ may also be replaced by any conjugate row.
+ 
+@@ -5328,7 +5403,7 @@
+ \end{equation}
+ it is a polynomial in $\lambda_1,
+ \ldots,\lambda_\rho,
+-\mu$. According to F. Mertens, the leading coefficient in the expansion of (4) in powers of $\mu$ can be given explicitly;\footnote{Loc. cit., \S\ 3 (proof of Theorem I), and explicitly \S\ 6 (determination of the totality of all terms of the resultant $R$ that contain a given power product $a_{\lambda\lambda}^{p_\lambda}a_{\mu\mu}^{p_\mu}\cdots a_{\sigma\sigma}^{p_\sigma}$ as a factor). In our case one sets $p_\lambda=0$, $p_\mu=0,\ldots,p_\rho=\tau$, and $a_{\sigma\sigma}=(-\mu)$. Reproduced in König, Kap. VI, \S\ 9.} one obtains
++\mu$. According to F. Mertens, the leading coefficient in the expansion of (4) in powers of $\mu$ can be given explicitly;\footnote{Loc. cit., \S\ 3 (proof of Theorem I), and explicitly \S\ 6 (determination of the totality of all terms of the resultant $R$ that contain a given power product $a_{\lambda\lambda}^{p_\lambda}a_{\mu\mu}^{p_\mu}\cdots a_{\sigma\sigma}^{p_\sigma}$ as a factor). In our case one sets $p_\lambda=0$, $p_\mu=0,\ldots,p_\sigma=\tau$, and $a_{\sigma\sigma}=(-\mu)$. Reproduced in König, Kap. VI, \S\ 9.} one obtains
+ \begin{equation}
+   (-1)^\tau R(\lambda,\mu)
+   =R_0^\sigma\mu^\tau+A_1(\lambda)\mu^{\tau-1}+\cdots+A_\tau(\lambda),
+@@ -5701,6 +5776,7 @@
+ \providecommand{\Omegaop}{\Omega}
+ 
+ 
++\editionentry{7. The Finiteness Theorem for the Invariants of Finite Groups}{work-07}
+ \section*{7. The finiteness theorem for the invariants of finite groups}
+ \begin{center}
+ Math. Ann. 77 (1916), pp. 89--92
+@@ -5820,6 +5896,7 @@
+ Erlangen, May 1915.
+ 
+ \clearpage
++\editionentry{8. Polynomial Representation of Invariants}{work-08}
+ \section*{8. On the polynomial representation of the invariants of a system of arbitrarily many ground forms}
+ \begin{center}
+ Math. Ann. 77 (1916), pp. 93--102
+@@ -6206,6 +6283,7 @@
+ \clearpage
+ 
+ \begin{center}
++\editionentry{9. The Most General Domains from Integral Transcendental Numbers}{work-09}
+ {\Large\bfseries 9. The Most General Domains from Integral Transcendental Numbers}\par
+ \vspace{1.2em}
+ Math. Ann. 77 (1916), pp. 103--128
+@@ -6223,7 +6301,7 @@
+ of $\mathfrak G$.
+ \item[IV.] No non-integral rational (respectively algebraic) number belongs to
+ $\mathfrak G$.\footnote{E. Zermelo, Über ganze transzendente Zahlen,
+-Math. Ann. 75, p. 484 (1914).}
++Math. Ann. 75, p. 434 (1914).}
+ \end{enumerate}
+ 
+ The construction rests on the fact that the well-ordering theorem establishes the
+@@ -7460,6 +7538,7 @@
+ 
+ \clearpage
+ 
++\editionentry{10. The Functional Equations of the Isomorphic Mapping}{work-10}
+ \section*{10. The Functional Equations of the Isomorphic Mapping.}
+ \begin{center}
+ {\Large\bfseries 10. The Functional Equations of the Isomorphic\\ Mapping.}\par
+@@ -7660,6 +7739,7 @@
+ 
+ 
+ \clearpage
++\editionentry{11. Equations with Prescribed Group}{work-11}
+ \section*{11. Equations with Prescribed Group.}
+ \begin{center}
+ {\Large\bfseries 11. Equations with Prescribed Group.}\par
+@@ -7865,6 +7945,7 @@
+ 
+ \clearpage
+ \providecommand{\bdelta}{\bar{\delta}}
++\editionentry{12. Invariants of Arbitrary Differential Expressions}{work-12}
+ \section*{12. Invariants of Arbitrary Differential Expressions.}
+ \begin{center}
+ {\Large\bfseries 12. Invariants of Arbitrary Differential Expressions.}\par
+@@ -8129,7 +8210,7 @@
+ derivatives, then \(\varphi_\rho^{(i)}\) is homogeneous of order \(\rho\):
+ \srcnumdisplay{(10)}{%
+ \varphi_\rho^{(i)}\!\left(\varkappa\cdot\frac{dx}{dt}\right)
+-=\varkappa\varphi_\rho^{(i)}\!\left(\frac{dx}{dt}\right).
++=\varkappa^\rho\varphi_\rho^{(i)}\!\left(\frac{dx}{dt}\right).
+ }
+ If, in integrating (9), one now prescribes for \(t=t_0\) the initial
+ values
+@@ -8255,6 +8336,7 @@
+ A more detailed presentation is to appear shortly in the
+ \emph{Mathematische Annalen}.
+ 
++\editionentry{13. Invariant Variational Problems}{work-13}
+ \section*{13. Invariant Variational Problems.}
+ \begin{center}
+ {\Large\bfseries 13. Invariant Variational Problems.}\par
+@@ -8872,6 +8954,7 @@
+ \clearpage
+ \setcounter{footnote}{0}
+ \begin{center}
++\editionentry{14. The Arithmetic Theory of Algebraic Functions of One Variable}{work-14}
+ {\Large\bfseries 14. The Arithmetic Theory of Algebraic Functions of One Variable in Its Relation to the Other Theories and to Algebraic Number Theory}\par
+ \vspace{1em}
+ Report by Emmy Noether in Göttingen.\par
+@@ -9097,6 +9180,7 @@
+ \providecommand{\tmod}[1]{\;(\operatorname{mod} #1)}
+ 
+ \clearpage
++\editionentry{15. Finiteness of Integral Invariants of Binary Forms}{work-15}
+ \section*{15. The Finiteness of the System of Integral Invariants of Binary Forms}
+ \begin{center}
+ {\Large\bfseries 15. The Finiteness of the System of Integral Invariants of Binary Forms}\par
+@@ -9750,6 +9834,7 @@
+ 
+ 
+ 
++\editionentry{16. On Series Expansion in Form Theory}{work-16}
+ \section*{16. On Series Expansion in Form Theory.}
+ \begin{center}
+ {\large On Series Expansion in Form Theory.}\\[0.5em]
+@@ -9957,6 +10042,7 @@
+   \nopagebreak
+ }
+ \begin{center}
++\editionentry{17. Joint with Werner Schmeidler: Modules in Noncommutative Domains}{work-17}
+ {\Large\bfseries Modules in Noncommutative Domains, Especially\\
+ from Differential and Difference Expressions.}\par
+ \medskip
+@@ -11155,6 +11241,7 @@
+ \end{center}
+ 
+ \begin{center}
++\editionentry{18. On a Work in Elimination Theory by K. Hentzelt}{work-18}
+ \textbf{1. E. Noether: On a Work in Elimination Theory by K. Hentzelt, Who Fell in the War.}
+ \end{center}
+ 
+@@ -11199,6 +11286,7 @@
+ 
+ \setcounter{footnote}{0}
+ \begin{center}
++\editionentry{19. Ideal Theory in Ring Domains}{work-19}
+ {\Large\bfseries Ideal Theory in Ring Domains.}\par
+ \vspace{0.7em}
+ By\par
+@@ -12406,6 +12494,7 @@
+ \clearpage
+ 
+ \setcounter{footnote}{0}
++\editionentry{20. An Algebraic Criterion for Absolute Irreducibility}{work-20}
+ \section*{20. An Algebraic Criterion for Absolute Irreducibility.}
+ \begin{center}
+ By\\[0.25em]
+@@ -12456,15 +12545,23 @@
+ 
+ 2. The totality of these polynomials $\Phi(Z)$ which vanish identically in $A,B$ upon the substitution $Z=C(A,B)$ forms an \emph{ideal of polynomials}\srcfnmark{5)},\srcfntext{5)}{These totalities are usually called modules; in fact, however, the property characterizing them---that together with $\Phi_1$ and $\Phi_2$ they contain $\Phi_1-\Phi_2$, and together with $\Phi$ they contain $\Psi\Phi$, where $\Psi$ denotes an arbitrary polynomial with integer coefficients in $Z$---is the ideal property.}\addtocounter{footnote}{1} more precisely a \emph{prime ideal $\mathfrak P$}; for if a product $\Phi_1\Phi_2$ vanishes by virtue of the substitution, then at least one factor vanishes. Since (2) is satisfied identically in $A,B$, it remains valid for every particular system of values $A,B$, where $A,B$, and consequently also $\Gamma=C(A,B)$, denote elements of an arbitrary field. \emph{The coefficients $\Gamma$ of every polynomial reducible in an extension field therefore satisfy the conditions $\Phi(\Gamma)=0$; they are zeros of $\mathfrak P$,} or equivalently of the finitely many basis polynomials of $\mathfrak P$. It remains to \emph{prove the converse}.
+ 
+-For this purpose it should be noted that all relations among $A,B,C$ remain valid if, by introducing a new indeterminate $y$, one transforms the polynomials (1) into homogeneous forms $F(x,y)$, $G(x,y)$, $H(x,y)$ of degrees $l,m,l+m$. Thus coefficient systems $\Gamma$ for which, for example, $\bar F(x,y)$\footnote{Polynomials and forms obtained by replacing the indeterminates in $F,G,\ldots,f,g,\ldots$ by particular systems of values will throughout be denoted by bars: $\bar F,\bar G,\ldots,\bar f,\bar g,\ldots$.} becomes a power of $y$ are also zeros of $\mathfrak P$; on passing to inhomogeneous polynomials, these correspond to a lowering of the degree of $\bar H(x)$ and not to a factorization. It will be shown that, apart from this lowering of degree, the converse always holds; in particular, \emph{for homogeneous forms the converse holds without exception as soon as not all $\Gamma$ vanish; in other words, every zero of $\mathfrak P$ is supplied by the parametric representation $\Gamma=C(A,B)$ with elements $A,B$ of an extension field}\srcfnmark{7)}.\srcfntext{7)}{That ``in general'' the zeros of $\mathfrak P$ are supplied by the parametric representation follows from the property of the prime ideal $\mathfrak P$ of defining an irreducible algebraic variety. But, as is well known, this does not imply---as I originally overlooked, and as A. Ostrowski pointed out to me some time ago---that the parametric representation fails for no particular system of values. The proof given here is based on more elementary concepts.}\addtocounter{footnote}{1}
++For this purpose it should be noted that all relations among $A,B,C$ remain valid if, by introducing a new indeterminate $y$, one transforms the polynomials (1) into homogeneous forms $F(x,y)$, $G(x,y)$, $H(x,y)$ of degrees $l,m,l+m$. Thus coefficient systems $\Gamma$ for which, for example, $\bar F(x,y)$\hyperlink{noeth-p20-fn6}{\textsuperscript{6)}}%
++\begingroup%
++\renewcommand{\thefootnote}{6)}%
++\footnotetext{\hypertarget{noeth-p20-fn6}{}Polynomials and forms obtained by replacing the indeterminates in $F,G,\ldots,f,g,\ldots$ by particular systems of values will throughout be denoted by bars: $\bar F,\bar G,\ldots,\bar f,\bar g,\ldots$.}%
++\endgroup%
++\addtocounter{footnote}{1} becomes a power of $y$ are also zeros of $\mathfrak P$; on passing to inhomogeneous polynomials, these correspond to a lowering of the degree of $\bar H(x)$ and not to a factorization. It will be shown that, apart from this lowering of degree, the converse always holds; in particular, \emph{for homogeneous forms the converse holds without exception as soon as not all $\Gamma$ vanish; in other words, every zero of $\mathfrak P$ is supplied by the parametric representation $\Gamma=C(A,B)$ with elements $A,B$ of an extension field}\srcfnmark{7)}.\srcfntext{7)}{That ``in general'' the zeros of $\mathfrak P$ are supplied by the parametric representation follows from the property of the prime ideal $\mathfrak P$ of defining an irreducible algebraic variety. But, as is well known, this does not imply---as I originally overlooked, and as A. Ostrowski pointed out to me some time ago---that the parametric representation fails for no particular system of values. The proof given here is based on more elementary concepts.}\addtocounter{footnote}{1}
+ 
+ I establish this result by directly constructing finitely many functions $\Phi(Z)$. By means of the Kronecker substitution
+ \[
+-x_\lambda=\xi^{d^{\,n-\lambda}}\text{\srcfnmark{8)}}
++x_\lambda=\xi^{d^{\,n-\lambda}}\text{\hyperlink{noeth-p20-fn8}{\textsuperscript{8)}}}
+ \]
+ I associate with the polynomials (1) polynomials in \emph{one} indeterminate; I show that gaps occur in their exponents and, by forming the norm of the corresponding coefficients, obtain the functions $\Phi(Z)$ and the desired criterion.
+ 
+-\srcfntext{8)}{\emph{Festschrift}, p.~11.}
++\begingroup%
++\renewcommand{\thefootnote}{8)}%
++\footnotetext{\hypertarget{noeth-p20-fn8}{}\emph{Festschrift}, p.~11.}%
++\endgroup%
+ \addtocounter{footnote}{1}
+ 
+ 3. Put
+@@ -12620,6 +12717,7 @@
+ \end{center}
+ 
+ \clearpage
++\editionentry{21. Formal Calculus of Variations and Differential Invariants}{work-21}
+ \section*{21. Formal Calculus of Variations and Differential Invariants}
+ \begin{center}
+ Encyclopedia of Mathematical Sciences II, 3 (1922), pp.~68--71 (in: R. Weitzenböck, \emph{Differential Invariants})
+@@ -12712,6 +12810,7 @@
+ 
+ \clearpage
+ \setcounter{footnote}{0}
++\editionentry{22. On the Theory of Polynomial Ideals and Resultants}{work-22}
+ \section*{22. On the Theory of Polynomial Ideals and Resultants}
+ \begin{center}
+ Math. Ann. 88 (1923), pp.~53--79\\[0.9em]
+@@ -12850,7 +12949,7 @@
+ \[
+  \Bmod_0=\Amod,\ldots,\Bmod_\lambda=(\Amod,\zeta_\rho,\ldots,\zeta_{\rho-\lambda+1}).
+ \]
+-Then $\Bmod_i$ also has highest elementary divisor $e_{\rho-\lambda}$, and hence
++Then $\Bmod_\lambda$ also has highest elementary divisor $e_{\rho-\lambda}$, and hence
+ \[
+  (e_{\rho-\lambda})=\Bmod_\lambda/\Bmod_{\lambda+1}.
+ \]}. Formula (6) further shows that $\Gmod$ is divisible by the quotient $\Amod/(e_\rho)$; this quotient is a divisor of $\Amod$ of the same rank, hence, by the definition of the fundamental module of $\Amod$, conversely divisible by $\Gmod$. Thus the second formula (5) is also proved.
+@@ -13570,8 +13669,9 @@
+ 
+ % R823-adapted inherited-English Paper 23; the earlier inherited packet is
+ % retained below as inactive provenance.
+-% BEGIN INLINED SOURCE fragments/Noether_R823_Paper23_Lines13507_13630_English.texfrag | 21549 B | SHA-256 7EE6227EEE2CF53F641314FB7C5E80E25A160244BEA2E1E52B190D683D6A6EF0
++% BEGIN INLINED SOURCE fragments/Noether_R823_Paper23_Lines13507_13630_English.texfrag | 21615 B | SHA-256 290C0587EC6290A6F1C8DA78EC55053AD69CF7D0F4E6E7E7D4B6D16C94E64C80
+ % English translation of R823 lines 13507--13630.
++\editionentry{23. Algebraic and Differential Invariants}{work-23}
+ \section*{23. Algebraic and Differential Invariants}
+ \begin{center}
+ Jahresber. d. Deutschen Mathematiker-Vereinigung 32 (1923), pp.~177--184
+@@ -13854,8 +13954,9 @@
+ 
+ 
+ % R823-adapted inherited-English Paper 24; prior packet retained inactive.
+-% BEGIN INLINED SOURCE fragments/Noether_R823_Paper24_Lines13631_14119_English.texfrag | 95778 B | SHA-256 6E65E9027312CF6A107B6F8FC5FDB2D3F816C40A7305E7C4E7FAF1C5B787B456
++% BEGIN INLINED SOURCE fragments/Noether_R823_Paper24_Lines13631_14119_English.texfrag | 96078 B | SHA-256 06AAC3FDCE1A480CBE75D71F8428AC04318BCF8EBAC21D0B020CF1C35C7A9D42
+ % English adaptation of R823 lines 13631--14119.
++\editionentry{24. Elimination Theory and General Ideal Theory}{work-24}
+ \section*{24. Elimination Theory and General Ideal Theory}
+ \begin{center}
+ Math. Ann. 90 (1923), pp. 229--261\\[0.9em]
+@@ -13900,17 +14001,17 @@
+ \textbf{3. Notation.} By $f^{(i)},g^{(i)},\ldots,a^{(i)},b^{(i)},\ldots$ we shall throughout understand polynomials in $\frakS$ that are free of $x_1,\ldots,x_{i-1}$.
+ 
+ \textbf{4. Fundamental ideals.} To every ideal $\frakm$ there are assigned $n$ fundamental ideals $\frakg_0,\frakg_1,\ldots,\frakg_{n-1}$ by the following stipulation: the fundamental ideal of $(i-1)$-st stage, $\frakg_{i-1}$, contains all and only those polynomials $G(x)$ for which there exists a polynomial $b^{(i)}\ne 0$ -- in general varying with $G(x)$ -- such that $b^{(i)}G(x)\equiv0(\frakm)$. From the existence of the ideal basis follows also the existence of at least one $B^{(i)}$, fixed for all $G(x)$, so that
+-\begin{equation}
++{\let\veqno\leqno\begin{equation}
+  B^{(i)}\frakg_{i-1}\equiv0(\frakm),\qquad B^{(i)}\ne0 . \tag{2}
+-\end{equation}
++\end{equation}}
+ The fundamental ideals of transformed ideals themselves become transformed ideals (H.-N., Theorem VI). The fundamental ideal of $i$-th stage $\frakg_i$ is also defined as the ideal into which $\frakm$ passes when $x_{i+1},\ldots,x_n$ are adjoined to $P(u)$, provided one restricts oneself -- which then means no loss of generality -- to polynomials integral in $x_{i+1},\ldots,x_n$; $\frakg_0$ is always equal to the unit ideal $\frako$.
+ 
+ \textbf{5. Module representation of ideals, elementary divisors and individual norms.} If every polynomial $f(x)$ is regarded as a linear form in the power products $\xi$ of $x_1,\ldots,x_{i-1}$, with polynomials $a^{(i)}$ as coefficients, then the ideal $\frakm$ passes into a module $\frakM_{i-1}$ of linear forms with respect to the domain of the $a^{(i)}$; that is, $\frakM_{i-1}$ contains, together with any two linear forms, also their difference, and, together with a linear form $l(\xi)$, also $a^{(i)}l(\xi)$ for arbitrary $a^{(i)}$. As fundamental module of such a module $\frakM$ one denotes the totality of linear forms $g(\xi)$ for which $b^{(i)}g(\xi)=0(\frakM)$, $b^{(i)}\ne0$; hence the fundamental ideal $\frakg_{i-1}$ passes, under the module representation, into the fundamental module $\frakG_{i-1}$ of $\frakM_{i-1}$. $\frakM_{i-1}$ and $\frakG_{i-1}$ depend on infinitely many indeterminates $\xi$, in such a way that in each individual linear form only finitely many of these indeterminates occur. $\frakM_{i-1}$ has the characteristic property that, after adjoining $x_{i+1},\ldots,x_n$ to $P(u)$, it has only finitely many elementary divisors different from unity; that is, after this adjunction $\frakG_{i-1}$ and $\frakM_{i-1}$ admit a basis representation -- with $\zeta$ denoting new indeterminates, connected with the $\xi$ by invertible linear transformations integral in $x_i$, in such a way that in $\zeta_i=r_i(\xi)$ only finitely many of these indeterminates occur at a time --
+-\begin{align}
++{\csname tagsleft@true\endcsname\begin{align}
+ \frakG_{i-1}&=(\zeta_0,\zeta_1,\ldots,\zeta_\sigma,\zeta_{\sigma+1},\ldots,\zeta_{\sigma+\nu},\ldots), \notag\\
+ \frakM_{i-1}&=(E^{(i)}\zeta_0,E_1^{(i)}\zeta_1,\ldots,E_\sigma^{(i)}\zeta_\sigma,
+-\zeta_{\sigma+1},\ldots,\zeta_{\sigma+\nu},\ldots), \tag{3}
+-\end{align}
++\zeta_{\sigma+1},\ldots,\zeta_{\sigma+\nu},\ldots), \tag*{\raisebox{9.5pt}[0pt][0pt]{(3)}}
++\end{align}}
+ where each $E_\mu^{(i)}$ divides the preceding one (H.-N. (24) and (28)).
+ 
+ The highest elementary divisor $E^{(i)}$ is also defined as the greatest common divisor -- in the polynomial sense -- of all $B^{(i)}$ occurring in (2); it can be assumed integral and primitive in $x_{i+1},\ldots,x_n$, and is then regular in $x_i$, that is, $E^{(i)}$ contains the term $x_i^\lambda$ with non-zero coefficient, if it is of degree $\lambda$ in the $x$.
+@@ -13923,13 +14024,13 @@
+ As (3) shows, after adjoining $x_{i+1},\ldots,x_n$, $R^{(i)}$ becomes equal to the determinant of the transition substitution from $\frakG_{i-1}$ to $\frakM_{i-1}$, and the degree of $R^{(i)}$ gives the number of residue classes, linearly independent over $P(u,x_{i+1},\ldots,x_n)$, of $\frakG_{i-1}$ modulo $\frakM_{i-1}$, hence of $\frakg_{i-1}$ modulo $\frakg_i$; $R^{(i)}$ can be assumed integral and primitive in $x_{i+1},\ldots,x_n$, and is then regular in $x_i$. $R^{(i)}$ can be computed as the greatest common divisor -- in the polynomial sense -- of all $\varrho$-rowed determinants of a module $\frakM^*_{i-1}$, always existing, of rank $\varrho$, having the property that the residue-class system $\frakG^*_{i-1}/\frakM^*_{i-1}$ is isomorphic to $\frakG_{i-1}/\frakM_{i-1}$, where $\frakG^*_{i-1}$ is understood as the fundamental module of $\frakM^*_{i-1}$ (H.-N., Theorem VII and § 5).
+ 
+ \textbf{6. Elementary-divisor form and norm (resultant form) of ideals.} The product $E_\frakm=E^{(1)}E^{(2)}\cdots E^{(n)}$ of all highest elementary divisors is called the elementary-divisor form, and the product $R_\frakm=R^{(1)}R^{(2)}\cdots R^{(n)}$ of all individual norms the norm (resultant form)\footnote{In H.-N. only the term resultant form is used; the term norm corresponds to the arithmetical properties.} of $\frakm$. The elementary-divisor form and the norm are divisible by the ideal; the norm is divisible by the elementary-divisor form, and a power of the latter by the norm. More generally one still has:
+-\begin{align}
++{\csname tagsleft@true\endcsname\begin{align}
+  E^{(i)}\frakg_{i-1}&=0(\frakg_i),
+-& E^{(n)}\cdots E^{(i)}\frakg_{i-1}&=0(\frakm),\notag\\
++& E^{(n)}\cdots E^{(i)}\frakg_{i-1}&=0(\frakm),\quad\text{and consequently}\notag\\
+  R^{(i)}\frakg_{i-1}&=0(\frakg_i),
+-& R^{(n)}\cdots R^{(i)}\frakg_{i-1}&=0(\frakm), \tag{4}
+-\end{align}
+-(H.-N., Theorem VIII), and further: if $\frakm$ is divisible by $\frakn$, and the norms $R_\frakm$ and $R_\frakn$ agree, then \emph{the ideals $\frakm$ and $\frakn$ also agree} (H.-N., Theorem IX). Taking into account that, for a divisor of $\frakm$, agreement of $R^{(1)},R^{(2)},\ldots$ entails agreement of the fundamental ideals $\frakg_1,\frakg_2,\ldots$, and that always $\frakg_0=\frako$, one obtains correspondingly: if $\frakn$ is a \emph{proper divisor} of $\frakm$, then the first individual norm of $\frakn$ that differs from the corresponding one of $\frakm$ becomes a \emph{proper divisor}.\footnote{On the other hand, later factors of $R_\frakn$ can become multiples of the corresponding factors of $R_\frakm$; for instance always when $\frakm$ is a prime ideal and $\frakn$ is not the unit ideal.} \emph{If $\frakm$ contains a polynomial $G^{(i)}\ne0$}, then by definition $\frakg_0,\frakg_1,\ldots,\frakg_{i-1}$ are equal to the unit ideal; consequently, by the property of individual norms stated in 5, namely to determine the number of linearly independent residue classes, $R^{(1)},\ldots,R^{(i-1)}$ become equal to \emph{unity}; hence also $E^{(1)},\ldots,E^{(i-1)}$ become equal to \emph{unity}.
++& R^{(n)}\cdots R^{(i)}\frakg_{i-1}&=0(\frakm),\quad\text{(H.-N., Theorem VIII),} \tag*{\raisebox{8.5pt}[0pt][0pt]{(4)}}
++\end{align}}
++and further: if $\frakm$ is divisible by $\frakn$, and the norms $R_\frakm$ and $R_\frakn$ agree, then \emph{the ideals $\frakm$ and $\frakn$ also agree} (H.-N., Theorem IX). Taking into account that, for a divisor of $\frakm$, agreement of $R^{(1)},R^{(2)},\ldots$ entails agreement of the fundamental ideals $\frakg_1,\frakg_2,\ldots$, and that always $\frakg_0=\frako$, one obtains correspondingly: if $\frakn$ is a \emph{proper divisor} of $\frakm$, then the first individual norm of $\frakn$ that differs from the corresponding one of $\frakm$ becomes a \emph{proper divisor}.\footnote{On the other hand, later factors of $R_\frakn$ can become multiples of the corresponding factors of $R_\frakm$; for instance always when $\frakm$ is a prime ideal and $\frakn$ is not the unit ideal.} \emph{If $\frakm$ contains a polynomial $G^{(i)}\ne0$}, then by definition $\frakg_0,\frakg_1,\ldots,\frakg_{i-1}$ are equal to the unit ideal; consequently, by the property of individual norms stated in 5, namely to determine the number of linearly independent residue classes, $R^{(1)},\ldots,R^{(i-1)}$ become equal to \emph{unity}; hence also $E^{(1)},\ldots,E^{(i-1)}$ become equal to \emph{unity}.
+ 
+ \textbf{7. Decomposition of the individual norms and elementary divisors; components of the fundamental ideals.} By a prime function one understands a polynomial irreducible with respect to $P(u)$; by a primary function, the power of a prime function. A proper primary function is one that is not at the same time a prime function, where therefore powers higher than the first are involved. A decomposition of a polynomial into greatest primary factors is one in which every factor is a primary function, but the product of any two factors is no longer primary.\footnote{The definition of prime function and primary function could also be formulated in exact analogy with 11 by replacing only the word ideal by polynomial. The greatest primary factors are the analogue of the greatest primary components of the decomposition in 12.} To the decomposition of the individual norm $R^{(i)}=N(\frakg_{i-1}\mid\frakg_i)$ into greatest primary factors $Q_\lambda^{(i)}$ there corresponds a representation of $\frakg_i$ as a least common multiple
+ \[
+@@ -13941,7 +14042,7 @@
+ 
+ \textbf{9. Norm (resultant form) and zeroes.} By zeroes of an ideal $\frakm$ one understands all systems of values of $x_1,\ldots,x_i$ belonging to a suitable algebraic extension field of $P(u;x_{i+1},\ldots,x_n)$ ($i=1,2,\ldots,n$) for which -- after adjoining $x_{i+1},\ldots,x_n$ to the coefficient domain -- all polynomials from $\frakm$ vanish. To each factor $R^{(i)}$ of the norm (resultant form), under this adjunction, there correspond as many zeroes of $\frakm$ as the degree of $R^{(i)}$ indicates; and $R^{(i)}$, written in bilinear combinations $w_{\mu\nu}$ of the $u_{\mu\nu}$ and further indeterminates $v$, admits the explicit decomposition:
+ \begin{equation}
+- R^{(i)}=\prod\{z-(v_1\bar{x}_{1\nu}+\cdots+v_{i-1}\bar{x}_{i-1,\nu}+v_i\bar{x}_{i,\nu})\}^{\lambda_\nu}, \tag{5}
++ R^{(i)}=\prod\{z-(v_1\bar{x}_{1\nu}+\cdots+v_{i-1}\bar{x}_{i-1,\nu}+v_i\bar{x}_{i,\nu})\}^{\lambda_\nu}, \notag
+ \end{equation}
+ where $\bar{x}_{1\nu},\ldots,\bar{x}_{i,\nu}$ denotes a system of associated zeroes (H.-N., Theorem XIII; a new foundation will be given in § 3). Thus among the zeroes of an ideal of highest dimension $n-i$ there are zeroes depending on $(n-i)$ parameters, but none depending on more parameters; this proves the agreement of the concept of dimension given in 8 with the usual formulation.
+ 
+@@ -14169,10 +14270,10 @@
+  \frakp_{n,1},\ldots,\frakp_{n,j_n},
+ \]
+ where in general $\frakp_{\lambda,\kappa}$ denotes a prime ideal of dimension $n-\lambda$; let $\frakq_{\lambda,\kappa}$ be the corresponding primary ideal occurring in a fixed given decomposition of $\frakm$. Then by definition the fundamental ideal of $i$-th stage is equal to the unit ideal for all $\frakq_{\lambda,\kappa}$ for which $\lambda>i$, whereas for $\lambda\le i$ it is, by Theorem I, equal to $\frakq_{\lambda,\kappa}$. Therefore, by Lemma VI:
+-\[
++{\let\veqno\leqno\begin{equation}
+  \tag{5}
+  \frakg_i=[\frakq_{1,1},\ldots,\frakq_{1,j_1};\ldots;\frakq_{i,1},\ldots,\frakq_{i,j_i}],
+-\]
++\end{equation}}
+ and this representation recognizes $\frakg_i$ as an isolated component of the decomposition, since none of the prime ideals belonging to $\frakg_i$ can be contained in one of the remaining prime ideals, all of which have lower dimension.
+ 
+ If, in particular, only associated prime ideals of dimension $n-i$ occur, then by (5) one has $\frakg_0,\ldots,\frakg_{i-1}$ equal to the unit ideal, while $\frakg_i=\frakg_{i+1}=\cdots=\frakm$; hence $R_\frakm=R^{(i)}$. If, however, prime ideals of different dimensions occur, say $j_i,j_{i+\sigma},j_{i+\tau},\ldots$ are non-zero, then by (5):
+@@ -14865,8 +14966,9 @@
+ 
+ \fi
+ % R823-adapted inherited-English Paper 25; prior packet retained inactive.
+-% BEGIN INLINED SOURCE fragments/Noether_R823_Paper25_Lines14120_14178_English.texfrag | 12879 B | SHA-256 A073121381261DD798252FF6D5F1814177EE3B791A8AB29A8D1EB63C4DE66A72
++% BEGIN INLINED SOURCE fragments/Noether_R823_Paper25_Lines14120_14178_English.texfrag | 12943 B | SHA-256 CE4606EE8C8DA0D4283301084963D132ED1A1AA8926C0EDA3157B7FDABA974CA
+ % English translation update of R823 lines 14120--14178.
++\editionentry{25. Elimination Theory and Ideal Theory}{work-25}
+ \section*{25. Elimination Theory and Ideal Theory.}
+ 
+ \begin{center}
+@@ -14981,8 +15083,9 @@
+ 
+ \fi
+ % R823-adapted inherited-English Paper 26; prior packet retained inactive.
+-% BEGIN INLINED SOURCE fragments/Noether_R823_Paper26_Lines14179_14191_English.texfrag | 1083 B | SHA-256 8BEAAE8524CE958A8EC16CC7BEB2CB1091DB488D032E464D69EE08117D615FDC
++% BEGIN INLINED SOURCE fragments/Noether_R823_Paper26_Lines14179_14191_English.texfrag | 1179 B | SHA-256 A684204B92BB2D8C5306CA54BB5F6875074FA829D117B93460363D2794D451AE
+ % R823-adapted inherited English, source lines 14179--14191.
++\editionentry{26. Abstract Construction of Ideal Theory in the Algebraic Number Field}{work-26}
+ \section*{26. Abstract Construction of Ideal Theory in the Algebraic Number Field}
+ 
+ \begin{center}
+@@ -15012,8 +15115,9 @@
+ 
+ \fi
+ % R823-adapted inherited-English Paper 27; prior packet retained inactive.
+-% BEGIN INLINED SOURCE fragments/Noether_R823_Paper27_Lines14192_14200_English.texfrag | 1727 B | SHA-256 725F4B94A29722EAE07060AC38120C61CF96F5D14A595DB1B9DEA1579F46FA03
++% BEGIN INLINED SOURCE fragments/Noether_R823_Paper27_Lines14192_14200_English.texfrag | 1787 B | SHA-256 F81ECB810939B840ABA0F595E15CA938E0AE4F41E54522C6B55635E6C74A6A91
+ % R823-adapted inherited English, source lines 14192--14200.
++\editionentry{27. Hilbert Numbers in Ideal Theory}{work-27}
+ \section*{27. Hilbert Numbers in Ideal Theory}
+ 
+ \begin{center}
+@@ -15035,8 +15139,9 @@
+ 
+ \fi
+ % R823-adapted inherited-English Paper 28; prior packet retained inactive.
+-% BEGIN INLINED SOURCE fragments/Noether_R823_Paper28_Lines14201_14215_English.texfrag | 1449 B | SHA-256 F581D7A65A2BFB4A124EE81E069B6231B3CB205FBE93701ED204E131975C1752
++% BEGIN INLINED SOURCE fragments/Noether_R823_Paper28_Lines14201_14215_English.texfrag | 1511 B | SHA-256 F3C9DB9BBCFF9893F27C022A86DE7FBEA03665CD7C6B30759D156F913DC3186C
+ % R823-adapted inherited English, source lines 14201--14215.
++\editionentry{28. Group Characters and Ideal Theory}{work-28}
+ \section*{28. Group Characters and Ideal Theory}
+ 
+ \begin{center}
+@@ -15070,8 +15175,9 @@
+ 
+ \fi
+ % R823-adapted inherited-English Paper 29; prior packet retained inactive.
+-% BEGIN INLINED SOURCE fragments/Noether_R823_Paper29_Lines14216_14315_English.texfrag | 20438 B | SHA-256 6308EDFAC28799D4783B4A5107BD791029626C2EC15CC86C2E1B743EA52934BF
++% BEGIN INLINED SOURCE fragments/Noether_R823_Paper29_Lines14216_14315_English.texfrag | 20544 B | SHA-256 0458339C79F3EB184E739710CC9D5ECA4715FC5B270932378980613834F24DE7
+ % R823-adapted inherited English, source lines 14216--14315.
++\editionentry{29. Finiteness for Finite Linear Groups of Characteristic \texorpdfstring{$p$}{p}}{work-29}
+ \section*{29. The Finiteness Theorem for the Invariants of Finite Linear Groups of Characteristic $p$.}
+ 
+ \begin{center}
+@@ -15300,10 +15406,11 @@
+ 
+ \fi
+ % R823-adapted inherited-English Paper 30; prior packet retained inactive.
+-% BEGIN INLINED SOURCE fragments/Noether_R823_Paper30_Lines14316_15576_English.texfrag | 841 B | SHA-256 8597C275AFF7EC2112C9519D07009A664F90A2C46F1B571047A3694F5535BF8B
++% BEGIN INLINED SOURCE fragments/Noether_R823_Paper30_Lines14316_15576_English.texfrag | 107915 B | SHA-256 25481AD1508BF5C151FE730718AB3BFB0679E44F1FC9632AC53DE01449960357
+ % Paper 30, inherited English synchronized to the R823 German authority.
+-% BEGIN INLINED SOURCE fragments/Noether_R823_Paper30_A_Lines14316_14719_English.texfrag | 24369 B | SHA-256 30BAAFF5D58C637934BF23A8125394F4F5D8F1D7485606FA22644CAC64386891
++% BEGIN INLINED SOURCE fragments/Noether_R823_Paper30_A_Lines14316_14719_English.texfrag | 24462 B | SHA-256 CEFAC92B766771F74F05D4FC4F2A06A86341DCF98AE2A486A451C9824505692B
+ % English translation update of R823 lines 14316--14719.
++\editionentry{30. Abstract Construction of Ideal Theory in Number and Function Fields}{work-30}
+ \section*{30. Abstract Construction of Ideal Theory in Algebraic Number and Function Fields.}
+ \noindent\emph{Math. Ann. 96 (1927), pp.~26--61.}
+ 
+@@ -15499,7 +15606,7 @@
+         (\ldots,\mM_i,\ldots)\mN=(\ldots,\mM_i\mN,\ldots),
+ \]
+ since by exactly this law in $\mT$ both sides are the module derived from all elements
+-$\mu_i\alpha$.
++$\mu_i\nu$.
+ 
+ Since $\mR$ itself is a module, the condition that $\mR$ is the multiplier domain can
+ be expressed by $\mR\mM\equiv0(\mM)$. Since by hypothesis $\mR$ contains the identity
+@@ -15572,7 +15679,7 @@
+ termination of the chain of the $\mA_\mu$ is also identical with the existence of the
+ equation
+ \[
+-        \alpha^n+r_1\alpha^{n+1}+\cdots+r_n=0.
++        \alpha^n+r_1\alpha^{n-1}+\cdots+r_n=0.
+ \]
+ If $\mR_\alpha$ is finite, then $\mC\mR_\alpha$ is finite, so the chain $\mC\mA_\mu$
+ terminates; conversely, from the finiteness of $\mC\mR_\alpha$, hence from the
+@@ -15700,7 +15807,7 @@
+ For every quantity integral with respect to $\mS$ is also integral with respect to $\mR$,
+ by the transitive law in 3., and hence belongs to $\mS$.
+ % END INLINED SOURCE fragments/Noether_R823_Paper30_A_Lines14316_14719_English.texfrag
+-% BEGIN INLINED SOURCE fragments/Noether_R823_Paper30_B_S2_Lines14720_14844_English.texfrag | 6489 B | SHA-256 4F151ACC6F94851BFB29A25210C50E6E6ABF3C9A7B8032B7DD69D64F068B54AE
++% BEGIN INLINED SOURCE fragments/Noether_R823_Paper30_B_S2_Lines14720_14844_English.texfrag | 6469 B | SHA-256 3237A2259A445B1646D8761B6A6D677290BBF51733ABF72167417F9EAA77FAE4
+ % R823-adapted inherited English, source lines 14720--14844.
+ \subsection*{§2. Chain Conditions in Finite Module Domains}
+ 
+@@ -15749,13 +15856,13 @@
+ there must be elements in $\mB$ not contained in $\mA$, and hence such elements of
+ smallest length $i$. Then $\mathfrak b_i$ is a proper divisor of
+ $\mathfrak a_i$; indeed
+-$\mathfrak b_i\equiv0\pmod{\mathfrak b_i}$ but
++$b_i\equiv0\pmod{\mathfrak b_i}$ but
+ $\mathfrak b_i\not\equiv0\pmod{\mathfrak a_i}$ when
+ \[
+         \beta=b_1\xi_1+\cdots+b_i\xi_i
+ \]
+ is such an element of smallest length in $\mB$. If
+-$\mathfrak b_i\equiv0\pmod{\mathfrak a_i}$, there exists an element
++$b_i\equiv0\pmod{\mathfrak a_i}$, there exists an element
+ \[
+         \alpha=a_1\xi_1+\cdots+b_i\xi_i\equiv0\pmod{\mA},
+ \]
+@@ -16256,7 +16363,7 @@
+ 
+ \begin{center}
+ % END INLINED SOURCE fragments/Noether_R823_Paper30_H_S8_Lines15073_15207_English.texfrag
+-% BEGIN INLINED SOURCE fragments/Noether_R823_Paper30_I_S9_Lines15208_15368_English.texfrag | 13065 B | SHA-256 87E8400615FA907CC308214EDD663AED78D7FDBD3740E64348D649DEA5EBA420
++% BEGIN INLINED SOURCE fragments/Noether_R823_Paper30_I_S9_Lines15208_15368_English.texfrag | 13053 B | SHA-256 212D6E71D660A032E5EE6A79C52428E80398D3B02A916C63F3E7CC884EA08AB1
+ % English translation update of R823 lines 15208--15368; the opening center
+ % environment comes from authority line 15207 in the preceding fragment.
+ {\bfseries\large § 9.\par}
+@@ -16374,7 +16481,7 @@
+ 
+ 6. From the group property follow further consequences.
+ 
+-6\,$\alpha$. \emph{Cancellation is possible}; that is, from $\mathfrak T=\mathfrak A\mathfrak M:\mathfrak B\mathfrak M$ follows $\mathfrak T=\mathfrak A:\mathfrak B$, and conversely. For from $\mathfrak T\mathfrak B\mathfrak M=\mathfrak T\mathfrak A\mathfrak M$ comes $\mathfrak T\mathfrak B=\mathfrak T\mathfrak A$, and conversely.
++6\,$\alpha$. \emph{Cancellation is possible}; that is, from $\mathfrak T=\mathfrak A\mathfrak M:\mathfrak B\mathfrak M$ follows $\mathfrak T=\mathfrak A:\mathfrak B$, and conversely. For from $\mathfrak T\mathfrak B\mathfrak M=\mathfrak A\mathfrak M$ comes $\mathfrak T\mathfrak B=\mathfrak A$, and conversely.
+ 
+ 6\,$\beta$. \emph{Every fractional ideal (finite $\mR$-module) admits a representation $\mathfrak C=\ma:\mb$, where $\ma$ and $\mb$ are coprime; this condition determines $\ma$ and $\mb$ uniquely.} Existence follows from 5 and 6\,$\alpha$. From $\mathfrak C=\ma:\mb=\mbar\ma:\mbar\mb$ follows $\ma\mbar\mb=\mb\mbar\ma$, and hence uniqueness when both $\ma,\mb$ and $\mbar\ma,\mbar\mb$ are assumed pairwise coprime.
+ 
+@@ -16386,7 +16493,7 @@
+ \[
+         \mo\eta=\mo b:\mo c.
+ \]
+-No power of $ab$ is divisible by $c$, because $(\ma,\mc)=\mo$ and $(b,c)=\mo$.
++No power of $\ma\mb$ is divisible by $\mc$, because $(\ma,\mc)=\mo$ and $(\mb,\mc)=\mo$.
+ 
+ 7. \emph{Proof of axiom V, integral closedness in the quotient field.} By 6\,$\gamma$, \emph{every nonintegral element of $\mK$ has a quotient representation}
+ \[
+@@ -17700,10 +17807,11 @@
+ \clearpage
+ \fi
+ % R823-adapted inherited-English Paper 31; prior packet retained inactive.
+-% BEGIN INLINED SOURCE fragments/Noether_R823_Paper31_Lines15577_16068_English.texfrag | 295 B | SHA-256 2AF0F43FD5A2B91F768DCBA85BB40CF5ABF79304E4DB2F4F357C8B2025041276
++% BEGIN INLINED SOURCE fragments/Noether_R823_Paper31_Lines15577_16068_English.texfrag | 78781 B | SHA-256 ED570C46403092AF1517404D5E61E934045B7307CE4D3B144FCD81F54A759095
+ % Paper 31, inherited English synchronized to the R823 German authority.
+-% BEGIN INLINED SOURCE fragments/Noether_R823_Paper31_A_Lines15577_15760_English.texfrag | 28931 B | SHA-256 7FBF20CAA7F111C0CE397B4488E7C2F1BBE28D597DF3EE13670D8A2771850A3D
++% BEGIN INLINED SOURCE fragments/Noether_R823_Paper31_A_Lines15577_15760_English.texfrag | 28995 B | SHA-256 D6175CC44EAB64D25E95C5B31A7CAC92B80CCF057517236B7639C2E4BE5CCB5D
+ % Inherited English synchronized to R823 authority lines 15577--15760.
++\editionentry{31. The Discriminant Theorem for Orders}{work-31}
+ \section*{31. The Discriminant Theorem for Orders of an Algebraic Number Field or Function Field.}
+ \begin{center}
+ Journal f. d. reine u. angew. Math. 157 (1927), pp. 82--104
+@@ -18726,8 +18834,9 @@
+ 
+ \fi
+ % R823-adapted inherited-English Paper 32; prior packet retained inactive.
+-% BEGIN INLINED SOURCE fragments/Noether_R823_Paper32_Lines16069_16237_English.texfrag | 21406 B | SHA-256 E0B51D33A84FD5746A62001454119AC0C3BBCD19914C2585EF43F3F40C28DBFB
++% BEGIN INLINED SOURCE fragments/Noether_R823_Paper32_Lines16069_16237_English.texfrag | 21484 B | SHA-256 EE0B34B959E64209619994B739B0D1CEDE3214C0422DFEE837E9BF1513E3BCE7
+ % R823-adapted inherited English, source lines 16069--16237.
++\editionentry{32. Joint with R. Brauer: On Minimal Splitting Fields}{work-32}
+ \section*{32. Joint with R. Brauer: On Minimal Splitting Fields of Irreducible Representations}
+ \emph{Sitz. Ber. d. Preuß. Akad. d. Wiss. 1927, pp. 221--228.}
+ 
+@@ -19038,8 +19147,9 @@
+ 
+ \fi
+ % R823-adapted inherited-English Paper 33; prior packet retained inactive.
+-% BEGIN INLINED SOURCE fragments/Noether_R823_Paper33_Lines16238_16311_English.texfrag | 9239 B | SHA-256 787797D812C811A8F02752C7385B252361527CEB25F48D6505C6612FDB88A6B1
++% BEGIN INLINED SOURCE fragments/Noether_R823_Paper33_Lines16238_16311_English.texfrag | 9342 B | SHA-256 8DFA5A2291FA82DA9DBC721E167913694DA36C4723A03DE652EEF2C5D4625CDB
+ % R823-adapted inherited English, source lines 16238--16311.
++\editionentry{33. Hypercomplex Quantities and Representation Theory in Arithmetic Conception}{work-33}
+ \section*{33. Hypercomplex quantities and representation theory in arithmetic conception}
+ \emph{Atti Congresso Bologna 2 (1928), pp. 71--73.}
+ 
+@@ -19186,11 +19296,12 @@
+ \setcounter{footnote}{0}
+ 
+ % Active R823-aligned Paper 34; preserve the inherited cumulative packet below as inactive provenance.
+-% BEGIN INLINED SOURCE fragments/Noether_R823_Paper34_Lines16312_18335_English.texfrag | 384 B | SHA-256 F8496B07890F58B39614F6F87C5B58E2327329BF04A0967F6A877D04F6E22CB9
++% BEGIN INLINED SOURCE fragments/Noether_R823_Paper34_Lines16312_18335_English.texfrag | 125388 B | SHA-256 9BE8A317C5C4413A4EE55393552A97961999DEDBDA18D8C24D8AF994A9C10DEB
+ % Noether R823 Paper 34 English rebase.
+ % Exact authority coverage: lines 16312--18335.
+-% BEGIN INLINED SOURCE fragments/Noether_R823_Paper34_A_Lines16312_16741_English.texfrag | 39044 B | SHA-256 C2225D237A3DA33F7BE500A280F005577EC1536E8FA44C2135DC43950C492DEA
++% BEGIN INLINED SOURCE fragments/Noether_R823_Paper34_A_Lines16312_16741_English.texfrag | 39122 B | SHA-256 1EBA843917A623258056FE0CF07C3BB35A54FBDFC99FDC8CCB34A123E20D7A15
+ % R823-adapted inherited English, source lines 16312--16741.
++\editionentry{34. Hypercomplex Quantities and Representation Theory}{work-34}
+ \section*{34. Hypercomplex Quantities and Representation Theory}
+ \emph{Math. Zs. 30 (1929), pp. 641--692.}
+ 
+@@ -23077,11 +23188,12 @@
+ \clearpage
+ \setcounter{footnote}{12}
+ % Active R823-aligned Papers 35--36; retain the inherited packet below inactive.
+-% BEGIN INLINED SOURCE fragments/Noether_R823_Papers35_36_Lines18336_18613_English.texfrag | 237 B | SHA-256 83199CF0B5781862D6D670E00FEF493F629298733E5775D336491D2D5AB81DFB
++% BEGIN INLINED SOURCE fragments/Noether_R823_Papers35_36_Lines18336_18613_English.texfrag | 32504 B | SHA-256 EC55BE4677C7C41B98AB02BFA42D131404ED86D94B5445406F4B80EAC4B356DE
+ % Noether R823 Papers 35--36 English rebase.
+ % Exact authority coverage: lines 18336--18613.
+-% BEGIN INLINED SOURCE fragments/Noether_R823_Paper35_Lines18336_18599_English.texfrag | 31045 B | SHA-256 B9CE4630E44A834451B52CAC74D85CF29502FE0FF35E404B18D69CC6DFF79F3D
++% BEGIN INLINED SOURCE fragments/Noether_R823_Paper35_Lines18336_18599_English.texfrag | 31114 B | SHA-256 1C874317C096C9EAD0E17FA468A0D032CC9828CA1523499D6F89F558178340E6
+ % R823-adapted inherited English, source lines 18336--18599.
++\editionentry{35. On Maximal Domains of Integral Functions}{work-35}
+ \section*{35. On Maximal Domains of Integral Functions}
+ 
+ \begin{center}
+@@ -23296,8 +23408,9 @@
+ \setcounter{footnote}{0}
+ \clearpage
+ % END INLINED SOURCE fragments/Noether_R823_Paper35_Lines18336_18599_English.texfrag
+-% BEGIN INLINED SOURCE fragments/Noether_R823_Paper36_Lines18600_18613_English.texfrag | 717 B | SHA-256 8F25CADF2DF99623372D57C03524CCA1BF26D95D84EF62DBCB5581B28FAB6F52
++% BEGIN INLINED SOURCE fragments/Noether_R823_Paper36_Lines18600_18613_English.texfrag | 785 B | SHA-256 4487D4AE02CF8CFEC22A8AABBB1AD98F4837976EC103D3887C7EF3F4A539AB24
+ % R823-adapted inherited English, source lines 18600--18613.
++\editionentry{36. Ideal Differentiation and the Different}{work-36}
+ \section*{36. Ideal Differentiation and the Different}
+ 
+ \begin{center}
+@@ -23522,11 +23635,12 @@
+ 
+ \fi
+ % Active R823-aligned Papers 37--38; retain the inherited packet below inactive.
+-% BEGIN INLINED SOURCE fragments/Noether_R823_Papers37_38_Lines18614_19026_English.texfrag | 237 B | SHA-256 2A6C916718F09B85BE38AD7B44BAC49F2BBA2EB9E4707BEA7FAF2A41CFD5FEC5
++% BEGIN INLINED SOURCE fragments/Noether_R823_Papers37_38_Lines18614_19026_English.texfrag | 46404 B | SHA-256 F8BFF31FCBF95B841117E7C6B940231FF33BCEC553FCA733D06A5499D6C0039A
+ % Noether R823 Papers 37--38 English rebase.
+ % Exact authority coverage: lines 18614--19026.
+-% BEGIN INLINED SOURCE fragments/Noether_R823_Paper37_Lines18614_18805_English.texfrag | 21231 B | SHA-256 48A89B1A475361EDAD33B4D03A301D86AA805D88EB83BE02953D63AD636FF2AA
++% BEGIN INLINED SOURCE fragments/Noether_R823_Paper37_Lines18614_18805_English.texfrag | 21310 B | SHA-256 EB5344E6DBA08B6542416447E010684247B6CCF153AFB146B081C543DA7C7AF1
+ % R823-adapted inherited English, source lines 18614--18805.
++\editionentry{37. Normal Basis in Fields without Higher Ramification}{work-37}
+ \section*{37. Normal Basis in Fields without Higher Ramification}
+ 
+ \begin{center}
+@@ -23719,8 +23833,9 @@
+ \setcounter{footnote}{0}
+ 
+ % END INLINED SOURCE fragments/Noether_R823_Paper37_Lines18614_18805_English.texfrag
+-% BEGIN INLINED SOURCE fragments/Noether_R823_Paper38_Lines18806_19026_English.texfrag | 24395 B | SHA-256 EC6A65CF3F5A776EE4AD5C10C594FE8A9F5046C31B95612053EBABF7338D5239
++% BEGIN INLINED SOURCE fragments/Noether_R823_Paper38_Lines18806_19026_English.texfrag | 24487 B | SHA-256 C79B138477975A17BE036EBB9BE495E58579BE4C28FD9F41CFF92F6A4E05FC0F
+ % R823-adapted inherited English, source lines 18806--19026.
++\editionentry{38. Jointly with R. Brauer and H. Hasse: A Main Theorem on Algebras}{work-38}
+ \section*{38. Jointly with R. Brauer and H. Hasse: Proof of a Main Theorem in the Theory of Algebras}
+ 
+ \begin{center}
+@@ -24309,7 +24424,8 @@
+ 
+ \fi
+ % Active R823-aligned Paper 39; retain the inherited packet below inactive.
+-% BEGIN INLINED SOURCE fragments/Noether_R823_Paper39_Lines19027_19121_English.texfrag | 17249 B | SHA-256 118D098F16AF9C87CAE6ABDF0B1A5AFE038FFD96BB29897D4C533B965FD1CF78
++% BEGIN INLINED SOURCE fragments/Noether_R823_Paper39_Lines19027_19121_English.texfrag | 17338 B | SHA-256 F7BC820B433C77C4AF5BE586566BA09299A5138BE190105CE22F5E0276D5F59A
++\editionentry{39. Hypercomplex Systems, Commutative Algebra, and Number Theory}{work-39}
+ \section*{39. Hypercomplex Systems in Their Relations to Commutative Algebra and Number Theory}
+ 
+ \begin{center}
+@@ -26208,10 +26324,11 @@
+ 
+ \fi
+ % Active R823-aligned Paper 40; retain the inherited packet below inactive.
+-% BEGIN INLINED SOURCE fragments/Noether_R823_Paper40_Lines19122_19769_English.texfrag | 310 B | SHA-256 38D9604D37C06A44FE5059C98C1042041496B06357AD25F1FA827BBB438D81EE
++% BEGIN INLINED SOURCE fragments/Noether_R823_Paper40_Lines19122_19769_English.texfrag | 77870 B | SHA-256 7A26F5DB656B75765EFB5071D114B8E50D43329371826B175C07A29EF86D01DD
+ % Noether R823 Paper 40 English rebase.
+ % Exact authority coverage: lines 19122--19769.
+-% BEGIN INLINED SOURCE fragments/Noether_R823_Paper40_A_Lines19122_19387_English.texfrag | 32833 B | SHA-256 7E65B318E015A007A709DDC4DF1E456DC103DAD91A205EE85055A659FB6A56A8
++% BEGIN INLINED SOURCE fragments/Noether_R823_Paper40_A_Lines19122_19387_English.texfrag | 32885 B | SHA-256 2ECBB1E242BF39FDCB11F840A3287B39B8F8A0DD73EA9FB9B789A8C6A12E046A
++\editionentry{40. Noncommutative Algebras}{work-40}
+ \section*{40. Noncommutative Algebras}
+ 
+ \begin{center}
+@@ -27686,11 +27803,12 @@
+ 
+ \fi
+ % Active R823-aligned Papers 41--42; retain the inherited packet below inactive.
+-% BEGIN INLINED SOURCE fragments/Noether_R823_Papers41_42_Lines19770_20156_English.texfrag | 237 B | SHA-256 9EB41872698EBAC838F8CE0DA185B5490C36F9ADD9DCB2080093DE52CF09CF01
++% BEGIN INLINED SOURCE fragments/Noether_R823_Papers41_42_Lines19770_20156_English.texfrag | 49023 B | SHA-256 210B226E9649141D797590EB917606F49EF3EF8883386C8649A5F90B3B1FC39B
+ % Noether R823 Papers 41--42 English rebase.
+ % Exact authority coverage: lines 19770--20156.
+-% BEGIN INLINED SOURCE fragments/Noether_R823_Paper41_Lines19770_19923_English.texfrag | 25161 B | SHA-256 16BCE1260F81C6AD45E3898A9EF78E0EBC2D4B74A85BCE0E629D072AD2282203
++% BEGIN INLINED SOURCE fragments/Noether_R823_Paper41_Lines19770_19923_English.texfrag | 25251 B | SHA-256 00CDE3A2208893516658430203DC4C71874CF1879162033C8AF58DC469D9A9E8
+ % R823-adapted inherited English, source lines 19770--19923.
++\editionentry{41. The Principal Genus Theorem for Relative Galois Number Fields}{work-41}
+ \section*{41. The Principal Genus Theorem for Relative Galois Number Fields}
+ 
+ \begin{center}
+@@ -27930,8 +28048,9 @@
+ \clearpage
+ \setcounter{footnote}{0}
+ % END INLINED SOURCE fragments/Noether_R823_Paper41_Lines19770_19923_English.texfrag
+-% BEGIN INLINED SOURCE fragments/Noether_R823_Paper42_Lines19924_20156_English.texfrag | 23089 B | SHA-256 C3CB84B31D37244440E9C742784B5046FA6E9A29A7ED28959D0A2EE6D8A26B32
++% BEGIN INLINED SOURCE fragments/Noether_R823_Paper42_Lines19924_20156_English.texfrag | 23165 B | SHA-256 6B33317C546F3006FB3492121EFC740F76C2C83B012677718CBAA9225C6766E2
+ % R823-adapted inherited English, source lines 19924--20156.
++\editionentry{42. Split Crossed Products and Their Maximal Orders}{work-42}
+ \section*{42. Split Crossed Products and Their Maximal Orders}
+ 
+ \begin{center}
+@@ -28709,8 +28828,9 @@
+ 
+ \fi
+ % Active R823-aligned Paper 43; retain the inherited packet below inactive.
+-% BEGIN INLINED SOURCE fragments/Noether_R823_Paper43_Lines20157_20967_English.texfrag | 57678 B | SHA-256 C861BA814A2F987F84E834D74342831C5AE45F5F3AB9F995853E25743F69784C
++% BEGIN INLINED SOURCE fragments/Noether_R823_Paper43_Lines20157_20967_English.texfrag | 87552 B | SHA-256 82C05B771EE714D7BB78424867D30BF32F98F17F6D962603211FAFF341351DB7
+ % R823-adapted inherited English, exact source range 20157--20967.
++\editionentry{43. Ideal Differentiation and the Different}{work-43}
+ \section*{43. Ideal Differentiation and the Different.}
+ 
+ \begin{center}
+@@ -30151,7 +30271,7 @@
+ \clearpage
+ \fi
+ \section*{RA10: scan-visible apparatus for Papers 40--43}
+-\addcontentsline{toc}{section}{RA10: scan-visible apparatus for 40--43}
++\phantomsection\addcontentsline{toc}{section}{RA10: scan-visible apparatus for Papers 40--43}
+ \noindent This appendix records source-visible scholarly apparatus restored during the scan-first recursive audit. It is appended as endnote apparatus so the cumulative branch contains the omitted details while the main mathematical text remains undisturbed.
+ 
+ \subsection*{Paper 40}
+@@ -30236,12 +30356,13 @@
+ \end{enumerate}
+ 
+ \clearpage
+-% BEGIN INLINED SOURCE fragments/Noether_R823_Tail_Lecture_Intro_Chapters_I_III_English.texfrag | 48669 B | SHA-256 1A778EEFA1ACD4F6CF59AB4D45E63706FB839C08A32A3591907659EE1C720D5B
++% BEGIN INLINED SOURCE fragments/Noether_R823_Tail_Lecture_Intro_Chapters_I_III_English.texfrag | 49069 B | SHA-256 75B55D1529662BC80EB0764BF61479F0127C6988FCC62098DC98C605331A2C93
+ % R823 English translation, exact source range 20968--21789.
+ \begingroup
+ \clearpage
+ \begin{center}
+ \vspace*{3.5em}
++\editionentry{Algebra of Hypercomplex Quantities: 1929/30 Lectures}{lecture-main}
+ {\LARGE\bfseries Algebra of Hypercomplex Quantities\par}
+ \vspace{3.5em}
+ {\large Lectures by Prof. E. Noether\par}
+@@ -30304,6 +30425,7 @@
+ \endgroup
+ \clearpage
+ 
++\editionpartentry{Lecture Introduction}{lecture-introduction}
+ \section*{Introduction}\label{einleitung}
+ 
+ These lectures treat the general representation theory of rings, which grew, on the one hand, out of the theory of representations of finite groups and, on the other, out of the algebraic and arithmetic theory of hypercomplex number systems. This more general conception of representation theory has the following advantages over the theory hitherto developed (Frobenius, Schur):
+@@ -30314,6 +30436,7 @@
+ 
+ The concepts of representation and representation module are briefly explained here in order to introduce reciprocal representation modules and reciprocal representations, which are new only in a formal sense.
+ 
++\editionpartentry{Lecture Chapter I: Representations}{lecture-chapter-i}
+ \section*{Chapter I. Representations}\label{kapitel-i.-darstellungen}
+ 
+ Let \(\mathfrak{o}\) be a ring---the ring to be represented---and \(\mathsf T\) another ring---the ring in which it is to be represented.
+@@ -30516,6 +30639,7 @@
+ 
+ The different bases again give the different representations in one class.
+ 
++\editionpartentry{Lecture Chapter II: Galois Theory of Commutative Fields}{lecture-chapter-ii}
+ \section*{Chapter II. Galois Theory of Commutative Fields}\label{kapitel-ii.-galoissche-theorie-kommutativer-koerper}
+ 
+ The representation theory developed thus far suffices to provide a foundation for Galois theory which has the advantage over the usual foundation that it need not resort to special systems of generating elements and theorems about polynomials in indeterminates.\srcfn{1}{For what follows, compare M.Z. \S\S{} 15--20. M.Z. \S{} 21 contains the first theorems of the following section on Galois theory. For the definition of hypercomplex systems, see M.Z. \S{} 6.}
+@@ -30663,7 +30787,7 @@
+ \paragraph{2. Let \(\mathsf T\) be the invariant field of \(\mathfrak H\).}
+ We wish to recognize \(\mathfrak H\) as the invariant group of \(\mathsf T\). For this it suffices to exhibit an element of \(\mathsf T\) which is not fixed by any given automorphism not belonging to \(\mathfrak H\).
+ 
+-The elements \(S_i\) of the Galois group \(\mathfrak G\) of \(\mathsf Z\) are the automorphisms of \(\mathsf Z\) that leave \(\mathsf P\) fixed. We make them automorphisms of \(\mathfrak Z\) by stipulating
++The elements \(S_i\) of the Galois group \(\mathfrak G\) of \(\mathsf Z\) are the automorphisms of \(\mathsf Z\) that leave \(\mathsf P\) fixed. We make them automorphisms of \(\mathfrak Z_{\mathsf Z}\) by stipulating
+ \[
+ S_i z=z,\quad \text{if } z \text{ is in } \mathfrak Z.
+ \]
+@@ -30692,7 +30816,7 @@
+ 
+ The element \(E_1\) is not invariant under any \(S_i\) not belonging to \(\mathfrak H\). For, for such an \(S_i\),
+ \[
+-S_i e_1=e_i+\cdots
++S_i E_1=e_i+\cdots
+ \]
+ contains the component \(e_i\), which does not occur among \(e_1,\ldots,e_h\), while the direct-sum representation of \(E_1\) is unique.
+ 
+@@ -30802,6 +30926,7 @@
+ \]
+ Accordingly, \(\mathfrak T_\Omega E_\nu\) decomposes into \(t\) ideals, each of which, being a summand of \(\mathfrak T_\Omega E\) and hence also of \(\mathfrak T_\Omega\), gives a representation of \(\mathfrak T_\Omega\) which proves, just as on pp.~10--11, to be an extension of the representation given by \(H_\nu\). The remaining irreducible representations of \(\mathfrak T_\Omega\)---generated by the summands of \(\mathfrak T_\Omega\) not contained in \(\mathfrak T_\Omega\cdot E_\nu\)---cannot be extensions of the representations of \(\mathfrak S_\Omega\) generated by the \(H_\nu\), because these ideals are annihilated by \(\mathfrak T_\Omega\cdot E_\nu\), and therefore all the more by \(\mathfrak S_\Omega\).
+ 
++\editionpartentry{Lecture Chapter III: Abelian Groups}{lecture-chapter-iii}
+ \section*{Chapter III. Abelian Groups}\label{kapitel-iii.-abelsche-gruppen}
+ 
+ \subsection*{§ 14. The Group Ring}\label{der-gruppenring}
+@@ -30875,8 +31000,8 @@
+ \]
+ from which, for \(a=a_j a_i^{-1}\),
+ \[
+-x_1a_ja_i^{-1}a_1+\cdots+x_i a_j+\cdots+x_na_ja_i^{-1}a_n
+-=x_1a_1+\cdots+x_na_n,
++x_1a_ja_i^{-1}a_1+\cdots+x_i a_j+\cdots+x_ha_ja_i^{-1}a_h
++=x_1a_1+\cdots+x_ha_h,
+ \]
+ and therefore
+ \[
+@@ -31049,7 +31174,8 @@
+ 
+ The sum of all characters at a group element is zero, except at the identity element, where it is \(h\).
+ % END INLINED SOURCE fragments/Noether_R823_Tail_Lecture_Intro_Chapters_I_III_English.texfrag
+-% BEGIN INLINED SOURCE fragments/Noether_R823_Tail_Lecture_Chapters_IV_V_English.texfrag | 87667 B | SHA-256 485B6789590B035889C5CF73A447010DB892EC32B0A407459FAF65A888606F9C
++% BEGIN INLINED SOURCE fragments/Noether_R823_Tail_Lecture_Chapters_IV_V_English.texfrag | 87821 B | SHA-256 8C7C939A2AB6071642D506002B9D98F1A33E01B87E0FE05FD3C44C685D56E6EE
++\editionpartentry{Lecture Chapter IV: Two-Sided Simple Rings}{lecture-chapter-iv}
+ \section*{Chapter IV. Two-Sided Simple Rings}\label{kapitel-iv.-zweiseitig-einfache-ringe}
+ 
+ \subsection*{§ 18. An Auxiliary Theorem}\label{ein-hilfssatz}
+@@ -31603,6 +31729,7 @@
+ 
+ From this point onward we argue exactly as on page 10 and on page 16. Let \(H\) be the invariant group of \(\mathfrak S\), and let \(\mathfrak T\) be the invariant division ring of \(H\). The elements of \(H\) are all the extensions of the identity automorphism of \(\mathfrak S\) to all of \(\mathfrak K\). Since, by the auxiliary theorem just proved, among them there are at least \(s\) that are distinct on \(\mathfrak T\), we must have \(s=1\), and \(\mathfrak T=\mathfrak S\), q.e.d.
+ 
++\editionpartentry{Lecture Chapter V: Factor Systems}{lecture-chapter-v}
+ \section*{Chapter V. Factor Systems}\label{kapitel-v.-faktorensysteme}
+ 
+ \subsection*{§ 22. The Group of Division Rings with Given Center}\label{die-gruppe-der-koerper-mit-gegebenem-zentrum}
+@@ -32574,8 +32701,9 @@
+ \]
+ Consequently every \(A\)-matrix commutes with every \(B\)-matrix (though the \(A\)-matrices, or the \(B\)-matrices, do not commute among themselves); and this commutativity of every \(A\)-matrix with every \(B\)-matrix gives precisely---after multiplication by \(a_{S,T}^{-1}b_{S,T}^{-1}\)---the relation to be proved.
+ % END INLINED SOURCE fragments/Noether_R823_Tail_Lecture_Chapters_IV_V_English.texfrag
+-% BEGIN INLINED SOURCE fragments/Noether_R823_Tail_Lecture_Chapter_VI_Kapferer_Bibliography_English.texfrag | 62143 B | SHA-256 0E941E8832156C834BD80BE68F5D7D60473AF24ABA228547CDDE6B2059D8E643
++% BEGIN INLINED SOURCE fragments/Noether_R823_Tail_Lecture_Chapter_VI_Kapferer_Bibliography_English.texfrag | 62471 B | SHA-256 8847D99EF5F701C83BC99854B77B4CDFB13806CDEE43621C65B5687C0193EE48
+ % English translation of Noether_R823_cum_de.tex, lines 23320--24123.
++\editionpartentry{Lecture Chapter VI: Theory of Crossed Products}{lecture-chapter-vi}
+ \section*{Chapter VI. Theory of Crossed Products}\label{kapitel-vi.-theorie-der-verschraenkten-produkte}
+ 
+ \subsection*{§ 27. Representation of the \(\mathfrak K_r\) as Crossed Products}
+@@ -32973,6 +33101,7 @@
+ may be regarded as the essential content of the converse theorem of local class field theory.
+ 
+ \clearpage
++\editionentry{Kapferer: Multiplicity Conditions and Noether Supplement}{kapferer-supplement}
+ \subsection*{Necessary and Sufficient Multiplicity Conditions for Noether's Fundamental Theorem of Algebraic Functions}\label{notwendige-und-hinreichende-multiplizitaetsbedingungen-zum-noetherschen-fundamentalsatz-der-algebraischen-funktionen}
+ 
+ \begin{center}
+@@ -33052,8 +33181,8 @@
+ \begin{equation}
+ \tag{3}
+ \begin{aligned}
+-K_1\cdot g_1(0,y):y^{(g_1)} - g_1\cdot K_1(0,y):y^{(g_1)} &= x\cdot K_1,\\
+-K_2\cdot g_2(0,y):y^{(g_2)} - g_2\cdot K_2(0,y):y^{(g_2)} &= x\cdot K_2,\\
++K_1\cdot g_1(0,y):y^{(g_1)} - g_1\cdot K_1(0,y):y^{(g_1)} &= x\cdot K_2,\\
++K_2\cdot g_2(0,y):y^{(g_2)} - g_2\cdot K_2(0,y):y^{(g_2)} &= x\cdot K_3,\\
+ &\vdots \qquad\qquad\vdots\qquad\qquad\vdots\\
+ K_r\cdot g_r(0,y):y^{(g_r)} - g_r\cdot K_r(0,y):y^{(g_r)} &= x\cdot K_{r+1}.
+ \end{aligned}
+@@ -33215,6 +33344,7 @@
+ \clearpage
+ \clearpage
+ \begin{center}
++\editionentry{Bibliography}{corpus-bibliography}
+ {\Large\bfseries Bibliography}
+ \end{center}
+ \label{bibliographie}
+@@ -33315,6 +33445,7 @@
+ 
+ \clearpage
+ \begin{center}
++\editionentry{Short Communications and Book Reviews}{short-communications}
+ {\Large\bfseries List of Short Communications and Book Reviews\\ by Emmy Noether}
+ \end{center}
+ \label{liste-der-kurzmitteilungen-und-buchbesprechungen-von-emmy-noether}
+@@ -33368,7 +33499,7 @@
+ \begingroup
+ \setlength{\parindent}{0pt}
+ \setlength{\parskip}{0.5em}
+-R. Dedekind, \emph{Gesammelte Werke}, vols. I--III. Edited by R. Fricke, E. N. Öystein Orne. Vieweg, Braunschweig, 1930--1932\\
++R. Dedekind, \emph{Gesammelte mathematische Werke}, vols. I--III. Edited by R. Fricke, Emmy Noether, and Øystein Ore. Vieweg, Braunschweig, 1930--1932\\
+ (vol. I: 1930; II: 1931; III: 1932)\par
+ G. Cantor, \emph{Briefwechsel mit R. Dedekind}. Edited by Emmy Noether and J. Cavaillès, 60 pp. Actualités scient. et ind. 581, Paris, 1937\par
+ \endgroup

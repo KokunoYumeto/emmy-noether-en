@@ -1,0 +1,27 @@
+{
+  "relations": [
+    {
+      "identifier": "10.5281/zenodo.21923145",
+      "relationType": "IsVersionOf",
+      "resourceTypeGeneral": "Book"
+    },
+    {
+      "identifier": "10.5281/zenodo.20412587",
+      "relationType": "IsPartOf",
+      "resourceTypeGeneral": "Collection"
+    },
+    {
+      "identifier": "10.5281/zenodo.20412587",
+      "note": "Preserved DataCite 4.7 intent; Zenodo's public vocabulary may expose only IsPartOf.",
+      "relationType": "IsTranslationOf",
+      "resourceTypeGeneral": "Collection"
+    },
+    {
+      "identifier": "https://github.com/KokunoYumeto/emmy-noether-en",
+      "relationType": "IsSupplementedBy",
+      "resourceTypeGeneral": "Software"
+    }
+  ],
+  "schema": "emmy-noether-en-datacite-relations/1.0",
+  "subject": "10.5281/zenodo.21923146"
+}

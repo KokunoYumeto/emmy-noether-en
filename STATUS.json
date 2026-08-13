@@ -1,0 +1,14 @@
+{
+  "accepted_german_deltas_disposed": 25,
+  "concept_doi": "10.5281/zenodo.21923145",
+  "coverage": "complete maintained English corpus",
+  "critical_edition_claim": false,
+  "independent_peer_review": false,
+  "language": "en",
+  "repository_tag": "v2026.08.13-r1",
+  "schema": "emmy-noether-en-edition-status/1.0",
+  "silent_status_upgrade": false,
+  "source_authority": "NOETH-DE-AUTH-v051-20260811 / NOETH-DE-ED-0014",
+  "translation_status": "machine-assisted working edition",
+  "version_doi": "10.5281/zenodo.21923146"
+}

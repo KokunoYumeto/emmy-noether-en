@@ -1,0 +1,149 @@
+{
+  "schema": "noether-english-final-visual-pdf-qa.v1",
+  "status": "PASS_FINAL_PDF_STRICT_PARSE_ALL_PAGE_RENDER_LINK_AND_VISUAL_QA",
+  "recorded_utc": "2026-08-13T18:05:00Z",
+  "pdf": {
+    "path": "reader/00_EMMY_NOETHER_EN_COMPLETE_LINKED_READER.pdf",
+    "bytes": 2433148,
+    "sha256": "A53561CB32C2AA38C29453DA9F33B60C0BB418ADF2E41869C78066A589C4D6A8",
+    "version": "1.7",
+    "pages": 463,
+    "encrypted": false,
+    "page_width_points": 595.28,
+    "page_height_points": 841.89,
+    "page_rotation_degrees": 0
+  },
+  "source": {
+    "path": "final-source/generated/Noether_English_ED0014.tex",
+    "bytes": 2855590,
+    "sha256": "9C0A496687F3E92611D922FAE1528AA1F9A0550F0E2AB93DF6F973813C9A7B3C"
+  },
+  "build_receipt": {
+    "path": "receipts/FINAL_BUILD_AND_LOGICAL_PDF_QA.json",
+    "bytes": 8538,
+    "sha256": "EF35B95C6A1000EDE7595BFFB2EF6A32F906B2BFF1790572FC1E4F6FA8DCA611"
+  },
+  "strict_structure": {
+    "objects_parsed": 5900,
+    "streams_decoded": 547,
+    "decoded_stream_bytes": 10170664,
+    "fonts": 44,
+    "fonts_embedded": 44,
+    "fonts_subset": 44,
+    "named_destinations": 2143,
+    "named_destination_table_sha256": "B28817EC96BCBAF86F42A55C67754B7AABACB839CE0E989E62B76D8F061127FF",
+    "outline_items": 49,
+    "outline_table_sha256": "6103D0D036A795027FE7ABE22E98DEA71FEC35A8846C8EDB7A63A6295EF9C199",
+    "link_annotations": 782,
+    "internal_links": 778,
+    "external_links": 4,
+    "annotation_table_sha256": "6B80ADD2A817A2724FF05229EE5499913590D252DE8D11C914C0E02434E1A6FC",
+    "internal_target_table_sha256": "C1FD9F88006A62E7BD80F8E8860CC6C17F8FFEEB88ED9602E3A40D6AC49C2427",
+    "unresolved_destinations": 0,
+    "out_of_bounds_link_rectangles": 0,
+    "embedded_files": 0,
+    "javascript_actions": 0,
+    "forms": 0
+  },
+  "external_links": [
+    {
+      "page": 1,
+      "target": "https://doi.org/10.5281/zenodo.21923145"
+    },
+    {
+      "page": 1,
+      "target": "https://doi.org/10.5281/zenodo.21923146"
+    },
+    {
+      "page": 1,
+      "target": "https://zenodo.org/records/21923146"
+    },
+    {
+      "page": 1,
+      "target": "https://github.com/KokunoYumeto/emmy-noether-en"
+    }
+  ],
+  "all_page_render": {
+    "renderer": "PyMuPDF 1.27.2.3",
+    "pages_rendered": 463,
+    "errors": 0,
+    "quarter_scale_aggregate_sha256": "532BB9036494A141B7771DCD60B4E4E29B0AE254497251B0B48208ED593796B8"
+  },
+  "representative_visual_review": {
+    "dpi": 180,
+    "pages": [
+      1,
+      2,
+      3,
+      8,
+      9,
+      57,
+      58,
+      76,
+      82,
+      84,
+      94,
+      99,
+      126,
+      223,
+      243,
+      244,
+      245,
+      252,
+      270,
+      271,
+      273,
+      274,
+      285,
+      419,
+      420,
+      422,
+      455,
+      463
+    ],
+    "pages_reviewed": 28,
+    "clipping_defects": 0,
+    "overlap_defects": 0,
+    "missing_glyph_defects": 0,
+    "corruption_defects": 0
+  },
+  "focused_review": {
+    "title_page_png": {
+      "bytes": 200775,
+      "sha256": "773BC417DECE70CA41720E5F406CC6A0F358DA29FC0F99788F3B18AFE19A1EC9"
+    },
+    "paper_20_page_214_png": {
+      "bytes": 593069,
+      "sha256": "EB1F63ACF9A17B2011505C68EF9A2163A15490323604541422BFF0CD9AEAE33D"
+    },
+    "paper_20_page": 214,
+    "note_6_target": "noeth-p20-fn6",
+    "note_8_target": "noeth-p20-fn8",
+    "note_6_resolves": true,
+    "note_8_resolves": true,
+    "visible_note_bodies": true,
+    "visual_defects": 0
+  },
+  "review_boundary": {
+    "translation_certification_performed": false,
+    "mathematical_certification_performed": false,
+    "lean_formalization_performed": false,
+    "git_invocations": 0,
+    "network_calls": 0,
+    "source_or_pdf_mutations_by_auditor": 0
+  },
+  "audits": [
+    {
+      "agent": "/root/english_package_builder",
+      "result": "PASS"
+    },
+    {
+      "agent": "/root/english_package_builder/pdf_structure_gate",
+      "result": "PASS"
+    },
+    {
+      "agent": "/root",
+      "result": "PASS_TITLE_AND_P20_FOCUSED_VISUAL_INSPECTION"
+    }
+  ]
+}
