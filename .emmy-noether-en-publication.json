@@ -1,0 +1,12 @@
+{
+  "declared_object_scope": "complete maintained Emmy Noether English corpus edition",
+  "exact_version_doi": "10.5281/zenodo.21923146",
+  "global_concept_doi": "10.5281/zenodo.20412587",
+  "language": "en",
+  "language_concept_doi": "10.5281/zenodo.21923145",
+  "release_key": "9F600AE9A722EFF017D6601141B9A250E710F77EECB5B4E2A28F846FBD46B816",
+  "repository": "https://github.com/KokunoYumeto/emmy-noether-en",
+  "repository_identity": "emmy-noether-en-zenodo-21923145",
+  "schema": "emmy-noether-en-repository-identity/1.0",
+  "tag": "v2026.08.13-r1"
+}
