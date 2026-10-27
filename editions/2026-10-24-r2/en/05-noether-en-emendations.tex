@@ -1145,7 +1145,7 @@ for $(a\theta u)^2$\srcfn{*)}{Gordan--Kerschensteiner, loc. cit., p. 92.}:
 \begin{aligned}
 (a\theta u)^2&=\frac16\nu\cdot f-\frac23u_x\cdot a_\nu
 +\frac23u_x^2\cdot a_\nu^2-\frac{i}{18}u_x^4,\\
-a_\vartheta&=\frac13u_x\cdot\A,\\
+\underline{a_\vartheta}&=\frac13u_x\cdot\A,\\
 a_\vartheta(a\theta u)&=0,\\
 a_\vartheta^2&=\A,\\
 (a\theta u)^3&=0,\\
@@ -4724,7 +4724,7 @@ according to the lemma so that the substitution preserves the algebraic rank $\r
 \begin{aligned}
  [f(x)]_{(x_n=a_n)}&=f^{(n-1)}(x),\qquad
  [f^{(n-1)}(x)]_{x_{n-1}=a_{n-1}}=f^{(n-2)}(x);\ldots,\\
- [f^{(\rho+1)}(x)]_{x_{\rho+1}=a_{\rho+1}}&=f^*(x_1,\ldots,x_\rho),
+ [f^{(\rho+1)}(x)]_{(x_{\rho+1}=a_{\rho+1})}&=f^*(x_1,\ldots,x_\rho),
 \end{aligned}
 \]
 namely
@@ -6233,7 +6233,7 @@ holds for indeterminate coefficients and therefore for coefficients in any field
 We briefly show how analogous arguments also yield the \emph{general series expansion} (for $N\le n$). Let $Z$ be a form separately homogeneous in the $n$ rows $A_1,
 \ldots,A_n$ of $n$ quantities each, and let $\Delta$ be the determinant of these rows. We first prove the identity corresponding to (1):
 \begin{equation}
-  Z=\sum PH \pmod{\Delta},
+  Z=\sum PH \mod{\Delta},
 \tag{2}
 \end{equation}
 where the forms $H$ contain only the rows $A_1,
@@ -6950,7 +6950,7 @@ then
 \begin{equation}
  \xi-\zeta=\dfrac{b_1(\eta)}{\varkappa};\qquad;
  \qquad
- c_i(\eta)\equiv b_i(\eta)\pmod{\frac{b_1(\eta)}{\chi}},
+ c_i(\eta)\equiv b_i(\eta)\pmod{\dfrac{b_1(\eta)}{\varkappa}},
 \tag{5}
 \end{equation}
 where $b_1(\eta)$ begins with terms of degree at least $\nu$. Comparison of (2)
@@ -8463,7 +8463,7 @@ where \(A\) is linear in \(\delta u\) and its derivatives. Thus one obtains:
 In particular, if \(f\) contains only first derivatives of the \(u\)'s, then, in the case of the simple integral, the identity (3) is identical with Herr's so-called ``Lagrangian central equation'':
 \begin{equation}
 \sum_i \psi_i\,\delta u_i
-=\delta f-\frac{\dd}{\dd x}\left(\sum_i\frac{\p f}{\p u_i'}\,\delta u_i\right),
+=\delta f-\frac{d}{d x}\left(\sum_i\frac{\p f}{\p u_i'}\,\delta u_i\right),
 \qquad \left(u_i'=\frac{d u_i}{d x}\right),
 \tag{4}
 \end{equation}
@@ -8482,13 +8482,13 @@ For the simple integral and \(\varkappa\) derivatives of the \(u\)'s, (3) is giv
 \begin{aligned}
 \sum_i\psi_i\,\delta u_i
 ={}&\delta f
--\frac{\dd}{\dd x}\Bigg\{\sum_i\left[
+-\frac{d}{d x}\Bigg\{\sum_i\left(
 \binom{1}{1}\frac{\p f}{\p u_i^{(1)}}\delta u_i
 +\binom{2}{1}\frac{\p f}{\p u_i^{(2)}}\delta u_i^{(1)}
 +\cdots+
 \binom{\varkappa}{1}\frac{\p f}{\p u_i^{(\varkappa)}}\delta u_i^{(\varkappa-1)}
 \right]\Bigg\}\\
-&+\frac{\dd^2}{\dd x^2}\Bigg\{\sum_i\left[
+&+\frac{d^2}{d x^2}\Bigg\{\sum_i\left(
 \binom{2}{2}\frac{\p f}{\p u_i^{(2)}}\delta u_i
 +\binom{3}{2}\frac{\p f}{\p u_i^{(3)}}\delta u_i^{(1)}
 +\cdots+
@@ -9275,7 +9275,7 @@ This proof of finiteness may be characterized as follows. One decomposes the gro
 
 If one considers only integral invariants, condition 1) can be satisfied just as above as soon as, for invariants of linear forms, the sharper theorem is proved that \emph{all integral invariants of binary linear forms are polynomial integral functions of the determinants of these linear forms}. I show that this is in fact the case in § 3, in the form that the totality of all relations modulo any prime between these determinants coincides with the totality of all identical relations; that is, the module corresponding to these relations remains a prime module modulo every prime number. This verification is carried out by normalizing the residue classes with respect to the module of quadratic forms corresponding to the quadratic relations between the determinants; these quadratic forms thereby turn out to form an integral basis of the module, modulo every prime, whereas previously they were known as a module basis only when integrality was disregarded.
 
-To satisfy condition 2) no alteration is needed, since the introduction of products of powers does not affect the integer coefficients. Condition 3) now says that \(n_1!\cdots n_\mu! I\) (where \(n_1,\ldots,n_\mu\) are the degrees of the individual ground forms) becomes an integral symmetric function of rows of quantities, and conversely every integral symmetric function of these rows becomes an integral invariant. But, as is easily shown, these integral symmetric functions of rows possess an integral basis, for which the elementary functions alone no longer suffice. The application of Hilbert's theorem on the integral module basis then also yields an integral basis for the \(I\) themselves.
+To satisfy condition 2) no alteration is needed, since the introduction of products of powers does not affect the integer coefficients. Condition 3) now says that \(n_1!\ldots n_\mu! I\) (where \(n_1,\ldots n_\mu\) are the degrees of the individual ground forms) becomes an integral symmetric function of rows of quantities, and conversely every integral symmetric function of these rows becomes an integral invariant. But, as is easily shown, these integral symmetric functions of rows possess an integral basis, for which the elementary functions alone no longer suffice. The application of Hilbert's theorem on the integral module basis then also yields an integral basis for the \(I\) themselves.
 
 Section 1 collects the special finiteness theorems corresponding to conditions 1), 2), and 3), from which the proof of finiteness follows in § 2. The special finiteness theorems corresponding to condition 3) also yield the finiteness of the integral invariants of finite groups of integral or algebraic-integral substitutions, as is briefly carried out in § 4.
 
@@ -10762,7 +10762,7 @@ and let $\mathfrak A_i$ be isomorphic to $\mathfrak A_\varkappa$ for $i,\varkapp
 \ldots,\alpha),
 \tag{31}
 \end{equation}
-so that, in the group $\mathfrak A_1$, each residue class is assigned to itself. Since $M\mathfrak{a}_1=0$ and $M\mathfrak{a}_i=0$, it follows that $Mt_{1i}a_i=0$ and $M\mathfrak{t}_{i1}\mathfrak{a}_1=0$; hence the classes $t_{1i}a_i$ and $\mathfrak{t}_{i1}\mathfrak{a}_1$, analogously to units, admit multiplication by classes, not merely by polynomials. It follows from the definition of isomorphism that, for two assigned classes $\mathfrak y$ and $\bar{\mathfrak y}$ admitting this class multiplication, the classes $\mathfrak x\mathfrak y$ and $\mathfrak x\bar{\mathfrak y}$ are again assigned to each other. Therefore the relations $\mathfrak{a}_r\mathfrak{a}_s=0$ $(r\ne s)$ ($r=1,
+so that, in the group $\mathfrak A_1$, each residue class is assigned to itself. Since $M\mathfrak{a}_1=0$ and $M\mathfrak{a}_i=0$, it follows that $M\mathfrak{t}_{1i}\mathfrak{a}_i=0$ and $M\mathfrak{t}_{i1}\mathfrak{a}_1=0$; hence the classes $\mathfrak{t}_{1i}\mathfrak{a}_i$ and $\mathfrak{t}_{i1}\mathfrak{a}_1$, analogously to units, admit multiplication by classes, not merely by polynomials. It follows from the definition of isomorphism that, for two assigned classes $\mathfrak y$ and $\bar{\mathfrak y}$ admitting this class multiplication, the classes $\mathfrak x\mathfrak y$ and $\mathfrak x\bar{\mathfrak y}$ are again assigned to each other. Therefore the relations $\mathfrak{a}_r\mathfrak{a}_s=0$ $(r\ne s)$ ($r=1,
 \ldots,
 \alpha$; $s=1,
 \ldots,
@@ -11280,7 +11280,7 @@ where $\varphi(y)$ runs through all rational functions of $y$. These divisors ar
 Therefore the unit cannot be contained in the module, since otherwise the zero function would be the only possible integral. On the other hand, $\xi$ and $\eta$ are congruent, with respect to the module, to a quantity of the domain; hence the residue group is finite and of order 1. Further, any two of the infinitely many divisors are relatively prime, and the given module $\mathfrak M$ is equal to the least common multiple $\mathfrak N$ of all these divisors. Indeed, it is divisible by all divisors, hence also by $\mathfrak N$. If $\mathfrak N$ were a proper divisor of $\mathfrak M$, then $\mathfrak N$ would still have to contain at least one polynomial $F$, say of degree $\rho$, depending only on $\eta$ alone. Letting $\varphi(y)$ run through the functions $y,
 \ldots,y^{\rho+1}$, there is no linear relation with coefficients independent of $y$ between the corresponding integrals
 \[
- \exp\!\left(y\log x-\frac{y^{i+1}}{i+1}+c_i\right)
+ \exp\!\left(y\log x-\frac{y^{i+1}}{i+1}+\alpha_i\right)
  \qquad(i=1,
 \ldots,
 \rho+1).
@@ -11937,7 +11937,7 @@ From $\ideal T\cdot\ideal S\equiv0(\ideal R)$ it follows that $\ideal T\cdot\ide
 
 3. Let $\ideal C_i$ denote the complement of $\ideal S_i$. From $\ideal T_0\cdot\ideal R\equiv0(\ideal S_i)$, together with $\ideal C_i\cdot\ideal R\equiv0(\ideal C_i)$, it follows that $[\ideal T_0,\ideal C_i]\cdot\ideal R\equiv0(\ideal S)$. If $\ideal T_0$ were a proper divisor of $\ideal S_i$, then, since $\ideal S=[\ideal S_i,\ideal C_i]$ is reduced, $[\ideal T_0,\ideal C_i]$ would be a proper divisor of $\ideal S$, contrary to the hypothesis.
 
-4. From $\ideal T\ideal S_i\equiv0(\ideal R)$, where $\ideal T_0$ is a proper divisor of $\ideal R$, it follows also that $\ideal T_0\cdot\ideal S\equiv0(\ideal R)$; hence $\ideal T_0$ would be a proper divisor of $\ideal R$, contrary to the hypothesis.
+4. From $\ideal T_0\ideal S_i\equiv0(\ideal R)$, where $\ideal T_0$ is a proper divisor of $\ideal R$, it follows also that $\ideal T_0\cdot\ideal S\equiv0(\ideal R)$; hence $\ideal T_0$ would be a proper divisor of $\ideal R$, contrary to the hypothesis.
 
 Definition V shows in particular that every ideal is relatively prime to the unit ideal $\ideal O$ consisting of all elements of $\Sigma$;\footnote{$\ideal O$ plays the role of the unit only with respect to divisibility and least common multiple, not with respect to product formation. For instance, $\ideal O=(x)$ for the domain of all integral polynomials in $x$ without constant term; and $\ideal O=(2)$ for the domain of all even numbers.} the following theorems, however, apply only to ideals distinct from $\ideal O$.
 
@@ -12472,7 +12472,7 @@ Let $\Sigma$ be the domain of all integral matrices with $n^2$ elements, with ad
 
 We first show that every ideal is principal. For this purpose, in the case of right ideals, to each matrix $A=(a_{ik})$ we assign the module
 \[
- A=(a_{11}\xi_1+\cdots+a_{1n}\xi_n,
+ \mathsf{A}=(a_{11}\xi_1+\cdots+a_{1n}\xi_n,
  \ldots,
  a_{n1}\xi_1+\cdots+a_{nn}\xi_n)
 \]
@@ -12891,14 +12891,14 @@ In what follows the question is the \emph{general problem of elimination theory,
 
 \emph{To every ideal $\mideal$ of polynomials one can assign a resultant form:}
 \[
- R_{\mideal}=R^{(1)}(x_1,\ldots,x_n)\cdots
- R^{(i)}(x_i,\ldots,x_n)\cdots R^{(n)}(x_n)\zero{\mideal},
+ R_{\mideal}=R^{(1)}(x_1\ldots x_n)\cdot\ldots\cdot
+ R^{(i)}(x_i\ldots x_n)\cdot\ldots\cdot R^{(n)}(x_n)\zero{\mideal},
 \]
 \emph{in such a way that $R_{\mideal}$ vanishes for all zeros of $\mideal$ and only for these. If $\nideal$ is a divisor of $\mideal$, and if the resultant forms $R_{\nideal}$ and $R_{\mideal}$ agree, then the ideals $\nideal$ and $\mideal$ also agree.}\footnote{Kurt Hentzelt has been missing before Dixmuiden since October 1914 and must be counted among the dead. The present article is a completely free reworking of the most essential part of his dissertation ``Zur Theorie der Formenmoduln und Resultanten,'' with which he received his doctorate under E. Fischer in Erlangen in the summer of 1914. This dissertation, composed entirely on the basis of his own ideas, is built up without gaps; but lemma follows lemma, all concepts are paraphrased by formulas with four and five indices, and the text is almost wholly absent, so that the greatest difficulties are presented to understanding. He did not himself get to the planned reworking. I give the work again in a purely conceptual form, by which a great simplification is obtained of proofs whose fundamental ideas throughout go back to Hentzelt, and by which, as I hope, the beauty of the work becomes evident. -- The parts of the dissertation that -- for a given basis -- concern the question of forming the functions that occur by finitely many steps are to remain reserved for a separate publication. (E. N.)}
 
 The second part of the main theorem shows that the resultant form supplies the zeros in characteristic multiplicity. This second part is analogous to the fact that two ideals of an algebraic number field, one of which is a divisor of the other, agree if and only if their \emph{norms} agree; the inner reason for the two theorems is also the same.
 
-Namely, $\mideal$ may be conceived as a module of linear forms $\mathfrak M_{i-1}$, by regarding each polynomial as a linear form in the power products of $x_1,\ldots,x_{i-1}$ and adjoining $x_{i+1},\ldots,x_n$ to the coefficient domain. The resultant factor $R^{(i)}$ then becomes equal to the \emph{norm} of the corresponding fundamental module (§~1) $\Gmod_{i-1}$ with respect to $\mathfrak M_{i-1}$; this also immediately gives an \emph{interpretation of the multiplicity -- product of degree and exponent of a factor of $R^{(i)}$ -- by the number of linearly independent residue classes}\footnote{These latter results show their true significance when the decomposition of ideals into primary ideals is brought in; the multiplicity corresponding to a primary ideal is then defined as the number of linearly independent residue classes of the complement modulo this ideal. This is to be taken up elsewhere. (E. N.)}, a fact that until now was known only in the special case in which the resultant can be defined for indeterminate coefficients\footnote{Cf. Macaulay, \emph{The algebraic theory of modular systems}, Cambridge Tracts 19 (Cambridge University Press, 1916), No. 67; also Lasker, Zur Theorie der Moduln und Ideale, Math. Ann. 60 (1905), pp. 20--116; p. 98. That in this case the resultant and the resultant form coincide is shown in the still unpublished theorems of Hentzelt mentioned under 1). (E. N.)}.
+Namely, $\mideal$ may be conceived as a module of linear forms $\mathfrak M_{i-1}$, by regarding each polynomial as a linear form in the power products of $x_1\ldots x_{i-1}$ and adjoining $x_{i+1}\ldots x_n$ to the coefficient domain. The resultant factor $R^{(i)}$ then becomes equal to the \emph{norm} of the corresponding fundamental module (§~1) $\Gmod_{i-1}$ with respect to $\mathfrak M_{i-1}$; this also immediately gives an \emph{interpretation of the multiplicity -- product of degree and exponent of a factor of $R^{(i)}$ -- by the number of linearly independent residue classes}\footnote{These latter results show their true significance when the decomposition of ideals into primary ideals is brought in; the multiplicity corresponding to a primary ideal is then defined as the number of linearly independent residue classes of the complement modulo this ideal. This is to be taken up elsewhere. (E. N.)}, a fact that until now was known only in the special case in which the resultant can be defined for indeterminate coefficients\footnote{Cf. Macaulay, \emph{The algebraic theory of modular systems}, Cambridge Tracts 19 (Cambridge University Press, 1916), No. 67; also Lasker, Zur Theorie der Moduln und Ideale, Math. Ann. 60 (1905), pp. 20--116; p. 98. That in this case the resultant and the resultant form coincide is shown in the still unpublished theorems of Hentzelt mentioned under 1). (E. N.)}.
 
 For the derivation of these results, §§~1 and 2 give theorems on modules of linear forms whose coefficients are rational integers or polynomials in one indeterminate. The connection with the ideals of polynomials introduced in §~3 is supplied by the isomorphism theorem of §~4. Section~5 gives the above-mentioned second part of the main theorem; §~7 gives the theorem on the zeros, preceded in §~6 by a general elimination theory. There, at the same time, when new indeterminates are introduced, the decomposition of the resolvent into linear forms in these indeterminates is proved; and thus, for the elimination given here, an unobjectionable proof is supplied for an assertion of Kronecker\footnote{The attempted proof in König, \emph{Algebraische Größen} (Leipzig 1903, Teubner), V, §~4 -- for Kronecker's elimination theory -- is known not to have succeeded. That even for the multiplicities introduced by König into Kronecker's elimination theory the second part of Hentzelt's main theorem does not hold is shown by Macaulay, loc. cit., p. 23; there it is further shown that Kronecker's elimination theory does not correspond to decomposition into primary ideals. (E. N.)}.
 
@@ -13162,11 +13162,11 @@ that also
 \]
 Thus $\overline{\Rmod}$ and $\overline{\Smod}$ agree with $\Rmod$ and $\Smod$ in elementary divisors and in fundamental module. If therefore, by a unimodular substitution $\eta=Q(\zeta)$, new indeterminates $\xi$ are introduced, then
 \[
- \overline{\Rmod}=(r_1\xi_1,\ldots,r_\rho\xi_\rho);
+ \overline{\Rmod}=(r_1\zeta_1,\ldots,r_\rho\zeta_\rho);
 \]
 \[
- \Amod=\bigl(r_1s_1(q_{11}\xi_1+\cdots+q_{1\rho}\xi_\rho),\ldots,
- r_\rho s_\rho(q_{\rho1}\xi_1+\cdots+q_{\rho\rho}\xi_\rho)\bigr).
+ \Amod=\bigl(r_1s_1(q_{11}\zeta_1+\cdots+q_{1\rho}\zeta_\rho),\ldots,
+ r_\rho s_\rho(q_{\rho1}\zeta_1+\cdots+q_{\rho\rho}\zeta_\rho)\bigr).
 \]
 From $\Amod\zero{\overline{\Rmod}}$ one thus obtains
 \[
@@ -26739,7 +26739,7 @@ The reciprocal representation of \(S\) in \(\mathsf{A}\) considered in §4 can a
 \paragraph{1. Reducible and irreducible embedding in \(A_r\).}
 Let \(\mathsf{A}\) and \(A\) be reciprocally isomorphic fields, of finite or infinite rank over their center \(\mathsf{P}\).\footnote{Reciprocal fields or systems are denoted throughout by corresponding Greek and Latin letters.} The simple system \(S\) over \(\mathsf{P}\) is called irreducibly, respectively reducibly, embeddable in \(A_f\) if \(S\) has an irreducible, respectively reducible, reciprocal representation of degree \(f\) in \(\mathsf{A}\). If \(S\) is irreducibly embeddable in \(A_r\), then it is reducibly embeddable in all matrix rings \(A_{rs}\), \(s>1\), since it has reducible representations of precisely those degrees. The isomorphism always extends the identity of \(\mathsf{P}\);\footnote{As with representations, all isomorphisms used below are understood to extend the identity of \(\mathsf{P}\), without this being repeated each time.} by §4, 3, \(r\) divides the rank \(n\) of \(S\) over \(\mathsf{P}\).
 
-In this way one obtains all simple subrings containing \(\mathsf{P}\), of finite rank over \(\mathsf{P}\), in the various \(A_r\). For every such subring is reciprocally isomorphic to a subring of \(\overline A_r\) and therefore has a reducible or irreducible reciprocal representation in \(\mathsf{A}\).
+In this way one obtains all simple subrings containing \(\mathsf{P}\), of finite rank over \(\mathsf{P}\), in the various \(A_r\). For every such subring is reciprocally isomorphic to a subring of \(\mathsf{A}_r\) and therefore has a reducible or irreducible reciprocal representation in \(\mathsf{A}\).
 
 \paragraph{2. Theorem on inner automorphisms.}
 Let \(S^{(1)}\) and \(S^{(2)}\) be two simple subrings of \(A_f\) containing \(P\), of finite rank over \(\mathsf{P}\). If \(S^{(1)}\) and \(S^{(2)}\) are isomorphic over \(\mathsf{P}\), then this isomorphism is induced by an inner automorphism of \(A_f\).
@@ -26977,7 +26977,7 @@ This is the reason for calling a simple algebra normal over its center. In a fix
 In exact analogy with §6, 3, the theory of isomorphisms holds for arbitrary \(Z\) separable over \(P\); if \(Z\) is Galois, one can then pass to the usual automorphism group.
 
 \paragraph{Hypotheses.}
-The simple system \(Z\) over \(\mathsf{P}\) is a finite separable extension field, \(\Omega\) denotes a finite or infinite splitting field over \(\mathsf{P}\), \(Z'=Z^{(1)}\) a subfield isomorphic to \(Z\), and \(\Gamma\) the corresponding Galois field. By 1. there is a direct decomposition
+The simple system \(Z\) over \(\mathsf{P}\) is a finite separable extension field, \(\Omega\) denotes a finite or infinite splitting field over \(\mathsf{P}\), \(\mathsf{Z}'=\mathsf{Z}^{(1)}\) a subfield isomorphic to \(Z\), and \(\Gamma\) the corresponding Galois field. By 1. there is a direct decomposition
 \[
         Z_\Omega=r^{(1)}+\ldots+r^{(n)}
         =e^{(1)}Z_\Omega+\ldots+e^{(n)}Z_\Omega
@@ -27004,7 +27004,7 @@ If \(\mathfrak I_T\) is the partition induced by \(T\), then \(T\) is a maximal 
 From here, in the case of a Galois \(Z\), one passes to the automorphism group and to the usual formulation exactly as in §6, 3 by composing with the reciprocal of an isomorphism. The corresponding assertion for subgroups follows from the consideration of idempotents, which is of interest in itself.
 
 \paragraph{3. The idempotents of \(Z_\Omega\).}
-Let \(S\) run through the \(n\) substitutions which carry \(Z'=Z^{(1)}\) into the individual \(\mathsf{Z}^{(i)}\). They are obtained by composing the reciprocal of the isomorphism \(Z\to Z'\) with the isomorphism \(Z\to\mathsf{Z}^{(i)}\). The field \(Z\) need not be Galois. For elements \(a\in Z_{Z'}\), the substitutions \(S\) are defined as operators by stipulating that they induce the identity on \(Z\). Thus for each \(a\), the conjugate \(a^S\), lying in \(Z_{\mathsf{Z}^{(i)}}\), is defined. With these conventions one has the following theorem.
+Let \(S\) run through the \(n\) substitutions which carry \(Z'=Z^{(1)}\) into the individual \(\mathsf{Z}^{(i)}\). They are obtained by composing the reciprocal of the isomorphism \(\mathsf{Z}\to Z'\) with the isomorphism \(Z\to\mathsf{Z}^{(i)}\). The field \(Z\) need not be Galois. For elements \(a\in Z_{Z'}\), the substitutions \(S\) are defined as operators by stipulating that they induce the identity on \(Z\). Thus for each \(a\), the conjugate \(a^S\), lying in \(Z_{\mathsf{Z}^{(i)}}\), is defined. With these conventions one has the following theorem.
 
 \paragraph{Theorem.}
 The \(n\) idempotents \(e^{(i)}\) of \(Z_\Omega\) are conjugate:
@@ -29734,7 +29734,7 @@ Corresponding to the structure theorem for Galois extension rings of fields (\S{
 \]
 \emph{Thus the different \(\mathfrak d\) of \(\mathfrak o\) consists of all elements \(x\) of \(\mathsf{K}\) such that \(\varkappa e^{(1)}\) lies in \(\mathfrak O_{\mathfrak o}\); it differs from the zero ideal.}
 
-That \(\mathfrak P_{\mathsf{K}}\) is the extension of \(\mathfrak P\) follows from the fact that \(\mathfrak K=\mathfrak O_P\), and likewise \(K=\mathfrak o_P\), so that every \(x-\xi\) in \(\mathfrak P_{\mathsf{K}}\) can be expressed linearly, with coefficients in \(\mathsf{K}\), in terms of the \(y-\eta\) in \(\mathfrak P\). It follows further that \(\mathfrak A_{\mathsf{K}}=(0):\mathfrak P_{\mathsf{K}}\) is also defined as the quotient \((0):\mathfrak P\) in \(\mathfrak K_{\mathsf{K}}\). Hence \(\mathfrak A=(0):\mathfrak P\) in \(\mathfrak O_{\mathfrak o}\) consists of all elements of \(\mathfrak O_{\mathfrak o}\) belonging to \(\mathfrak A_{\mathsf{K}}\):
+That \(\mathfrak P_{\mathsf{K}}\) is the extension of \(\mathfrak P\) follows from the fact that \(\mathfrak K=\mathfrak O_P\), and likewise \(K=\mathfrak o_{\mathsf{P}}\), so that every \(x-\xi\) in \(\mathfrak P_{\mathsf{K}}\) can be expressed linearly, with coefficients in \(\mathsf{K}\), in terms of the \(y-\eta\) in \(\mathfrak P\). It follows further that \(\mathfrak A_{\mathsf{K}}=(0):\mathfrak P_{\mathsf{K}}\) is also defined as the quotient \((0):\mathfrak P\) in \(\mathfrak K_{\mathsf{K}}\). Hence \(\mathfrak A=(0):\mathfrak P\) in \(\mathfrak O_{\mathfrak o}\) consists of all elements of \(\mathfrak O_{\mathfrak o}\) belonging to \(\mathfrak A_{\mathsf{K}}\):
 \[
 \mathfrak A=[\mathfrak O_{\mathfrak o},\mathfrak A_K],
 \]
@@ -29776,7 +29776,7 @@ A regular order with \(e,z,\ldots,z^{n-1}\) as module basis:
 \paragraph{Remark.}
 The remark to \S{} 5, 4 gives the further familiar definition of the complementary module \(\mathfrak E\) of \(\mathfrak O\). \emph{It consists of all elements \(c\) of \(\mathfrak K\) for which the traces \(\operatorname{Sp}(ct)\), that is, the traces \(\operatorname{Sp}(co)\) with arbitrary \(o\) in \(\mathfrak O\), are integral, that is, lie in \(\mathfrak h\)}; correspondingly for \(\mathfrak e\) relative to \(\mathfrak o\) and \(\mathsf{K}\).
 
-Indeed, let \(c=c_1T_1+\cdots+c_nT_n\), with the \(c_i\) in \(\mathfrak h\), be an expression of an element \(c\) of \(\mathfrak E\) in terms of the basis of \(\mathfrak K\) complementary to \(t\). Then \(c_i=\operatorname{Sp}(ct_i)\), and hence belongs to \(\mathfrak h\); conversely, if \(\operatorname{Sp}(ct_\lambda)\) belongs to \(\mathfrak h\), then \(c_\lambda\) belongs to \(\mathfrak h\), and therefore \(c\) belongs to \(\mathfrak E\).
+Indeed, let \(c=c_1T_1+\cdots+c_nT_n\), with the \(c_i\) in \(\mathfrak h\), be an expression of an element \(c\) of \(\mathfrak E\) in terms of the basis of \(\mathfrak K\) complementary to \(t\). Then \(c_\lambda=\operatorname{Sp}(ct_\lambda)\), and hence belongs to \(\mathfrak h\); conversely, if \(\operatorname{Sp}(ct_\lambda)\) belongs to \(\mathfrak h\), then \(c_\lambda\) belongs to \(\mathfrak h\), and therefore \(c\) belongs to \(\mathfrak E\).
 
 \paragraph{Supplement.}
 \emph{If an independent \(\mathfrak h\)-module basis exists in the order, then the difference quotient \(\mathfrak A^{(i)}\) is the intersection of all difference ideals other than \(\mathfrak P^{(i)}\); more precisely,}
@@ -33186,7 +33186,7 @@ The following is a sharpening of Noether's fundamental theorem, in the form of n
 
 A necessary and sufficient condition for a given polynomial \(K\) in \(x,y\) to have the divisibility property \(K\equiv0(\varphi,\psi)\) is the simultaneous satisfaction of the following \(s\) congruences:
 \[
-K\equiv0(q_1),\quad K\equiv0(q_2),\quad\ldots,\quad K\equiv0(q_s).
+K\equiv0(\mathfrak{q}_1),\quad K\equiv0(\mathfrak{q}_2),\quad\ldots,\quad K\equiv0(\mathfrak{q}_s).
 \]
 
 Historically---compare the introduction to Max Noether's fundamental paper on this subject\srcfn{5)}{Max Noether, ``Über einen Satz aus der Theorie der algebraischen Funktionen,'' Math. Ann. 6 (1872).}---the fundamental theorem arose from attempts to solve the following basic problem: \emph{given any polynomial \(K\) in \(x,y\), one should be able to determine whether or not it is divisible by \((\varphi,\psi)\)}; equivalently, whether there exist two further polynomials \(\lambda\) and \(\mu\) in \(x,y\) such that
