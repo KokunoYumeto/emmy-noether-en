@@ -1651,7 +1651,7 @@ The double calculation of $\A_\nu^3$ gives rise to the reduction of the higher f
 \begin{aligned}
 \text{b')}\quad
  a_\vartheta\theta_\nu^4
-&=a_\R=a_\vartheta\theta_\nu\{a_\nu-(a\theta\nu x)\}^3\\
+&=a_\R=a_\vartheta\theta_\nu\{a_\nu-(a\theta\widehat{\nu x})\}^3\\
 &=-\frac32[a_\vartheta]_{\nu^3}+\frac35[a_\vartheta(a\theta u)^2]_{\nu^2}\,\widehat{\nu}x^2
 -\frac{37}{120}[a_\vartheta^2(a\theta u)^2]_{\nu}\,\widehat{\nu x}^2\\
 &\quad+\frac32u_x\cdot[a_\vartheta^2]_{\nu^4}
@@ -1794,10 +1794,10 @@ a_\nu\cdot b_{\nu_1}^2
 &=\nu\cdot a_\nu b_\nu^2-(aHu)(bHu)b_\eta
 \sim \nu\cdot a_\nu b_\nu^2-f\cdot a_\eta(aHu)^2-(abu)(aHu)b_\eta+(abu)^2b_\eta,\\
 a_\nu^2\cdot b_{\nu_1}^2
-&=b_\nu^2\{a_\nu u_\nu-(a\nu\nu_1u)\}^2
+&=b_\nu^2\{a_\nu u_\nu-(a\widehat{\nu\nu_1}u)\}^2
 \sim \nu\{a_\nu^2b_\nu^2-2a_\eta b_\eta(aHu)(bHu)
 -\frac16(asu)^2(bsu)^2\}\\
-&\sim \nu\cdot a_\nu^2b_\nu^2-2a^2(aHu)(abu)-\frac16(asu)^2(bsu)^2+(\vartheta\eta x)^2(\theta Hu)^2
+&\sim \nu\cdot a_\nu^2b_\nu^2-2a_\eta^2(aHu)(abu)-\frac16(asu)^2(bsu)^2+(\vartheta\eta x)^2(\theta Hu)^2
 \end{aligned}
 \]
 after substitution of the value of $\theta_\eta H_\vartheta$, the formulas arise:
@@ -3193,9 +3193,9 @@ Decomposition of $(a_\eta(aHu)H_j,s,u)^2$: double reduction of the decomposed fo
 
 C) From formulae (31.) follows the reduction of the decomposed forms
 \[
- [L_\vartheta(\theta Lu)]_{su^3}\quad\hbox{and}\quad [\theta_l(\theta Lu)]_{s^2u^3},
+ [L_\vartheta(\theta Lu)]_{\widehat{su}^3}\quad\hbox{and}\quad [\theta_l(\theta Lu)]_{\widehat{su}^3},
 \]
-that is, of the products $[\theta_\nu^2\cdot H]_{su^3}$ and $[a_\nu^2\cdot(bHu)^2]_{su^3}$:
+that is, of the products $[\theta_\nu^2\cdot H]_{su^3}$ and $[a_\nu^2\cdot(bHu)^2]_{\widehat{su}^3}$:
 \begin{equation}
 \tag{32}
 \begin{aligned}
@@ -4723,7 +4723,7 @@ according to the lemma so that the substitution preserves the algebraic rank $\r
 \[
 \begin{aligned}
  [f(x)]_{(x_n=a_n)}&=f^{(n-1)}(x),\qquad
- [f^{(n-1)}(x)]_{x_{n-1}=a_{n-1}}=f^{(n-2)}(x);\ldots,\\
+ [f^{(n-1)}(x)]_{(x_{n-1}=a_{n-1})}=f^{(n-2)}(x),\\
  [f^{(\rho+1)}(x)]_{(x_{\rho+1}=a_{\rho+1})}&=f^*(x_1,\ldots,x_\rho),
 \end{aligned}
 \]
@@ -5880,9 +5880,9 @@ Formula (1) says that $f(x)$ is a symmetric polynomial in the rows $(x^{(1)}),
 \end{aligned}
 \qquad
 \left(\begin{array}{c}
-\alpha+\alpha_1+
+(\alpha+\alpha_1+
 \cdots+
-\alpha_n=h\\
+\alpha_n=h)\\
 \alpha\ne h
 \end{array}\right),
 \]
@@ -8156,7 +8156,7 @@ will not be needed below. From the invariants (3), by linear combination,
 one can now obtain the ``normal form of the \(\varrho\)-th variation,'' which
 is found for \(\varrho=1\) in Lagrange and for \(\varrho=2\) in Riemann. It is
 characterized by the elimination of the mixed differentials of order
-\(\varrho+1\), namely \(d^\varrho\delta,d^{\varrho-1}\delta^2,\ldots\). One
+\(\varrho+1\), namely \(d^\varrho\delta,d^{\varrho-1}\delta^2\ldots\). One
 obtains:
 \srcnumdisplay{(4)}{%
 \begin{gathered}
@@ -9506,7 +9506,7 @@ In formulas, and in the language of module theory, this is expressed as follows.
 \]
 implies
 \[
-        F(\xi_{ik})\equiv0\pmod{\frM}\quad \text{identically in \(\xi_{ik}\)},
+        F(\xi_{ik})\equiv0 \bmod \frM\quad [\text{identically in \(\xi_{ik}\)}],
 \]
 and conversely.
 
@@ -10968,8 +10968,8 @@ We first select from $\mathfrak P_1,
 \ldots,
 \mathfrak P_k$ themselves form a totally relatively prime system. Let $a'$ be a class of $\mathfrak M$ corresponding to the unit class modulo $\mathfrak P'$. Then
 \[
- Fa'=Fa'a_1+
-\cdots+Fa'a_k
+ F\mathfrak{a}'=F\mathfrak{a}'\mathfrak{a}_1+
+\cdots+F\mathfrak{a}'\mathfrak{a}_k
 \]
 for every polynomial $F$. At least two of the products $\mathfrak{a}'\mathfrak{a}_i$ are nonzero, say $\mathfrak{a}'\mathfrak{a}_1$ and $\mathfrak{a}'\mathfrak{a}_2$; for if, for instance, only $\mathfrak{a}'\mathfrak{a}_1\ne0$, then $F\mathfrak{a}'=F\mathfrak{a}'\mathfrak{a}_1$, and the residue classes $F\mathfrak{a}'$ would form a subgroup of $\mathfrak A_1$, hence, since $\mathfrak A_1$ is a prime group, would be identical with $\mathfrak A_1$, so that the modules $\mathfrak P'$ and $\mathfrak P_1$ would also coincide. By the reasoning of \S~8, it follows that $\mathfrak A'$ is isomorphic to $\mathfrak A_1$ and $\mathfrak A_2$.
 
@@ -13375,7 +13375,7 @@ this again gives (12). If $\overline{\mideal}_{(u)}$ passes by means of (25) int
 \tag{27}
 \end{equation}
 
-Here (27) arises from (23) simply by inversion of (26). This is evident for $\mideal$ and $C^{(1)}(x)$, and hence also for $\Gmod_1$ and $\widetilde\Mmod_1$. It is also true for $\gideal_1$, since
+Here (27) arises from (23) simply by inversion of (26). This is evident for $\mideal$ and $C^{(1)}(x)$, and hence also for $\widetilde{\mathfrak C}_1$ and $\widetilde\Mmod_1$. It is also true for $\gideal_1$, since
 \[
  b^{(2)}(x)G(x)\equiv0(\mideal),\quad b^{(2)}\ne0,
  \qquad
@@ -18974,7 +18974,7 @@ According to Hasse's existence theorem\footnote{The existence of $\Omega_2$ can 
 \[
  f(\vartheta)=\vartheta^{2n}+a^2p^2\vartheta^2+b^2p^{2\beta}=0;
  \quad \text{therefore}\quad -1=\left(\frac{ap}{\vartheta^{n-1}}\right)^2+
-        \left(\frac{bp\varrho}{\vartheta^n}\right)^2,
+        \left(\frac{bp^\beta}{\vartheta^n}\right)^2,
 \]
 where, by suitable choice of $a,b,p,\beta$, one can achieve that 1. $f(x)$ is irreducible for every $n$; 2. $\mathrm{P}(\vartheta)$ has only the one subfield $\mathrm{P}(\vartheta^2)$ different from $\mathrm{P}$; 3. $\mathrm{P}(\vartheta^2)$ also has real fields among its conjugates, and thus cannot be a splitting field. One possible choice of $a,b,p,\varrho$ is, for example,
 \[
@@ -26979,7 +26979,7 @@ In exact analogy with §6, 3, the theory of isomorphisms holds for arbitrary \(Z
 \paragraph{Hypotheses.}
 The simple system \(Z\) over \(\mathsf{P}\) is a finite separable extension field, \(\Omega\) denotes a finite or infinite splitting field over \(\mathsf{P}\), \(\mathsf{Z}'=\mathsf{Z}^{(1)}\) a subfield isomorphic to \(Z\), and \(\Gamma\) the corresponding Galois field. By 1. there is a direct decomposition
 \[
-        Z_\Omega=r^{(1)}+\ldots+r^{(n)}
+        Z_\Omega=\mathfrak r^{(1)}+\ldots+\mathfrak r^{(n)}
         =e^{(1)}Z_\Omega+\ldots+e^{(n)}Z_\Omega
         =e^{(1)}\Omega+\ldots+e^{(n)}\Omega .
 \]
@@ -29020,7 +29020,7 @@ where some \(\alpha\)'s or \(\beta\)'s may be zero, define their sum and product
 \]
 and
 \[
-        \sum_{\lambda,\mu}
+        \sum
         \alpha_{i_\lambda}\beta_{i_\mu}x_{i_\lambda}x_{i_\mu},
 \]
 respectively.
@@ -29072,8 +29072,8 @@ The same argument gives a symmetric, though more cumbersome, presentation of the
 where the \(Y\)'s are symbols distinct from the \(Z\)'s, so that \(\mathfrak h[..Y..Z..]\) is defined. Then
 \[
         \mathfrak O_{\mathfrak o}\simeq
-        \mathfrak h[\ldots Y\ldots Z\ldots]
-        /(\mathfrak M,\mathfrak N,\ldots,YZ-ZY,\ldots),
+        \mathfrak h[.. Y.. Z..]
+        /(\mathfrak M,\mathfrak N,..YZ-ZY..),
 \]
 where the defining ideal on the right is generated by \(\mathfrak M\), \(\mathfrak N\), and all expressions \(YZ-ZY\). The latter express commutativity of the elements of \(\mathfrak o\) with those of \(\mathfrak O\); the former express that every relation in \(\mathfrak O_{\mathfrak o}\) follows from relations holding separately in \(\mathfrak O\) and \(\mathfrak o\).
 
@@ -29346,7 +29346,7 @@ The relation \(\mathfrak O\simeq\mathfrak O\varepsilon_i\) corresponds exactly t
 Since \(\mathfrak h\varepsilon_i\) is a subring of \(\mathfrak o\), and of \(\mathfrak r_i\), one also has
 \[
         \mathfrak h\varepsilon_i
-        \simeq\mathfrak h e_i\varepsilon_i.
+        \simeq\mathfrak h\varepsilon_i e_i.
 \]
 
 \paragraph{V.}
@@ -29434,7 +29434,7 @@ then identify \(\mathfrak D e_i\) and \(\mathfrak d\varepsilon_i\) as the differ
 \paragraph{IX.}
 \emph{The difference ideal of \(\mathfrak R_i\varepsilon_i\times\mathfrak r_i e_i\) is \(\mathfrak P e_i\varepsilon_i\), and its difference quotient is \(\mathfrak A e_i\varepsilon_i\).} Write
 \[
-        \mathfrak B
+        \mathfrak P
         =\{\ldots,xe_1-\xi\varepsilon_1,\ldots,
                     xe_r-\xi\varepsilon_r,\ldots\}.
 \]
@@ -29557,7 +29557,7 @@ and, after extension, \(\mathfrak C_\Gamma=\mathfrak A_\Gamma\). Therefore
 \mathfrak K_{\mathsf{K}^{(i)}}
 &=\mathfrak A_{\mathsf{K}^{(i)}}+\mathfrak P_{\mathsf{K}^{(i)}}^{(i)}
 =\mathsf{K}^{(i)}e^{(i)}+\mathfrak P_{\mathsf{K}^{(i)}}^{(i)};
-&0&=[\mathfrak A_{K^{(i)}}^{(i)},\mathfrak P_{K^{(i)}}^{(i)}].\notag
+&0&=[\mathfrak A_{\mathsf{K}^{(i)}},\mathfrak P_{\mathsf{K}^{(i)}}^{(i)}].\notag
 \end{align}
 This proves the theorem in all its parts. It should also be emphasized that this is a \emph{completely invariant structure theorem}, since all the constructions that occur (\(\mathfrak K_{\mathsf{K}}\), \(\mathfrak K_\Gamma\), \(\mathfrak P_{\mathsf{K}}\), \(\mathfrak A_{\mathsf{K}}\)) are defined without reference to a basis.\footnote{A formulation possible here by means of a defining equation and the factorization of the corresponding polynomial into linear factors would not be invariant.}
 
@@ -33258,7 +33258,7 @@ The polynomial \(K_1\) is defined to be identical with \(K\). It is clear that \
 
 The proof of the main theorem, Theorem II, now rests on the following further result.
 
-\textbf{Lemma II.} Put \((f_i,g_i,p^\varrho)=q^{(i)}\). Then for every \(i\) in the infinite sequence of integers \(1,2,\ldots\), the following holds:
+\textbf{Lemma II.} Put \((f_i,g_i,\mathfrak{p}^\varrho)=q^{(i)}\). Then for every \(i\) in the infinite sequence of integers \(1,2,\ldots\), the following holds:
 
 For the congruence
 \[
@@ -33341,7 +33341,7 @@ The first relation in (4) is read directly from (1); the second follows as follo
 
 We have \(h_ig_i\equiv0(\mathfrak{q}^{(i)})\), and hence, by the first relation in (4), also \(h_ig_i(0,y)\equiv0(\mathfrak{q}^{(i)})\), or \(h_iy^{(g_i)}\cdot(g_i(0,y):y^{(g_i)})\equiv0(\mathfrak{q}^{(i)})\). Since \(g_i(0,y):y^{(g_i)}\not\equiv0(y)\), it follows that \(h_iy^{(g_i)}\equiv0(\mathfrak{q}^{(i)})\).
 
-Before proving (5), we record a \emph{remark} read directly from (1). The polynomials \(f_i\) and \(g_i\) can have as common divisor only a polynomial \(d(y)\) in \(y\) that is not divisible by \(y\): \(f_i=d_i(y)\bar f_i\), \(g_i=d_i(y)\bar g_i\), where \(\bar f_i\) and \(\bar g_i\) are relatively prime. Since \(d(y)\not\equiv0(\mathfrak{p})\), we also have \(q^{(i)}=(\bar f_i,\bar g_i,p^\varrho)\). Moreover, for every \(\sigma\geqq\varrho\), this is equal to \((\bar f_i,\bar g_i,\mathfrak{p}^\sigma)\), as a divisor of \(\mathfrak{q}\) for every such \(\sigma\). Thus \(\mathfrak{q}^{(i)}\) is the primary component of \((\bar f_i,\bar g_i)\) belonging to the origin.
+Before proving (5), we record a \emph{remark} read directly from (1). The polynomials \(f_i\) and \(g_i\) can have as common divisor only a polynomial \(d(y)\) in \(y\) that is not divisible by \(y\): \(f_i=d_i(y)\bar f_i\), \(g_i=d_i(y)\bar g_i\), where \(\bar f_i\) and \(\bar g_i\) are relatively prime. Since \(d(y)\not\equiv0(\mathfrak{p})\), we also have \(q^{(i)}=(\bar f_i,\bar g_i,\mathfrak{p}^\varrho)\). Moreover, for every \(\sigma\geqq\varrho\), this is equal to \((\bar f_i,\bar g_i,\mathfrak{p}^\sigma)\), as a divisor of \(\mathfrak{q}\) for every such \(\sigma\). Thus \(\mathfrak{q}^{(i)}\) is the primary component of \((\bar f_i,\bar g_i)\) belonging to the origin.
 
 Let \(\gamma_1,\delta_1;\ldots;\gamma_r,\delta_r\) be the zeros of \((\bar f_i,\bar g_i)\) distinct from \(x=0,\ y=0\), and let \(\tau_1,\ldots,\tau_r\) be the exponents of the corresponding primary components of \((\bar f_i,\bar g_i)\). In the product
 \[
