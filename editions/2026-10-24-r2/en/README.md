@@ -4,15 +4,15 @@ Papers 1–43, the 1929/30 lectures written up by M. Deuring, the Kapferer–Noe
 
 ## Base text
 
-1. [PDF](https://github.com/KokunoYumeto/emmy-noether-en/releases/download/noether-en-2026-10-27-r2/01-noether-en-base.pdf)
-2. [Editable LaTeX sources](https://github.com/KokunoYumeto/emmy-noether-en/releases/download/noether-en-2026-10-27-r2/02-noether-en-base.tex)
-3. [Complete source archive](https://github.com/KokunoYumeto/emmy-noether-en/releases/download/noether-en-2026-10-27-r2/03-noether-en-base-sources.zip)
+1. [PDF](https://github.com/KokunoYumeto/emmy-noether-en/releases/download/noether-en-2026-10-27-r3/01-noether-en-base.pdf)
+2. [Editable LaTeX sources](https://github.com/KokunoYumeto/emmy-noether-en/releases/download/noether-en-2026-10-27-r3/02-noether-en-base.tex)
+3. [Complete source archive](https://github.com/KokunoYumeto/emmy-noether-en/releases/download/noether-en-2026-10-27-r3/03-noether-en-base-sources.zip)
 
 ## Text with editorial emendations
 
-1. [PDF](https://github.com/KokunoYumeto/emmy-noether-en/releases/download/noether-en-2026-10-27-r2/04-noether-en-emendations.pdf)
-2. [Editable LaTeX sources](https://github.com/KokunoYumeto/emmy-noether-en/releases/download/noether-en-2026-10-27-r2/05-noether-en-emendations.tex)
-3. [Complete source archive](https://github.com/KokunoYumeto/emmy-noether-en/releases/download/noether-en-2026-10-27-r2/06-noether-en-emendations-sources.zip)
+1. [PDF](https://github.com/KokunoYumeto/emmy-noether-en/releases/download/noether-en-2026-10-27-r3/04-noether-en-emendations.pdf)
+2. [Editable LaTeX sources](https://github.com/KokunoYumeto/emmy-noether-en/releases/download/noether-en-2026-10-27-r3/05-noether-en-emendations.tex)
+3. [Complete source archive](https://github.com/KokunoYumeto/emmy-noether-en/releases/download/noether-en-2026-10-27-r3/06-noether-en-emendations-sources.zip)
 
 AI-translated text. Corrections and typesetting produced by OpenAI Codex — GPT-6 Astra, Ultra effort. The mathematical authors remain those named in the works, including Emmy Noether, M. Deuring and the named coauthors. No human translation or independent human review is attributed to the publisher.
 

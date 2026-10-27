@@ -1887,8 +1887,8 @@ By a computation analogous to that in \S\ 9, it follows:
 \]
 By the corresponding computation as above follows:
 \[
-((a\A\nu x)^4)=[(a\A u)^4]_{\nu x^4}
-=\frac{21}{10}\theta_\eta^2(\vartheta\eta x)^2+\frac7{10}s_\vartheta^2-\frac3{10}g
+(a\A\widehat{\nu x})^4=[(a\A u)^4]\widehat{\nu x}^4
+=\frac{21}{10}\theta_\eta^2(\vartheta\eta x)^2+\frac7{10}s_\vartheta^2-\frac3{10}g,
 \quad(\text{according to formula (3.)c}),
 \]
 \[
@@ -2869,7 +2869,7 @@ Form sequence $((\vartheta\nu x),s,u)^2s_\nu$: reducers $s_\nu^2$ and $s_\varthe
 (\widehat{\vartheta \nu}su)s_\nu(\theta su)=s_\nu s_\vartheta(\theta su)=-\frac12(\widehat{\vartheta \nu}su)^2(\theta su),
 \]
 \[
-\theta_\nu(\widehat\vartheta\nu su)s_\nu=\theta_\nu s_\nu s_\vartheta=-\frac12\theta_\nu(\widehat\vartheta\nu su)^2.
+\theta_\nu(\widehat{\vartheta \nu}su)s_\nu=\theta_\nu s_\nu s_\vartheta=-\frac12\theta_\nu(\widehat{\vartheta \nu}su)^2.\qquad\text{(product theorem.)}
 \]
 Form sequence $\theta_\nu s_\nu(\theta su)$: reducer $a_\nu s_\nu(asu)^2$ by double reduction of the expressions
 \[
@@ -3119,7 +3119,7 @@ Folding of $s$ with the forms of the 7th order (System III) (\S\ 12).
 \quad (H_jsu),
 \quad ((j\eta x),s,u)^3,\\[0.3em]
 \text{C)}& (\D_\eta su),\\[0.3em]
-\text{D)}& (aLu)^2s_\eta,
+\text{D)}& (aLu)^2s_l,
 \quad (a_\eta su)^2,
 \quad ((aLu)^2,s,u)^2,
 \quad ((aLu)^3,s,u)^2,
@@ -3192,12 +3192,12 @@ C) From formulae (31.) follows the reduction of the decomposed forms
 \[
  [L_\vartheta(\theta Lu)]_{\widehat{su}^3}\quad\hbox{and}\quad [\theta_l(\theta Lu)]_{\widehat{su}^3},
 \]
-that is, of the products $[\theta_\nu^2\cdot H]_{su^3}$ and $[a_\nu^2\cdot(bHu)^2]_{\widehat{su}^3}$:
+that is, of the products $[\theta_\nu^2\cdot H]_{\widehat{su}^3}$ and $[a_\nu^2\cdot(bHu)^2]_{\widehat{su}^3}$:
 \begin{equation}
 \tag{32}
 \begin{aligned}
 0&\equiv\theta_\nu^2(\theta su)^2(Hsu),
-0&\equiv [L_\vartheta(\theta Lu)]_{su^4}-7[\theta_l(\theta Lu)]_{su^4},\\
+0&\equiv [L_\vartheta(\theta Lu)]_{\widehat{su}^4}-7[\theta_l(\theta Lu)]_{\widehat{su}^4},\\
 0&\equiv a_\nu^2(asu)^2(bHu)^2(bsu)\\
 &\quad+6\theta_l(\theta Lu)^2(\theta su)(Lsu),\\
 0&\equiv\theta_\nu^3(\theta su)(Hsu)^2\\
@@ -4866,7 +4866,7 @@ are algebraic elements over
 Thus the field obtained by adjoining $x_1,
 \ldots,x_\rho$,
 \[
-  \Omega\bigl(g_1^*,\ldots,g_\rho^*,x_1,
+  \Omega\bigl(g_1^*,\ldots,g_\rho^*;\ x_1,
   \ldots,x_\rho\bigr)=\Omega(x_1,
   \ldots,x_\rho),
 \]
@@ -4987,7 +4987,7 @@ are precisely the elementary symmetric functions of the rows of quantities
 \begin{array}{cccc}
   x_1 & x_2 & \cdots & x_\rho\\
   x_1^{(1)} & x_2^{(1)} & \cdots & x_\rho^{(1)}\\
-  \vdots & \vdots & & \vdots\\
+  \vdots & & & \\
   x_1^{(i-1)} & x_2^{(i-1)} & \cdots & x_\rho^{(i-1)}.
 \end{array}
 \tag{5}
@@ -8426,7 +8426,7 @@ All functions occurring below are to be assumed analytic, or at least continuous
 
 By a ``transformation group'' one understands, as usual, a system of transformations such that for each transformation there exists an inverse transformation contained in the system, and such that the composition of any two transformations of the system again belongs to the system. The group is called a finite continuous \(\G_\varrho\) when its transformations are contained in a most general transformation depending analytically on \(\varrho\) essential parameters \(\eps\) (that is, the \(\varrho\) parameters are not to be representable as \(\varrho\) functions of fewer parameters). Correspondingly, by an infinite continuous \(\G_{\infty\varrho}\) one understands a group whose most general transformations depend on \(\varrho\) essential arbitrary functions \(p(x)\) and their derivatives, analytically or at least continuously and with a finite number of continuous derivatives. An intermediate case between the two is the group depending on infinitely many parameters but not on arbitrary functions. Finally, a mixed group denotes one that depends both on arbitrary functions and on parameters.\footnote{Lie defines, in \emph{Grundlagen für die Theorie der unendlichen kontinuierlichen Transformationsgruppen} (Reports of the Royal Saxon Society of Sciences, 1891), the infinite continuous group as a transformation group whose transformations are given by the most general solutions of a system of partial differential equations, once these solutions do not depend only on a finite number of parameters. This gives one of the types indicated above, different from the finite group; conversely, however, the limiting case of infinitely many parameters need not necessarily satisfy a system of differential equations.}
 
-Let \(x_1,\ldots,x_n\) be independent variables, and let \(u_1(x),\ldots,u_\mu(x)\) be functions depending on them. If one subjects the \(x\)'s and \(u\)'s to the transformations of a group, then, because the transformations are assumed invertible, among the transformed quantities there must again be exactly \(n\) independent ones, denoted \(y_1,\ldots,y_n\); the remaining quantities depending on these are denoted \(v_1(y),\ldots,v_\mu(y)\). The transformations may also contain the derivatives of the \(u\)'s with respect to the \(x\)'s, thus \(\frac{\p u}{\p x},\ \frac{\p^2u}{\p x^2},\ \cdots\).\footnote{I suppress the indices, as far as possible also in summations; thus, for example, \(\frac{\p^2u}{\p x^2}\) denotes \(\p^2u_\nu/\p x_i\p x_k\), and so on.} A function is called an invariant of the group if a relation holds:
+Let \(x_1,\ldots,x_n\) be independent variables, and let \(u_1(x),\ldots,u_\mu(x)\) be functions depending on them. If one subjects the \(x\)'s and \(u\)'s to the transformations of a group, then, because the transformations are assumed invertible, among the transformed quantities there must again be exactly \(n\) independent ones, denoted \(y_1,\ldots,y_n\); the remaining quantities depending on these are denoted \(v_1(y),\ldots,v_\mu(y)\). The transformations may also contain the derivatives of the \(u\)'s with respect to the \(x\)'s, thus \(\frac{\p u}{\p x},\ \frac{\p^2u}{\p x^2},\ \cdots\).\footnote{I suppress the indices, as far as possible also in summations; thus, for example, \(\frac{\p^2u}{\p x^2}\) denotes \(\frac{\p^2u_\nu}{\p x_i\p x_k}\), and so on.} A function is called an invariant of the group if a relation holds:
 \[
 P\!\left(x,u,\frac{\p u}{\p x},\frac{\p^2u}{\p x^2},\cdots\right)
  =
@@ -8484,13 +8484,13 @@ For the simple integral and \(\varkappa\) derivatives of the \(u\)'s, (3) is giv
 +\binom{2}{1}\frac{\p f}{\p u_i^{(2)}}\delta u_i^{(1)}
 +\cdots+
 \binom{\varkappa}{1}\frac{\p f}{\p u_i^{(\varkappa)}}\delta u_i^{(\varkappa-1)}
-\right]\Bigg\}\\
+\right)\Bigg\}\\
 &+\frac{d^2}{d x^2}\Bigg\{\sum_i\left(
 \binom{2}{2}\frac{\p f}{\p u_i^{(2)}}\delta u_i
 +\binom{3}{2}\frac{\p f}{\p u_i^{(3)}}\delta u_i^{(1)}
 +\cdots+
 \binom{\varkappa}{2}\frac{\p f}{\p u_i^{(\varkappa)}}\delta u_i^{(\varkappa-2)}
-\right]\Bigg\}\\
+\right)\Bigg\}\\
 &+\cdots
 +(-1)^\varkappa\frac{d^\varkappa}{d x^\varkappa}
 \left\{\sum\binom{\varkappa}{\varkappa}
@@ -10456,7 +10456,7 @@ for the latter module contains, by (13), also the polynomial
 \]
 Corresponding expressions are obtained for $\mM_2,\ldots,\mM_{k-1}$. Furthermore, the modules $\mM_1,\ldots,\mM_k$ are relatively prime, since by (14)
 \[
- \frac{1}{k-1}\Bigl((A_2+\cdots+A_k)+(A_1+A_3+\cdots+A_k)+\cdots+(A_1+\cdots+A_{k-1})\Bigr)\equiv1\pmod{\mM}.
+ \frac{1}{k-1}\Bigl(A_2+\cdots+A_k+A_1+A_3+\cdots+A_k+\cdots+A_1+\cdots+A_{k-1}\Bigr)\equiv1\pmod{\mM}.
 \]
 They moreover form a totally relatively prime system, that is, the least common multiple of any of them is relatively prime to the least common multiple of the remaining ones.\footnote{This is a generalization of a concept introduced by Loewy.} This follows directly by grouping the summands in formula (12) into two suitable groups.
 
@@ -11497,7 +11497,7 @@ the first condition is satisfied, hence it is a shortest representation; and thi
 \[
  \ideal B_i\supset \ideal B_i'\supset \ideal B_i''\supset\cdots\supset \ideal B_i^{(\nu)}\supset\cdots,
  \qquad
- \ideal M=[\ideal A_i,\ideal B_i]=[\ideal A_i,\ideal B_i']=\cdots=[\ideal A_i,\ideal B_i^{(\nu)}]=\cdots,
+ \ideal M=[\ideal A_i,\ideal B_i]=[\ideal A_i,\ideal B_i']=\cdots=[\ideal A_i,\ideal B_i^{(\nu)}],\ldots,
 \]
 where every $\ideal B_i^{(\nu)}$ is a proper divisor of the one immediately preceding, then by that theorem the chain $\ideal B_i,\ideal B_i',\ldots,\ideal B_i^{(\nu)},\ldots$ must terminate after finitely many steps; hence in the representation $\ideal M=[\ideal A_i,\ideal B_i^{(n)}]$ the ideal $\ideal B_i^{(\nu)}$ can no longer be replaced by a proper divisor; and this holds a fortiori if $\ideal A_i$ is replaced by a proper divisor. Applying the procedure successively to each $\ideal B_i$, always forming the complement with the already reduced $\ideal B$, gives a reduced representation.\footnote{That such a representation is not uniquely defined by the given representation is shown by the previous example. For $(x^2,xy)=[(x),(x^2,xy,y^\lambda)]$, $\lambda\ge2$, besides $[(x),(x^2,y)]$ also $[(x),(x^2,\mu x+y)]$, for arbitrary $\mu$, is a reduced representation.}
 
@@ -12205,7 +12205,7 @@ For these combinations the following laws hold:
 \end{enumerate}
 From these conditions there follow, as is well known, the existence of the zero element and the validity of the distributive law also for the combination of subtraction and multiplication:
 \[
- (a-b)\cdot\gamma=a\cdot\gamma-b\cdot\gamma,\qquad c\cdot(\alpha-\beta)=c\cdot\alpha-c\cdot\beta,
+ (a\mathbin{\dot{-}}b)\cdot\gamma=a\cdot\gamma-b\cdot\gamma;\qquad c\cdot(\alpha\mathbin{\underset{\cdot}{-}}\beta)=c\cdot\alpha-c\cdot\beta,
 \]
 where $(\dot{-})$ denotes subtraction in $\Sigma$. \emph{If $\Sigma$ contains a unit $\varepsilon$, then $\varepsilon\cdot\alpha=\alpha$ is to hold for every element $\alpha$ of $T$.}
 
@@ -13458,7 +13458,7 @@ and arrange the countably infinite expressions
  \qquad
  x_i^\gamma\zeta_\nu\quad(\gamma,
 \nu=0,1\ldots
-\ldots\text{ in inf.})
+\text{ in inf.}\ldots)
 \]
 in a simply infinite sequence $\omega_0,\omega_1,\ldots,\omega_\mu\ldots$. Then the $\vartheta$ and $\omega$ are linearly independent, both each among themselves and from one another, with respect to the integral quantities $b^{(i+1)},c^{(i+1)},\ldots$. For from
 \[
@@ -19847,7 +19847,7 @@ An element $c$ is called idempotent if $c^2=c$.
 \emph{Proof.} Let $r$ be an element of $\mr_1$. Then
 \[
         r=er=e_1r+\ldots+e_nr,
-        \qquad e_ir\in\mr_i,
+        \qquad e_ir\ \text{in}\ \mr_i,
 \]
 but also
 \[
@@ -23753,7 +23753,7 @@ Indeed, by Theorem 1, \([\Gg_{\frako_\frakp}]\) is a maximal order in a \(\frakp
 Let \(K/k\) be Galois with group \(\Gg\). For \(z\in K\), let \(z^S\) denote the element obtained from \(z\) by the substitution \(S\in\Gg\). The substitutions in \(\Gg\) induce operator automorphisms of \(K/k\), regarded as a \(k\)-module---that is, an additive Abelian group with \(k\) as operator domain. Thus \(K/k\) can be made into a module with respect to \((\Gg)_k\) by setting
 \[
         z\Bigl(\sum_i S_i c_i\Bigr)=\sum_i z^{S_i}c_i,
-        \qquad z\in K,\;S_i\in\Gg,\;c_i\in k.
+        \text{ with } z \text{ in } K,\ S_i \text{ in } \Gg,\ c_i \text{ in } k.
 \]
 
 \paragraph{Definition.}
@@ -23809,7 +23809,7 @@ For decomposing the discriminant it is enough, as is known, to consider its deco
 
 With \(w^S\) as a normal basis, the discriminant \(\Delta\) is the square of
 \[
-        D=\bigl|w^{ST^{-1}}\bigr|;\qquad S,T\in\Gg.
+        D=\bigl|w^{ST^{-1}}\bigr|;\qquad S,T\ \text{in}\ \Gg.
 \]
 But \(D\) is the group determinant with the \(w^S\) in place of the indeterminates \(x_S\).
 
@@ -28131,8 +28131,8 @@ and Complementary Bases of the Splitting Fields}}
 
 \noindent\textbf{1. ---} In this section $\Omega$ denotes an arbitrary ground field. Let $k/\Omega$ be a Galois separable extension of degree $n$, let $\Gg$ be its Galois group with elements $\mathrm{S},\mathrm{T},\ldots$, and let $u_s,u_t,\ldots$ be the corresponding operators. We consider \emph{crossed products with factor system one}, hence split algebras
 \[
-K=\Gg\ast k=u_{S_1}k+\ldots+u_{S_n}k,
-\qquad u_Su_T=u_{ST},
+\mathrm{K}=\Gg\ast k=u_{s_1}k+\ldots+u_{s_n}k,
+\qquad u_su_t=u_{st},
 \]
 \[
 zu_s=u_sz^s\quad\text{(for every $z$ in $k$)}.
@@ -29193,8 +29193,8 @@ and
 \begin{aligned}
         \mathfrak C
         &=\mathfrak M_{\mathfrak o}:\mathfrak Q\\
-        &=\{\ldots,(F(Z)-F(\xi)),\ldots\}
-          :\{\ldots,(Z-\xi),\ldots\}.
+        &=\{..(F(Z)-F(\xi))..\}
+          :\{..(Z-\xi)..\}.
 \end{aligned}
 \]
 The \emph{differential quotient} \(\mathfrak M'\) is defined as \(\mathfrak C[\xi\to Z]\). This definition is unambiguous and independent of the chosen \emph{representation} of the elements of \(\mathfrak o\) by the generators \(\xi\). Indeed, since \(\mathfrak C\) is an ideal quotient it contains \(\mathfrak M_{\mathfrak o}\); two representations of the same element of \(\mathfrak o\) differ by a polynomial \(F(\xi)\), and after replacing \(\xi\) by \(Z\) they differ by \(F(Z)\in\mathfrak M\subseteq\mathfrak C\). The ideal \(\mathfrak M'\) is an ideal in \(\mathfrak h[..Z..]\) containing \(\mathfrak M\).
@@ -29731,7 +29731,7 @@ Corresponding to the structure theorem for Galois extension rings of fields (\S{
 \]
 \emph{Thus the different \(\mathfrak d\) of \(\mathfrak o\) consists of all elements \(x\) of \(\mathsf{K}\) such that \(\varkappa e^{(1)}\) lies in \(\mathfrak O_{\mathfrak o}\); it differs from the zero ideal.}
 
-That \(\mathfrak P_{\mathsf{K}}\) is the extension of \(\mathfrak P\) follows from the fact that \(\mathfrak K=\mathfrak O_P\), and likewise \(K=\mathfrak o_{\mathsf{P}}\), so that every \(x-\xi\) in \(\mathfrak P_{\mathsf{K}}\) can be expressed linearly, with coefficients in \(\mathsf{K}\), in terms of the \(y-\eta\) in \(\mathfrak P\). It follows further that \(\mathfrak A_{\mathsf{K}}=(0):\mathfrak P_{\mathsf{K}}\) is also defined as the quotient \((0):\mathfrak P\) in \(\mathfrak K_{\mathsf{K}}\). Hence \(\mathfrak A=(0):\mathfrak P\) in \(\mathfrak O_{\mathfrak o}\) consists of all elements of \(\mathfrak O_{\mathfrak o}\) belonging to \(\mathfrak A_{\mathsf{K}}\):
+That \(\mathfrak P_{\mathsf{K}}\) is the extension of \(\mathfrak P\) follows from the fact that \(\mathfrak K=\mathfrak O_{\mathsf{P}}\), and likewise \(K=\mathfrak o_{\mathsf{P}}\), so that every \(x-\xi\) in \(\mathfrak P_{\mathsf{K}}\) can be expressed linearly, with coefficients in \(\mathsf{K}\), in terms of the \(y-\eta\) in \(\mathfrak P\). It follows further that \(\mathfrak A_{\mathsf{K}}=(0):\mathfrak P_{\mathsf{K}}\) is also defined as the quotient \((0):\mathfrak P\) in \(\mathfrak K_{\mathsf{K}}\). Hence \(\mathfrak A=(0):\mathfrak P\) in \(\mathfrak O_{\mathfrak o}\) consists of all elements of \(\mathfrak O_{\mathfrak o}\) belonging to \(\mathfrak A_{\mathsf{K}}\):
 \[
 \mathfrak A=[\mathfrak O_{\mathfrak o},\mathfrak A_K],
 \]
