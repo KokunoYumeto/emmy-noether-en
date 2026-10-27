@@ -2936,14 +2936,14 @@ Folding of $s$ with the forms of 5th order (System III) and the product $\A\cdot
 ((k\nu x)^2,s,u)^2,
 K_\nu s_\nu,\\
 & ((k\nu x)^3,s,u)^2,
-((k\nu x)^2,s,u)s_\nu,
+((k\nu x)^3,s,u)s_\nu,
 (K_\nu(k\nu x)^3,s,u),\\
 & (K_\nu su)^2,\ (K_\nu su)^3,\ (K_\nu su)^4,
 ((k\nu x)^2,s,u)^3,
 (K_\nu^2su)^4,\\[0.3em]
 \text{B)}& (j\nu x)s_\nu,
 ((j\nu x)^2,s,u),
-(j\nu x)^3,s,u,
+(j\nu x)^3,s,u),
 ((j\nu x)^2,s,u)^2,\\[0.3em]
 \text{C)}& s_\nu(\A su),\quad (\A_\nu su),\\[0.3em]
 \text{D)}& (aHu)s_\eta,
@@ -3037,10 +3037,10 @@ Folding of $s$ with the forms of the sixth order (System III) (\S\ 11).
 \text{C)}& ((\vartheta\eta x)^2,s,u),
 ((\vartheta\eta x),s,u)^2,
 (\theta Hu)s_\eta,
-(\theta_\eta su),
+(\theta_\eta su), (\theta_\eta(\vartheta\eta x)^2,s,u),
 ((\theta Hu),s,u)^2,
 ((\theta Hu)^2,s,u),\\
-& ((\theta\eta x),s,u)^3,
+& ((\vartheta\eta x),s,u)^3,
 (\theta_\eta su)^2,
 (\theta_\eta^2su),
 ((\theta Hu),s,u)^3,
@@ -3120,10 +3120,10 @@ Folding of $s$ with the forms of the 7th order (System III) (\S\ 12).
 \quad ((j\eta x),s,u)^3,\\[0.3em]
 \text{C)}& (\D_\eta su),\\[0.3em]
 \text{D)}& (aLu)^2s_l,
-\quad (a_\eta su)^2,
+\quad (a_lsu)^2,
 \quad ((aLu)^2,s,u)^2,
-\quad ((aLu)^3,s,u)^2,
-\quad ((aLu)^3,s,u)^3,
+\quad ((aLu)^3,s,u),
+\quad (a_lsu)^3,\quad ((aLu)^2,s,u)^3,
 \quad (a_l(aLu)^2,s,u)^2.
 \end{array}
 \]
@@ -9097,7 +9097,7 @@ where the \(a_i\) are quantities from \(\mathfrak J\) and \(\Delta(\delta)\) den
 \[
 x_i=\frac{\delta^{\,n-i}}{\Delta(\delta)}
 \]
-the module of all integral quantities is transformed into a module of linear forms; hence the existence of the fundamental system follows in all cases where every ideal in \(\mathfrak J\) is finite. The same argument shows more generally that every ideal in the domain of integral quantities of the upper field is finite. Now in particular for rational integers and for functions of one indeterminate every ideal is a principal ideal; hence it follows that the fundamental systems in algebraic number fields and in fields of algebraic functions of one indeterminate consist of exactly \(n\) quantities, when \(n\) denotes the degree. And since, in these fields, every ideal is finite by the preceding argument, this at the same time yields the fundamental system for relative fields, which in general will consist of more quantities than the relative degree indicates.\footnote{According to Steinitz's investigations on modules of linear forms, where \(\mathfrak J\) consists of the integers of a (finite) algebraic number field, \(\nu+1\) basis elements suffice when \(\nu\) denotes the relative degree (\emph{Math. Ann.} 71, § 4).} Further, if \(\mathfrak J\) denotes the domain of all polynomials in several indeterminates, every ideal in \(\mathfrak J\) is also finite;\footnote{By Hilbert's theorem on the module basis (\emph{Math. Ann.} 36). The modules of polynomials here called ideals for the sake of consistency are usually called ``form modules'' or simply ``modules''. Hilbert's theorem that such a module \(N\) is finite can also be reduced to the theorem on linear forms. Namely, let \(f\) be a polynomial of degree \(n\) contained in \(N\) in the \(r+1\) indeterminates \(x_1,\ldots,x_r,x_{r+1}\), containing the term \(x_{r+1}^{\,n}\) (which can always be achieved by a linear transformation); then all polynomials from \(N\) are congruent mod. \(f\) to those representable in the form \(a_1(x)x_{r+1}^{\,n-1}+\ldots a_n(x)\); hence, by \(x_{r+1}^{\,n-i}=X_i\), they form a module of linear forms for which every ideal in the domain of \(r\) indeterminates may be assumed finite, since this is the case for one indeterminate.} hence the existence of the fundamental system is obtained also for algebraic function fields of several indeterminates, and it will again consist of more quantities than the degree indicates.
+the module of all integral quantities is transformed into a module of linear forms; hence the existence of the fundamental system follows in all cases where every ideal in \(\mathfrak J\) is finite. The same argument shows more generally that every ideal in the domain of integral quantities of the upper field is finite. Now in particular for rational integers and for functions of one indeterminate every ideal is a principal ideal; hence it follows that the fundamental systems in algebraic number fields and in fields of algebraic functions of one indeterminate consist of exactly \(n\) quantities, when \(n\) denotes the degree. And since, in these fields, every ideal is finite by the preceding argument, this at the same time yields the fundamental system for relative fields, which in general will consist of more quantities than the relative degree indicates.\footnote{According to Steinitz's investigations on modules of linear forms, where \(\mathfrak J\) consists of the integers of a (finite) algebraic number field, \(\nu+1\) basis elements suffice when \(\nu\) denotes the relative degree (\emph{Math. Ann.} 71, § 4).} Further, if \(\mathfrak J\) denotes the domain of all polynomials in several indeterminates, every ideal in \(\mathfrak J\) is also finite;\footnote{By Hilbert's theorem on the module basis (\emph{Math. Ann.} 36). The modules of polynomials here called ideals for the sake of consistency are usually called ``form modules'' or simply ``modules''. Hilbert's theorem that such a module \(N\) is finite can also be reduced to the theorem on linear forms. Namely, let \(f\) be a polynomial of degree \(n\) contained in \(N\) in the \(\varrho+1\) indeterminates \(\xi_1\ldots\xi_\varrho,\eta\), containing the term \(\eta^n\) (which can always be achieved by a linear transformation); then all polynomials from \(N\) are congruent mod. \(f\) to those representable in the form \(a_1(\xi)\eta^{n-1}+\ldots a_n(\xi)\); hence, by \(\eta^{n-i}=x_i\), they form a module of linear forms for which every ideal in the domain of \(\varrho\) indeterminates may be assumed finite, since this is the case for one indeterminate.} hence the existence of the fundamental system is obtained also for algebraic function fields of several indeterminates, and it will again consist of more quantities than the degree indicates.
 
 \subsection*{3. Parallelism and differences in the ideal theory of algebraic numbers and functions}
 The proof of the fundamental theorem of ideal theory, that every ideal can be represented uniquely as a product of powers of prime ideals, can be carried out jointly for algebraic numbers and functions; solely on the basis of the property that, for rational integers and for functions of one indeterminate, every ideal is a principal ideal.\footnote{Compare a remark in the introduction to Hurwitz: Über die Theorie der Ideale (\emph{Gött. Nachr.} 1894). In Weber's textbook of algebra the proof, following Kronecker, is carried out in parallel for both fields by means of the introduction of functionals. [The connection between Kronecker's theory and ideal theory is mediated by the ``extended Gauss theorem''; Hurwitz, loc. cit.]} The main point of the proof lies in showing that, from the divisibility of an ideal \(\frc\) by an ideal \(\fra\) (that is, every element of \(\frc\) is contained in \(\fra\)), the product representation \(\frc=\fra\cdot\frb\) follows.\footnote{Emphasized especially by Dedekind (number theory); Supplement XI, theorem VII, § 177; compare the note on p. 554. The theorem uses the fact that algebraic fields are involved; it no longer holds for ideals (modules) of polynomials, where the least common multiple takes the place of the product.} In Hurwitz this proof rests on the ``extended Gauss theorem'', which says that an integral quantity \(\omega\) which divides every coefficient of the product of two polynomials \(\varphi\) and \(\psi\) also divides the product of all coefficients of \(\varphi\) and \(\psi\); in Dedekind it rests on a module theorem equivalent to this theorem.\footnote{Number theory, Suppl. XI; theorem VI, § 173. Dedekind points out the equivalence of the two theorems (Über die Begründung der Idealtheorie, \emph{Göttinger Nachr.} 1895).}
@@ -9195,7 +9195,7 @@ where all quantities occurring are integral rational in \(s,z\) (more generally 
 \subsection*{7. Comparison between the residue theorem and theorems of ideal theory}
 The just mentioned consequence of the ``fundamental theorem of algebraic functions'' leads in the geometric theory directly to the ``residue theorem'', and thus to the foundation on which the whole geometric theory is built. In a certain respect, however, the residue theorem again has a more elementary character than the remaining foundations, insofar as it can be stated arithmetically as a direct consequence of the unique factorization of ideals into prime ideals, or rather of the facts underlying this decomposition theorem, and therefore does not rest on the higher theory of rings. One is led to this arithmetic formulation as follows:
 
-Assume the base curve \(f(z,\delta)=0\) --- as can always be achieved by a linear fractional transformation of the variables --- to be such that the singular points and the finitely many point groups under consideration lie in the finite part; and further that \(\delta\) depends algebraically integrally on \(z\), which can always be achieved by a subsequent linear transformation integral in the variables. Then to a prime ideal \(\frp\) generating a point \(P\) of the absolute Riemann surface at which \(z=a,\delta=b\), there corresponds the point \(z=a,\delta=b\) of \(f(z,\delta)=0\); more generally, an ideal \(\fra=\frp_1^{\,e_1}\cdots\frp_\varrho^{\,e_\varrho}\) generates the point group consisting of the points \(z=a_i,\delta=b_i\) with the corresponding multiplicity; and all points of \(f(z,\delta)=0\) lying in the finite part are so generated. Since at a point \(P\) all functions \(g_1,g_2\ldots\) divisible by \(\frp\) vanish, and since conversely this totality of functions \(g\) generates the ideal \(\frp\), the corresponding point on \(f\) is the intersection of
+Assume the base curve \(f(z,\delta)=0\) --- as can always be achieved by a linear fractional transformation of the variables --- to be such that the singular points and the finitely many point groups under consideration lie in the finite part; and further that \(\delta\) depends algebraically integrally on \(z\), which can always be achieved by a subsequent linear transformation integral in the variables. Then to a prime ideal \(\frp\) generating a point \(P\) of the absolute Riemann surface at which \(z=a,\delta=b\), there corresponds the point \(z=a,\delta=b\) of \(f(z,\delta)=0\); more generally, an ideal \(\fra=\frp_1^{\,\varrho_1}\ldots\frp_\sigma^{\,\varrho_\sigma}\) generates the point group consisting of the points \(z=a_i,\delta=b_i\) with the corresponding multiplicity; and all points of \(f(z,\delta)=0\) lying in the finite part are so generated. Since at a point \(P\) all functions \(g_1,g_2\ldots\) divisible by \(\frp\) vanish, and since conversely this totality of functions \(g\) generates the ideal \(\frp\), the corresponding point on \(f\) is the intersection of
 \[
 g_1(z,\delta)=0,\quad g_2(z,\delta)=0,\ldots
 \]
@@ -9215,7 +9215,7 @@ become principal ideals; \(\alpha=0\) and \(\beta=0\) are the adjoint curves whi
 
 Corresidual point groups need not consist of the same number of points; just as equivalent ideals need not be of the same degree. Thus, for example, all principal ideals are equivalent, and all point groups generated by complete intersections are corresidual. This difference as against equivalent polygons (divisors)\footnote{A polygon \(A\) consists of finitely many points of the absolute Riemann surface; two polygons \(A\) and \(B\) are called equivalent if they are the zeros and poles of a function \(\eta\); \(\eta\) then admits the representation by polygon quotients \(\eta=\frac{A}{B}\). (D.--W. § 17 and 18.)} is explained by the fact that those points at which \(z\) becomes infinite are not generated by prime ideals in \(z\). In the representation of a function as an ideal quotient \(\eta=\frac{\fra}{\frb}\), which states the equivalence of \(\fra\) and \(\frb\), the zeros or poles of \(\eta\) at which \(z\) becomes infinite therefore do not appear. For instance, the principal ideal \((\alpha)\) becomes the product of the prime ideals corresponding to the zeros of the integral function \(\alpha\); the poles of \(\alpha\) do not occur, since \(\alpha\) becomes infinite only at points where \(z\) becomes infinite. In this respect ideal theory is the exact analogue of form theory in the geometric theory, where there are likewise only zeros and no poles.
 
-The passage from forms to functions is made geometrically by forming quotients of forms of the same order; arithmetically, this corresponds to the passage from ideal classes to the invariantly defined polygon (divisor) classes. For, since no variable is distinguished here any longer, the representation of a function by polygon quotients gives all zeros and poles. The relation of ideal class (class of corresidual point groups) to polygon class is the following: if \(\calA\) and \(\calB\) are the polygons generated by the ideals \(\fra\) and \(\frb\), and \(\calN\) is the polygon of the points at which \(z\) becomes infinite (the denominator polygon of \(z\) and of the integral functions of \(z\)), then from the equivalence of \(\fra\) and \(\frb\) follows the equivalence of \(\calA\) and \(\calB\) if and only if \(\fra\) and \(\frb\) have the same degree; in general only the equivalence of \(\calA\calN^\nu\) with \(\calB\calN^{\nu'}\) \((\nu\ne\nu')\) follows. The division of ideals (respectively of corresidual point groups) into classes is thus a gathering together of infinitely many polygon classes into one class; it may also be viewed as a division of the polygons into classes modulo a power of \(\calN\).\footnote{Hensel--Landsberg, 25th lecture, p. 438. --- If one represents the two variables \(z\) and \(s\) by polygon quotients, then this can be understood as binary homogenizing of each of these variables; if one chooses in particular \(z\) and \(s\) so that they have the same denominator polygon, then the ternary homogenizing customary in geometry arises.}
+The passage from forms to functions is made geometrically by forming quotients of forms of the same order; arithmetically, this corresponds to the passage from ideal classes to the invariantly defined polygon (divisor) classes. For, since no variable is distinguished here any longer, the representation of a function by polygon quotients gives all zeros and poles. The relation of ideal class (class of corresidual point groups) to polygon class is the following: if \(\calA\) and \(\calB\) are the polygons generated by the ideals \(\fra\) and \(\frb\), and \(\calN\) is the polygon of the points at which \(z\) becomes infinite (the denominator polygon of \(z\) and of the integral functions of \(z\)), then from the equivalence of \(\fra\) and \(\frb\) follows the equivalence of \(\calA\) and \(\calB\) if and only if \(\fra\) and \(\frb\) have the same degree; in general only the equivalence of \(\calA\calN^\varrho\) with \(\calB\calN^\sigma\) \((\varrho\ne\sigma)\) follows. The division of ideals (respectively of corresidual point groups) into classes is thus a gathering together of infinitely many polygon classes into one class; it may also be viewed as a division of the polygons into classes modulo a power of \(\calN\).\footnote{Hensel--Landsberg, 25th lecture, p. 438. --- If one represents the two variables \(z\) and \(s\) by polygon quotients, then this can be understood as binary homogenizing of each of these variables; if one chooses in particular \(z\) and \(s\) so that they have the same denominator polygon, then the ternary homogenizing customary in geometry arises.}
 
 The residue theorem for the case of corresidual point groups consisting of different numbers of points occurs only in purely geometric questions. In the application to algebraic functions, in fact only the case corresponding to polygon classes occurs, that of corresidual point groups of the same number. The ``complete linear system'' generated by a point group, that is, the totality of point groups corresidual to this point group and of the same number of points, corresponds exactly to the polygon class generated by the corresponding polygon; the concepts ``sum of two complete systems'' and ``product of two polygon classes'' also coincide. That such a complete system contains only finitely many linearly independent point groups is a direct consequence of the residue theorem, which reduces the dimension of the system (the number of linearly independent point groups) to the dimension of all adjoint curves of arbitrary but fixed order passing through the residual group. In order to arrive at the actual determination of this dimension, the Riemann--Roch theorem, the geometric theory first derives from the residue theorem the ``reduction theorem'' (theorem on the fixed points);\footnote{Brill--Noether, no. 58.} and from this the Riemann--Roch theorem.
 
@@ -11509,9 +11509,9 @@ In order to obtain such a representation successively, it remains to show that f
 \]
 it follows that the resulting representation $\ideal M=[\ideal B_1\cdots\ideal B_k,\ideal C_l]$ is reduced. For this it suffices to show that from reduced representations
 \[
- \ideal M=[\ideal B,\ideal C],\qquad \ideal C=[\ideal C_1,\ideal C_2]
+ \ideal M=[\ideal B_1\cdots\ideal B_\varrho,\ideal C],\qquad \ideal C=[\ideal C_1,\ideal C_2]
 \]
-one obtains a reduced representation $\ideal M=[\ideal B,\ideal C_1,\ideal C_2]$. In fact, by hypothesis no $\ideal B$ lies in its complement; if this happened for a $\ideal C_i$, then, contrary to the hypothesis in the first representation, $\ideal C$ would be replaceable by a proper divisor, since by the second reduced representation $\ideal C_1$ and $\ideal C_2$ are proper divisors of $\ideal C$; so the representation is shortest. Moreover, by hypothesis no $\ideal B$ can be replaced by a proper divisor; if this were possible for a $\ideal C_i$, it would, contrary to the hypothesis, correspond to replacing $\ideal C$ by a proper divisor, since the representation for $\ideal C$ is reduced. Thus the lemma is proved.
+one obtains a reduced representation $\ideal M=[\ideal B_1\cdots\ideal B_\varrho,\ideal C_1,\ideal C_2]$. In fact, by hypothesis no $\ideal B$ lies in its complement; if this happened for a $\ideal C_i$, then, contrary to the hypothesis in the first representation, $\ideal C$ would be replaceable by a proper divisor, since by the second reduced representation $\ideal C_1$ and $\ideal C_2$ are proper divisors of $\ideal C$; so the representation is shortest. Moreover, by hypothesis no $\ideal B$ can be replaced by a proper divisor; if this were possible for a $\ideal C_i$, it would, contrary to the hypothesis, correspond to replacing $\ideal C$ by a proper divisor, since the representation for $\ideal C$ is reduced. Thus the lemma is proved.
 
 \textbf{Definition II.} An ideal $\ideal M$ is called reducible if it can be represented as the least common multiple of two proper divisors; in the contrary case $\ideal M$ is called irreducible.
 
@@ -14113,10 +14113,10 @@ where $\bar{x}_{1\nu},\ldots,\bar{x}_{i\nu}$ denotes a system of associated zero
 
 \textbf{11. Prime ideals and primary ideals.} An ideal $\frakp$ is called a prime ideal if from the divisibility of a product by $\frakp$ follows the divisibility of at least one factor; $\frakq$ is called a primary ideal -- or primary -- if from the divisibility of a product by $\frakq$ follows the divisibility of one factor or of a power of every factor. In symbols:
 \[
- a\not\equiv0(\frakp),\quad b\not\equiv0(\frakp)\quad\hbox{implies}\quad ab\not\equiv0(\frakp);
+ \mathfrak{a}\not\equiv0(\frakp),\quad \mathfrak{b}\not\equiv0(\frakp)\quad\hbox{implies}\quad \mathfrak{a}\mathfrak{b}\not\equiv0(\frakp);
 \]
 \[
- a\not\equiv0(\frakq),\quad b^x\not\equiv0(\frakq)\ \hbox{for every power }x\quad\hbox{implies}\quad ab\not\equiv0(\frakq).
+ \mathfrak{a}\not\equiv0(\frakq),\quad \mathfrak{b}^\varkappa\not\equiv0(\frakq)\ \hbox{for every power }\varkappa\quad\hbox{implies}\quad \mathfrak{a}\mathfrak{b}\not\equiv0(\frakq).
 \]
 To every primary ideal $\frakq$ there is one and only one associated prime ideal $\frakp$, which is a divisor of $\frakq$ and a power of which is divisible by $\frakq$, $\frakq\equiv0(\frakp)$, $\frakp^\rho\equiv0(\frakq)$; here $\frakp$ consists of all ring elements of which a power is divisible by $\frakq$. As the definition shows, every prime ideal is at the same time a primary ideal; proper primary ideals mean those that are not at the same time prime ideals, so that $\rho>1$.
 
@@ -19434,7 +19434,7 @@ Every element $r$ simultaneously defines two operators: the operators $rx$ and $
  rs\cdot a&=r\cdot sa,\\
  (r+s)a&=ra+sa,
 \end{aligned}
-\right\}\qquad r,s\in\mo,\quad a,b\in\mM.
+\right\}\quad\begin{array}{l}r,s\text{ in }\mo,\\ a,b\text{ in }\mM.\end{array}
 \]
 Then $\mM$ is called an $\mo$-module; more precisely, since the multipliers from $\mo$ are written on the left, a left $\mo$-module. The ring $\mo$ is at the same time an operator domain. If it is absolute, i.e. if different ring elements also yield different operations, one speaks of an \emph{absolute multiplier domain} for the module $\mM$.
 
@@ -19557,7 +19557,7 @@ A group $\mG$ is called the direct product of $n$ factors, $\mG=\mA_1\times\ldot
 
 \emph{The definition is again equivalent to the following:} Every $g$ of $\mG$ is uniquely representable as
 \[
-        g=a_1a_2\ldots a_n,\qquad a_i\in\mA_i,
+        g=a_1a_2\ldots a_n,\qquad a_i\text{ in }\mA_i,
 \]
 and the elements of $\mA_i$ commute with those of $\mA_k$.
 
@@ -19832,7 +19832,7 @@ An element $c$ is called idempotent if $c^2=c$.
 \emph{If $\mo=\mr_1+\ldots+\mr_n$ is a decomposition into right ideals, and if}
 \[
         e=e_1+\ldots+e_n,
-        \qquad e_i\in\mr_i,
+        \qquad (e_i\ \text{in}\ \mr_i)
 \]
 \emph{then}
 \[
@@ -20648,7 +20648,7 @@ such that the $z_{ik}$ with $i>\nu$ form a basis of $\mA_\nu$. The representatio
  C=\begin{pmatrix}
  R_{11}&0&\ldots&0\\
  R_{12}&R_{22}&\ldots&0\\
- \vdots&\vdots&\ddots&\vdots\\
+ \vdots&\vdots&\ddots&\vdots\\ \vdots&\vdots&\ddots&0\\
  R_{1e}&R_{2e}&\ldots&R_{ee}
  \end{pmatrix},                                                   \tag{2}
 \]
@@ -21314,8 +21314,8 @@ Thus the reduced discriminant is always nonzero for systems without radical, whi
 
 \textbf{Proof.} We first show (from now on $\mathit{Sp}$ means principal trace):
 \[
-\operatorname{Sp}(e)=he;\qquad
-\operatorname{Sp}(a_i)=0\quad\hbox{for }(a_i\ne e).
+\begin{gathered}\mathit{Sp}(e)=he;\\
+\mathit{Sp}(a_i)=0\quad\hbox{for }(a_i\ne e).\end{gathered}
 \]
 For in the regular representation,
 \[
@@ -26614,25 +26614,25 @@ In what follows only representations in generally noncommutative fields will be 
 
 \noindent\textbf{1. Normal basis of a submodule with respect to a given basis of the full module.}---Let \(\mathsf{A}\) be a field, and let \(\frN=x_1\mathsf{A}+\ldots+x_n\mathsf{A}\) be a module of linear forms of rank \(n\); further, let \(\frL=z_1\mathsf{A}+\ldots+z_l \mathsf{A}\) be a submodule of rank \(l\leqq n\). \emph{The \(z_i\) are called a normal basis with respect to \(x\) if they are of the form}
 \[
-        z_i=x_i-(x_{l+1}\alpha_{i,l+1}+\ldots+x_n\alpha_{i,n}),
+        z_i=x_i-(x_{l+1}\alpha_{i,l+1}+\ldots+x_n\alpha_{i,n})
         \qquad (i=1,\ldots,l).
 \]
 \emph{Every module \(\frL\) has, after a suitable numbering of the \(x\), a normal basis.}
 
 For, after a suitable numbering,
 \[
-        \frN=\frL+x_{l+1}\mathsf{A}+\ldots+x_n\mathsf{A},
+        \frN=\frL+x_{l+1}\mathsf{A}+\ldots+x_n\mathsf{A}
 \]
 and hence
 \[
         x_i\equiv x_{l+1}\alpha_{i,l+1}+\ldots+x_n\alpha_{i,n}
-        \quad(\frL)\qquad (i=1,\ldots,l).\tag{2}
+        \quad(\frL)\qquad (i=1,\ldots,l).
 \]
-Thus the \(\ell\) elements \(z_i=x_i-(x_{i+1}\alpha_{i,l+1}+\ldots)\) lie in \(\frL\) and exhaust \(\frL\), since together with \(x_{l+1},\ldots,x_n\) they form a basis of \(\frN\).
+Thus the \(l\) elements \(z_i=x_i-(x_{i+1}\alpha_{i,l+1}+\ldots)\) lie in \(\frL\) and exhaust \(\frL\), since together with \(x_{l+1},\ldots,x_n\) they form a basis of \(\frN\).
 
-\noindent\textbf{2. Extension module.} Let \(\mathsf{A}\) again be a field and \(\mathsf{P}\) a subfield. An \(\mathsf{A}\)-module \(\frN\) of rank \(n\) is called an \emph{extension module} of a \(\mathsf{P}\)-module \(\frM\), written \(\frN=\frM_{\mathsf{A}}\), if \(\frM\) is a submodule of \(\frN\) of the \emph{same rank}. If \(\frM=y_1\mathsf{P}+\ldots+y_n\mathsf{P}\), then \(\frN=\frM_A=y_1A+\ldots+y_nA\). Conversely, for every \(\mathsf{P}\)-module \(\frM=y_1\mathsf{P}+\ldots+y_n\mathsf{P}\), the extension module \(\frM_{\mathsf{A}}\) exists uniquely up to module isomorphism. For the module \(\overline y_1\mathsf{A}+\ldots+\overline y_n\mathsf{A}\) contains a submodule \(\overline{\frM}\) isomorphic to \(\frM\), which can be identified with \(\frM\).
+\noindent\textbf{2. Extension module.} Let \(\mathsf{A}\) again be a field and \(\mathsf{P}\) a subfield. An \(\mathsf{A}\)-module \(\frN\) of rank \(n\) is called an \emph{extension module} of a \(\mathsf{P}\)-module \(\frM\), written \(\frN=\frM_{\mathsf{A}}\), if \(\frM\) is a submodule of \(\frN\) of the \emph{same rank}. If \(\frM=y_1\mathsf{P}+\ldots+y_n\mathsf{P}\), then \(\frN=\frM_{\mathsf{A}}=y_1\mathsf{A}+\ldots+y_n\mathsf{A}\). Conversely, for every \(\mathsf{P}\)-module \(\frM=y_1\mathsf{P}+\ldots+y_n\mathsf{P}\), the extension module \(\frM_{\mathsf{A}}\) exists uniquely up to module isomorphism. For the module \(\overline y_1\mathsf{A}+\ldots+\overline y_n\mathsf{A}\) contains a submodule \(\overline{\frM}\) isomorphic to \(\frM\), which can be identified with \(\frM\).
 
-\noindent\textbf{Corollary a).} If \(z_1,\ldots,z_t\) are elements of \(\frM\) linearly independent over \(P\), then they are also linearly independent over \(\mathsf{A}\) in \(\frN=\frM_{\mathsf{A}}\) (for they can be completed to a basis of \(\frM\), and hence of \(\frN\)). Thus every \(\mathsf{P}\)-module \(\frT=z_1\mathsf{P}+\ldots+z_t\mathsf{P}\) in \(\frM\) generates an extension module \(\frT_{\mathsf{A}}=z_1\mathsf{A}+\ldots+z_t\mathsf{A}\) in \(\frM_{\mathsf{A}}\).
+\noindent\textbf{Corollary a).} If \(z_1,\ldots,z_t\) are elements of \(\frM\) linearly independent over \(\mathsf{P}\), then they are also linearly independent over \(\mathsf{A}\) in \(\frN=\frM_{\mathsf{A}}\) (for they can be completed to a basis of \(\frM\), and hence of \(\frN\)). Thus every \(\mathsf{P}\)-module \(\frT=z_1\mathsf{P}+\ldots+z_t\mathsf{P}\) in \(\frM\) generates an extension module \(\frT_{\mathsf{A}}=z_1\mathsf{A}+\ldots+z_t\mathsf{A}\) in \(\frM_{\mathsf{A}}\).
 
 \noindent\textbf{Corollary b).} Every \(\mathsf{P}\)-module \(\frT=z_1\mathsf{P}+\ldots+z_t\mathsf{P}\) in \(\frM\) is a contraction module, that is, the intersection of its extension module \(\frT_{\mathsf{A}}\) with \(\frM\): \(\frT=\frT_{\mathsf{A}}\cap\frM\). For \(\frT\leqq \frT_{\mathsf{A}}\cap\frM\). Conversely, if \(a\) lies in \(\frT_{\mathsf{A}}\cap\frM\), then \(a=\sum z_i\alpha_i\), so the \(\frM\)-elements \(a,z_1,\ldots,z_t\) are dependent over \(\mathsf{A}\), and hence [Corollary a)] also over \(\mathsf{P}\); thus \(a\) lies in \(\frT\).
 
@@ -27103,17 +27103,17 @@ From the definitions the following facts follow immediately: the splitting field
 \paragraph{2. Splitting fields and decomposition fields of simple systems.}
 We first consider the case of a simple system \(A\) with separable center \(Z\) over \(\mathsf{P}\). From §8, 1 and §8, 3 one obtains the following. The two-sided decomposition of \(A_\Omega\) corresponding to the direct decomposition of \(Z_\Omega\), where \(\Omega\) denotes a splitting field of \(Z\), gives \(n\) conjugate components
 \[
-        e^S A_\Omega
+        e^{(i)}A
 \]
 of \(A_\Omega\), each isomorphic to \(A\), which become simple algebras over their centers
 \[
-        e^S Z_\Omega=e^S Z .
+        e^{(i)}\mathsf{Z}^{(i)}=e^{(i)}Z .
 \]
-The substitutions \(S\) are defined as operators for \(A_\Omega\) by stipulating that they induce the identity on \(A\).
+The substitutions \(S\) are defined as operators for \(A_{\mathsf{Z}}\) by stipulating that they induce the identity on \(A\).
 
-Indeed, by §8, 3 the idempotents are conjugate; the same is therefore true of the components \(e^S A_\Omega\), by the definition of the substitutions for \(A\). Since \(A\) is two-sided simple, \(e^S A_\Omega\) is ring-isomorphic to \(A\). Moreover \(e^SA_\Omega=e^S A_{Z^S}\), because \(e^S Z_\Omega=e^S Z\); hence the center coincides with the coefficient domain, and the components are normal algebras.
+Indeed, by §8, 3 the idempotents are conjugate; the same is therefore true of the components \(e^{(i)}A\), by the definition of the substitutions for \(A\). Since \(A\) is two-sided simple, \(e^{(i)}A\) is ring-isomorphic to \(A\). Moreover \(e^{(i)}A=e^{(i)}A_{\mathsf{Z}^{(i)}}\), because \(e^{(i)}Z=e^{(i)}\mathsf{Z}^{(i)}=e^{(i)}Z_{\mathsf{Z}^{(i)}}\); hence the center coincides with the coefficient domain, and the components are normal algebras.
 
-The results of §7, 2 now further imply: if \(A\) is a simple system over \(\mathsf{P}\) with separable center \(Z\) over \(\mathsf{P}\), then \(A_\Omega\) too is without radical, hence completely reducible; here \(\Omega\) may be any finite or infinite extension field. For by §7, 2, \(e^S A_\Omega\) remains simple after every extension of coefficients, and therefore has no radical. Hence the same holds for the direct sum; this is \(A_\Omega\), or, if \(\Omega\) is not a splitting field of \(Z\), is obtained by coefficient extension from \(A_\Omega\).
+The results of §7, 2 now further imply: if \(A\) is a simple system over \(\mathsf{P}\) with separable center \(Z\) over \(\mathsf{P}\), then \(A_\Omega\) too is without radical, hence completely reducible; here \(\Omega\) may be any finite or infinite extension field. For by §7, 2, \(e^{(i)}A_{\mathsf{Z}^{(i)}}\) remains simple after every extension of coefficients, and therefore has no radical. Hence the same holds for the direct sum; this is \(A_\Omega\), or, if \(\Omega\) is not a splitting field of \(Z\), is obtained by coefficient extension from \(A_\Omega\).
 
 From §7, 2 follows also the following characterization.
 
@@ -29606,33 +29606,33 @@ Let
 \[
 e^{(i)}=\mathsf{A}_1^{(i)}t_1+\cdots+\mathsf{A}_n^{(i)}t_n
 \]
-be the basis representations of the $n$ components $e^{(i)}$ of the identity, relative to a $P$-basis $t_1,\ldots,t_n$ of $\mathfrak K$, which consequently becomes a $\Gamma$-basis of $\mathfrak K_\Gamma$. By 2 and 3, $\mathsf{A}_1^{(i)},\ldots,\mathsf{A}_n^{(i)}$ lie in $\mathsf{K}^{(i)}$, and conjugate coefficient systems $A$ correspond to the different $e^{(i)}$. If $\alpha_1^{(i)},\ldots,\alpha_n^{(i)}$ denotes the basis in $\mathsf{K}^{(i)}$ assigned isomorphically to $t_1,\ldots,t_n$, then the following further relations hold:
+be the basis representations of the $n$ components $e^{(i)}$ of the identity, relative to a $\mathsf{P}$-basis $t_1,\ldots,t_n$ of $\mathfrak K$, which consequently becomes a $\Gamma$-basis of $\mathfrak K_\Gamma$. By 2 and 3, $\mathsf{A}_1^{(i)},\ldots,\mathsf{A}_n^{(i)}$ lie in $\mathsf{K}^{(i)}$, and conjugate coefficient systems $\mathsf{A}$ correspond to the different $e^{(i)}$. If $\alpha_1^{(i)},\ldots,\alpha_n^{(i)}$ denotes the basis in $\mathsf{K}^{(i)}$ assigned isomorphically to $t_1,\ldots,t_n$, then the following further relations hold:
 \begin{equation}
 e^{(i)}[t\to\alpha^{(i)}]=e;
 \qquad e^{(i)}[t\to\alpha^{(j)}]=0\quad\text{for }i\ne j. \tag{1}
 \end{equation}
-Indeed, $\mathfrak P_{\mathsf{K}^{(i)}}^{(i)}$ contains the elements $t_1-\alpha_1^{(i)},\ldots,t_n-\alpha_n^{(i)}$---which form a dependent $P$-module basis of $\mathfrak P_{\mathsf{K}^{(i)}}^{(i)}$---and therefore vanishes under the substitution $t=\alpha^{(i)}$. Thus
+Indeed, $\mathfrak P_{\mathsf{K}^{(i)}}^{(i)}$ contains the elements $t_1-\alpha_1^{(i)},\ldots,t_n-\alpha_n^{(i)}$---which form a dependent $\mathsf{P}$-module basis of $\mathfrak P_{\mathsf{K}^{(i)}}^{(i)}$---and therefore vanishes under the substitution $t=\alpha^{(i)}$. Thus
 \[
 e\equiv e^{(i)}\;(\mathfrak P_{\mathsf{K}^{(i)}}^{(i)})
 \]
 gives the first relation (1), while the second follows from the fact that $e^{(i)}$ is an element of every $\mathfrak P_{\mathsf{K}^{(j)}}^{(j)}$ for $i\ne j$. Written out in coefficients, the relations (1) take the matrix form
 \begin{equation}
 \begin{pmatrix}
-\alpha_1^{(1)}&\ldots&\alpha_n^{(1)}\\
-\vdots&&\vdots\\
-\alpha_1^{(n)}&\ldots&\alpha_n^{(n)}
+\alpha_1^{(1)}\ldots\alpha_n^{(1)}\\
+\ldots\ldots\ldots\ldots\\
+\alpha_1^{(n)}\ldots\alpha_n^{(n)}
 \end{pmatrix}
 \begin{pmatrix}
-A_1^{(1)}&\cdots&A_1^{(n)}\\
-\vdots&&\vdots\\
-A_n^{(1)}&\cdots&A_n^{(n)}
+\mathsf{A}_1^{(1)}\ldots\mathsf{A}_1^{(n)}\\
+\ldots\ldots\ldots\ldots\\
+\mathsf{A}_n^{(1)}\ldots\mathsf{A}_n^{(n)}
 \end{pmatrix}=E_n. \tag{2}
 \end{equation}
 Here $E_n$ denotes the identity matrix; the $\mathsf{A}$'s are therefore already uniquely determined by the $\alpha$'s. Relation (2) shows that the determinants of both matrices are nonzero. It further shows that $\mathsf{A}_1^{(i)},\ldots,\mathsf{A}_n^{(i)}$ are linearly independent over $\mathsf{P}$: a linear dependence would also hold for the conjugate systems and would therefore lower the rank of the $\mathsf{A}$-matrix, contrary to the fact that the rank of $E_n$ is $n$. Hence each $\mathsf{A}_1^{(i)},\ldots,\mathsf{A}_n^{(i)}$ is a basis of $\mathsf{K}^{(i)}$. Since these bases are conjugate, they are all isomorphic to the same basis $T_1,\ldots,T_n$ of $\mathfrak K$, where, by 3, $T_\lambda$ is determined by
 \[
 T_\lambda=\mathsf{A}_\lambda^{(1)}e^{(1)}+\cdots+\mathsf{A}_\lambda^{(n)}e^{(n)}.
 \]
-The basis $T_1,\ldots,T_n$ is called complementary to $t_1,\ldots,t_n$, and correspondingly $\mathsf{A}_1^{(i)},\ldots,\mathsf{A}_n^{(i)}$ is called complementary to $\alpha_1^{(i)},\ldots,\alpha_n^{(i)}$. Since the $\mathsf{A}$'s are uniquely determined by (2), and since this same relation---on passing to the transposed matrix---determines the $\alpha$'s from the basis of the $T$'s, that is, from the $A$'s, the original basis of the $t$'s is complementary to the $T$'s. Thus, under the correspondence effected by the components of the identity, all bases fall into complementary pairs.
+The basis $T_1,\ldots,T_n$ is called complementary to $t_1,\ldots,t_n$, and correspondingly $\mathsf{A}_1^{(i)},\ldots,\mathsf{A}_n^{(i)}$ is called complementary to $\alpha_1^{(i)},\ldots,\alpha_n^{(i)}$. Since the $\mathsf{A}$'s are uniquely determined by (2), and since this same relation---on passing to the transposed matrix---determines the $\alpha$'s from the basis of the $T$'s, that is, from the $\mathsf{A}$'s, the original basis of the $t$'s is complementary to the $T$'s. Thus, under the correspondence effected by the components of the identity, all bases fall into complementary pairs.
 
 Let $s,S$ be another pair of complementary bases, with
 \[
@@ -29731,7 +29731,7 @@ Corresponding to the structure theorem for Galois extension rings of fields (\S{
 \]
 \emph{Thus the different \(\mathfrak d\) of \(\mathfrak o\) consists of all elements \(x\) of \(\mathsf{K}\) such that \(\varkappa e^{(1)}\) lies in \(\mathfrak O_{\mathfrak o}\); it differs from the zero ideal.}
 
-That \(\mathfrak P_{\mathsf{K}}\) is the extension of \(\mathfrak P\) follows from the fact that \(\mathfrak K=\mathfrak O_{\mathsf{P}}\), and likewise \(K=\mathfrak o_{\mathsf{P}}\), so that every \(x-\xi\) in \(\mathfrak P_{\mathsf{K}}\) can be expressed linearly, with coefficients in \(\mathsf{K}\), in terms of the \(y-\eta\) in \(\mathfrak P\). It follows further that \(\mathfrak A_{\mathsf{K}}=(0):\mathfrak P_{\mathsf{K}}\) is also defined as the quotient \((0):\mathfrak P\) in \(\mathfrak K_{\mathsf{K}}\). Hence \(\mathfrak A=(0):\mathfrak P\) in \(\mathfrak O_{\mathfrak o}\) consists of all elements of \(\mathfrak O_{\mathfrak o}\) belonging to \(\mathfrak A_{\mathsf{K}}\):
+That \(\mathfrak P_{\mathsf{K}}\) is the extension of \(\mathfrak P\) follows from the fact that \(\mathfrak K=\mathfrak O_{\mathsf{P}}\), and likewise \(\mathsf{K}=\mathfrak o_{\mathsf{P}}\), so that every \(x-\xi\) in \(\mathfrak P_{\mathsf{K}}\) can be expressed linearly, with coefficients in \(\mathsf{K}\), in terms of the \(y-\eta\) in \(\mathfrak P\). It follows further that \(\mathfrak A_{\mathsf{K}}=(0):\mathfrak P_{\mathsf{K}}\) is also defined as the quotient \((0):\mathfrak P\) in \(\mathfrak K_{\mathsf{K}}\). Hence \(\mathfrak A=(0):\mathfrak P\) in \(\mathfrak O_{\mathfrak o}\) consists of all elements of \(\mathfrak O_{\mathfrak o}\) belonging to \(\mathfrak A_{\mathsf{K}}\):
 \[
 \mathfrak A=[\mathfrak O_{\mathfrak o},\mathfrak A_K],
 \]
