@@ -16,7 +16,7 @@ Papers 1–43, the 1929/30 lectures written up by M. Deuring, the Kapferer–Noe
 
 AI-translated text. Corrections and typesetting produced by OpenAI Codex — GPT-6 Astra, Ultra effort. The mathematical authors remain those named in the works, including Emmy Noether, M. Deuring and the named coauthors. No human translation or independent human review is attributed to the publisher.
 
-The inherited English text derives from German edition NOETH-DE-ED-0021, source SHA-256 `0B7ED4189AA4AB46C4879DC7CC31C55DFFC20DA2C13C17CDE8FA6BE6897F21C9`, DOI [10.5281/zenodo.22182296](https://doi.org/10.5281/zenodo.22182296). Historical printings supply the source witnesses; individual original references and coauthors remain in the texts.
+The inherited English text derives from German edition NOETH-DE-ED-0021, source SHA-256 `0B7ED4189AA4AB46C4879DC7CC31C55DFFC20DA2C13C17CDE8FA6BE6897F21C9`. Historical printings supply the source witnesses; individual original references and coauthors remain in the texts.
 
 The exact model and effort used for the inherited translation have not been established from the surviving production records. AI-produced corrections and typesetting: 23–24 October 2026; Claude Opus 5.5 (Anthropic), 26–27 October 2026, including the formulas aligned with the German text as read from Noether's printed pages. Edition: 27 October 2026.
 
@@ -33,11 +33,5 @@ Emmy Noether's writings are in the public domain. To the extent the publisher ho
 [Rights-holder objections](https://github.com/KokunoYumeto/emmy-noether-en/issues/new).
 
 ## Earlier editions
-
-- [zenodo.20412587](https://doi.org/10.5281/zenodo.20412587).
-- [zenodo.21923145](https://doi.org/10.5281/zenodo.21923145).
-- [zenodo.21923146](https://doi.org/10.5281/zenodo.21923146).
-- [zenodo.22182296](https://doi.org/10.5281/zenodo.22182296).
-- [zenodo.22232932](https://doi.org/10.5281/zenodo.22232932).
 
 [GitHub](https://github.com/KokunoYumeto/emmy-noether-en/releases).
