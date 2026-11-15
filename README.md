@@ -6,9 +6,21 @@ its supplement written jointly with E. Noether, followed by the bibliography and
 book reviews and books produced with Emmy Noether's participation. The edition is published as PDF and as editable
 LaTeX.
 
-[**Read the base text — PDF, 463 pages**](https://github.com/KokunoYumeto/emmy-noether-en/releases/download/noether-en-2026-10-27-r4/01-noether-en-base.pdf) ·
-[Text with emendations — PDF, 468 pages](https://github.com/KokunoYumeto/emmy-noether-en/releases/download/noether-en-2026-10-27-r4/04-noether-en-emendations.pdf) ·
-[All files of the edition of 27 October 2026](https://github.com/KokunoYumeto/emmy-noether-en/releases/tag/noether-en-2026-10-27-r4)
+[**Read the base text — PDF, 463 pages**](https://github.com/KokunoYumeto/emmy-noether-en/releases/download/noether-en-2026-11-15-r2/01-noether-en-base.pdf) ·
+[Text with emendations — PDF, 468 pages](https://github.com/KokunoYumeto/emmy-noether-en/releases/download/noether-en-2026-11-15-r2/04-noether-en-emendations.pdf) ·
+[All files of the edition of 27 October 2026](https://github.com/KokunoYumeto/emmy-noether-en/releases/tag/noether-en-2026-11-15-r2)
+
+## How this was made: AI's failure modes, and what we do about them
+
+Everything here was produced by AI. The translation was made in a first pass mostly by GPT-5.6 Sol (OpenAI Codex,
+reasoning effort ultra), by the user's account (July and August 2026). Its formulas were then brought into line with the German text, which Claude Opus 5.5 at
+effort max compared page by page with Noether's printed originals (785 page checks, 26 October 2026), in automatic and
+hand rounds by Claude Opus 5.5 at effort max (26-27 October; 2,570 lines in the last hand round), against the known
+failures of AI translation of mathematics: renamed letters, formulas changed or dropped, statements narrowed, passages
+reworked or garbled, sentences and displays dropped, broken layout. Every change passes a release filter, and every PDF
+is checked for lines running into the margin (Claude Opus 5.5 at effort high, 15 November). No person has reviewed the
+translation. What was done in each round, the measured figures and what is still open:
+[How this was made](https://github.com/KokunoYumeto/emmy-noether#how-this-was-made-ais-failure-modes-and-what-we-do-about-them).
 
 ## How it was made
 
@@ -30,10 +42,10 @@ The edition has two text layers, each as a PDF, a single editable LaTeX file and
 
 | Text layer | PDF | LaTeX | Sources |
 |---|---|---|---|
-| Base text: keeps the readings of the original printings; editorial notes discuss the readings in question | [PDF, 463 pp.](https://github.com/KokunoYumeto/emmy-noether-en/releases/download/noether-en-2026-10-27-r4/01-noether-en-base.pdf) | [LaTeX](https://github.com/KokunoYumeto/emmy-noether-en/releases/download/noether-en-2026-10-27-r4/02-noether-en-base.tex) | [ZIP](https://github.com/KokunoYumeto/emmy-noether-en/releases/download/noether-en-2026-10-27-r4/03-noether-en-base-sources.zip) |
-| Text with emendations: applies the editorial corrections, each explained in an editorial note | [PDF, 468 pp.](https://github.com/KokunoYumeto/emmy-noether-en/releases/download/noether-en-2026-10-27-r4/04-noether-en-emendations.pdf) | [LaTeX](https://github.com/KokunoYumeto/emmy-noether-en/releases/download/noether-en-2026-10-27-r4/05-noether-en-emendations.tex) | [ZIP](https://github.com/KokunoYumeto/emmy-noether-en/releases/download/noether-en-2026-10-27-r4/06-noether-en-emendations-sources.zip) |
+| Base text: keeps the readings of the original printings; editorial notes discuss the readings in question | [PDF, 463 pp.](https://github.com/KokunoYumeto/emmy-noether-en/releases/download/noether-en-2026-11-15-r2/01-noether-en-base.pdf) | [LaTeX](https://github.com/KokunoYumeto/emmy-noether-en/releases/download/noether-en-2026-11-15-r2/02-noether-en-base.tex) | [ZIP](https://github.com/KokunoYumeto/emmy-noether-en/releases/download/noether-en-2026-11-15-r2/03-noether-en-base-sources.zip) |
+| Text with emendations: applies the editorial corrections, each explained in an editorial note | [PDF, 468 pp.](https://github.com/KokunoYumeto/emmy-noether-en/releases/download/noether-en-2026-11-15-r2/04-noether-en-emendations.pdf) | [LaTeX](https://github.com/KokunoYumeto/emmy-noether-en/releases/download/noether-en-2026-11-15-r2/05-noether-en-emendations.tex) | [ZIP](https://github.com/KokunoYumeto/emmy-noether-en/releases/download/noether-en-2026-11-15-r2/06-noether-en-emendations-sources.zip) |
 
-[SHA-256 checksums](https://github.com/KokunoYumeto/emmy-noether-en/releases/download/noether-en-2026-10-27-r4/07-noether-en-SHA256SUMS.txt).
+[SHA-256 checksums](https://github.com/KokunoYumeto/emmy-noether-en/releases/download/noether-en-2026-11-15-r2/07-noether-en-SHA256SUMS.txt).
 The same files are in [`editions/2026-10-24-r2/en/`](editions/2026-10-24-r2/en/).
 
 To build a PDF: the single LaTeX file contains every source file with its preamble. The Python program
@@ -58,7 +70,4 @@ check records in [`evidence/`](evidence/). The German text and the editions in o
 
 ## Rights
 
-Emmy Noether's writings are in the public domain. To the extent the publisher holds any rights in the AI-produced
-translation, corrections and typesetting, they are dedicated to the public domain under
-[CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/). The lectures written up by M. Deuring, the work of
-H. Kapferer and the contributions of the named co-authors keep their own legal status.
+Emmy Noether died in 1935, so her writings are in the public domain in the European Union and wherever the term of protection ends 70 years after the author's death. In the United States, her papers first published in 1931 or later remain protected until 95 years after publication (the papers of 1931 become free on 1 January 2027). To the extent the publisher holds any rights in the AI-produced translation, corrections and typesetting, they are dedicated to the public domain under [CC0 1.0](https://creativecommons.org/publicdomain/zero/1.0/). The lectures written up by M. Deuring, the work of H. Kapferer and the contributions of the named coauthors are not covered by this statement; their rights remain with their authors or heirs.
