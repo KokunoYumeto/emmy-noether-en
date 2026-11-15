@@ -5,7 +5,7 @@ Papers 1–43, the 1929/30 lectures written up by M. Deuring, the Kapferer–Noe
 ## How this was made: AI's failure modes, and what we do about them
 
 Everything here was produced by AI. The translation was made in a first pass mostly by GPT-5.6 Sol (OpenAI Codex,
-reasoning effort ultra), by the user's account (July and August 2026). Its formulas were then brought into line with the German text, which Claude Opus 5.5 at
+reasoning effort ultra) (July and August 2026). Its formulas were then brought into line with the German text, which Claude Opus 5.5 at
 effort max compared page by page with Noether's printed originals (785 page checks, 26 October 2026), in automatic and
 hand rounds by Claude Opus 5.5 at effort max (26-27 October; 2,570 lines in the last hand round), against the known
 failures of AI translation of mathematics: renamed letters, formulas changed or dropped, statements narrowed, passages
@@ -30,7 +30,7 @@ AI-translated text. Corrections and typesetting produced by OpenAI Codex — GPT
 
 The inherited English text derives from German edition NOETH-DE-ED-0021, source SHA-256 `0B7ED4189AA4AB46C4879DC7CC31C55DFFC20DA2C13C17CDE8FA6BE6897F21C9`. Historical printings supply the source witnesses; individual original references and coauthors remain in the texts.
 
-The inherited translation was made mostly by GPT-5.6 Sol (OpenAI Codex, reasoning effort ultra), by the user's account. AI-produced corrections and typesetting: 23–24 October 2026; Claude Opus 5.5 (Anthropic, effort max), 26–27 October 2026, including the formulas aligned with the German text as read from Noether's printed pages. Edition: 27 October 2026.
+The inherited translation was made mostly by GPT-5.6 Sol (OpenAI Codex, reasoning effort ultra). AI-produced corrections and typesetting: 23–24 October 2026; Claude Opus 5.5 (Anthropic, effort max), 26–27 October 2026, including the formulas aligned with the German text as read from Noether's printed pages. Edition: 27 October 2026.
 
 The direct cumulative LaTeX contains every source body and its preamble as editable text. Run the supplied Python program to extract the native files and compile them with XeLaTeX; the program joins the component PDFs in reading order. It does not use scans or PDF pages as transcription. The ZIP preserves the native structure, the same cumulative LaTeX, and the build program. Install Python 3, pypdf and the TeX packages and fonts named in the source preambles. PDF bytes can vary with TeX and font versions. The fixed internal typesetting date is not the publication date.
 

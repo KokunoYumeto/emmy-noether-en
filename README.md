@@ -13,7 +13,7 @@ LaTeX.
 ## How this was made: AI's failure modes, and what we do about them
 
 Everything here was produced by AI. The translation was made in a first pass mostly by GPT-5.6 Sol (OpenAI Codex,
-reasoning effort ultra), by the user's account (July and August 2026). Its formulas were then brought into line with the German text, which Claude Opus 5.5 at
+reasoning effort ultra) (July and August 2026). Its formulas were then brought into line with the German text, which Claude Opus 5.5 at
 effort max compared page by page with Noether's printed originals (785 page checks, 26 October 2026), in automatic and
 hand rounds by Claude Opus 5.5 at effort max (26-27 October; 2,570 lines in the last hand round), against the known
 failures of AI translation of mathematics: renamed letters, formulas changed or dropped, statements narrowed, passages
@@ -24,7 +24,7 @@ translation. What was done in each round, the measured figures and what is still
 
 ## How it was made
 
-The English text is AI-translated by OpenAI Codex models (mostly GPT-5.6 Sol at reasoning effort ultra, by the user's account) from
+The English text is AI-translated, mostly by GPT-5.6 Sol (OpenAI Codex, reasoning effort ultra), from
 the project's AI-transcribed German text of the original printings, edition NOETH-DE-ED-0021. Corrections and
 typesetting were produced by OpenAI Codex — GPT-6 Astra, Ultra effort, on 23–24 October 2026, and by Claude Opus 5.5
 (Anthropic, effort max) on 26–27 October 2026, which brought the formulas into line with the German text as read from Noether's
