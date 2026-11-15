@@ -24,10 +24,10 @@ translation. What was done in each round, the measured figures and what is still
 
 ## How it was made
 
-The English text is AI-translated by OpenAI Codex models (which model made the translation is not recorded) from
+The English text is AI-translated by OpenAI Codex models (mostly GPT-5.6 Sol at reasoning effort ultra, by the user's account) from
 the project's AI-transcribed German text of the original printings, edition NOETH-DE-ED-0021. Corrections and
 typesetting were produced by OpenAI Codex — GPT-6 Astra, Ultra effort, on 23–24 October 2026, and by Claude Opus 5.5
-(Anthropic) on 26–27 October 2026, which brought the formulas into line with the German text as read from Noether's
+(Anthropic, effort max) on 26–27 October 2026, which brought the formulas into line with the German text as read from Noether's
 printed pages. The build program was written by OpenAI Codex — GPT-6 Astra, Ultra effort, on 24 October 2026.
 
 ## Status
